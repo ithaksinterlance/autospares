@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/autospares/static/css/main.f11d3083.chunk.css",
-    "main.js": "/autospares/static/js/main.b7121f76.chunk.js",
-    "main.js.map": "/autospares/static/js/main.b7121f76.chunk.js.map",
+    "main.css": "/autospares/static/css/main.7211bc51.chunk.css",
+    "main.js": "/autospares/static/js/main.1812895b.chunk.js",
+    "main.js.map": "/autospares/static/js/main.1812895b.chunk.js.map",
     "runtime-main.js": "/autospares/static/js/runtime-main.5afc1f77.js",
     "runtime-main.js.map": "/autospares/static/js/runtime-main.5afc1f77.js.map",
     "static/css/2.86fbdad3.chunk.css": "/autospares/static/css/2.86fbdad3.chunk.css",
-    "static/js/2.d24d21ac.chunk.js": "/autospares/static/js/2.d24d21ac.chunk.js",
-    "static/js/2.d24d21ac.chunk.js.map": "/autospares/static/js/2.d24d21ac.chunk.js.map",
+    "static/js/2.0c0e56ca.chunk.js": "/autospares/static/js/2.0c0e56ca.chunk.js",
+    "static/js/2.0c0e56ca.chunk.js.map": "/autospares/static/js/2.0c0e56ca.chunk.js.map",
     "index.html": "/autospares/index.html",
     "static/css/2.86fbdad3.chunk.css.map": "/autospares/static/css/2.86fbdad3.chunk.css.map",
-    "static/css/main.f11d3083.chunk.css.map": "/autospares/static/css/main.f11d3083.chunk.css.map",
-    "static/js/2.d24d21ac.chunk.js.LICENSE.txt": "/autospares/static/js/2.d24d21ac.chunk.js.LICENSE.txt"
+    "static/css/main.7211bc51.chunk.css.map": "/autospares/static/css/main.7211bc51.chunk.css.map",
+    "static/js/2.0c0e56ca.chunk.js.LICENSE.txt": "/autospares/static/js/2.0c0e56ca.chunk.js.LICENSE.txt",
+    "static/media/mj.52334b55.jpg": "/autospares/static/media/mj.52334b55.jpg",
+    "static/media/product4.adf5d6a2.png": "/autospares/static/media/product4.adf5d6a2.png",
+    "static/media/service.e2de9a1f.jpg": "/autospares/static/media/service.e2de9a1f.jpg",
+    "static/media/service2.750d1899.jpg": "/autospares/static/media/service2.750d1899.jpg",
+    "static/media/service3.3dd47b3e.jpg": "/autospares/static/media/service3.3dd47b3e.jpg",
+    "static/media/service4.f3f1a91a.jpg": "/autospares/static/media/service4.f3f1a91a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5afc1f77.js",
     "static/css/2.86fbdad3.chunk.css",
-    "static/js/2.d24d21ac.chunk.js",
-    "static/css/main.f11d3083.chunk.css",
-    "static/js/main.b7121f76.chunk.js"
+    "static/js/2.0c0e56ca.chunk.js",
+    "static/css/main.7211bc51.chunk.css",
+    "static/js/main.1812895b.chunk.js"
   ]
 }
