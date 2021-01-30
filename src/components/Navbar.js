@@ -5,18 +5,31 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <div className="container d-flex justify-content-end">
+        <div className="container-fluid row nav1 d-flex justify-content-center pt-2">
+          Replace Your battery Now! &nbsp; &nbsp;
+          <i class="fa fa-phone" aria-hidden="true"></i> Call +971551478994 or{" "}
+          <br />{" "}
+          <div className="container d-flex justify-content-center">
+            <a href="/" className="nav1-icon" target="_blank" rel="noreferrer">
+              <i class="fa fa-whatsapp " aria-hidden="true">
+                WhatsApp Us
+              </i>
+            </a>
+          </div>{" "}
+        </div>
+
+        <div className="container d-flex justify-content-end pt-3">
           <i class="fa fa-2x fa-whatsapp" aria-hidden="true"></i>&nbsp;&nbsp;
           <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;
           <i class="fa fa-2x fa-telegram" aria-hidden="true"></i>&nbsp;&nbsp;
+          <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;
         </div>
         <div className="text-center mt-0">
-          <p className="lead">AUTO SPARE PARTS IN U.A.E </p>
+          <p className="paragraph">
+            BATTERY REPLACEMENT SERVICES IN DUBAI AND SHARJAH
+          </p>
         </div>
         <nav class="navbar navbar-expand-lg navbar-color">
-          <a class="navbar-brand" href="/">
-            Navbar
-          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -26,47 +39,54 @@ export default class Navbar extends Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <i
+              className="fa fa-2x fa-bars"
+              style={{
+                border: "black",
+              }}
+            ></i>
           </button>
-          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-            <div className="d-flex d-block flex-row mx-auto mx-0 ">
-              <div
-                className="collapse navbar-collapse "
-                id="navbarSupportedContent"
-              >
-                <ul className="container navbar-nav w-100 justify-content-between">
-                  <li className="nav-item">
-                    <Link to="/">
-                      <a className="nav-link" href="/">
-                        Home
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link to="/audio">
-                      <a className="nav-link" href="/">
-                        About
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link to="/">
-                      <a className="nav-link" href="/">
-                        Batteries
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link to="/">
-                      <a className="nav-link" href="/">
-                        Auto Spare Inquiries
-                      </a>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>{" "}
-          </div>
+          <div className="d-flex d-block flex-row mx-auto mx-0">
+            <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
+              <ul className="container navbar-nav  justify-content-between">
+                <li className="nav-item">
+                  <Link to="/">
+                    <a className="nav-link" href="/">
+                      Home
+                    </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/audio">
+                    <a className="nav-link" href="/">
+                      About
+                    </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/">
+                    <a className="nav-link" href="/">
+                      Batteries
+                    </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/">
+                    <a className="nav-link" href="/">
+                      Our Brands
+                    </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/">
+                    <a className="nav-link" href="/">
+                      Auto Spare Inquiries
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>{" "}
         </nav>
       </div>
     );
