@@ -48,7 +48,7 @@ export default class Navbar extends Component {
           </button>
           <div className="d-flex d-block flex-row mx-auto mx-0">
             <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
-              <ul className="container navbar-nav  justify-content-between">
+              <ul className="container navbar-nav justify-content-between">
                 <li className="nav-item">
                   <Link to="/">
                     <a className="nav-link" href="/">
@@ -66,7 +66,7 @@ export default class Navbar extends Component {
                 <li className="nav-item">
                   <Link to="/">
                     <a className="nav-link" href="/">
-                      Batteries
+                      Battery Inquiries
                     </a>
                   </Link>
                 </li>
@@ -80,7 +80,21 @@ export default class Navbar extends Component {
                 <li className="nav-item">
                   <Link to="/">
                     <a className="nav-link" href="/">
-                      Auto Spare Inquiries
+                      Special Offers
+                    </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/">
+                    <a className="nav-link" href="/">
+                      Our Services
+                    </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/">
+                    <a className="nav-link" href="/">
+                      Get News Letters
                     </a>
                   </Link>
                 </li>

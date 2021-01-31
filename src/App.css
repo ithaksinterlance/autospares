@@ -2,10 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Patua+One&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Patua+One&family=Ubuntu+Condensed&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@500;700&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
@@ -16,6 +15,7 @@
 }
 body {
   background-color: #fffafa;
+  font-family: "Patua One", sans-serif;
 }
 nav {
   color: #a9211d;
@@ -83,28 +83,33 @@ form .input {
 }
 form {
   border: 15px #a9211d;
-  background-color: azure;
-  border-radius: 15px;
-  box-shadow: 0 0 0 14px rgba(136, 13, 23, 0.767);
+  background-color: #fffafa;
+  box-shadow: 0 0 0 14px rgba(43, 42, 42, 0.767);
 }
 small {
   color: #a9211d;
   font-size: 15px;
 }
+.fa-bars {
+  color: #eace6a;
+}
+.header-text1 {
+  position: relative;
+}
 .header-text {
   position: absolute;
   font-size: 45px;
   font-family: "Patua One", sans-serif;
-  top: 20rem;
-  color: blue;
-  text-shadow: 0 0 0 14px rgba(24, 9, 241, 0.767);
+  top: 20%;
+  color: #a9211d;
+  text-shadow: 2px 2px #eace6a;
 }
+
 .heading {
   font-size: 35px;
   font-family: "Patua One";
   color: #a9211d;
   text-decoration: underline;
-  padding-left: 80px;
 }
 footer {
   height: 12vh;
@@ -113,6 +118,27 @@ footer {
   color: #eace6a;
   font-size: 2.5vh;
   font-family: "Poppins", "sans-serif";
+}
+.list {
+  color: #47484c;
+  font-size: 25px;
+  font-family: "Patua One", sans-serif;
+}
+.warranty {
+  height: 50vh;
+  width: 80vh;
+}
+.form-phone {
+  display: none;
+}
+.btn-primary {
+  color: #eace6a;
+  background-color: #47484c;
+  font-size: 20px;
+  width: 15rem;
+  height: 4rem;
+  text-shadow: none;
+  margin: 3px;
 }
 
 @media (max-width: 992px) {
@@ -133,6 +159,9 @@ footer {
   .heading {
     font-size: 28px;
   }
+  .form-phone {
+    display: none;
+  }
 }
 @media (max-width: 576px) {
   .header-img {
@@ -140,9 +169,10 @@ footer {
     margin: 0;
   }
   .top-right {
-    position: absolute;
-    top: 19rem;
-    right: 0.2rem;
+    display: none;
+  }
+  .form-phone {
+    display: inline;
   }
   .paragraph {
     font-size: 18px;
@@ -158,5 +188,8 @@ footer {
   }
   .heading {
     font-size: 20px;
+  }
+  .header-text {
+    font-size: 25px;
   }
 }
