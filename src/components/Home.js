@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-import Car3 from "../img/service3.jpg";
+import Car3 from "../img/battery.png";
 import Prod1 from "../img/product1.jpg";
 import Prod2 from "../img/product2.jpg";
 import Prod3 from "../img/product3.jpg";
@@ -26,20 +26,19 @@ export default class Home extends Component {
     return (
       <div>
         <Navbar />
-
         <div className="container-fluid header-text1 px-0">
           <img
             src={Car3}
             alt="battery replacement"
-            className="img-fluid header-img "
+            className="img-fluid header-img"
           />
-          <div className="header-text display-4">
+          <div
+            className="header-text display-4"
+            style={{ paddingLeft: "10px" }}
+          >
             Lorem Ipsum is simply dummy text of the
             <br /> printing and typesetting industry.
-            <p className="lead" style={{ color: "white" }}>
-              Dubai's No 1 Battery Replacement Service
-            </p>
-            <div className="d-flex p-2">
+            <div className="d-flex p-2 pt-3">
               <a class="btn btn-primary p-2" href="/" role="button">
                 Buy for Wholesale
               </a>
@@ -150,13 +149,13 @@ export default class Home extends Component {
                 id="myForm"
                 action="https://docs.google.com/forms/d/e/1FAIpQLSd6fL_M5hLUjjBLJyMFWUijW2qNrGwQ0RxMVhpmTOEEqj3Jxg/formResponse"
                 onSubmit={this.submituserInquiryForm}
-                class="mx-2 my-2"
+                class="mx-2 my-2 container"
                 target="hidden_iframe"
               >
                 <div class="form-group">
-                  <small id="Year" class="form-text text-muted">
+                  <label class="small" for="Year">
                     Year
-                  </small>
+                  </label>
                   <input
                     type="text"
                     name="entry.1437758037"
@@ -167,9 +166,10 @@ export default class Home extends Component {
                   />
                 </div>
                 <div class="form-group">
-                  <small id="CarBatteryModel" class="form-text text-muted">
+                  <label class="small" for="CarBatteryModel">
                     Car Brand Model Trim
-                  </small>
+                  </label>
+
                   <input
                     type="text"
                     name="entry.1911907904"
@@ -180,9 +180,10 @@ export default class Home extends Component {
                   />
                 </div>
                 <div class="form-group">
-                  <small id="AreaName" class="form-text text-muted">
+                  <label class="small" for="AreaName">
+                    {" "}
                     Area Name, Emirate *
-                  </small>
+                  </label>
                   <input
                     type="text"
                     name="entry.1153362739"
@@ -193,9 +194,9 @@ export default class Home extends Component {
                   />
                 </div>
                 <div class="form-group">
-                  <small id="ContactNo" class="form-text text-muted pt-3">
+                  <label class="small" for="ContactNo">
                     Contact Number (971_________){" "}
-                  </small>
+                  </label>
                   <input
                     type="text"
                     name="entry.153243795"
@@ -243,34 +244,37 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="container pt-5">
-          <div className="row">
-            <div className="col-md-6">
-              <hr />
-              <h2 className="heading">Onsite Battery Replacement</h2>
-              <hr />
-              <p className="lead">
-                <ul className="list">
-                  <li className="pt-2">Vehicle Details or Battery Details</li>
-                  <li className="pt-2">Send Your Location & Contact No.</li>
-                  <li className="pt-2">We Quote the best price</li>
-                  <li className="pt-2">
-                    Battery is delivered and installed at your designated
-                    location
-                  </li>
-                  <li className="pt-2">Warranty included</li>
-                  <li className="pt-2">
-                    Delivered anywhere in Dubai & Sharjah , United Arab Emirates
-                  </li>
-                </ul>
-              </p>
-            </div>
-            <div className="col-md-6">
-              <img
-                src={MJ}
-                alt="battery replacement"
-                className="img-fluid warranty"
-              />
+        <div className="container-fluid div-bg py-5">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6">
+                <hr />
+                <h2 className="heading">Onsite Battery Replacement</h2>
+                <hr />
+                <p className="lead">
+                  <ul className="list">
+                    <li className="pt-2">Vehicle Details or Battery Details</li>
+                    <li className="pt-2">Send Your Location & Contact No.</li>
+                    <li className="pt-2">We Quote the best price</li>
+                    <li className="pt-2">
+                      Battery is delivered and installed at your designated
+                      location
+                    </li>
+                    <li className="pt-2">Warranty included</li>
+                    <li className="pt-2">
+                      Delivered anywhere in Dubai & Sharjah , United Arab
+                      Emirates
+                    </li>
+                  </ul>
+                </p>
+              </div>
+              <div className="col-md-6">
+                <img
+                  src={MJ}
+                  alt="battery replacement"
+                  className="img-fluid warranty"
+                />
+              </div>
             </div>
           </div>
         </div>

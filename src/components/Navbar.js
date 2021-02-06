@@ -19,10 +19,30 @@ export default class Navbar extends Component {
         </div>
 
         <div className="container d-flex justify-content-end pt-3">
-          <i class="fa fa-2x fa-whatsapp" aria-hidden="true"></i>&nbsp;&nbsp;
-          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;
-          <i class="fa fa-2x fa-telegram" aria-hidden="true"></i>&nbsp;&nbsp;
-          <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>&nbsp;&nbsp;
+          <i
+            class="fa fa-2x fa-whatsapp"
+            style={{ color: "#25d366" }}
+            aria-hidden="true"
+          ></i>
+          &nbsp;&nbsp;
+          <i
+            class="fa fa-2x fa-envelope"
+            style={{ color: "#dd4b39" }}
+            aria-hidden="true"
+          ></i>
+          &nbsp;&nbsp;
+          <i
+            class="fa fa-2x fa-telegram"
+            style={{ color: "#0088cc" }}
+            aria-hidden="true"
+          ></i>
+          &nbsp;&nbsp;
+          <i
+            class="fa fa-2x fa-instagram"
+            style={{ color: "#8134af" }}
+            aria-hidden="true"
+          ></i>
+          &nbsp;&nbsp;
         </div>
         <div className="text-center mt-0">
           <p className="paragraph">
