@@ -221,8 +221,8 @@ export default class Home extends Component {
         </div>
         <div className="container pt-5 text-center">
           <div className="row">
-            <div className="col-md-4 ">
-              <i class="fa fa-3x fa-map-marker" aria-hidden="true"></i>
+            <div className="col-md-4">
+              <i class="fa fa-3x fa-whatsapp" aria-hidden="true"></i>
               <br />
               <p className="paragraph">
                 Send Your Location &<br /> Contact No.
@@ -343,6 +343,11 @@ export default class Home extends Component {
               </Link>
             </div>
           </div>
+        </div>
+        <div className="d-flex justify-content-center">
+          <button type="button" class="btn btn-primary btn-lg">
+            Sell with Us {">>"}
+          </button>
         </div>
         <Footer />
       </div>

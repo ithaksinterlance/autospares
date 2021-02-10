@@ -1,10 +1,16 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import WA from "../img/wabattery.png";
 
 export default class Navbar extends Component {
   render() {
     return (
       <div>
+        <div>
+          <a href="/" id="menu">
+            <img src={WA} alt="whatsapp" id="menu" />
+          </a>
+        </div>
         <div className="container-fluid row nav1 d-flex justify-content-center pt-2">
           Replace Your battery Now! &nbsp; &nbsp;
           <i class="fa fa-phone" aria-hidden="true"></i> Call +971551478994 or{" "}
@@ -114,7 +120,7 @@ export default class Navbar extends Component {
                 <li className="nav-item">
                   <Link to="/">
                     <a className="nav-link" href="/">
-                      Get News Letters
+                      د.إ Sell with Our leads
                     </a>
                   </Link>
                 </li>

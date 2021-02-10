@@ -5,6 +5,7 @@ import Solite from "./Solite";
 import Varta from "./Varta";
 import Acdelco from "./Acdelco";
 import Amaron from "./Amaron";
+import Form from "./form";
 
 const Main = () => (
   <Switch>
@@ -13,6 +14,7 @@ const Main = () => (
     <Route exact path="/varta" component={Varta} />
     <Route exact path="/acdelco" component={Acdelco} />
     <Route exact path="/amaron" component={Amaron} />
+    <Route exact path="/form" component={Form} />
   </Switch>
 );
 
