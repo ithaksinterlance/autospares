@@ -16,7 +16,7 @@ class Footer extends Component {
                 target="_blank"
               >
                 <i
-                  className="fa fa-google"
+                  className="fab fa-google px-1"
                   style={{ color: "#de5246", fontSize: "30px" }}
                   aria-hidden="true"
                 ></i>
@@ -27,7 +27,7 @@ class Footer extends Component {
                 target="_blank"
               >
                 <i
-                  className="fa fa-facebook-square"
+                  className="fab fa-facebook-square px-1"
                   style={{ color: "#4867AA", fontSize: "30px" }}
                   aria-hidden="true"
                 ></i>
@@ -38,7 +38,7 @@ class Footer extends Component {
                 target="_blank"
               >
                 <i
-                  className="fa fa-twitter-square"
+                  className="fab fa-twitter-square px-1"
                   style={{ color: "#1DA1F2", fontSize: "30px" }}
                   aria-hidden="true"
                 ></i>
@@ -49,7 +49,7 @@ class Footer extends Component {
                 target="_blank"
               >
                 <i
-                  className="fa fa-linkedin-square"
+                  className="fas fa-linkedin-square px-1"
                   style={{ color: "#1DA1F2", fontSize: "30px" }}
                   aria-hidden="true"
                 ></i>
@@ -60,7 +60,7 @@ class Footer extends Component {
                 target="_blank"
               >
                 <i
-                  className="fa fa-instagram"
+                  className="fab fa-instagram px-1"
                   style={{ color: "#813db4", fontSize: "30px" }}
                   aria-hidden="true"
                 ></i>

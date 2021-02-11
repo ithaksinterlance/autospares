@@ -6,6 +6,8 @@ import Prod2 from "../img/product2.jpg";
 import Prod3 from "../img/product3.jpg";
 import Prod4 from "../img/product4.png";
 import MJ from "../img/mj.jpg";
+import Green from "../img/greencar.png";
+import Road from "../img/road.jpeg";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 
@@ -28,16 +30,20 @@ export default class Home extends Component {
         <Navbar />
         <div className="container-fluid header-text1 px-0">
           <img
-            src={Car3}
+            src={Road}
             alt="battery replacement"
             className="img-fluid header-img"
+          />
+          <img
+            src={Green}
+            alt="battery replacement"
+            className="img-fluid green"
           />
           <div
             className="header-text display-4"
             style={{ paddingLeft: "10px" }}
           >
-            Lorem Ipsum is simply dummy text of the
-            <br /> printing and typesetting industry.
+            BATTERY REPLACEMENT SERVICE AT DUBAI AND SHARJAH
             <div className="d-flex p-2 pt-3">
               <a class="btn btn-primary p-2" href="/" role="button">
                 Buy for Wholesale
@@ -72,7 +78,7 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1437758037"
-                    class="form-control fa fa-calendar-alt"
+                    class="form-control fab fa-calendar-alt"
                     aria-describedby="Year"
                     placeholder="&#xf073; Year"
                     required
@@ -85,7 +91,7 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1911907904"
-                    class="form-control fa fa-car"
+                    class="form-control fab fa-car"
                     aria-describedby="CarBatteryModel"
                     placeholder="&#xf1b9; Car Brand Model Trim"
                     required
@@ -98,7 +104,7 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1153362739"
-                    class="form-control fa fa-map-marker"
+                    class="form-control fab fa-map-marker"
                     aria-describedby="AreaName"
                     placeholder="&#xf041; Area Name, Emirate"
                     required
@@ -111,7 +117,7 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.153243795"
-                    class="form-control fa fa-phone"
+                    class="form-control fab fa-phone"
                     aria-describedby="ContactNo"
                     placeholder="&#xf095; Contact Number (971_________)"
                     required
@@ -122,7 +128,7 @@ export default class Home extends Component {
                   class="btn btn-danger btn-lg btn-block pb-3"
                   target="_self"
                 >
-                  <i class="fa fa-whatsapp" aria-hidden="true">
+                  <i class="fab fa-whatsapp" aria-hidden="true">
                     &nbsp;&nbsp;SEND
                   </i>
                 </button>
@@ -133,8 +139,7 @@ export default class Home extends Component {
         <div className="container pt-4  form-phone">
           <div className="row d-flex justify-content-center">
             <div className="col-md-8 col-sm-12 col-lg-4 col-xs-12">
-              <div className="container">
-                <hr />
+              <div className="container pt-5">
                 <h2 className="heading">Send Inquiries</h2>
                 <hr />
               </div>
@@ -159,7 +164,7 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1437758037"
-                    class="form-control fa fa-calendar-alt"
+                    class="form-control fab fa-calendar-alt"
                     aria-describedby="Year"
                     placeholder="&#xf073; Year"
                     required
@@ -173,7 +178,7 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1911907904"
-                    class="form-control fa fa-car"
+                    class="form-control fab fa-car"
                     aria-describedby="CarBatteryModel"
                     placeholder="&#xf1b9; Car Brand Model Trim"
                     required
@@ -187,7 +192,7 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1153362739"
-                    class="form-control fa fa-map-marker"
+                    class="form-control fas fa-map-marker"
                     aria-describedby="AreaName"
                     placeholder="&#xf041; Area Name, Emirate"
                     required
@@ -200,7 +205,7 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.153243795"
-                    class="form-control fa fa-phone"
+                    class="form-control fas fa-phone"
                     aria-describedby="ContactNo"
                     placeholder="&#xf095; Contact Number (971_________)"
                     required
@@ -211,7 +216,7 @@ export default class Home extends Component {
                   class="btn btn-danger btn-lg btn-block pb-3"
                   target="_self"
                 >
-                  <i class="fa fa-whatsapp" aria-hidden="true">
+                  <i class="fas fa-whatsapp" aria-hidden="true">
                     &nbsp;&nbsp;SEND
                   </i>
                 </button>
@@ -222,19 +227,19 @@ export default class Home extends Component {
         <div className="container pt-5 text-center">
           <div className="row">
             <div className="col-md-4">
-              <i class="fa fa-3x fa-whatsapp" aria-hidden="true"></i>
+              <i class="fab fa-whatsapp fa-3x " aria-hidden="true"></i>
               <br />
               <p className="paragraph">
                 Send Your Location &<br /> Contact No.
               </p>
             </div>
             <div className="col-md-4">
-              <i class="fa fa-3x fa-quote-right" aria-hidden="true"></i>
+              <i class="fa fa-quote-right fa-3x " aria-hidden="true"></i>
               <br />
               <p className="paragraph"> Get Best Quote</p>
             </div>
             <div className="col-md-4">
-              <i class="fa fa-3x fa-location-arrow" aria-hidden="true"></i>
+              <i class="fa  fa-location-arrow fa-3x" aria-hidden="true"></i>
               <br />
               <p className="paragraph">
                 Get Battery

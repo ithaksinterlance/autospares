@@ -73,9 +73,16 @@ a:active {
   width: 100%;
   margin-right: 0%;
 }
+.green {
+  position: absolute;
+  left: 20rem;
+  top: 30%;
+  height: 70vh;
+  width: 100vh;
+}
 .top-right {
   position: absolute;
-  top: 19rem;
+  top: 16rem;
   right: 4rem;
 }
 .paragraph {
@@ -96,6 +103,10 @@ form {
   font-size: 20px;
   font-family: "Oswald";
 }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
 
 .fa-bars {
   color: #25d366;
@@ -107,7 +118,7 @@ form {
   position: absolute;
   font-size: 45px;
   font-family: "Big Shoulders Display", sans-serif;
-  top: 20%;
+  top: 10%;
   color: #4286f4;
 }
 
@@ -121,7 +132,7 @@ footer {
   height: 12vh;
   padding-top: 4vh;
   background-color: #47484c;
-  color: #eace6a;
+  color: #25d366;
   font-size: 2.5vh;
   font-family: "Poppins", "sans-serif";
 }
@@ -163,6 +174,13 @@ footer {
   animation: mymove 5s infinite;
   animation-timing-function: linear;
 }
+.blink_me {
+  animation: blinker 1s linear infinite;
+  color: red;
+}
+#bottomNav {
+  display: none;
+}
 
 @media (max-width: 992px) {
 }
@@ -185,17 +203,29 @@ footer {
   .form-phone {
     display: none;
   }
+  #bottomNav {
+    display: none;
+  }
 }
 @media (max-width: 576px) {
   .header-img {
-    height: 70vh;
+    height: 50vh;
     margin: 0;
   }
   .top-right {
     display: none;
   }
+  .green {
+    position: absolute;
+    left: 3rem;
+    top: 30vh;
+    height: 37vh;
+    width: 45vh;
+  }
   .form-phone {
-    display: inline;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
   }
   .paragraph {
     font-size: 15px;
@@ -210,7 +240,7 @@ footer {
     font-size: 15px;
   }
   .nav1 {
-    font-size: 12px;
+    font-size: 15px;
   }
   .heading {
     font-size: 23px;
@@ -225,6 +255,30 @@ footer {
     text-shadow: none;
     margin: 3px;
   }
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .fontSize {
+    font-size: 12px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .navbar {
+    display: none;
+  }
+  #bottomNav {
+    display: inline;
+    background-color: #47484c;
+    color: #4286f4;
+    padding-bottom: 0;
+  }
+  #bottomNav a {
+    color: #4286f4;
+  }
+
+  footer {
+    padding-bottom: 200px;
+  }
 }
 
 @keyframes mymove {
@@ -233,5 +287,10 @@ footer {
   }
   to {
     left: 200px;
+  }
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
   }
 }

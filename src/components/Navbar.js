@@ -11,50 +11,95 @@ export default class Navbar extends Component {
             <img src={WA} alt="whatsapp" id="menu" />
           </a>
         </div>
-        <div className="container-fluid row nav1 d-flex justify-content-center pt-2">
-          Replace Your battery Now! &nbsp; &nbsp;
-          <i class="fa fa-phone" aria-hidden="true"></i> Call +971551478994 or{" "}
-          <br />{" "}
-          <div className="container d-flex justify-content-center">
-            <a href="/" className="nav1-icon" target="_blank" rel="noreferrer">
-              <i class="fa fa-whatsapp " aria-hidden="true">
-                WhatsApp Us
-              </i>
-            </a>
-          </div>{" "}
+
+        <div className="container-fluid nav1 pt-2">
+          <div className="flex-container"></div>{" "}
+        </div>
+        <div className="container-fluid nav1 pt-2">
+          <div className="flex-container d-flex justify-content-around">
+            <p className="nav1 blink_me">Replace Your battery Now!</p>
+
+            <p className="nav1 mr-0">
+              <i class="fa fa-phone" aria-hidden="true"></i>Call +971551478994
+              or
+            </p>
+            <p className="nav1">
+              <a
+                href="/"
+                className="nav1-icon"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>WhatsApp
+              </a>
+            </p>
+            <div style={{ fontSize: "20px" }}>
+              <i
+                class="fab fa-whatsapp  fa-2x"
+                style={{ color: "#25d366" }}
+              ></i>
+              &nbsp;&nbsp;
+              <i
+                class="fas fa-2x fa-envelope"
+                style={{ color: "#dd4b39" }}
+                aria-hidden="true"
+              ></i>
+              &nbsp;&nbsp;
+              <i
+                class="fab fa-2x fa-telegram"
+                style={{ color: "#0088cc" }}
+                aria-hidden="true"
+              ></i>
+              &nbsp;&nbsp;
+              <i
+                class="fab fa-2x fa-instagram"
+                style={{ color: "#8134af" }}
+                aria-hidden="true"
+              ></i>
+              &nbsp;&nbsp;
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 navbar-inverse navbar-fixed-bottom">
+          <div class="row" id="bottomNav">
+            <div class="col-xs-2 text-center">
+              <a href="/">
+                <i class="fa fa-2x fa-home" aria-hidden="true"></i>
+                <br />
+                <p className="fontSize text-center">Home</p>
+              </a>
+            </div>
+            <div class="col-xs-2 text-center">
+              <a href="/">
+                <i class="fas fa-2x fa-screwdriver"></i>
+                <br />
+                <p className="fontSize text-center">Service</p>
+              </a>
+            </div>
+            <div class="col-xs-2 text-center">
+              <a href="/">
+                <i class="fas fa-car-battery fa-2x"></i>
+                <br />
+                <p className="fontSize text-center">Brands</p>
+              </a>
+            </div>
+            <div class="col-xs-2 text-center">
+              <a href="/">
+                <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
+                <br />
+                <p className="fontSize text-center">Sell</p>
+              </a>
+            </div>
+            <div class="col-xs-2 text-center">
+              <a href="/">
+                <i class="fa fa-share fa-2x" aria-hidden="true"></i>
+                <br />
+                <p className="fontSize text-center">Share</p>
+              </a>
+            </div>
+          </div>
         </div>
 
-        <div className="container d-flex justify-content-end pt-3">
-          <i
-            class="fa fa-2x fa-whatsapp"
-            style={{ color: "#25d366" }}
-            aria-hidden="true"
-          ></i>
-          &nbsp;&nbsp;
-          <i
-            class="fa fa-2x fa-envelope"
-            style={{ color: "#dd4b39" }}
-            aria-hidden="true"
-          ></i>
-          &nbsp;&nbsp;
-          <i
-            class="fa fa-2x fa-telegram"
-            style={{ color: "#0088cc" }}
-            aria-hidden="true"
-          ></i>
-          &nbsp;&nbsp;
-          <i
-            class="fa fa-2x fa-instagram"
-            style={{ color: "#8134af" }}
-            aria-hidden="true"
-          ></i>
-          &nbsp;&nbsp;
-        </div>
-        <div className="text-center mt-0">
-          <p className="paragraph">
-            BATTERY REPLACEMENT SERVICES IN DUBAI AND SHARJAH
-          </p>
-        </div>
         <nav class="navbar navbar-expand-lg navbar-color">
           <button
             class="navbar-toggler"
