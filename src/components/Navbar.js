@@ -60,8 +60,8 @@ export default class Navbar extends Component {
             </div>
           </div>
         </div>
-        <div class="col-xs-12 navbar-inverse navbar-fixed-bottom">
-          <div class="row" id="bottomNav">
+        <div class="col-xs-12 flex-container navbar-fixed-bottom pb-0 pt-2">
+          <div class="row pb-0" id="bottomNav">
             <div class="col-xs-2 text-center">
               <a href="/">
                 <i class="fa fa-2x fa-home" aria-hidden="true"></i>
@@ -97,10 +97,17 @@ export default class Navbar extends Component {
                 <p className="fontSize text-center">Share</p>
               </a>
             </div>
+            <div class="col-xs-2 text-center">
+              <a href="/">
+                <i class="fas fa-2x fa-cart-arrow-down"></i>
+                <br />
+                <p className="fontSize text-center">Buy </p>
+              </a>
+            </div>
           </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-color">
+        <nav class="navbar navbar-expand-lg navbar-color" id="navbar">
           <button
             class="navbar-toggler"
             type="button"

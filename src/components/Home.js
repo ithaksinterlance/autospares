@@ -104,9 +104,9 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1153362739"
-                    class="form-control fab fa-map-marker"
+                    class="form-control fas fa-map-marker-alt"
                     aria-describedby="AreaName"
-                    placeholder="&#xf041; Area Name, Emirate"
+                    placeholder="&#xf3c5; Area Name, Emirate"
                     required
                   />
                 </div>
@@ -129,6 +129,7 @@ export default class Home extends Component {
                   target="_self"
                 >
                   <i class="fab fa-whatsapp" aria-hidden="true">
+                    {" "}
                     &nbsp;&nbsp;SEND
                   </i>
                 </button>
@@ -192,9 +193,9 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1153362739"
-                    class="form-control fas fa-map-marker"
+                    class="form-control fas fa-map-marker-alt"
                     aria-describedby="AreaName"
-                    placeholder="&#xf041; Area Name, Emirate"
+                    placeholder="&#xf3c5; Area Name, Emirate"
                     required
                   />
                 </div>
@@ -239,7 +240,7 @@ export default class Home extends Component {
               <p className="paragraph"> Get Best Quote</p>
             </div>
             <div className="col-md-4">
-              <i class="fa  fa-location-arrow fa-3x" aria-hidden="true"></i>
+              <i class="fas fa-car-battery fa-3x" aria-hidden="true"></i>
               <br />
               <p className="paragraph">
                 Get Battery
@@ -285,10 +286,35 @@ export default class Home extends Component {
         </div>
         <div className="container">
           <hr />
+          <h2 className="heading">
+            Automobile Battery Replacement Service ! Why you need us?
+          </h2>
+          <hr />
+        </div>
+        <p className="container paragraph">
+          Automobile Battery is an essential part of every vehicle be it cars,
+          buses, trucks and so on. For almost all vehicles which are driven
+          typically in an typical life the car battery lasts for 2 years more or
+          less. There is always a need for replacement of batteries and we are
+          here to fulfill that need of yours. After a long term attachment with
+          your ride all of a sudden you feel somethings wrong or all of a sudden
+          your love just stopped cranking it wont start anymore it just keeps
+          clicking but wont just start you feel dead, saddened like a part of
+          you missing, the feelings mutual, well do not worry for it battery
+          might have been dead and we are here to charge back the soul into your
+          ride and in turn you feel back on track. (you just need to WhatsApp
+          and we will be at your service fixing the battery)
+        </p>
+        <div className="container">
+          <hr />
           <h2 className="heading">Our Brands</h2>
           <hr />
         </div>
-
+        <p className="container paragraph">
+          We deal only with genuine brands namely SOLITE. ACDELCO, AMARON, VARTA
+          and other genuine and authentic battery batteries depending on the
+          demand for our battery supply and replacement services.
+        </p>
         <div className="container">
           <div className="row">
             <div className="col-md-3 col-xs-6">
@@ -349,6 +375,7 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
+
         <div className="d-flex justify-content-center">
           <button type="button" class="btn btn-primary btn-lg">
             Sell with Us {">>"}
