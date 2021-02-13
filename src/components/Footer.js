@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     return (
-      <footer className="my-auto">
+      <footer className="my-auto ">
         <div className="container-fluid text-center">
           <div className="row text-center">
             <div className="col-xs-12 col-sm-6 col-md-4">

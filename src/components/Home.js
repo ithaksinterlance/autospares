@@ -16,6 +16,7 @@ export default class Home extends Component {
     super(props);
     this.submituserInquiryForm = this.submituserInquiryForm.bind(this);
   }
+
   submituserInquiryForm() {
     var submitted = true;
     if ((submitted = true)) {
@@ -73,53 +74,60 @@ export default class Home extends Component {
               >
                 <div class="form-group">
                   <small id="Year" class="form-text text-muted">
-                    Year
+                    <i class="fas fa-calendar-alt    "></i> Year
                   </small>
                   <input
                     type="text"
                     name="entry.1437758037"
-                    class="form-control fab fa-calendar-alt"
+                    class=" form-control"
                     aria-describedby="Year"
-                    placeholder="&#xf073; Year"
+                    placeholder=" Year"
+                    autoComplete="off"
+                    autoFocus
                     required
                   />
                 </div>
                 <div class="form-group">
                   <small id="CarBatteryModel" class="form-text text-muted">
-                    Car Brand Model Trim
+                    <i class="fas fa-car-battery    "></i> Car Brand Model Trim
                   </small>
                   <input
                     type="text"
                     name="entry.1911907904"
-                    class="form-control fab fa-car"
+                    class="form-control "
                     aria-describedby="CarBatteryModel"
-                    placeholder="&#xf1b9; Car Brand Model Trim"
+                    placeholder=" Car Brand Model Trim"
+                    autoComplete="off"
                     required
                   />
                 </div>
                 <div class="form-group">
                   <small id="AreaName" class="form-text text-muted">
-                    Area Name, Emirate *
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> Area
+                    Name, Emirate *
                   </small>
                   <input
                     type="text"
                     name="entry.1153362739"
-                    class="form-control fas fa-map-marker-alt"
+                    class="form-control "
                     aria-describedby="AreaName"
-                    placeholder="&#xf3c5; Area Name, Emirate"
+                    placeholder=" Area Name, Emirate"
+                    autoComplete="off"
                     required
                   />
                 </div>
                 <div class="form-group">
                   <small id="ContactNo" class="form-text text-muted pt-3">
-                    Contact Number (971_________){" "}
+                    <i class="fa fa-phone" aria-hidden="true"></i> Contact
+                    Number (971_________){" "}
                   </small>
                   <input
                     type="text"
                     name="entry.153243795"
-                    class="form-control fab fa-phone"
+                    class="form-control "
                     aria-describedby="ContactNo"
-                    placeholder="&#xf095; Contact Number (971_________)"
+                    placeholder="Contact Number (971_________)"
+                    autoComplete="off"
                     required
                   />
                 </div>
@@ -128,10 +136,8 @@ export default class Home extends Component {
                   class="btn btn-danger btn-lg btn-block pb-3"
                   target="_self"
                 >
-                  <i class="fab fa-whatsapp" aria-hidden="true">
-                    {" "}
-                    &nbsp;&nbsp;SEND
-                  </i>
+                  <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                  &nbsp;&nbsp;SEND
                 </button>
               </form>
             </div>
@@ -168,6 +174,8 @@ export default class Home extends Component {
                     class="form-control fab fa-calendar-alt"
                     aria-describedby="Year"
                     placeholder="&#xf073; Year"
+                    autoComplete="off"
+                    autoFocus
                     required
                   />
                 </div>
@@ -182,6 +190,7 @@ export default class Home extends Component {
                     class="form-control fab fa-car"
                     aria-describedby="CarBatteryModel"
                     placeholder="&#xf1b9; Car Brand Model Trim"
+                    autoComplete="off"
                     required
                   />
                 </div>
@@ -196,6 +205,7 @@ export default class Home extends Component {
                     class="form-control fas fa-map-marker-alt"
                     aria-describedby="AreaName"
                     placeholder="&#xf3c5; Area Name, Emirate"
+                    autoComplete="off"
                     required
                   />
                 </div>
@@ -209,6 +219,7 @@ export default class Home extends Component {
                     class="form-control fas fa-phone"
                     aria-describedby="ContactNo"
                     placeholder="&#xf095; Contact Number (971_________)"
+                    autoComplete="off"
                     required
                   />
                 </div>

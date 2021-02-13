@@ -62,42 +62,42 @@ export default class Navbar extends Component {
         </div>
         <div class="col-xs-12 flex-container navbar-fixed-bottom pb-0 pt-2">
           <div class="row pb-0" id="bottomNav">
-            <div class="col-xs-2 text-center">
+            <div class="col-xs-2 text-center pt-3">
               <a href="/">
                 <i class="fa fa-2x fa-home" aria-hidden="true"></i>
                 <br />
                 <p className="fontSize text-center">Home</p>
               </a>
             </div>
-            <div class="col-xs-2 text-center">
-              <a href="/">
+            <div class="col-xs-2 text-center pt-3">
+              <a href="/services">
                 <i class="fas fa-2x fa-screwdriver"></i>
                 <br />
                 <p className="fontSize text-center">Service</p>
               </a>
             </div>
-            <div class="col-xs-2 text-center">
-              <a href="/">
+            <div class="col-xs-2 text-center pt-3">
+              <a href="/brands">
                 <i class="fas fa-car-battery fa-2x"></i>
                 <br />
                 <p className="fontSize text-center">Brands</p>
               </a>
             </div>
-            <div class="col-xs-2 text-center">
+            <div class="col-xs-2 text-center pt-3">
               <a href="/">
                 <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
                 <br />
                 <p className="fontSize text-center">Sell</p>
               </a>
             </div>
-            <div class="col-xs-2 text-center">
+            <div class="col-xs-2 text-center pt-3">
               <a href="/">
                 <i class="fa fa-share fa-2x" aria-hidden="true"></i>
                 <br />
                 <p className="fontSize text-center">Share</p>
               </a>
             </div>
-            <div class="col-xs-2 text-center">
+            <div class="col-xs-2 text-center pt-3">
               <a href="/">
                 <i class="fas fa-2x fa-cart-arrow-down"></i>
                 <br />
@@ -135,7 +135,7 @@ export default class Navbar extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/audio">
+                  <Link to="/">
                     <a className="nav-link" href="/">
                       About
                     </a>
@@ -149,10 +149,8 @@ export default class Navbar extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/">
-                    <a className="nav-link" href="/">
-                      Our Brands
-                    </a>
+                  <Link to="/brands" className="nav-link">
+                    Our Brands
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -163,7 +161,7 @@ export default class Navbar extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/">
+                  <Link to="/services">
                     <a className="nav-link" href="/">
                       Our Services
                     </a>
