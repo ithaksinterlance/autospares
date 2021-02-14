@@ -63,25 +63,25 @@ export default class Navbar extends Component {
         <div class="col-xs-12 flex-container navbar-fixed-bottom pb-0 pt-2">
           <div class="row pb-0" id="bottomNav">
             <div class="col-xs-2 text-center pt-3">
-              <a href="/">
+              <Link to="/">
                 <i class="fa fa-2x fa-home" aria-hidden="true"></i>
                 <br />
                 <p className="fontSize text-center">Home</p>
-              </a>
+              </Link>
             </div>
             <div class="col-xs-2 text-center pt-3">
-              <a href="/services">
+              <Link to="/services">
                 <i class="fas fa-2x fa-screwdriver"></i>
                 <br />
                 <p className="fontSize text-center">Service</p>
-              </a>
+              </Link>
             </div>
             <div class="col-xs-2 text-center pt-3">
-              <a href="/brands">
+              <Link to="/brands">
                 <i class="fas fa-car-battery fa-2x"></i>
                 <br />
                 <p className="fontSize text-center">Brands</p>
-              </a>
+              </Link>
             </div>
             <div class="col-xs-2 text-center pt-3">
               <a href="/">

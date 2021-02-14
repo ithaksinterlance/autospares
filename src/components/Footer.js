@@ -49,7 +49,7 @@ class Footer extends Component {
                 target="_blank"
               >
                 <i
-                  className="fas fa-linkedin-square px-1"
+                  class="fab fa-linkedin-in px-1"
                   style={{ color: "#1DA1F2", fontSize: "30px" }}
                   aria-hidden="true"
                 ></i>

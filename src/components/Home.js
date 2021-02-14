@@ -15,15 +15,50 @@ export default class Home extends Component {
   constructor(props) {
     super(props);
     this.submituserInquiryForm = this.submituserInquiryForm.bind(this);
+    this.validate = this.validate.bind(this);
+  }
+
+  validate() {
+    var year = document.getElementById("year").value;
+    var carbattery = document.getElementById("carbattery").value;
+    var area = document.getElementById("area").value;
+    var contactno = document.getElementById("contactno").value;
+
+    if (year === "") {
+      document.getElementById("yearerror").innerHTML =
+        "** Please fill the year";
+      return false;
+    }
+
+    if (!year.match([0 - 9]) && year.length < 4) {
+      document.getElementById("yearerror").innerHTML =
+        "** Must be a number or 4 digit number";
+      return false;
+    }
+    if (carbattery === "") {
+      document.getElementById("carbatteryerror").innerHTML =
+        "** Please fill the Battery Model";
+      return false;
+    }
+    if (area === "") {
+      document.getElementById("areaerror").innerHTML =
+        "** Please fill the Area";
+      return false;
+    }
+    if (contactno === "") {
+      document.getElementById("contactnoerror").innerHTML =
+        "** Please fill the Contact";
+      return false;
+    }
+    if (!contactno.match([0 - 9])) {
+      document.getElementById("contactnoerror").innerHTML =
+        "** Check Your contact no";
+      return false;
+    }
   }
 
   submituserInquiryForm() {
-    var submitted = true;
-    if ((submitted = true)) {
-      alert("Form submitted! We will contact you soon.");
-      window.location.reload();
-      return submitted;
-    }
+    this.validate();
   }
   render() {
     return (
@@ -79,13 +114,19 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1437758037"
+                    id="year"
                     class=" form-control"
                     aria-describedby="Year"
                     placeholder=" Year"
                     autoComplete="off"
                     autoFocus
-                    required
                   />
+                  <div>
+                    <span
+                      id="yearerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
                 </div>
                 <div class="form-group">
                   <small id="CarBatteryModel" class="form-text text-muted">
@@ -94,12 +135,18 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1911907904"
+                    id="carbattery"
                     class="form-control "
                     aria-describedby="CarBatteryModel"
                     placeholder=" Car Brand Model Trim"
                     autoComplete="off"
-                    required
                   />
+                  <div>
+                    <span
+                      id="carbatteryerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
                 </div>
                 <div class="form-group">
                   <small id="AreaName" class="form-text text-muted">
@@ -109,12 +156,18 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1153362739"
+                    id="area"
                     class="form-control "
                     aria-describedby="AreaName"
                     placeholder=" Area Name, Emirate"
                     autoComplete="off"
-                    required
                   />
+                  <div>
+                    <span
+                      id="areaerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
                 </div>
                 <div class="form-group">
                   <small id="ContactNo" class="form-text text-muted pt-3">
@@ -124,12 +177,18 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.153243795"
+                    id="contactno"
                     class="form-control "
                     aria-describedby="ContactNo"
                     placeholder="Contact Number (971_________)"
                     autoComplete="off"
-                    required
                   />
+                  <div>
+                    <span
+                      id="contactnoerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
                 </div>
                 <button
                   type="submit"
