@@ -15,50 +15,52 @@ export default class Home extends Component {
   constructor(props) {
     super(props);
     this.submituserInquiryForm = this.submituserInquiryForm.bind(this);
-    this.validate = this.validate.bind(this);
   }
 
-  validate() {
+  submituserInquiryForm() {
     var year = document.getElementById("year").value;
     var carbattery = document.getElementById("carbattery").value;
     var area = document.getElementById("area").value;
     var contactno = document.getElementById("contactno").value;
+    var submitted = true;
 
     if (year === "") {
+      submitted = false;
       document.getElementById("yearerror").innerHTML =
         "** Please fill the year";
-      return false;
-    }
-
-    if (!year.match([0 - 9]) && year.length < 4) {
+      //return false;
+    } else if (!year.match([0 - 9]) && year.length < 4) {
+      submitted = false;
       document.getElementById("yearerror").innerHTML =
         "** Must be a number or 4 digit number";
-      return false;
-    }
-    if (carbattery === "") {
+      //return false;
+    } else if (carbattery === "") {
+      submitted = false;
       document.getElementById("carbatteryerror").innerHTML =
         "** Please fill the Battery Model";
-      return false;
-    }
-    if (area === "") {
+      //return false;
+    } else if (area === "") {
+      submitted = false;
       document.getElementById("areaerror").innerHTML =
         "** Please fill the Area";
-      return false;
-    }
-    if (contactno === "") {
+      //return false;
+    } else if (contactno === "") {
+      submitted = false;
       document.getElementById("contactnoerror").innerHTML =
         "** Please fill the Contact";
-      return false;
-    }
-    if (!contactno.match([0 - 9])) {
+      //return false;
+    } else if (isNaN(contactno)) {
+      submitted = false;
       document.getElementById("contactnoerror").innerHTML =
         "** Check Your contact no";
-      return false;
+      //return false;
+    } else {
+      if (submitted) {
+        alert("Form submitted! We will contact you soon.");
+        window.location.reload();
+        return submitted;
+      }
     }
-  }
-
-  submituserInquiryForm() {
-    this.validate();
   }
   render() {
     return (
@@ -101,15 +103,15 @@ export default class Home extends Component {
               ></iframe>
               <form
                 id="myForm"
-                action="https://docs.google.com/forms/d/e/1FAIpQLSd6fL_M5hLUjjBLJyMFWUijW2qNrGwQ0RxMVhpmTOEEqj3Jxg/formResponse"
                 method="POST"
+                action="https://docs.google.com/forms/d/e/1FAIpQLSd6fL_M5hLUjjBLJyMFWUijW2qNrGwQ0RxMVhpmTOEEqj3Jxg/formResponse"
                 onSubmit={this.submituserInquiryForm}
                 class="mx-2 my-2"
                 target="hidden_iframe"
               >
                 <div class="form-group">
                   <small id="Year" class="form-text text-muted">
-                    <i class="fas fa-calendar-alt    "></i> Year
+                    <i class="fas fa-calendar-alt"></i> Year
                   </small>
                   <input
                     type="text"
@@ -119,7 +121,6 @@ export default class Home extends Component {
                     aria-describedby="Year"
                     placeholder=" Year"
                     autoComplete="off"
-                    autoFocus
                   />
                   <div>
                     <span
@@ -195,7 +196,7 @@ export default class Home extends Component {
                   class="btn btn-danger btn-lg btn-block pb-3"
                   target="_self"
                 >
-                  <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                  <i class="fab fa-whatsapp"></i>
                   &nbsp;&nbsp;SEND
                 </button>
               </form>
@@ -216,80 +217,102 @@ export default class Home extends Component {
                 style={{ display: "none" }}
               ></iframe>
               <form
-                method="POST"
                 id="myForm"
+                method="POST"
                 action="https://docs.google.com/forms/d/e/1FAIpQLSd6fL_M5hLUjjBLJyMFWUijW2qNrGwQ0RxMVhpmTOEEqj3Jxg/formResponse"
                 onSubmit={this.submituserInquiryForm}
-                class="mx-2 my-2 container"
+                class="mx-2 my-2"
                 target="hidden_iframe"
               >
                 <div class="form-group">
-                  <label class="small" for="Year">
-                    Year
-                  </label>
+                  <small id="Year" class="form-text text-muted">
+                    <i class="fas fa-calendar-alt"></i> Year
+                  </small>
                   <input
                     type="text"
                     name="entry.1437758037"
-                    class="form-control fab fa-calendar-alt"
+                    id="year"
+                    class=" form-control"
                     aria-describedby="Year"
-                    placeholder="&#xf073; Year"
+                    placeholder=" Year"
                     autoComplete="off"
-                    autoFocus
-                    required
                   />
+                  <div>
+                    <span
+                      id="yearerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
                 </div>
                 <div class="form-group">
-                  <label class="small" for="CarBatteryModel">
-                    Car Brand Model Trim
-                  </label>
-
+                  <small id="CarBatteryModel" class="form-text text-muted">
+                    <i class="fas fa-car-battery    "></i> Car Brand Model Trim
+                  </small>
                   <input
                     type="text"
                     name="entry.1911907904"
-                    class="form-control fab fa-car"
+                    id="carbattery"
+                    class="form-control "
                     aria-describedby="CarBatteryModel"
-                    placeholder="&#xf1b9; Car Brand Model Trim"
+                    placeholder=" Car Brand Model Trim"
                     autoComplete="off"
-                    required
                   />
+                  <div>
+                    <span
+                      id="carbatteryerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
                 </div>
                 <div class="form-group">
-                  <label class="small" for="AreaName">
-                    {" "}
-                    Area Name, Emirate *
-                  </label>
+                  <small id="AreaName" class="form-text text-muted">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> Area
+                    Name, Emirate *
+                  </small>
                   <input
                     type="text"
                     name="entry.1153362739"
-                    class="form-control fas fa-map-marker-alt"
+                    id="area"
+                    class="form-control "
                     aria-describedby="AreaName"
-                    placeholder="&#xf3c5; Area Name, Emirate"
+                    placeholder=" Area Name, Emirate"
                     autoComplete="off"
-                    required
                   />
+                  <div>
+                    <span
+                      id="areaerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
                 </div>
                 <div class="form-group">
-                  <label class="small" for="ContactNo">
-                    Contact Number (971_________){" "}
-                  </label>
+                  <small id="ContactNo" class="form-text text-muted pt-3">
+                    <i class="fa fa-phone" aria-hidden="true"></i> Contact
+                    Number (971_________){" "}
+                  </small>
                   <input
                     type="text"
                     name="entry.153243795"
-                    class="form-control fas fa-phone"
+                    id="contactno"
+                    class="form-control "
                     aria-describedby="ContactNo"
-                    placeholder="&#xf095; Contact Number (971_________)"
+                    placeholder="Contact Number (971_________)"
                     autoComplete="off"
-                    required
                   />
+                  <div>
+                    <span
+                      id="contactnoerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
                 </div>
                 <button
                   type="submit"
                   class="btn btn-danger btn-lg btn-block pb-3"
                   target="_self"
                 >
-                  <i class="fas fa-whatsapp" aria-hidden="true">
-                    &nbsp;&nbsp;SEND
-                  </i>
+                  <i class="fab fa-whatsapp"></i>
+                  &nbsp;&nbsp;SEND
                 </button>
               </form>
             </div>

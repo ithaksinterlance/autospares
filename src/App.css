@@ -172,6 +172,7 @@ footer {
   width: 8em;
   color: #25d366;
   position: fixed;
+  z-index: 1;
 }
 #menu :hover {
   position: relative;
