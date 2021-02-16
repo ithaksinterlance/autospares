@@ -55,6 +55,7 @@ a:active {
   border-bottom: 10px solid #25d366;
   margin-bottom: 0%;
 }
+
 .nav1 {
   font-family: "Oswald";
   background-color: #c9f6ff;
@@ -70,14 +71,14 @@ a:active {
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  height: 75vh;
+  height: 70vh;
   width: 100%;
   margin-right: 0%;
 }
 .green {
   position: absolute;
   left: 20rem;
-  top: 30%;
+  top: 25%;
   height: 70vh;
   width: 100vh;
 }
@@ -161,10 +162,13 @@ footer {
   text-shadow: none;
   margin: 3px;
 }
-.btn-danger {
-  color: #c9f6ff;
-  background-color: #4286f4;
-  border: none;
+.card-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #a9211d;
+}
+.sellcontainer {
+  border: 2px solid black;
+  padding-top: 95px;
 }
 #menu {
   right: 90%;
@@ -210,6 +214,13 @@ footer {
 }
 
 @media (max-width: 992px) {
+  .form-phone {
+    align-items: center;
+    display: inline-block;
+  }
+  .formtab {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .header-img {

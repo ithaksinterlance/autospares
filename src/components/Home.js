@@ -10,6 +10,7 @@ import Green from "../img/greencar.png";
 import Road from "../img/road.jpeg";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
+import swal from "sweetalert";
 
 export default class Home extends Component {
   constructor(props) {
@@ -56,7 +57,7 @@ export default class Home extends Component {
       //return false;
     } else {
       if (submitted) {
-        alert("Form submitted! We will contact you soon.");
+        swal("Form submitted! We will contact you soon.");
         window.location.reload();
         return submitted;
       }
@@ -106,7 +107,7 @@ export default class Home extends Component {
                 method="POST"
                 action="https://docs.google.com/forms/d/e/1FAIpQLSd6fL_M5hLUjjBLJyMFWUijW2qNrGwQ0RxMVhpmTOEEqj3Jxg/formResponse"
                 onSubmit={this.submituserInquiryForm}
-                class="mx-2 my-2"
+                class="mx-2 my-2 formtab"
                 target="hidden_iframe"
               >
                 <div class="form-group">

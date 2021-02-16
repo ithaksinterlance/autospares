@@ -84,14 +84,14 @@ export default class Navbar extends Component {
               </Link>
             </div>
             <div class="col-xs-2 text-center pt-3">
-              <a href="/">
+              <a href="/sell">
                 <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
                 <br />
                 <p className="fontSize text-center">Sell</p>
               </a>
             </div>
             <div class="col-xs-2 text-center pt-3">
-              <a href="/">
+              <a href="https://api.whatsapp.com/send?text=autobatteries.hakstime.com">
                 <i class="fa fa-share fa-2x" aria-hidden="true"></i>
                 <br />
                 <p className="fontSize text-center">Share</p>
@@ -99,9 +99,9 @@ export default class Navbar extends Component {
             </div>
             <div class="col-xs-2 text-center pt-3">
               <a href="/">
-                <i class="fas fa-2x fa-cart-arrow-down"></i>
+                <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
                 <br />
-                <p className="fontSize text-center">Buy </p>
+                <p className="fontSize text-center">CALL </p>
               </a>
             </div>
           </div>
@@ -134,32 +134,13 @@ export default class Navbar extends Component {
                     </a>
                   </Link>
                 </li>
-                <li className="nav-item">
-                  <Link to="/">
-                    <a className="nav-link" href="/">
-                      About
-                    </a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link to="/">
-                    <a className="nav-link" href="/">
-                      Battery Inquiries
-                    </a>
-                  </Link>
-                </li>
+
                 <li className="nav-item">
                   <Link to="/brands" className="nav-link">
                     Our Brands
                   </Link>
                 </li>
-                <li className="nav-item">
-                  <Link to="/">
-                    <a className="nav-link" href="/">
-                      Special Offers
-                    </a>
-                  </Link>
-                </li>
+
                 <li className="nav-item">
                   <Link to="/services">
                     <a className="nav-link" href="/">
@@ -168,7 +149,7 @@ export default class Navbar extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/">
+                  <Link to="/sell">
                     <a className="nav-link" href="/">
                       د.إ Sell with Our leads
                     </a>

@@ -11,7 +11,7 @@ export default class brands extends Component {
     return (
       <div>
         <Navbar />
-        <div className="container pt-5">
+        <div className="container pt-5 pb-5">
           <div className="row">
             <div className="col-md-3 col-sm-6 col-xs-12 pt-3">
               <div class="card" style={{ width: "18rem" }}>
@@ -30,8 +30,8 @@ export default class brands extends Component {
                 <div class="card-body">
                   <h5 class="card-title">AMARON</h5>
 
-                  <a href="/" class="btn btn-danger btn-lg">
-                    BUY NOW {">>"}
+                  <a href="tel:971551478994" class="btn btn-danger btn-lg">
+                    CALL NOW {">>"}
                   </a>
                 </div>
               </div>
@@ -42,8 +42,8 @@ export default class brands extends Component {
                 <div class="card-body">
                   <h5 class="card-title">VARTA</h5>
 
-                  <a href="/" class="btn btn-danger btn-lg">
-                    BUY NOW {">>"}
+                  <a href="tel:971551478994" class="btn btn-danger btn-lg">
+                    CALL NOW {">>"}
                   </a>
                 </div>
               </div>
@@ -54,8 +54,8 @@ export default class brands extends Component {
                 <div class="card-body">
                   <h5 class="card-title">SOLITE</h5>
 
-                  <a href="/" class="btn btn-danger btn-lg">
-                    BUY NOW {">>"}
+                  <a href="tel:971551478994" class="btn btn-danger btn-lg">
+                    CALL NOW {">>"}
                   </a>
                 </div>
               </div>

@@ -8,6 +8,7 @@ import Amaron from "./Amaron";
 import Form from "./form";
 import Brands from "./brands";
 import Services from "./services";
+import Sell from "./sell";
 
 const Main = () => (
   <Switch>
@@ -19,6 +20,7 @@ const Main = () => (
     <Route exact path="/form" component={Form} />
     <Route exact path="/brands" component={Brands} />
     <Route exact path="/services" component={Services} />
+    <Route exact path="/sell" component={Sell} />
   </Switch>
 );
 
