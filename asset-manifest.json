@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/autospares/static/css/main.74a5e5da.chunk.css",
-    "main.js": "/autospares/static/js/main.c7ec0031.chunk.js",
-    "main.js.map": "/autospares/static/js/main.c7ec0031.chunk.js.map",
+    "main.css": "/autospares/static/css/main.abd64e6d.chunk.css",
+    "main.js": "/autospares/static/js/main.7887a849.chunk.js",
+    "main.js.map": "/autospares/static/js/main.7887a849.chunk.js.map",
     "runtime-main.js": "/autospares/static/js/runtime-main.5afc1f77.js",
     "runtime-main.js.map": "/autospares/static/js/runtime-main.5afc1f77.js.map",
     "static/css/2.86fbdad3.chunk.css": "/autospares/static/css/2.86fbdad3.chunk.css",
-    "static/js/2.37a3b213.chunk.js": "/autospares/static/js/2.37a3b213.chunk.js",
-    "static/js/2.37a3b213.chunk.js.map": "/autospares/static/js/2.37a3b213.chunk.js.map",
+    "static/js/2.70833c2d.chunk.js": "/autospares/static/js/2.70833c2d.chunk.js",
+    "static/js/2.70833c2d.chunk.js.map": "/autospares/static/js/2.70833c2d.chunk.js.map",
     "index.html": "/autospares/index.html",
     "static/css/2.86fbdad3.chunk.css.map": "/autospares/static/css/2.86fbdad3.chunk.css.map",
-    "static/css/main.74a5e5da.chunk.css.map": "/autospares/static/css/main.74a5e5da.chunk.css.map",
-    "static/js/2.37a3b213.chunk.js.LICENSE.txt": "/autospares/static/js/2.37a3b213.chunk.js.LICENSE.txt",
+    "static/css/main.abd64e6d.chunk.css.map": "/autospares/static/css/main.abd64e6d.chunk.css.map",
+    "static/js/2.70833c2d.chunk.js.LICENSE.txt": "/autospares/static/js/2.70833c2d.chunk.js.LICENSE.txt",
     "static/media/battery.4a0b68dc.png": "/autospares/static/media/battery.4a0b68dc.png",
+    "static/media/carbattery.78e7267a.jpeg": "/autospares/static/media/carbattery.78e7267a.jpeg",
     "static/media/greencar.1e4f6f20.png": "/autospares/static/media/greencar.1e4f6f20.png",
     "static/media/mj.52334b55.jpg": "/autospares/static/media/mj.52334b55.jpg",
     "static/media/product1.f7743a78.jpg": "/autospares/static/media/product1.f7743a78.jpg",
@@ -20,13 +21,14 @@
     "static/media/product3.32aca58d.jpg": "/autospares/static/media/product3.32aca58d.jpg",
     "static/media/product4.d6f93267.png": "/autospares/static/media/product4.d6f93267.png",
     "static/media/road.f9707724.jpeg": "/autospares/static/media/road.f9707724.jpeg",
-    "static/media/wabattery.83964090.png": "/autospares/static/media/wabattery.83964090.png"
+    "static/media/wabattery.83964090.png": "/autospares/static/media/wabattery.83964090.png",
+    "static/media/worldgif.e7587bfd.gif": "/autospares/static/media/worldgif.e7587bfd.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.5afc1f77.js",
     "static/css/2.86fbdad3.chunk.css",
-    "static/js/2.37a3b213.chunk.js",
-    "static/css/main.74a5e5da.chunk.css",
-    "static/js/main.c7ec0031.chunk.js"
+    "static/js/2.70833c2d.chunk.js",
+    "static/css/main.abd64e6d.chunk.css",
+    "static/js/main.7887a849.chunk.js"
   ]
 }
