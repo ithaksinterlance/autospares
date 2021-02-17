@@ -121,8 +121,16 @@ form {
   font-size: 45px;
   font-family: "Big Shoulders Display", sans-serif;
   top: 10%;
-  color: #4286f4;
+  color: darkblue;
 }
+.header-txt {
+  position: absolute;
+  font-size: 45px;
+  font-family: "Big Shoulders Display", sans-serif;
+  top: 10%;
+  color: #faed27;
+}
+
 .heading {
   font-size: 30px;
   font-family: "Big Shoulders Display";

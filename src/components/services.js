@@ -15,10 +15,7 @@ export default class services extends Component {
             className="img-fluid header-img"
           />
 
-          <div
-            className="header-text display-4"
-            style={{ paddingLeft: "10px" }}
-          >
+          <div className="header-txt display-4" style={{ paddingLeft: "10px" }}>
             Replace Your Car Battery as it wears off
             <div className="d-flex p-2 pt-3">
               <a class="btn btn-primary p-2" href="/" role="button">
@@ -86,10 +83,10 @@ export default class services extends Component {
             </div>
           </div>
         </div>
-        <p className="container paragraph">
-          We deal only with genuine brands namely SOLITE. ACDELCO, AMARON, VARTA
-          and other genuine and authentic battery batteries depending on the
-          demand for our battery supply and replacement services.
+        <p className="container text-danger">
+          **We deal only with genuine brands namely SOLITE. ACDELCO, AMARON,
+          VARTA and other genuine and authentic battery batteries depending on
+          the demand for our battery supply and replacement services.**
         </p>
 
         <Footer />

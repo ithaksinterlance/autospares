@@ -20,12 +20,14 @@ export default class Navbar extends Component {
             <p className="nav1 blink_me">Replace Your battery Now!</p>
 
             <p className="nav1 mr-0">
-              <i class="fa fa-phone" aria-hidden="true"></i>Call +971551478994
-              or
+              <a href="tel:971551478994" style={{ color: "black" }}>
+                <i class="fa fa-phone" aria-hidden="true"></i>Call +971551478994
+                or
+              </a>
             </p>
             <p className="nav1">
               <a
-                href="/"
+                href="https://api.whatsapp.com/send?phone=971551478994"
                 className="nav1-icon"
                 target="_blank"
                 rel="noreferrer"
@@ -34,16 +36,20 @@ export default class Navbar extends Component {
               </a>
             </p>
             <div style={{ fontSize: "20px" }}>
-              <i
-                class="fab fa-whatsapp  fa-2x"
-                style={{ color: "#25d366" }}
-              ></i>
+              <a href="https://api.whatsapp.com/send?phone=971551478994">
+                <i
+                  class="fab fa-whatsapp  fa-2x"
+                  style={{ color: "#25d366" }}
+                ></i>
+              </a>
               &nbsp;&nbsp;
-              <i
-                class="fas fa-2x fa-envelope"
-                style={{ color: "#dd4b39" }}
-                aria-hidden="true"
-              ></i>
+              <a href="mailto:haksinterlance@gmail.com">
+                <i
+                  class="fas fa-2x fa-envelope"
+                  style={{ color: "#dd4b39" }}
+                  aria-hidden="true"
+                ></i>
+              </a>
               &nbsp;&nbsp;
               <i
                 class="fab fa-2x fa-telegram"
@@ -51,11 +57,13 @@ export default class Navbar extends Component {
                 aria-hidden="true"
               ></i>
               &nbsp;&nbsp;
-              <i
-                class="fab fa-2x fa-instagram"
-                style={{ color: "#8134af" }}
-                aria-hidden="true"
-              ></i>
+              <a href="https://www.instagram.com/haksinterlance/">
+                <i
+                  class="fab fa-2x fa-instagram"
+                  style={{ color: "#8134af" }}
+                  aria-hidden="true"
+                ></i>
+              </a>
               &nbsp;&nbsp;
             </div>
           </div>
@@ -66,39 +74,40 @@ export default class Navbar extends Component {
               <Link to="/">
                 <i class="fa fa-2x fa-home" aria-hidden="true"></i>
                 <br />
-                <p className="fontSize text-center">Home</p>
+                <p className="fontSize text-center">HOME</p>
               </Link>
             </div>
             <div class="col-xs-2 text-center pt-3">
               <Link to="/services">
                 <i class="fas fa-2x fa-screwdriver"></i>
                 <br />
-                <p className="fontSize text-center">Service</p>
+                <p className="fontSize text-center">SERVICE</p>
+              </Link>
+            </div>
+            <div class="col-xs-2 text-center pt-3">
+              <Link to="/sell">
+                <i class="fas fa-plus-circle fa-2x"></i>
+                <br />
+                <p className="fontSize text-center">SELL</p>
               </Link>
             </div>
             <div class="col-xs-2 text-center pt-3">
               <Link to="/brands">
                 <i class="fas fa-car-battery fa-2x"></i>
                 <br />
-                <p className="fontSize text-center">Brands</p>
+                <p className="fontSize text-center">BRANDS</p>
               </Link>
             </div>
-            <div class="col-xs-2 text-center pt-3">
-              <a href="/sell">
-                <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
-                <br />
-                <p className="fontSize text-center">Sell</p>
-              </a>
-            </div>
+
             <div class="col-xs-2 text-center pt-3">
               <a href="https://api.whatsapp.com/send?text=autobatteries.hakstime.com">
-                <i class="fa fa-share fa-2x" aria-hidden="true"></i>
+                <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i>
                 <br />
-                <p className="fontSize text-center">Share</p>
+                <p className="fontSize text-center">SHARE</p>
               </a>
             </div>
             <div class="col-xs-2 text-center pt-3">
-              <a href="/">
+              <a href="tel:971551478994">
                 <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
                 <br />
                 <p className="fontSize text-center">CALL </p>
