@@ -23,15 +23,8 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-      "browser_action": {
-                "default_popup": "index.html"                 
-         },
-       "permissions": [
-                "activeTab",
-                "storage"
-       ]
+  "background_color": "#ffffff"
+ 
   
 }
 
