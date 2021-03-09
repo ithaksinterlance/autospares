@@ -101,7 +101,7 @@ export default class Navbar extends Component {
 
             <div class="col-xs-2 text-center pt-3">
               <a href="https://api.whatsapp.com/send?text=autobatteries.hakstime.com">
-                <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-share fa-2x" aria-hidden="true"></i>
                 <br />
                 <p className="fontSize text-center">SHARE</p>
               </a>

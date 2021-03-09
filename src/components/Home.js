@@ -10,12 +10,54 @@ import Green from "../img/greencar.png";
 import Road from "../img/road.jpeg";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-import swal from "sweetalert";
+import Swal from "sweetalert2";
 
 export default class Home extends Component {
-  constructor(props) {
-    super(props);
-    this.submituserInquiryForm = this.submituserInquiryForm.bind(this);
+  submit() {
+    var year1 = document.getElementById("year1").value;
+    var carbattery1 = document.getElementById("carbattery1").value;
+    var area1 = document.getElementById("area1").value;
+    var contactno1 = document.getElementById("contactno1").value;
+    var submitted = true;
+
+    if (year1 === "") {
+      submitted = false;
+      document.getElementById("yearerror1").innerHTML =
+        "** Please fill the year";
+      //return false;
+    } else if (!year1.match([0 - 9]) && year1.length < 4) {
+      submitted = false;
+      document.getElementById("yearerror1").innerHTML =
+        "** Must be a number or 4 digit number";
+      //return false;
+    } else if (carbattery1 === "") {
+      submitted = false;
+      document.getElementById("carbatteryerror1").innerHTML =
+        "** Please fill the Battery Model";
+      //return false;
+    } else if (area1 === "") {
+      submitted = false;
+      document.getElementById("areaerror1").innerHTML =
+        "** Please fill the Area";
+      //return false;
+    } else if (contactno1 === "") {
+      submitted = false;
+      document.getElementById("contactnoerror1").innerHTML =
+        "** Please fill the Contact";
+      //return false;
+    } else if (isNaN(contactno1)) {
+      submitted = false;
+      document.getElementById("contactnoerror1").innerHTML =
+        "** Check Your contact no";
+      //return false;
+    } else {
+      if (submitted) {
+        Swal.fire("Form submitted. We will contact you shortly ;)").then(() =>
+          document.getElementById("miForm").onreset(window.location.reload())
+        );
+        return submitted;
+      }
+    }
   }
 
   submituserInquiryForm() {
@@ -57,12 +99,14 @@ export default class Home extends Component {
       //return false;
     } else {
       if (submitted) {
-        swal("Form submitted! We will contact you soon.");
-        window.location.reload();
+        Swal.fire("Form submitted. We will contact you shortly ;)").then(() =>
+          document.getElementById("miForm").onreset(window.location.reload())
+        );
         return submitted;
       }
     }
   }
+
   render() {
     return (
       <div>
@@ -204,6 +248,7 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
+
         <div className="container pt-4  form-phone">
           <div className="row d-flex justify-content-center">
             <div className="col-md-8 col-sm-12 col-lg-4 col-xs-12">
@@ -218,10 +263,10 @@ export default class Home extends Component {
                 style={{ display: "none" }}
               ></iframe>
               <form
-                id="myForm"
+                id="miForm"
                 method="POST"
                 action="https://docs.google.com/forms/d/e/1FAIpQLSd6fL_M5hLUjjBLJyMFWUijW2qNrGwQ0RxMVhpmTOEEqj3Jxg/formResponse"
-                onSubmit={this.submituserInquiryForm}
+                onSubmit={this.submit}
                 class="mx-2 my-2"
                 target="hidden_iframe"
               >
@@ -232,7 +277,7 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1437758037"
-                    id="year"
+                    id="year1"
                     class=" form-control"
                     aria-describedby="Year"
                     placeholder=" Year"
@@ -240,7 +285,7 @@ export default class Home extends Component {
                   />
                   <div>
                     <span
-                      id="yearerror"
+                      id="yearerror1"
                       className="text-danger font-weight-bold"
                     ></span>
                   </div>
@@ -252,7 +297,7 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1911907904"
-                    id="carbattery"
+                    id="carbattery1"
                     class="form-control "
                     aria-describedby="CarBatteryModel"
                     placeholder=" Car Brand Model Trim"
@@ -260,7 +305,7 @@ export default class Home extends Component {
                   />
                   <div>
                     <span
-                      id="carbatteryerror"
+                      id="carbatteryerror1"
                       className="text-danger font-weight-bold"
                     ></span>
                   </div>
@@ -273,7 +318,7 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.1153362739"
-                    id="area"
+                    id="area1"
                     class="form-control "
                     aria-describedby="AreaName"
                     placeholder=" Area Name, Emirate"
@@ -281,7 +326,7 @@ export default class Home extends Component {
                   />
                   <div>
                     <span
-                      id="areaerror"
+                      id="areaerror1"
                       className="text-danger font-weight-bold"
                     ></span>
                   </div>
@@ -294,7 +339,7 @@ export default class Home extends Component {
                   <input
                     type="text"
                     name="entry.153243795"
-                    id="contactno"
+                    id="contactno1"
                     class="form-control "
                     aria-describedby="ContactNo"
                     placeholder="Contact Number (971_________)"
@@ -302,13 +347,14 @@ export default class Home extends Component {
                   />
                   <div>
                     <span
-                      id="contactnoerror"
+                      id="contactnoerror1"
                       className="text-danger font-weight-bold"
                     ></span>
                   </div>
                 </div>
                 <button
                   type="submit"
+                  id="RefreshPage"
                   class="btn btn-danger btn-lg btn-block pb-3"
                   target="_self"
                 >

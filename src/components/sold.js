@@ -5,7 +5,7 @@ import World from "../img/haks.jpg";
 import CarBattery from "../img/sell.jpg";
 import Swal from "sweetalert2";
 
-export default class sell extends Component {
+export default class sold extends Component {
   constructor(props) {
     super(props);
     this.submit = this.submit.bind(this);

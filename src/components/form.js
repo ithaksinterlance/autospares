@@ -1,41 +1,488 @@
-import React, { Component, useRef } from "react";
-import Footer from "./Footer";
+import React, { Component } from "react";
 import Navbar from "./Navbar";
+import Car3 from "../img/battery.png";
+import Prod1 from "../img/product1.jpg";
+import Prod2 from "../img/product2.jpg";
+import Prod3 from "../img/product3.jpg";
+import Prod4 from "../img/product4.png";
+import MJ from "../img/mj.jpg";
+import Green from "../img/greencar.png";
+import Road from "../img/road.jpeg";
+import Footer from "./Footer";
+import { Link } from "react-router-dom";
+import swal from "sweetalert";
 
-export default class form extends Component {
+export default class Form extends Component {
   constructor(props) {
     super(props);
-    this.state = { value: "" };
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.submituserInquiryForm = this.submituserInquiryForm.bind(this);
   }
 
-  handleChange(event) {
-    this.setState({
-      value: event.target.value,
-    });
+  submituserInquiryForm() {
+    var year = document.getElementById("year").value;
+    var carbattery = document.getElementById("carbattery").value;
+    var area = document.getElementById("area").value;
+    var contactno = document.getElementById("contactno").value;
+    var submitted = true;
+
+    try {
+      if (year === "") {
+        submitted = false;
+        document.getElementById("yearerror").innerHTML =
+          "** Please fill the year";
+        //return false;
+      } else if (!year.match([0 - 9]) && year.length < 4) {
+        submitted = false;
+        document.getElementById("yearerror").innerHTML =
+          "** Must be a number or 4 digit number";
+        //return false;
+      } else if (carbattery === "") {
+        submitted = false;
+        document.getElementById("carbatteryerror").innerHTML =
+          "** Please fill the Battery Model";
+        //return false;
+      } else if (area === "") {
+        submitted = false;
+        document.getElementById("areaerror").innerHTML =
+          "** Please fill the Area";
+        //return false;
+      } else if (contactno === "") {
+        submitted = false;
+        document.getElementById("contactnoerror").innerHTML =
+          "** Please fill the Contact";
+        //return false;
+      } else if (isNaN(contactno)) {
+        submitted = false;
+        document.getElementById("contactnoerror").innerHTML =
+          "** Check Your contact no";
+        //return false;
+      } else {
+        if (submitted) {
+          swal("Form submitted! We will contact you soon.");
+          document.getElementById("myForm").reset();
+
+          return submitted;
+        }
+      }
+    } catch {
+      document.location.reload(true);
+    }
   }
 
-  handleSubmit(event) {
-    alert("A name was submitted" + this.state.value);
-    event.preventDefault();
-  }
   render() {
     return (
       <div>
         <Navbar />
-        <div className="container">
-          <form onSubmit={this.handleSubmit}>
-            <label>
-              <input
-                type="text"
-                value={this.state.value}
-                onChange={this.handleChange}
-              ></input>
-              <input className="form-group" type="submit" value="Submit" />
-            </label>
-          </form>
+        <div className="container-fluid header-text1 px-0">
+          <img
+            src={Road}
+            alt="battery replacement"
+            className="img-fluid header-img"
+          />
+          <img
+            src={Green}
+            alt="battery replacement"
+            className="img-fluid green"
+          />
+          <div
+            className="header-text display-4"
+            style={{ paddingLeft: "10px" }}
+          >
+            BATTERY REPLACEMENT SERVICE AT DUBAI AND SHARJAH
+            <div className="d-flex p-2 pt-3">
+              <a class="btn btn-primary p-2" href="/" role="button">
+                Buy for Wholesale
+              </a>
+              <a class="btn btn-primary p-2" href="/" role="button">
+                Buy for Retailsale
+              </a>
+            </div>
+          </div>
         </div>
+        <div class="container-fluid">
+          <div class="row padding d-flex justify-content-center">
+            <div class="col-md-3 top-right flex-end pt-4">
+              <iframe
+                title="form"
+                name="hidden_iframe"
+                id="hidden_iframe"
+                style={{ display: "none" }}
+              ></iframe>
+              <form
+                id="myForm"
+                method="POST"
+                action="https://cors-anywhere.herokuapp.com/https://docs.google.com/forms/d/e/1FAIpQLSd6fL_M5hLUjjBLJyMFWUijW2qNrGwQ0RxMVhpmTOEEqj3Jxg/formResponse"
+                onSubmit={this.submituserInquiryForm}
+                class="mx-2 my-2 formtab"
+                target="hidden_iframe"
+              >
+                <div class="form-group">
+                  <small id="Year" class="form-text text-muted">
+                    <i class="fas fa-calendar-alt"></i> Year
+                  </small>
+                  <input
+                    type="text"
+                    name="entry.1437758037"
+                    id="year"
+                    class=" form-control"
+                    aria-describedby="Year"
+                    placeholder=" Year"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="yearerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <small id="CarBatteryModel" class="form-text text-muted">
+                    <i class="fas fa-car-battery    "></i> Car Brand Model Trim
+                  </small>
+                  <input
+                    type="text"
+                    name="entry.1911907904"
+                    id="carbattery"
+                    class="form-control "
+                    aria-describedby="CarBatteryModel"
+                    placeholder=" Car Brand Model Trim"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="carbatteryerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <small id="AreaName" class="form-text text-muted">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> Area
+                    Name, Emirate *
+                  </small>
+                  <input
+                    type="text"
+                    name="entry.1153362739"
+                    id="area"
+                    class="form-control "
+                    aria-describedby="AreaName"
+                    placeholder=" Area Name, Emirate"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="areaerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <small id="ContactNo" class="form-text text-muted pt-3">
+                    <i class="fa fa-phone" aria-hidden="true"></i> Contact
+                    Number (971_________){" "}
+                  </small>
+                  <input
+                    type="text"
+                    name="entry.153243795"
+                    id="contactno"
+                    class="form-control "
+                    aria-describedby="ContactNo"
+                    placeholder="Contact Number (971_________)"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="contactnoerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-danger btn-lg btn-block pb-3"
+                  target="_self"
+                >
+                  <i class="fab fa-whatsapp"></i>
+                  &nbsp;&nbsp;SEND
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div className="container pt-4  form-phone">
+          <div className="row d-flex justify-content-center">
+            <div className="col-md-8 col-sm-12 col-lg-4 col-xs-12">
+              <div className="container pt-5">
+                <h2 className="heading">Send Inquiries</h2>
+                <hr />
+              </div>
+              <iframe
+                title="form"
+                name="hidden_iframe"
+                id="hidden_iframe"
+                style={{ display: "none" }}
+              ></iframe>
+              <form
+                id="myForm"
+                method="POST"
+                action="https://cors-anywhere.herokuapp.com/https://docs.google.com/forms/d/e/1FAIpQLSd6fL_M5hLUjjBLJyMFWUijW2qNrGwQ0RxMVhpmTOEEqj3Jxg/formResponse"
+                onSubmit={this.submituserInquiryForm}
+                class="mx-2 my-2"
+                target="hidden_iframe"
+              >
+                <div class="form-group">
+                  <small id="Year" class="form-text text-muted">
+                    <i class="fas fa-calendar-alt"></i> Year
+                  </small>
+                  <input
+                    type="text"
+                    name="entry.1437758037"
+                    id="year"
+                    class=" form-control"
+                    aria-describedby="Year"
+                    placeholder=" Year"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="yearerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <small id="CarBatteryModel" class="form-text text-muted">
+                    <i class="fas fa-car-battery    "></i> Car Brand Model Trim
+                  </small>
+                  <input
+                    type="text"
+                    name="entry.1911907904"
+                    id="carbattery"
+                    class="form-control "
+                    aria-describedby="CarBatteryModel"
+                    placeholder=" Car Brand Model Trim"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="carbatteryerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <small id="AreaName" class="form-text text-muted">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> Area
+                    Name, Emirate *
+                  </small>
+                  <input
+                    type="text"
+                    name="entry.1153362739"
+                    id="area"
+                    class="form-control "
+                    aria-describedby="AreaName"
+                    placeholder=" Area Name, Emirate"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="areaerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <small id="ContactNo" class="form-text text-muted pt-3">
+                    <i class="fa fa-phone" aria-hidden="true"></i> Contact
+                    Number (971_________){" "}
+                  </small>
+                  <input
+                    type="text"
+                    name="entry.153243795"
+                    id="contactno"
+                    class="form-control "
+                    aria-describedby="ContactNo"
+                    placeholder="Contact Number (971_________)"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="contactnoerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <button
+                  type="submit"
+                  id="RefreshPage"
+                  class="btn btn-danger btn-lg btn-block pb-3"
+                  target="_self"
+                >
+                  <i class="fab fa-whatsapp"></i>
+                  &nbsp;&nbsp;SEND
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div className="container pt-5 text-center">
+          <div className="row">
+            <div className="col-md-4">
+              <i class="fab fa-whatsapp fa-3x " aria-hidden="true"></i>
+              <br />
+              <p className="paragraph">
+                Send Your Location &<br /> Contact No.
+              </p>
+            </div>
+            <div className="col-md-4">
+              <i class="fa fa-quote-right fa-3x " aria-hidden="true"></i>
+              <br />
+              <p className="paragraph"> Get Best Quote</p>
+            </div>
+            <div className="col-md-4">
+              <i class="fas fa-car-battery fa-3x" aria-hidden="true"></i>
+              <br />
+              <p className="paragraph">
+                Get Battery
+                <br /> installed at Your
+                <br /> designation location{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container-fluid div-bg py-5">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6">
+                <hr />
+                <h2 className="heading">Onsite Battery Replacement</h2>
+                <hr />
+                <p className="lead">
+                  <ul className="list">
+                    <li className="pt-2">Vehicle Details or Battery Details</li>
+                    <li className="pt-2">Send Your Location & Contact No.</li>
+                    <li className="pt-2">We Quote the best price</li>
+                    <li className="pt-2">
+                      Battery is delivered and installed at your designated
+                      location
+                    </li>
+                    <li className="pt-2">Warranty included</li>
+                    <li className="pt-2">
+                      Delivered anywhere in Dubai & Sharjah , United Arab
+                      Emirates
+                    </li>
+                  </ul>
+                </p>
+              </div>
+              <div className="col-md-6">
+                <img
+                  src={MJ}
+                  alt="battery replacement"
+                  className="img-fluid warranty"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <hr />
+          <h2 className="heading">
+            Automobile Battery Replacement Service ! Why you need us?
+          </h2>
+          <hr />
+        </div>
+        <p className="container paragraph">
+          Automobile Battery is an essential part of every vehicle be it cars,
+          buses, trucks and so on. For almost all vehicles which are driven
+          typically in an typical life the car battery lasts for 2 years more or
+          less. There is always a need for replacement of batteries and we are
+          here to fulfill that need of yours. After a long term attachment with
+          your ride all of a sudden you feel somethings wrong or all of a sudden
+          your love just stopped cranking it wont start anymore it just keeps
+          clicking but wont just start you feel dead, saddened like a part of
+          you missing, the feelings mutual, well do not worry for it battery
+          might have been dead and we are here to charge back the soul into your
+          ride and in turn you feel back on track. (you just need to WhatsApp
+          and we will be at your service fixing the battery)
+        </p>
+        <div className="container">
+          <hr />
+          <h2 className="heading">Our Brands</h2>
+          <hr />
+        </div>
+        <p className="container paragraph">
+          We deal only with genuine brands namely SOLITE. ACDELCO, AMARON, VARTA
+          and other genuine and authentic battery batteries depending on the
+          demand for our battery supply and replacement services.
+        </p>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-3 col-xs-6">
+              <Link to="/acedelco">
+                <a href="/">
+                  <img
+                    src={Prod1}
+                    alt="battery replacement"
+                    className="img-fluid battery"
+                  />
+                  <div className="text-center">
+                    <p className="paragraph">Read {">>"}</p>
+                  </div>
+                </a>
+              </Link>
+            </div>
+            <div className="col-md-3 col-xs-6">
+              <Link to="/amaron">
+                <a href="/">
+                  <img
+                    src={Prod2}
+                    alt="battery replacement"
+                    className="img-fluid battery"
+                  />
+                  <div className="text-center">
+                    <p className="paragraph">Read {">>"}</p>
+                  </div>
+                </a>
+              </Link>
+            </div>
+            <div className="col-md-3 col-xs-6">
+              <Link to="/varta">
+                <a href="/">
+                  <img
+                    src={Prod3}
+                    alt="battery replacement"
+                    className="img-fluid battery"
+                  />
+                  <div className="text-center">
+                    <p className="paragraph">Read {">>"}</p>
+                  </div>
+                </a>
+              </Link>
+            </div>
+            <div className="col-md-3 col-xs-6">
+              <Link to="/solite">
+                <a href="/">
+                  <img
+                    src={Prod4}
+                    alt="battery replacement"
+                    className="img-fluid battery"
+                  />
+                  <div className="text-center">
+                    <p className="paragraph">Read {">>"}</p>
+                  </div>
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="d-flex justify-content-center">
+          <button type="button" class="btn btn-primary btn-lg">
+            Sell with Us {">>"}
+          </button>
+        </div>
+        <Footer />
       </div>
     );
   }
