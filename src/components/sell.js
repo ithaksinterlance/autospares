@@ -30,11 +30,6 @@ export default class sell extends Component {
       document.getElementById("emailerror").innerHTML =
         "** Please fill the EmailID";
       //return false;
-    } else if (!email.match(mailformat)) {
-      submitted = false;
-      document.getElementById("emailerror").innerHTML =
-        "** Please fill the Correct EmailID";
-      //return false;
     } else if (whatsappno === "") {
       submitted = false;
       document.getElementById("whatsappnoerror").innerHTML =

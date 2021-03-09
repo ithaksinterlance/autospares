@@ -117,21 +117,23 @@ export default class Home extends Component {
             alt="battery replacement"
             className="img-fluid header-img"
           />
-          <img
-            src={Green}
-            alt="battery replacement"
-            className="img-fluid green"
-          />
+          <a href="https://api.whatsapp.com/send?phone=971551478994?text='Hello! I need price details'">
+            <img
+              src={Green}
+              alt="battery replacement"
+              className="img-fluid green"
+            />
+          </a>
           <div
             className="header-text display-4"
             style={{ paddingLeft: "10px" }}
           >
             BATTERY REPLACEMENT SERVICE AT DUBAI AND SHARJAH
             <div className="d-flex p-2 pt-3">
-              <a class="btn btn-primary p-2" href="/" role="button">
+              <a class="btn btn-primary p-2" href="/sell" role="button">
                 Buy for Wholesale
               </a>
-              <a class="btn btn-primary p-2" href="/" role="button">
+              <a class="btn btn-primary p-2" href="/sell" role="button">
                 Buy for Retailsale
               </a>
             </div>
