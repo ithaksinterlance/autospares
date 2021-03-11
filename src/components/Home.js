@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-import Car3 from "../img/battery.png";
 import Prod1 from "../img/product1.jpg";
 import Prod2 from "../img/product2.jpg";
 import Prod3 from "../img/product3.jpg";
@@ -461,16 +460,14 @@ export default class Home extends Component {
           <div className="row">
             <div className="col-md-3 col-xs-6">
               <Link to="/acedelco">
-                <a href="/">
-                  <img
-                    src={Prod1}
-                    alt="battery replacement"
-                    className="img-fluid battery"
-                  />
-                  <div className="text-center">
-                    <p className="paragraph">Read {">>"}</p>
-                  </div>
-                </a>
+                <img
+                  src={Prod1}
+                  alt="battery replacement"
+                  className="img-fluid battery"
+                />
+                <div className="text-center">
+                  <p className="paragraph">Read {">>"}</p>
+                </div>
               </Link>
             </div>
             <div className="col-md-3 col-xs-6">
@@ -503,16 +500,14 @@ export default class Home extends Component {
             </div>
             <div className="col-md-3 col-xs-6">
               <Link to="/solite">
-                <a href="/">
-                  <img
-                    src={Prod4}
-                    alt="battery replacement"
-                    className="img-fluid battery"
-                  />
-                  <div className="text-center">
-                    <p className="paragraph">Read {">>"}</p>
-                  </div>
-                </a>
+                <img
+                  src={Prod4}
+                  alt="battery replacement"
+                  className="img-fluid battery"
+                />
+                <div className="text-center">
+                  <p className="paragraph">Read {">>"}</p>
+                </div>
               </Link>
             </div>
           </div>

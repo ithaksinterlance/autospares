@@ -12,11 +12,6 @@ export default class Navbar extends Component {
             <img src={WA} alt="whatsapp" id="menu" />
           </a>
         </div>
-        <div>
-          <a href="/" id="uae">
-            <img src={uae} alt="Battery replacement in dubai uae" id="uae" />
-          </a>
-        </div>
 
         <div className="container-fluid nav1 pt-2">
           <div className="flex-container"></div>{" "}
