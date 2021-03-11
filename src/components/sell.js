@@ -106,14 +106,6 @@ export default class sell extends Component {
             style={{ paddingLeft: "10px" }}
           >
             DEAL WITH TRUST
-            <div className="d-flex p-2 pt-3">
-              <a class="btn btn-primary p-2" href="/" role="button">
-                Buy for Wholesale
-              </a>
-              <a class="btn btn-primary p-2" href="/" role="button">
-                Buy for Retailsale
-              </a>
-            </div>
           </div>
         </div>
         <div className="container">

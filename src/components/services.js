@@ -17,14 +17,6 @@ export default class services extends Component {
 
           <div className="header-txt display-4" style={{ paddingLeft: "10px" }}>
             Replace Your Car Battery as it wears off
-            <div className="d-flex p-2 pt-3">
-              <a class="btn btn-primary p-2" href="/" role="button">
-                Buy for Wholesale
-              </a>
-              <a class="btn btn-primary p-2" href="/" role="button">
-                Buy for Retailsale
-              </a>
-            </div>
           </div>
         </div>
         <div className="container pt-5 text-center">

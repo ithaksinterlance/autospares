@@ -128,14 +128,6 @@ export default class Home extends Component {
             style={{ paddingLeft: "10px" }}
           >
             BATTERY REPLACEMENT SERVICE AT DUBAI AND SHARJAH
-            <div className="d-flex p-2 pt-3">
-              <Link to="/sell" class="btn btn-primary p-2" role="button">
-                Buy for Wholesale
-              </Link>
-              <Link to="/sell" class="btn btn-primary p-2" role="button">
-                Buy for Retail
-              </Link>
-            </div>
           </div>
         </div>
         <div class="container-fluid">
