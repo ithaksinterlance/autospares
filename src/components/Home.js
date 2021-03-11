@@ -130,12 +130,12 @@ export default class Home extends Component {
           >
             BATTERY REPLACEMENT SERVICE AT DUBAI AND SHARJAH
             <div className="d-flex p-2 pt-3">
-              <a class="btn btn-primary p-2" href="/sell" role="button">
+              <Link to="/sell" class="btn btn-primary p-2" role="button">
                 Buy for Wholesale
-              </a>
-              <a class="btn btn-primary p-2" href="/sell" role="button">
-                Buy for Retailsale
-              </a>
+              </Link>
+              <Link to="/sell" class="btn btn-primary p-2" role="button">
+                Buy for Retail
+              </Link>
             </div>
           </div>
         </div>
@@ -519,9 +519,11 @@ export default class Home extends Component {
         </div>
 
         <div className="d-flex justify-content-center">
-          <button type="button" class="btn btn-primary btn-lg">
-            Sell with Us {">>"}
-          </button>
+          <Link to="/sell">
+            <button type="button" class="btn btn-primary btn-lg">
+              Sell with Us {">>"}
+            </button>
+          </Link>
         </div>
         <Footer />
       </div>

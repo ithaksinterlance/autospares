@@ -94,21 +94,16 @@ export default class Varta extends Component {
                 </nav>
                 <div class="tab-content" id="nav-tabContent">
                   <div
-                    class="tab-pane fade show active"
+                    class="tab-pane active"
                     id="nav-home"
                     role="tabpanel"
                     aria-labelledby="nav-home-tab"
                   >
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum
+                    VARTA Primary Batteries provide the optimal energy solution
+                    for all your devices of daily use, from toys to digital
+                    cameras to remote controls and many more. To suit every type
+                    of energy consumption we developed the VARTA LONGLIFE
+                    Primary range.
                   </div>
                   <div
                     class="tab-pane fade"
@@ -116,16 +111,11 @@ export default class Varta extends Component {
                     role="tabpanel"
                     aria-labelledby="nav-profile-tab"
                   >
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum
+                    PowerFrame grid technology is designed to minimize the
+                    corrosion that leads to battery failure, allowing for you
+                    and your vehicle to continue moving. The positive grid is
+                    what provides the energy to start your car. It's a critical
+                    component of your battery, start after start
                   </div>
                 </div>
               </div>

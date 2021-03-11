@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import WA from "../img/wabattery.png";
+import uae from "../img/uae.png";
 
 export default class Navbar extends Component {
   render() {
@@ -9,6 +10,11 @@ export default class Navbar extends Component {
         <div>
           <a href="/" id="menu">
             <img src={WA} alt="whatsapp" id="menu" />
+          </a>
+        </div>
+        <div>
+          <a href="/" id="uae">
+            <img src={uae} alt="Battery replacement in dubai uae" id="uae" />
           </a>
         </div>
 

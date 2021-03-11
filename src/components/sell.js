@@ -4,13 +4,39 @@ import Navbar from "./Navbar";
 import World from "../img/haks.jpg";
 import CarBattery from "../img/sell.jpg";
 import Swal from "sweetalert2";
+import anime from "animejs";
 
 export default class sell extends Component {
   constructor(props) {
     super(props);
     this.submit = this.submit.bind(this);
   }
+  animate() {
+    var textWrapper = document.querySelector(".ml");
+    textWrapper.innerHTML = textWrapper.textContent.replace(
+      /\S/g,
+      "<span class='letter'>$&</span>"
+    );
 
+    anime
+      .timeline({ loop: true })
+      .add({
+        targets: ".ml .letter",
+        scale: [4, 1],
+        opacity: [0, 1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 950,
+        delay: (el, i) => 70 * i,
+      })
+      .add({
+        targets: ".ml",
+        opacity: 0,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000,
+      });
+  }
   submit() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
@@ -88,6 +114,13 @@ export default class sell extends Component {
                 Buy for Retailsale
               </a>
             </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row d-flex justify-content-center">
+            <h1 className="ml">
+              Become a partner with us. We can bring customers to you.
+            </h1>
           </div>
         </div>
         <div className="container py-5 div-bg">

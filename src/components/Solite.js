@@ -94,21 +94,16 @@ export default class Solite extends Component {
                 </nav>
                 <div class="tab-content" id="nav-tabContent">
                   <div
-                    class="tab-pane fade show active"
+                    class="tab-pane active"
                     id="nav-home"
                     role="tabpanel"
                     aria-labelledby="nav-home-tab"
                   >
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum
+                    Solite is a very common brand in the UAE due to its
+                    ruggedness and ability to withstand all weather conditions
+                    as they come. Solite has proven to be a reliable car battery
+                    over the years, it has a very high rating and numerous
+                    positive reviews from previously purchased units.
                   </div>
                   <div
                     class="tab-pane fade"
@@ -116,16 +111,10 @@ export default class Solite extends Component {
                     role="tabpanel"
                     aria-labelledby="nav-profile-tab"
                   >
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum
+                    Highest resistance to plate corrosion Longer life of battery
+                    Highest resistance to plate damage Reduce Water Loss by 90%
+                    New Plate Grid Design Improved CCA, AH and Reserve capacity
+                    outputs
                   </div>
                 </div>
               </div>

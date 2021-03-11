@@ -87,6 +87,15 @@ a:active {
   top: 16rem;
   right: 4rem;
 }
+#uae {
+  position: absolute;
+  z-index: 1;
+  top: 5rem;
+  right: 2rem;
+  height: 40px;
+  width: 70px;
+  opacity: 0.7;
+}
 .paragraph {
   font-family: "Pacifico One", sans-serif;
   color: #2e8b57;
@@ -220,6 +229,15 @@ footer {
 .text-danger {
   font-size: 12px;
 }
+.ml {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml .letter {
+  display: inline-block;
+  line-height: 1em;
+}
 
 @media (max-width: 992px) {
   .form-phone {
@@ -286,6 +304,9 @@ footer {
   }
   .top-right {
     display: none;
+  }
+  #uae {
+    right: 10px;
   }
   .green {
     position: absolute;
