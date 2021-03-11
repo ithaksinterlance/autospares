@@ -21,8 +21,7 @@ export default class Navbar extends Component {
 
             <p className="nav1 mr-0">
               <a href="tel:971551478994" style={{ color: "black" }}>
-                <i class="fa fa-phone" aria-hidden="true"></i>Call +971551478994
-                or
+                <i class="fa fa-phone" aria-hidden="true"></i>Call now or
               </a>
             </p>
             <p className="nav1">
