@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import SoliteBattery from "../img/product4.png";
-import Amaron from "../img/product1.jpg";
-import Varta from "../img/product2.jpg";
-import Acdelco from "../img/product3.jpg";
+import SoliteBattery from "../img/product4.webp";
+import Amaron from "../img/product1.webp";
+import Varta from "../img/product2.webp";
+import Acdelco from "../img/product3.webp";
 import { Link } from "react-router-dom";
 
 export default class Solite extends Component {

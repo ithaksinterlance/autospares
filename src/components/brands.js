@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import Battery1 from "../img/product1.jpg";
-import Battery2 from "../img/product2.jpg";
-import Battery3 from "../img/product3.jpg";
-import Battery4 from "../img/product4.png";
+import Battery1 from "../img/product1.webp";
+import Battery2 from "../img/product2.webp";
+import Battery3 from "../img/product3.webp";
+import Battery4 from "../img/product4.webp";
 
 export default class brands extends Component {
   render() {
@@ -18,8 +18,8 @@ export default class brands extends Component {
                 <img src={Battery1} alt="car battery replacement in dubai" />
                 <div class="card-body">
                   <h5 class="card-title">ACDELCO</h5>
-                  <a href="/" class="btn btn-danger btn-lg">
-                    BUY NOW {">>"}
+                  <a href="tel:971551478994" class="btn btn-danger btn-lg">
+                    CALL NOW {">>"}
                   </a>
                 </div>
               </div>

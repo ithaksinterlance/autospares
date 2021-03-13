@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import AmaronBattery from "../img/product2.jpg";
-import Solite from "../img/product4.png";
-import Varta from "../img/product1.jpg";
-import Acdelco from "../img/product3.jpg";
+import AmaronBattery from "../img/product2.webp";
+import Solite from "../img/product4.webp";
+import Varta from "../img/product1.webp";
+import Acdelco from "../img/product3.webp";
 import { Link } from "react-router-dom";
 
 export default class Amaron extends Component {

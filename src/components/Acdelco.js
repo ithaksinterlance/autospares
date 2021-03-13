@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import AcdelcoBattery from "../img/product1.jpg";
-import Amaron from "../img/product3.jpg";
-import Solite from "../img/product2.jpg";
-import Varta from "../img/product4.png";
+import AcdelcoBattery from "../img/product1.webp";
+import Amaron from "../img/product3.webp";
+import Solite from "../img/product2.webp";
+import Varta from "../img/product4.webp";
 import { Link } from "react-router-dom";
 
 export default class Acdelco extends Component {
