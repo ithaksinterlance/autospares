@@ -116,7 +116,10 @@ export default class Home extends Component {
             alt="battery replacement"
             className="img-fluid header-img"
           />
-          <a href="https://api.whatsapp.com/send?phone=971551478994?text='Hello! I need price details'">
+          <a
+            href="https://api.whatsapp.com/send?phone=971551478994?text='Hello! I need price details'"
+            title="car battery replacement"
+          >
             <img
               src={Green}
               alt="battery replacement"
@@ -134,7 +137,7 @@ export default class Home extends Component {
           <div class="row padding d-flex justify-content-center">
             <div class="col-md-3 top-right flex-end pt-4">
               <iframe
-                title="form"
+                title="car battery replacement uae"
                 name="hidden_iframe"
                 id="hidden_iframe"
                 style={{ display: "none" }}
@@ -451,7 +454,7 @@ export default class Home extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-3 col-xs-6">
-              <Link to="/acedelco">
+              <Link to="/acedelco" title="acdelco battery replacement">
                 <img
                   src={Prod1}
                   alt="battery replacement"
@@ -463,8 +466,8 @@ export default class Home extends Component {
               </Link>
             </div>
             <div className="col-md-3 col-xs-6">
-              <Link to="/amaron">
-                <a href="/">
+              <Link to="/amaron" title="amaron battery replacement">
+                <a href="/" title="car battery replacement">
                   <img
                     src={Prod2}
                     alt="battery replacement"
@@ -477,7 +480,7 @@ export default class Home extends Component {
               </Link>
             </div>
             <div className="col-md-3 col-xs-6">
-              <Link to="/varta">
+              <Link to="/varta" title="varta battery replacement">
                 <a href="/">
                   <img
                     src={Prod3}
@@ -491,7 +494,7 @@ export default class Home extends Component {
               </Link>
             </div>
             <div className="col-md-3 col-xs-6">
-              <Link to="/solite">
+              <Link to="/solite" title="solite battery replacement">
                 <img
                   src={Prod4}
                   alt="battery replacement"
@@ -506,7 +509,7 @@ export default class Home extends Component {
         </div>
 
         <div className="d-flex justify-content-center">
-          <Link to="/sell">
+          <Link to="/sell" title="sell with us">
             <button type="button" class="btn btn-primary btn-lg">
               Sell with Us {">>"}
             </button>

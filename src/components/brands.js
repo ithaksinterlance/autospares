@@ -18,7 +18,11 @@ export default class brands extends Component {
                 <img src={Battery1} alt="car battery replacement in dubai" />
                 <div class="card-body">
                   <h5 class="card-title">ACDELCO</h5>
-                  <a href="tel:971551478994" class="btn btn-danger btn-lg">
+                  <a
+                    href="tel:971551478994"
+                    class="btn btn-danger btn-lg"
+                    title="car battery replacement"
+                  >
                     CALL NOW {">>"}
                   </a>
                 </div>
@@ -30,7 +34,11 @@ export default class brands extends Component {
                 <div class="card-body">
                   <h5 class="card-title">AMARON</h5>
 
-                  <a href="tel:971551478994" class="btn btn-danger btn-lg">
+                  <a
+                    href="tel:971551478994"
+                    class="btn btn-danger btn-lg"
+                    title="car battery replacement"
+                  >
                     CALL NOW {">>"}
                   </a>
                 </div>
@@ -42,7 +50,11 @@ export default class brands extends Component {
                 <div class="card-body">
                   <h5 class="card-title">VARTA</h5>
 
-                  <a href="tel:971551478994" class="btn btn-danger btn-lg">
+                  <a
+                    href="tel:971551478994"
+                    class="btn btn-danger btn-lg"
+                    title="car battery replacement"
+                  >
                     CALL NOW {">>"}
                   </a>
                 </div>
@@ -54,7 +66,11 @@ export default class brands extends Component {
                 <div class="card-body">
                   <h5 class="card-title">SOLITE</h5>
 
-                  <a href="tel:971551478994" class="btn btn-danger btn-lg">
+                  <a
+                    href="tel:971551478994"
+                    class="btn btn-danger btn-lg"
+                    title="car battery replacement"
+                  >
                     CALL NOW {">>"}
                   </a>
                 </div>
