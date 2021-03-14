@@ -8,7 +8,7 @@ export default class Navbar extends Component {
       <div>
         <div>
           <a href="https://api.whatsapp.com/send?phone=971551478994" id="menu">
-            <img src={WA} alt="whatsapp" id="menu" />
+            <img src={WA} alt="battery replacement in dubai" id="menu" />
           </a>
         </div>
 

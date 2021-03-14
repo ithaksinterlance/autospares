@@ -124,7 +124,7 @@ export default class Acdelco extends Component {
                 <Link to="/amaron">
                   <img
                     src={Solite}
-                    alt="amaron Battery replacement in dubai"
+                    alt="amaron Automotive car battery"
                     className="img-fluid spanbattery"
                   />
                 </Link>
@@ -134,7 +134,7 @@ export default class Acdelco extends Component {
                 <Link to="/solite">
                   <img
                     src={Varta}
-                    alt="amaron Battery replacement in dubai"
+                    alt="amaron car Battery replacement in dubai"
                     className="img-fluid spanbattery"
                   />
                 </Link>
@@ -143,7 +143,7 @@ export default class Acdelco extends Component {
                 <Link to="/varta">
                   <img
                     src={Amaron}
-                    alt="Solite Battery replacement in dubai"
+                    alt="Solite car Battery replacement in dubai"
                     className="img-fluid spanbattery"
                   />
                 </Link>

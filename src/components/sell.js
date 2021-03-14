@@ -96,7 +96,7 @@ export default class sell extends Component {
               <div className="row">
                 <div className="col-md-8 col-sm-12 col-lg-4 col-xs-12">
                   <iframe
-                    title="form"
+                    title="Automotive battery"
                     name="hidden_iframe"
                     id="hidden_iframe"
                     style={{ display: "none" }}
@@ -245,7 +245,7 @@ export default class sell extends Component {
             </div>
           </div>
           <div className="col-md-6 col-xs-12 col-sm-6 my-5">
-            <img src={World} alt="battery replacement" className="img-fluid" />
+            <img src={World} alt="automotive battery replacement" className="img-fluid" />
           </div>
         </div>
         <Footer />

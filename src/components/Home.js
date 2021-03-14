@@ -127,7 +127,7 @@ export default class Home extends Component {
             className="header-text display-4"
             style={{ paddingLeft: "10px" }}
           >
-            BATTERY REPLACEMENT SERVICE AT DUBAI AND SHARJAH
+            CAR BATTERY REPLACEMENT SERVICE AT DUBAI AND SHARJAH
           </div>
         </div>
         <div class="container-fluid">
