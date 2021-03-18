@@ -20,7 +20,7 @@ export default class Amaron extends Component {
             <div className="col-md-5">
               <img
                 src={AmaronBattery}
-                alt="Amaron"
+                alt="amaron battery"
                 class="img-fluid batteryProd"
               />
               <smal className="small d-flex justify-content-end">
@@ -136,7 +136,7 @@ export default class Amaron extends Component {
                 <Link to="/acdelco">
                   <img
                     src={Varta}
-                    alt="amaron Battery replacement in dubai"
+                    alt="varta battery"
                     className="img-fluid spanbattery"
                   />
                 </Link>
@@ -145,7 +145,7 @@ export default class Amaron extends Component {
                 <Link to="/varta">
                   <img
                     src={Acdelco}
-                    alt="amaron Battery replacement in dubai"
+                    alt="acdelco battery"
                     className="img-fluid spanbattery"
                   />
                 </Link>

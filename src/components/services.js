@@ -11,7 +11,7 @@ export default class services extends Component {
         <div className="container-fluid header-text1 px-0">
           <img
             src={CarBattery}
-            alt="battery replacement"
+            alt="car battery"
             className="img-fluid header-img"
           />
 

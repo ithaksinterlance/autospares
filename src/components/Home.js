@@ -413,7 +413,7 @@ export default class Home extends Component {
               <div className="col-md-6">
                 <img
                   src={MJ}
-                  alt="battery replacement"
+                  alt="car battery"
                   className="img-fluid warranty"
                 />
               </div>
@@ -454,7 +454,7 @@ export default class Home extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-3 col-xs-6">
-              <Link to="/acedelco" title="acdelco battery replacement">
+              <Link to="/acedelco" title="car battery near me">
                 <img
                   src={Prod1}
                   alt="battery replacement"
@@ -466,7 +466,7 @@ export default class Home extends Component {
               </Link>
             </div>
             <div className="col-md-3 col-xs-6">
-              <Link to="/amaron" title="amaron battery replacement">
+              <Link to="/amaron" title="car battery near me">
                 <a href="/" title="car battery replacement">
                   <img
                     src={Prod2}
@@ -480,11 +480,11 @@ export default class Home extends Component {
               </Link>
             </div>
             <div className="col-md-3 col-xs-6">
-              <Link to="/varta" title="varta battery replacement">
+              <Link to="/varta" title="car battery service">
                 <a href="/">
                   <img
                     src={Prod3}
-                    alt="battery replacement"
+                    alt="battery"
                     className="img-fluid battery"
                   />
                   <div className="text-center">
@@ -494,12 +494,8 @@ export default class Home extends Component {
               </Link>
             </div>
             <div className="col-md-3 col-xs-6">
-              <Link to="/solite" title="solite battery replacement">
-                <img
-                  src={Prod4}
-                  alt="battery replacement"
-                  className="img-fluid battery"
-                />
+              <Link to="/solite" title="solite battery">
+                <img src={Prod4} alt="battery" className="img-fluid battery" />
                 <div className="text-center">
                   <p className="paragraph">Read {">>"}</p>
                 </div>
