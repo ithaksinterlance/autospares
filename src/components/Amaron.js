@@ -61,7 +61,11 @@ export default class Amaron extends Component {
                 <p className="smal">
                   <span class="label label-success">In Stock</span>
                 </p>
-                <button type="button" class="btn  btn-success btn-lg">
+                <button
+                  type="button"
+                  href="https://api.whatsapp.com/send?text=Please let me know the Price of Amaron battery for my car"
+                  class="btn  btn-success btn-lg"
+                >
                   ORDER NOW
                 </button>
               </div>
@@ -101,11 +105,9 @@ export default class Amaron extends Component {
                     role="tabpanel"
                     aria-labelledby="nav-home-tab"
                   >
-                    The Amara Raja Group is known for its automotive battery
-                    brand Amaron, the second largest selling automotive battery
-                    brand in India after Exide Industries.Amaron is the only
-                    battery that contains the patented Silven X alloy. And
-                    that's what gives it the power to last long, really long.
+                    Amaron is the only battery that contains the patented Silven
+                    X alloy. And that's what gives it the power to last long,
+                    really long.
                   </div>
                   <div
                     class="tab-pane fade"

@@ -467,16 +467,14 @@ export default class Home extends Component {
             </div>
             <div className="col-md-3 col-xs-6">
               <Link to="/amaron" title="car battery near me">
-                <a href="/" title="car battery replacement">
-                  <img
-                    src={Prod2}
-                    alt="battery replacement"
-                    className="img-fluid battery"
-                  />
-                  <div className="text-center">
-                    <p className="paragraph">Read {">>"}</p>
-                  </div>
-                </a>
+                <img
+                  src={Prod2}
+                  alt="battery replacement"
+                  className="img-fluid battery"
+                />
+                <div className="text-center">
+                  <p className="paragraph">Read {">>"}</p>
+                </div>
               </Link>
             </div>
             <div className="col-md-3 col-xs-6">
