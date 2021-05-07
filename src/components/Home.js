@@ -10,6 +10,7 @@ import Road from "../img/road.webp";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
+import { Helmet } from "react-helmet";
 
 export default class Home extends Component {
   submit() {
@@ -110,6 +111,23 @@ export default class Home extends Component {
     return (
       <div>
         <Navbar />
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Car Battery replacement</title>
+          <meta
+            name="title"
+            content="Car Battery replacement | Dubai & Sharjah"
+          />
+          <meta
+            name="description"
+            content="Car Battery Replacement | Replace your car battery at anytime at Dubai and Sharjah. We offer the best battery replacement service"
+          />
+          <meta
+            name="keywords"
+            content="battery, car battery, battery replacement dubai, battery replacement near me, car battery replacement near me, car battery replacement in dubai, car battery replacement in sharjah,car battery replacement dubai, car battery replacement sharjah, car battery replacement service dubai"
+          />
+          <link rel="canonical" href="https://autobatteries.hakstime.com/" />
+        </Helmet>
         <div className="container-fluid header-text1 px-0">
           <img
             src={Road}

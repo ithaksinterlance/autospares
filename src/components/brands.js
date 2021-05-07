@@ -5,12 +5,30 @@ import Battery1 from "../img/product1.webp";
 import Battery2 from "../img/product2.webp";
 import Battery3 from "../img/product3.webp";
 import Battery4 from "../img/product4.webp";
+import { Helmet } from "react-helmet";
 
 export default class brands extends Component {
   render() {
     return (
       <div>
         <Navbar />
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Car Battery replacement</title>
+          <meta
+            name="title"
+            content="Car Battery replacement DUBAI| Replace your car battery at anytime at Dubai and Sharjah. We offer the best battery replacement service"
+          />
+          <meta
+            name="description"
+            content="Replace your car battery at anytime at Dubai and Sharjah. We offer the best battery replacement service"
+          />
+          <meta
+            name="keywords"
+            content="battery, car battery, battery replacement dubai, battery replacement near me, car battery replacement near me, car battery replacement in dubai, car battery replacement in sharjah,car battery replacement dubai, car battery replacement sharjah, car battery replacement service dubai"
+          />
+          <link rel="canonical" href="https://autobatteries.hakstime.com/" />
+        </Helmet>
         <div className="container pt-5 pb-5">
           <div className="row">
             <div className="col-md-3 col-sm-6 col-xs-12 pt-3">

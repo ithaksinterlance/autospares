@@ -9,6 +9,7 @@ import Brands from "./brands";
 import Services from "./services";
 import Sell from "./sell";
 import Sold from "./sold";
+import test from "./Blog1";
 
 const Main = () => (
   <Switch>
@@ -21,6 +22,7 @@ const Main = () => (
     <Route exact path="/services" component={Services} />
     <Route exact path="/sell" component={Sell} />
     <Route exact path="/sold" component={Sold} />
+    <Route exact path="/test" component={test} />
   </Switch>
 );
 
