@@ -19,9 +19,9 @@ const Main = () => (
     <Route exact path="/varta" component={Varta} />
     <Route exact path="/acdelco" component={Acdelco} />
     <Route exact path="/amaron" component={Amaron} />
-    <Route exact path="/brands" component={Brands} />
-    <Route exact path="/services" component={Services} />
-    <Route exact path="/sell" component={Sell} />
+    <Route exact path="/car-battery-brands" component={Brands} />
+    <Route exact path="/car-battery-replacement" component={Services} />
+    <Route exact path="/become-a-partner" component={Sell} />
     <Route exact path="/sold" component={Sold} />
     <Route exact path="/test" component={test} />
     <Route exact path="/contact" component={contact} />

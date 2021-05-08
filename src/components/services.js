@@ -22,9 +22,8 @@ export default class services extends Component {
         <div className="container pt-5 text-center">
           <h2 className="nav1">
             <i class="fa fa-quote-left" aria-hidden="true"></i>
-            We provide Car battery Replacement services at ANYWHERE ANYTIME.
-            Only at Dubai and Sharjarh.{" "}
-            <i class="fa fa-quote-right" aria-hidden="true"></i>
+            We provide Car battery Replacement services ANYTIME at Dubai and
+            Sharjarh. <i class="fa fa-quote-right" aria-hidden="true"></i>
           </h2>
         </div>
         <div className="container pt-5 text-center">

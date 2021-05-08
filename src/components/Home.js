@@ -190,7 +190,7 @@ export default class Home extends Component {
                 </div>
                 <div class="form-group">
                   <small id="CarBatteryModel" class="form-text text-muted">
-                    <i class="fas fa-car-battery    "></i> Car Brand Model Trim
+                    <i class="fas fa-car-battery"></i> Car Brand Model Trim
                   </small>
                   <input
                     type="text"

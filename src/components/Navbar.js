@@ -77,21 +77,21 @@ export default class Navbar extends Component {
               </Link>
             </div>
             <div class="col-xs-2 text-center pt-3">
-              <Link to="/services">
+              <Link to="/car-battery-replacement">
                 <i class="fas fa-2x fa-screwdriver"></i>
                 <br />
                 <p className="fontSize text-center">SERVICE</p>
               </Link>
             </div>
             <div class="col-xs-2 text-center pt-3">
-              <Link to="/sell">
+              <Link to="/become-a-partner">
                 <i class="fas fa-plus-circle fa-2x"></i>
                 <br />
                 <p className="fontSize text-center">SELL</p>
               </Link>
             </div>
             <div class="col-xs-2 text-center pt-3">
-              <Link to="/brands">
+              <Link to="/car-battery-brands">
                 <i class="fas fa-car-battery fa-2x"></i>
                 <br />
                 <p className="fontSize text-center">BRANDS</p>
@@ -142,19 +142,19 @@ export default class Navbar extends Component {
                 </li>
 
                 <li className="nav-item">
-                  <Link to="/brands" className="nav-link">
+                  <Link to="/car-battery-brands" className="nav-link">
                     Our Brands
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link to="/services" className="nav-link">
+                  <Link to="/car-battery-replacement" className="nav-link">
                     Our Services
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/sell" className="nav-link">
-                    د.إ Sell with Our leads
+                  <Link to="/become-a-partner" className="nav-link">
+                    د.إ Become a partner
                   </Link>
                 </li>
                 <li className="nav-item">

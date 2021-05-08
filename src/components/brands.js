@@ -6,6 +6,7 @@ import Battery2 from "../img/product2.webp";
 import Battery3 from "../img/product3.webp";
 import Battery4 from "../img/product4.webp";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 export default class brands extends Component {
   render() {
@@ -43,6 +44,11 @@ export default class brands extends Component {
                   >
                     CALL NOW {">>"}
                   </a>
+                  <Link to="/acdelco" title="car battery near me">
+                    <div className="text-center">
+                      <p className="paragraph">Read {">>"}</p>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -59,6 +65,11 @@ export default class brands extends Component {
                   >
                     CALL NOW {">>"}
                   </a>
+                  <Link to="/amaron" title="car battery replacement dubai">
+                    <div className="text-center">
+                      <p className="paragraph">Read {">>"}</p>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -75,6 +86,11 @@ export default class brands extends Component {
                   >
                     CALL NOW {">>"}
                   </a>
+                  <Link to="/varta" title="car battery near me">
+                    <div className="text-center">
+                      <p className="paragraph">Read {">>"}</p>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -91,6 +107,11 @@ export default class brands extends Component {
                   >
                     CALL NOW {">>"}
                   </a>
+                  <Link to="/solite" title="car battery near me">
+                    <div className="text-center">
+                      <p className="paragraph">Read {">>"}</p>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
