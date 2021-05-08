@@ -11,7 +11,7 @@ export default class sell extends Component {
     super(props);
     this.submit = this.submit.bind(this);
   }
-  
+
   submit() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
@@ -90,11 +90,14 @@ export default class sell extends Component {
             </h1>
           </div>
         </div>
-        <div className="container py-5 div-bg">
+        <div className="container div-bg">
           <div className="col-md-6 col-xs-12 col-sm-6">
             <div className="container py-4 ">
               <div className="row">
                 <div className="col-md-8 col-sm-12 col-lg-4 col-xs-12">
+                  <div className="container">
+                    <h2 className="heading">Send Inquiries</h2>
+                  </div>
                   <iframe
                     title="Automotive battery"
                     name="hidden_iframe"
@@ -241,14 +244,20 @@ export default class sell extends Component {
                     </button>
                   </form>
                 </div>
+                <div className="col-md-6 col-xs-12 col-sm-6 my-5">
+                  <img
+                    src={World}
+                    alt="automotive battery replacement"
+                    className="img-fluid"
+                  />
+                </div>
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-xs-12 col-sm-6 my-5">
-            <img src={World} alt="automotive battery replacement" className="img-fluid" />
-          </div>
         </div>
-        <Footer />
+        <div className="pt-3">
+          <Footer />
+        </div>
       </div>
     );
   }

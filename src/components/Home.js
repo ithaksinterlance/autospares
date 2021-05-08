@@ -472,7 +472,7 @@ export default class Home extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-3 col-xs-6">
-              <Link to="/acedelco" title="car battery near me">
+              <Link to="/acdelco" title="car battery near me">
                 <img
                   src={Prod1}
                   alt="battery replacement"

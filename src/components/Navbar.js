@@ -136,10 +136,8 @@ export default class Navbar extends Component {
             <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
               <ul className="container navbar-nav justify-content-between">
                 <li className="nav-item">
-                  <Link to="/">
-                    <a className="nav-link" href="/">
-                      Home
-                    </a>
+                  <Link to="/" className="nav-link">
+                    Home
                   </Link>
                 </li>
 
@@ -150,17 +148,18 @@ export default class Navbar extends Component {
                 </li>
 
                 <li className="nav-item">
-                  <Link to="/services">
-                    <a className="nav-link" href="/">
-                      Our Services
-                    </a>
+                  <Link to="/services" className="nav-link">
+                    Our Services
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/sell">
-                    <a className="nav-link" href="/">
-                      د.إ Sell with Our leads
-                    </a>
+                  <Link to="/sell" className="nav-link">
+                    د.إ Sell with Our leads
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/contact" className="nav-link">
+                    Contact Us
                   </Link>
                 </li>
               </ul>

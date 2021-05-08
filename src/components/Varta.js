@@ -61,9 +61,11 @@ export default class Varta extends Component {
                 <p className="smal">
                   <span class="label label-success">In Stock</span>
                 </p>
-                <button type="button" class="btn  btn-success btn-lg">
-                  ORDER NOW
-                </button>
+                <Link to="/contact" rel="noopener noreferrer" target="_newtab">
+                  <button type="button" class="btn  btn-success btn-lg">
+                    ORDER NOW
+                  </button>
+                </Link>
               </div>
               <div className="col-md-12 pt-4">
                 <nav>

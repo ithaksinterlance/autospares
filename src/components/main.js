@@ -10,6 +10,7 @@ import Services from "./services";
 import Sell from "./sell";
 import Sold from "./sold";
 import test from "./Blog1";
+import contact from "./Contact";
 
 const Main = () => (
   <Switch>
@@ -23,6 +24,7 @@ const Main = () => (
     <Route exact path="/sell" component={Sell} />
     <Route exact path="/sold" component={Sold} />
     <Route exact path="/test" component={test} />
+    <Route exact path="/contact" component={contact} />
   </Switch>
 );
 
