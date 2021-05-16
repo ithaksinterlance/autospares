@@ -12,7 +12,10 @@ import Sold from "./sold";
 import test from "./Blog1";
 import contact from "./Contact";
 import How_to_maintain_your_car_battery from "./Blog1";
-import How_to_know_if_your_car_battery_is_dying from "./Blog2.js";
+import How_to_know_if_your_car_battery_is_dying from "./Blog2";
+import Tip_to_sanitize_your_car_during_covid_19 from "./Blog3";
+import All_you_need_to_know_about_car_battery from "./Blog4";
+import Top_4_battery_for_your_car from "./Blog5";
 
 const Main = () => (
   <Switch>
@@ -29,7 +32,7 @@ const Main = () => (
     <Route exact path="/contact" component={contact} />
     <Route
       exact
-      path="/How_to_maintain_your_car_battery"
+      path="/blog/How_to_maintain_your_car_battery"
       component={How_to_maintain_your_car_battery}
     />
   </Switch>
