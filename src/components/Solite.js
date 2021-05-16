@@ -6,11 +6,23 @@ import Amaron from "../img/product1.webp";
 import Varta from "../img/product2.webp";
 import Acdelco from "../img/product3.webp";
 import { Link } from "react-router-dom";
+import MetaTags from "react-meta-tags";
 
 export default class Solite extends Component {
   render() {
     return (
       <div>
+        <MetaTags>
+          <title>Autobatteries |Solite battery replacement</title>
+          <meta
+            name="title"
+            content="Autobatteries |Solite battery replacement"
+          />
+          <meta
+            name="description"
+            content="Solite battery replacement |Solite car battery - best price - onsite battery replacement - Solite battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
+          />
+        </MetaTags>
         <Navbar />
         <div className="container battery display-4 text-center py-4">
           SOLITE BATTERY

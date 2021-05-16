@@ -6,11 +6,23 @@ import Amaron from "../img/product1.webp";
 import Solite from "../img/product2.webp";
 import Acdelco from "../img/product4.webp";
 import { Link } from "react-router-dom";
+import MetaTags from "react-meta-tags";
 
 export default class Varta extends Component {
   render() {
     return (
       <div>
+        <MetaTags>
+          <title>Autobatteries |Varta battery replacement</title>
+          <meta
+            name="title"
+            content="Autobatteries |Varta battery replacement"
+          />
+          <meta
+            name="description"
+            content="Varta battery replacement |Varta car battery - best price - onsite battery replacement - Varta battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
+          />
+        </MetaTags>
         <Navbar />
         <div className="container battery display-4 text-center py-4">
           VARTA BATTERY

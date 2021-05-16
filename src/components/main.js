@@ -11,6 +11,8 @@ import Sell from "./sell";
 import Sold from "./sold";
 import test from "./Blog1";
 import contact from "./Contact";
+import How_to_maintain_your_car_battery from "./Blog1";
+import How_to_know_if_your_car_battery_is_dying from "./Blog2.js";
 
 const Main = () => (
   <Switch>
@@ -25,6 +27,11 @@ const Main = () => (
     <Route exact path="/sold" component={Sold} />
     <Route exact path="/test" component={test} />
     <Route exact path="/contact" component={contact} />
+    <Route
+      exact
+      path="/How_to_maintain_your_car_battery"
+      component={How_to_maintain_your_car_battery}
+    />
   </Switch>
 );
 

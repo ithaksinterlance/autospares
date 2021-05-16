@@ -6,11 +6,23 @@ import Amaron from "../img/product3.webp";
 import Solite from "../img/product2.webp";
 import Varta from "../img/product4.webp";
 import { Link } from "react-router-dom";
+import MetaTags from "react-meta-tags";
 
 export default class Acdelco extends Component {
   render() {
     return (
       <div>
+        <MetaTags>
+          <title>Autobatteries |Acdelco battery replacement</title>
+          <meta
+            name="title"
+            content="Autobatteries |Acdelco battery replacement"
+          />
+          <meta
+            name="description"
+            content="Acdelco battery replacement |Acdelco car battery - best price - onsite battery replacement - Acdelco battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
+          />
+        </MetaTags>
         <Navbar />
         <div className="container battery display-4 text-center py-4">
           ACDELCO BATTERY

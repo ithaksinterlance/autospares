@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 
-export default class Blog2 extends Component {
+class Blog5 extends Component {
   render() {
     return (
       <div>
-        <h1>How to know if your car battery is dying</h1>
+        <h1>Top 4 battery for your car</h1>
       </div>
     );
   }
 }
+
+export default Blog5;

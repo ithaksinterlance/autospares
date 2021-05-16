@@ -6,39 +6,23 @@ import Solite from "../img/product4.webp";
 import Varta from "../img/product1.webp";
 import Acdelco from "../img/product3.webp";
 import { Link } from "react-router-dom";
-import axios from "axios";
-import cherrio from "cheerio";
+import MetaTags from "react-meta-tags";
 
 export default class Amaron extends Component {
   render() {
-    async function getHTML(productURL) {
-      const { data: html } = await axios
-        .get(productURL, {
-          headers: {
-            "User-Agent":
-              "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36",
-          },
-        })
-        .catch(function(error) {
-          console.log(error);
-        });
-      return html;
-    }
-    async function getAmazonPrice(html) {
-      const $ = cherrio.load(html);
-
-      const span = $("#priceblock_dealprice");
-
-      return span.html();
-    }
-    async function getAmazonModel(html) {
-      const $ = cherrio.load(html);
-
-      const span = $("#productTitle");
-      return span.html();
-    }
     return (
       <div>
+        <MetaTags>
+          <title>Autobatteries |Amaron battery replacement</title>
+          <meta
+            name="title"
+            content="Autobatteries |Acdelco battery replacement"
+          />
+          <meta
+            name="description"
+            content="Amaron battery replacement |Amaron car battery - best price - onsite battery replacement - Amaron battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
+          />
+        </MetaTags>
         <Navbar />
 
         <div className="container battery display-4 text-center py-4">

@@ -1,115 +1,19 @@
-import React, { Component } from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import puppeteer from "puppeteer";
+const puppeteer = require("puppeteer");
 
-export default class amazonscraper extends Component {
-  render() {
-    puppeteer
-      .launch({
-        headless: true,
-        args: [
-          "--no-sandbox",
-          "--disable-setuid-sandbox",
-          "--window-size=1920,1080",
-          '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3312.0 Safari/537.36"',
-        ],
-      })
-      .then(async (browser) => {
-        const page = await browser.newPage();
-        await page.goto(
-          "https://www.amazon.com/Apple-iPhone-XR-Fully-Unlocked/dp/B07P6Y7954"
-        );
-        await page.waitForSelector("body");
+async function scrapeProducts(url) {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  page.goto(url);
 
-        var productInfo = await page.evaluate(() => {
-          /* Get product title */
-          let title = document.body.querySelector("#productTitle").innerText;
+  const [el] = await page.$x(
+    '//*[@id="customer_review-R8M7RNLG11XVL"]/div[4]/span/div/div[1]/span'
+  );
+  const src = await el.getProperty("text");
+  const srcTxt = await src.jsonValue();
 
-          /* Get review count */
-          let reviewCount = document.body.querySelector(
-            "#acrCustomerReviewText"
-          ).innerText;
-          let formattedReviewCount = reviewCount.replace(/[^0-9]/g, "").trim();
-
-          /* Get and format rating */
-          let ratingElement = document.body
-            .querySelector(".a-icon.a-icon-star")
-            .getAttribute("class");
-          let integer = ratingElement.replace(/[^0-9]/g, "").trim();
-          let parsedRating = parseInt(integer) / 10;
-
-          /* Get availability */
-          let availability = document.body.querySelector("#availability")
-            .innerText;
-          let formattedAvailability = availability
-            .replace(/[^0-9]/g, "")
-            .trim();
-
-          /* Get list price */
-          let listPrice = document.body.querySelector(
-            ".priceBlockStrikePriceString"
-          ).innerText;
-
-          /* Get price */
-          let price = document.body.querySelector("#priceblock_ourprice")
-            .innerText;
-
-          /* Get product description */
-          let description = document.body.querySelector(
-            "#renewedProgramDescriptionAtf"
-          ).innerText;
-
-          /* Get product features */
-          let features = document.body.querySelectorAll(
-            "#feature-bullets ul li"
-          );
-          let formattedFeatures = [];
-
-          features.forEach((feature) => {
-            formattedFeatures.push(feature.innerText);
-          });
-
-          /* Get comparable items */
-          let comparableItems = document.body.querySelectorAll(
-            "#HLCXComparisonTable .comparison_table_image_row .a-link-normal"
-          );
-          let formattedComparableItems = [];
-
-          comparableItems.forEach((item) => {
-            formattedComparableItems.push(
-              "https://amazon.com" + item.getAttribute("href")
-            );
-          });
-
-          var product = {
-            title: title,
-            rating: parsedRating,
-            reviewCount: formattedReviewCount,
-            listPrice: listPrice,
-            price: price,
-            availability: formattedAvailability,
-            description: description,
-            features: formattedFeatures,
-            comparableItems: formattedComparableItems,
-          };
-
-          return product;
-        });
-
-        console.log(productInfo);
-        await browser.close();
-      })
-      .catch(function(error) {
-        console.error(error);
-      });
-
-    return (
-      <div>
-        <Navbar />
-
-        <Footer />
-      </div>
-    );
-  }
+  console.log({ srcTxt });
+  browser.close();
 }
+scrapeProducts(
+  "https://www.amazon.in/AMARON-BATTERY-AP-BTZ4L-GREEN-COLOUR/dp/B076V7F9MP/ref=pd_lpo_263_img_1/258-3110007-5964937?_encoding=UTF8&pd_rd_i=B076V7F9MP&pd_rd_r=1b89c667-a368-4a16-8023-c3210ae2f159&pd_rd_w=SsWU3&pd_rd_wg=uibYv&pf_rd_p=6b10875b-45e7-4b58-9b02-21bb75fd5289&pf_rd_r=CYPRQN49H88QVWPF9P7H&psc=1&refRID=CYPRQN49H88QVWPF9P7H"
+);
