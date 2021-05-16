@@ -23,6 +23,10 @@ export default class Solite extends Component {
             name="description"
             content="Solite battery replacement |Solite car battery - best price - onsite battery replacement - Solite battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
           />
+          <meta
+            name="keywords"
+            content="Solite battery, Solite car battery, Solite best price, best car battery price in uae, onsite battery replacement, battery delivery in dubai, battery instalation in dubai, battery delivery in sharjah, battery installation in sharjah, car battery replacement"
+          />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />

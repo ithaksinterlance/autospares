@@ -23,6 +23,10 @@ export default class Varta extends Component {
             name="description"
             content="Varta battery replacement |Varta car battery - best price - onsite battery replacement - Varta battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
           />
+          <meta
+            name="keywords"
+            content="varta battery, varta car battery, varta best price, best car battery price in uae, onsite battery replacement, battery delivery in dubai, battery instalation in dubai, battery delivery in sharjah, battery installation in sharjah, car battery replacement"
+          />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />
