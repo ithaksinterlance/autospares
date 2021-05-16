@@ -14,14 +14,23 @@ export default class Amaron extends Component {
       <div>
         <MetaTags>
           <title>Autobatteries |Amaron battery replacement</title>
+          <meta charset="utf-8" />
           <meta
             name="title"
-            content="Autobatteries |Acdelco battery replacement"
+            content="Autobatteries |Amaron battery replacement"
           />
           <meta
             name="description"
             content="Amaron battery replacement |Amaron car battery - best price - onsite battery replacement - Amaron battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
           />
+          <meta
+            name="keywords"
+            content="Amaron battery, Amaron car battery, Amaron best price, best car battery price in uae, onsite battery replacement, battery delivery in dubai, battery instalation in dubai, battery delivery in sharjah, battery installation in sharjah, car battery replacement"
+          />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="theme-color" content="#000000" />
+          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <meta name="author" content="autobatteries.hakstime.com" />
         </MetaTags>
         <Navbar />
 

@@ -11,6 +11,7 @@ import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import { Helmet } from "react-helmet";
+import MetaTags from "react-meta-tags";
 
 export default class Home extends Component {
   submit() {
@@ -111,23 +112,26 @@ export default class Home extends Component {
     return (
       <div>
         <Navbar />
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Car Battery replacement</title>
+        <MetaTags>
+          <title>Autobatteries |Solite battery replacement</title>
+          <meta charset="utf-8" />
           <meta
             name="title"
             content="Car Battery replacement | Dubai & Sharjah"
           />
           <meta
             name="description"
-            content="Car Battery Replacement | Replace your car battery at anytime at Dubai and Sharjah. We offer the best battery replacement service"
+            content="Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service"
           />
           <meta
             name="keywords"
-            content="battery, car battery, battery replacement dubai, battery replacement near me, car battery replacement near me, car battery replacement in dubai, car battery replacement in sharjah,car battery replacement dubai, car battery replacement sharjah, car battery replacement service dubai"
+            content="battery, car battery replacement dubai, battery replacement near me, car battery replacement near me, mjbattery, dubai car battery replacement, sharjah battery replacement, battery for porsche, battery for audi, battery for chrevlot, battery for kia, battery for ranault, battery for acura, battery for chrysler, battery for dodge, battery for daewoo, battery for ford, battery for fiat"
           />
-          <link rel="canonical" href="https://autobatteries.hakstime.com/" />
-        </Helmet>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="theme-color" content="#000000" />
+          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <meta name="author" content="autobatteries.hakstime.com" />
+        </MetaTags>
         <div className="container-fluid header-text1 px-0">
           <img
             src={Road}

@@ -14,6 +14,7 @@ export default class Acdelco extends Component {
       <div>
         <MetaTags>
           <title>Autobatteries |Acdelco battery replacement</title>
+          <meta charset="utf-8" />
           <meta
             name="title"
             content="Autobatteries |Acdelco battery replacement"
@@ -22,6 +23,10 @@ export default class Acdelco extends Component {
             name="description"
             content="Acdelco battery replacement |Acdelco car battery - best price - onsite battery replacement - Acdelco battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
           />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="theme-color" content="#000000" />
+          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <meta name="author" content="autobatteries.hakstime.com" />
         </MetaTags>
         <Navbar />
         <div className="container battery display-4 text-center py-4">

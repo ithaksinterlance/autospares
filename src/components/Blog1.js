@@ -12,11 +12,16 @@ class Blog1 extends Component {
       <div>
         <MetaTags>
           <title>How to maintain Your car battery</title>
+          <meta charset="utf-8" />
           <meta name="title" content="Car battery Maintainence" />
           <meta
             name="description"
             content="How to maintain Your car battery |Switch On Your Car Engine very often in winter, Cool the temprature of your car in summer, Idea from this based lady in cooling her car, Clean Your battery from Dust, How often should your change your battery?"
           />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="theme-color" content="#000000" />
+          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <meta name="author" content="autobatteries.hakstime.com" />
         </MetaTags>
         <Navbar />
         <div className="container-fluid">

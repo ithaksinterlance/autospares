@@ -32,7 +32,7 @@ const Main = () => (
     <Route exact path="/contact" component={contact} />
     <Route
       exact
-      path="/blog/How_to_maintain_your_car_battery"
+      path="/How_to_maintain_your_car_battery"
       component={How_to_maintain_your_car_battery}
     />
   </Switch>

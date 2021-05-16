@@ -14,6 +14,7 @@ export default class Varta extends Component {
       <div>
         <MetaTags>
           <title>Autobatteries |Varta battery replacement</title>
+          <meta charset="utf-8" />
           <meta
             name="title"
             content="Autobatteries |Varta battery replacement"
@@ -22,6 +23,10 @@ export default class Varta extends Component {
             name="description"
             content="Varta battery replacement |Varta car battery - best price - onsite battery replacement - Varta battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
           />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="theme-color" content="#000000" />
+          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <meta name="author" content="autobatteries.hakstime.com" />
         </MetaTags>
         <Navbar />
         <div className="container battery display-4 text-center py-4">
