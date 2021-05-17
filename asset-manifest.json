@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1cb5ba2.chunk.css",
+    "main.css": "/static/css/main.128bcc7a.chunk.css",
     "main.js": "/static/js/main.e9b3856d.chunk.js",
     "main.js.map": "/static/js/main.e9b3856d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3216a3d6.js",
@@ -10,7 +10,7 @@
     "static/js/2.eec536fa.chunk.js.map": "/static/js/2.eec536fa.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.86fbdad3.chunk.css.map": "/static/css/2.86fbdad3.chunk.css.map",
-    "static/css/main.b1cb5ba2.chunk.css.map": "/static/css/main.b1cb5ba2.chunk.css.map",
+    "static/css/main.128bcc7a.chunk.css.map": "/static/css/main.128bcc7a.chunk.css.map",
     "static/js/2.eec536fa.chunk.js.LICENSE.txt": "/static/js/2.eec536fa.chunk.js.LICENSE.txt",
     "static/media/battery.0b62fff3.jpeg": "/static/media/battery.0b62fff3.jpeg",
     "static/media/carbattery.78e7267a.jpeg": "/static/media/carbattery.78e7267a.jpeg",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.3216a3d6.js",
     "static/css/2.86fbdad3.chunk.css",
     "static/js/2.eec536fa.chunk.js",
-    "static/css/main.b1cb5ba2.chunk.css",
+    "static/css/main.128bcc7a.chunk.css",
     "static/js/main.e9b3856d.chunk.js"
   ]
 }
