@@ -114,7 +114,7 @@ export default class Home extends Component {
         <Navbar />
         <MetaTags>
           <title>
-            Autobatteries |Car Battery replacement | Dubai & Sharjah
+            Autobatteries | Car Battery replacement | Dubai & Sharjah
           </title>
           <meta charset="utf-8" />
           <meta

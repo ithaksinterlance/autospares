@@ -2,9 +2,10 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import CarBattery from "../img/battery.png";
+import CarBattery from "../img/battery.jpeg";
 import MetaTags from "react-meta-tags";
 import { Link } from "react-router-dom";
+import BlogSidebar from "./BlogSidebar";
 
 class Blog1 extends Component {
   render() {
@@ -105,7 +106,7 @@ class Blog1 extends Component {
                 </p>
               </ol>
             </div>
-            <div className="col-md-4"></div>
+            <BlogSidebar />
           </div>
         </div>
 
