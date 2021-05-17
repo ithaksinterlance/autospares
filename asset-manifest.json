@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.679d9902.chunk.css",
-    "main.js": "/static/js/main.e4733230.chunk.js",
-    "main.js.map": "/static/js/main.e4733230.chunk.js.map",
+    "main.css": "/static/css/main.b1cb5ba2.chunk.css",
+    "main.js": "/static/js/main.e9b3856d.chunk.js",
+    "main.js.map": "/static/js/main.e9b3856d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3216a3d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.3216a3d6.js.map",
     "static/css/2.86fbdad3.chunk.css": "/static/css/2.86fbdad3.chunk.css",
-    "static/js/2.f8d37320.chunk.js": "/static/js/2.f8d37320.chunk.js",
-    "static/js/2.f8d37320.chunk.js.map": "/static/js/2.f8d37320.chunk.js.map",
+    "static/js/2.eec536fa.chunk.js": "/static/js/2.eec536fa.chunk.js",
+    "static/js/2.eec536fa.chunk.js.map": "/static/js/2.eec536fa.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.86fbdad3.chunk.css.map": "/static/css/2.86fbdad3.chunk.css.map",
-    "static/css/main.679d9902.chunk.css.map": "/static/css/main.679d9902.chunk.css.map",
-    "static/js/2.f8d37320.chunk.js.LICENSE.txt": "/static/js/2.f8d37320.chunk.js.LICENSE.txt",
-    "static/media/battery.4a0b68dc.png": "/static/media/battery.4a0b68dc.png",
+    "static/css/main.b1cb5ba2.chunk.css.map": "/static/css/main.b1cb5ba2.chunk.css.map",
+    "static/js/2.eec536fa.chunk.js.LICENSE.txt": "/static/js/2.eec536fa.chunk.js.LICENSE.txt",
+    "static/media/battery.0b62fff3.jpeg": "/static/media/battery.0b62fff3.jpeg",
     "static/media/carbattery.78e7267a.jpeg": "/static/media/carbattery.78e7267a.jpeg",
     "static/media/greencar.2d946d82.webp": "/static/media/greencar.2d946d82.webp",
     "static/media/haks.731d98f2.jpg": "/static/media/haks.731d98f2.jpg",
@@ -23,13 +23,14 @@
     "static/media/product4.3b4aa8ad.webp": "/static/media/product4.3b4aa8ad.webp",
     "static/media/road.e897ce35.webp": "/static/media/road.e897ce35.webp",
     "static/media/sell.4c41d02b.jpg": "/static/media/sell.4c41d02b.jpg",
+    "static/media/speedometer.32f0977d.jpeg": "/static/media/speedometer.32f0977d.jpeg",
     "static/media/wabattery.3bb06b5a.webp": "/static/media/wabattery.3bb06b5a.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.3216a3d6.js",
     "static/css/2.86fbdad3.chunk.css",
-    "static/js/2.f8d37320.chunk.js",
-    "static/css/main.679d9902.chunk.css",
-    "static/js/main.e4733230.chunk.js"
+    "static/js/2.eec536fa.chunk.js",
+    "static/css/main.b1cb5ba2.chunk.css",
+    "static/js/main.e9b3856d.chunk.js"
   ]
 }
