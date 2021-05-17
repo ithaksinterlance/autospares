@@ -265,8 +265,7 @@ footer {
 .card {
   margin-top: 2rem;
   justify-content: center;
-  width: 18rem;
-  margin-left: 7rem;
+  width: 100%;
 }
 .card-img-top {
   width: 100%;
@@ -328,6 +327,9 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+  }
+  .card {
+    margin-left: 0px;
   }
 }
 @media (max-width: 576px) {
@@ -430,6 +432,9 @@ footer {
   .blog-img {
     height: 175px;
     width: 100%;
+  }
+  .card {
+    margin-left: 0px;
   }
 }
 
