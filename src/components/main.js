@@ -34,27 +34,27 @@ const Main = () => (
     <Route exact path="/BlogSidebar" component={BlogSidebar} />
     <Route
       exact
-      path="/How_to_maintain_your_car_battery"
+      path="/how_to_maintain_your_car_battery"
       component={How_to_maintain_your_car_battery}
     />
     <Route
       exact
-      path="/How_to_know_if_your_car_battery_is_dying"
+      path="/how_to_know_if_your_car_battery_is_dying"
       component={How_to_know_if_your_car_battery_is_dying}
     />
     <Route
       exact
-      path="/Tip_to_sanitize_your_car_during_covid_19"
+      path="/tips_to_sanitize_your_car_during_covid_19"
       component={Tip_to_sanitize_your_car_during_covid_19}
     />
     <Route
       exact
-      path="/All_you_need_to_know_about_car_battery"
+      path="/all_you_need_to_know_about_car_battery"
       component={All_you_need_to_know_about_car_battery}
     />
     <Route
       exact
-      path="/Top_4_battery_for_your_car"
+      path="/top_4_battery_for_your_car"
       component={Top_4_battery_for_your_car}
     />
   </Switch>
