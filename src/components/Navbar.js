@@ -84,10 +84,10 @@ export default class Navbar extends Component {
               </Link>
             </div>
             <div class="col-xs-2 text-center pt-3">
-              <Link to="/become-a-partner">
-                <i class="fas fa-plus-circle fa-2x"></i>
+              <Link to="/post">
+                <i class="fa fa-book fa-2x" aria-hidden="true"></i>
                 <br />
-                <p className="fontSize text-center">SELL</p>
+                <p className="fontSize text-center">BLOG</p>
               </Link>
             </div>
             <div class="col-xs-2 text-center pt-3">
@@ -160,6 +160,11 @@ export default class Navbar extends Component {
                 <li className="nav-item">
                   <Link to="/contact" className="nav-link">
                     Contact Us
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/post" className="nav-link">
+                    Blog
                   </Link>
                 </li>
               </ul>

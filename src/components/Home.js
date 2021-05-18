@@ -4,13 +4,12 @@ import Prod1 from "../img/product1.webp";
 import Prod2 from "../img/product2.webp";
 import Prod3 from "../img/product3.webp";
 import Prod4 from "../img/product4.webp";
-import MJ from "../img/mj.webp";
+import MJ from "../img/autobatteries.hakstime.com.png";
 import Green from "../img/greencar.webp";
 import Road from "../img/road.webp";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
-import { Helmet } from "react-helmet";
 import MetaTags from "react-meta-tags";
 
 export default class Home extends Component {
@@ -385,6 +384,7 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
+
         <div className="container pt-5 text-center">
           <div className="row">
             <div className="col-md-4">
@@ -411,6 +411,29 @@ export default class Home extends Component {
           </div>
         </div>
         <div className="container-fluid div-bg py-5">
+          <div className="container">
+            <hr />
+            <h2 className="heading">
+              Automobile Battery Replacement Service ! Why you need us?
+            </h2>
+            <hr />
+          </div>
+          <p className="container paragraph">
+            Automobile Battery is an essential part of every vehicle be it cars,
+            buses, trucks and so on. For almost all vehicles which are driven
+            typically in an typical life the car battery lasts for 2 years more
+            or less. There is always a need for replacement of batteries and we
+            are here to fulfill that need of yours. After a long term attachment
+            with your ride all of a sudden you feel somethings wrong or all of a
+            sudden your love just stopped cranking it wont start anymore it just
+            keeps clicking but wont just start you feel dead, saddened like a
+            part of you missing, the feelings mutual, well do not worry for it
+            battery might have been dead and we are here to charge back the soul
+            into your ride and in turn you feel back on track. (you just need to
+            WhatsApp and we will be at your service fixing the battery)
+          </p>
+        </div>
+        <div className="container-fluid py-5">
           <div className="container">
             <div className="row">
               <div className="col-md-6">
@@ -444,94 +467,79 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="container">
-          <hr />
-          <h2 className="heading">
-            Automobile Battery Replacement Service ! Why you need us?
-          </h2>
-          <hr />
-        </div>
-        <p className="container paragraph">
-          Automobile Battery is an essential part of every vehicle be it cars,
-          buses, trucks and so on. For almost all vehicles which are driven
-          typically in an typical life the car battery lasts for 2 years more or
-          less. There is always a need for replacement of batteries and we are
-          here to fulfill that need of yours. After a long term attachment with
-          your ride all of a sudden you feel somethings wrong or all of a sudden
-          your love just stopped cranking it wont start anymore it just keeps
-          clicking but wont just start you feel dead, saddened like a part of
-          you missing, the feelings mutual, well do not worry for it battery
-          might have been dead and we are here to charge back the soul into your
-          ride and in turn you feel back on track. (you just need to WhatsApp
-          and we will be at your service fixing the battery)
-        </p>
-        <div className="container">
-          <hr />
-          <h2 className="heading">Our Brands</h2>
-          <hr />
-        </div>
-        <p className="container paragraph">
-          We deal only with genuine brands namely SOLITE. ACDELCO, AMARON, VARTA
-          and other genuine and authentic battery batteries depending on the
-          demand for our battery supply and replacement services.
-        </p>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-3 col-xs-6">
-              <Link to="/acdelco" title="car battery near me">
-                <img
-                  src={Prod1}
-                  alt="battery replacement"
-                  className="img-fluid battery"
-                />
-                <div className="text-center">
-                  <p className="paragraph">Read {">>"}</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-md-3 col-xs-6">
-              <Link to="/amaron" title="car battery near me">
-                <img
-                  src={Prod2}
-                  alt="battery replacement"
-                  className="img-fluid battery"
-                />
-                <div className="text-center">
-                  <p className="paragraph">Read {">>"}</p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-md-3 col-xs-6">
-              <Link to="/varta" title="car battery service">
-                <a href="/">
+        <div className="container-fluid div-bg py-5">
+          <div className="container">
+            <hr />
+            <h2 className="heading">Our Brands</h2>
+            <hr />
+          </div>
+          <p className="container paragraph">
+            We deal only with genuine brands namely SOLITE. ACDELCO, AMARON,
+            VARTA and other genuine and authentic battery batteries depending on
+            the demand for our battery supply and replacement services.
+          </p>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-3 col-xs-6">
+                <Link to="/acdelco" title="car battery near me">
                   <img
-                    src={Prod3}
+                    src={Prod1}
+                    alt="battery replacement"
+                    className="img-fluid battery"
+                  />
+                  <div className="text-center">
+                    <p className="paragraph">Read {">>"}</p>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-md-3 col-xs-6">
+                <Link to="/amaron" title="car battery near me">
+                  <img
+                    src={Prod2}
+                    alt="battery replacement"
+                    className="img-fluid battery"
+                  />
+                  <div className="text-center">
+                    <p className="paragraph">Read {">>"}</p>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-md-3 col-xs-6">
+                <Link to="/varta" title="car battery service">
+                  <a href="/">
+                    <img
+                      src={Prod3}
+                      alt="battery"
+                      className="img-fluid battery"
+                    />
+                    <div className="text-center">
+                      <p className="paragraph">Read {">>"}</p>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+              <div className="col-md-3 col-xs-6">
+                <Link to="/solite" title="solite battery">
+                  <img
+                    src={Prod4}
                     alt="battery"
                     className="img-fluid battery"
                   />
                   <div className="text-center">
                     <p className="paragraph">Read {">>"}</p>
                   </div>
-                </a>
-              </Link>
-            </div>
-            <div className="col-md-3 col-xs-6">
-              <Link to="/solite" title="solite battery">
-                <img src={Prod4} alt="battery" className="img-fluid battery" />
-                <div className="text-center">
-                  <p className="paragraph">Read {">>"}</p>
-                </div>
-              </Link>
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="d-flex justify-content-center">
-          <Link to="/sell" title="sell with us">
-            <button type="button" class="btn btn-primary btn-lg">
-              Sell with Us {">>"}
-            </button>
-          </Link>
+          <div className="d-flex justify-content-center">
+            <Link to="/sell" title="sell with us">
+              <button type="button" class="btn btn-primary btn-lg">
+                Sell with Us {">>"}
+              </button>
+            </Link>
+          </div>
         </div>
         <Footer />
       </div>

@@ -17,6 +17,7 @@ import Tip_to_sanitize_your_car_during_covid_19 from "./Blog3";
 import All_you_need_to_know_about_car_battery from "./Blog4";
 import Top_4_battery_for_your_car from "./Blog5";
 import BlogSidebar from "./BlogSidebar";
+import Post from "./Post";
 
 const Main = () => (
   <Switch>
@@ -32,6 +33,33 @@ const Main = () => (
     <Route exact path="/test" component={test} />
     <Route exact path="/contact" component={contact} />
     <Route exact path="/BlogSidebar" component={BlogSidebar} />
+    <Route exact path="/post" component={Post} />
+    <Route
+      exact
+      path="/post/how_to_maintain_your_car_battery"
+      component={How_to_maintain_your_car_battery}
+    />
+    <Route
+      exact
+      path="/post/how_to_know_if_your_car_battery_is_dying"
+      component={How_to_know_if_your_car_battery_is_dying}
+    />
+    <Route
+      exact
+      path="/post/tip_to_sanitize_your_car_during_covid_19"
+      component={Tip_to_sanitize_your_car_during_covid_19}
+    />
+    <Route
+      exact
+      path="/post/all_you_need_to_know_about_car_battery"
+      component={All_you_need_to_know_about_car_battery}
+    />
+    <Route
+      exact
+      path="/post/top_4_battery_for_your_car"
+      component={Top_4_battery_for_your_car}
+    />
+
     <Route
       exact
       path="/how_to_maintain_your_car_battery"

@@ -266,6 +266,13 @@ footer {
   margin-top: 2rem;
   justify-content: center;
   width: 100%;
+  margin-bottom: 2rem;
+  border: 5px solid #47484c;
+}
+.postCard {
+  box-shadow: 10px 10px 10px #47484c;
+  border-bottom-left-radius: 50px;
+  height: 50rem;
 }
 .card-img-top {
   width: 100%;

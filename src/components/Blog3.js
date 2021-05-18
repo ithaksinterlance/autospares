@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import MetaTags from "react-meta-tags";
 import BlogSidebar from "./BlogSidebar";
-import Speedometer from "../img/speedometer.jpeg";
+import Sanitize from "../img/sanitize.jpg";
 
 export default class Blog3 extends Component {
   render() {
@@ -33,9 +33,9 @@ export default class Blog3 extends Component {
                 Tips to sanitize your car during covid-19
               </h2>
               <img
-                src={Speedometer}
+                src={Sanitize}
                 className="img-fluid blog-img"
-                alt="autobatteries.hakstime.com"
+                alt="autobatteries"
               />
               <hr />
               <div className="sharethis-inline-share-buttons"></div>

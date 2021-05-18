@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import HAKS from "../img/haks.jpg";
+import HAKS from "../img/Logo.jpeg";
 import { Link } from "react-router-dom";
 import CarBattery from "../img/battery.jpeg";
 import Speedometer from "../img/speedometer.jpeg";
+import Sanitize from "../img/sanitize.jpg";
 
 export default class BlogSidebar extends Component {
   render() {
@@ -97,12 +98,14 @@ export default class BlogSidebar extends Component {
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src={HAKS} alt="autobatteries" />
+          <img class="card-img-top" src={Sanitize} alt="autobatteries" />
           <div class="card-body">
             <h5 class="card-title">Tip to sanitize your car during covid 19</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Sanitize your car handles, Clean your upholstery, Donot use wet
+              cloth for sanitizing, Disinfect your air conditioning system,
+              Personal Hygiene, Wear disposable hand gloves and Mask, Get off
+              the car only if necessary, Prepare sticky notes
             </p>
             <Link
               to="/Tip_to_sanitize_your_car_during_covid_19"
