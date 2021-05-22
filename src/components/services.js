@@ -2,11 +2,34 @@ import React, { Component } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import CarBattery from "../img/carbattery.jpeg";
+import { MetaTags } from "react-meta-tags";
 
 export default class services extends Component {
   render() {
     return (
       <div>
+                <MetaTags>
+          <title>
+            Autobatteries service| Car Battery replacement | Dubai & Sharjah
+          </title>
+          <meta charset="utf-8" />
+          <meta
+            name="title"
+            content="Car Battery replacement | Dubai & Sharjah"
+          />
+          <meta
+            name="description"
+            content="Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service"
+          />
+          <meta
+            name="keywords"
+            content="car battery, car battery replacement dubai,car battery replacement sharjah,sharjah, dubai, arab, united arab emirates, uae, mjbattery, dubai car battery replacement, sharjah battery replacement, amaron battery, solite battery, acdelco battery, varta battery,  porsche battery,audi battery,chrevlot battery, battery for kia battery, battery for ranault battery,acura battery,chrysler battery,dodge battery,daewoo battery,ford battery,fiat battery, lexus battery, maserati battery"
+          />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="theme-color" content="#000000" />
+          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <meta name="author" content="autobatteries.hakstime.com" />
+        </MetaTags>
         <Navbar />
         <div className="container-fluid header-text1 px-0">
           <img

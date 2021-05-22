@@ -7,15 +7,16 @@ import Battery3 from "../img/product3.webp";
 import Battery4 from "../img/product4.webp";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import MetaTags from "react-meta-tags";
 
 export default class brands extends Component {
   render() {
     return (
       <div>
         <Navbar />
-        <Helmet>
+        <MetaTags>
           <meta charSet="utf-8" />
-          <title>Car Battery replacement</title>
+          <title>Autobatteries | Car battery brands</title>
           <meta
             name="title"
             content="Car Battery replacement DUBAI| Replace your car battery at anytime at Dubai and Sharjah. We offer the best battery replacement service"
@@ -26,10 +27,10 @@ export default class brands extends Component {
           />
           <meta
             name="keywords"
-            content="battery, car battery, battery replacement dubai, battery replacement near me, car battery replacement near me, car battery replacement in dubai, car battery replacement in sharjah,car battery replacement dubai, car battery replacement sharjah, car battery replacement service dubai"
+            content="amaron battery, solite battery, acdelco battery, varta battery,  porsche battery,audi battery,chrevlot battery, battery for kia battery, battery for ranault battery,acura battery,chrysler battery,dodge battery,daewoo battery,ford battery,fiat battery, lexus battery, maserati battery"
           />
-          <link rel="canonical" href="https://autobatteries.hakstime.com/" />
-        </Helmet>
+          <link rel="canonical" href="https://autobatteries.hakstime.com/#/car-battery-brands" />
+        </MetaTags>
         <div className="container pt-5 pb-5">
           <div className="row">
             <div className="col-md-3 col-sm-6 col-xs-12 pt-3">
@@ -40,11 +41,11 @@ export default class brands extends Component {
                   <a
                     href="tel:971551478994"
                     class="btn btn-danger btn-lg"
-                    title="car battery replacement"
+                    title="acdelco battery replacement in dubai and sharjah"
                   >
                     CALL NOW {">>"}
                   </a>
-                  <Link to="/acdelco" title="car battery near me">
+                  <Link to="/acdelco" title="acdelco battery replacement in dubai and sharjah">
                     <div className="text-center">
                       <p className="paragraph">Read {">>"}</p>
                     </div>
@@ -61,11 +62,11 @@ export default class brands extends Component {
                   <a
                     href="tel:971551478994"
                     class="btn btn-danger btn-lg"
-                    title="car battery replacement"
+                    title="car battery replacement dubai"
                   >
                     CALL NOW {">>"}
                   </a>
-                  <Link to="/amaron" title="car battery replacement dubai">
+                  <Link to="/amaron" title="amaron battery replacement in dubai and sharjah">
                     <div className="text-center">
                       <p className="paragraph">Read {">>"}</p>
                     </div>
@@ -82,7 +83,7 @@ export default class brands extends Component {
                   <a
                     href="tel:971551478994"
                     class="btn btn-danger btn-lg"
-                    title="car battery replacement"
+                    title="varta battery replacement in dubai and sharjah"
                   >
                     CALL NOW {">>"}
                   </a>
@@ -103,7 +104,7 @@ export default class brands extends Component {
                   <a
                     href="tel:971551478994"
                     class="btn btn-danger btn-lg"
-                    title="car battery replacement"
+                    title="solite"
                   >
                     CALL NOW {">>"}
                   </a>

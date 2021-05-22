@@ -25,7 +25,7 @@ export default class Acdelco extends Component {
           />
           <meta
             name="keywords"
-            content="Acdelco battery, Acdelco car battery, Acdelco best price, best car battery price in uae, onsite battery replacement, battery delivery in dubai, battery instalation in dubai, battery delivery in sharjah, battery installation in sharjah, car battery replacement"
+            content="Acdelco battery, Acdelco car battery, Acdelco best price, best car battery price in uae, onsite battery replacement, battery delivery in dubai, battery instalation in dubai, battery delivery in sharjah, battery installation in sharjah, car battery replacement, dubai, sharjah, united arab emirates"
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />

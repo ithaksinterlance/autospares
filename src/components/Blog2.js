@@ -10,7 +10,7 @@ export default class Blog2 extends Component {
     return (
       <div>
         <MetaTags>
-          <title>How to know if your car battery is dying</title>
+          <title>Autobatteries | How to know if your car battery is dying</title>
           <meta charset="utf-8" />
           <meta
             name="title"
@@ -29,11 +29,9 @@ export default class Blog2 extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-8">
-              <h2 className="blog-heading text-center">
+              <h1 className="blog-heading text-center">
                 How to know if your car battery is dying
-              </h2>
-              <p></p>
-
+              </h1>
               <img
                 src={Speedometer}
                 className="img-fluid blog-img"

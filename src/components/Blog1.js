@@ -12,9 +12,9 @@ class Blog1 extends Component {
     return (
       <div>
         <MetaTags>
-          <title>How to maintain Your car battery</title>
+          <title>Autobatteries | How to maintain Your car battery</title>
           <meta charset="utf-8" />
-          <meta name="title" content="Car battery Maintainence" />
+          <meta name="title" content="How to maintain Your car battery" />
           <meta
             name="description"
             content="How to maintain Your car battery |Switch On Your Car Engine very often in winter, Cool the temprature of your car in summer, Idea from this based lady in cooling her car, Clean Your battery from Dust, How often should your change your battery?"
@@ -28,9 +28,9 @@ class Blog1 extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-8">
-              <h2 className="blog-heading text-center">
+              <h1 className="blog-heading text-center">
                 How to maintain Your car battery
-              </h2>
+              </h1>
 
               <img
                 src={CarBattery}

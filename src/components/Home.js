@@ -126,7 +126,7 @@ export default class Home extends Component {
           />
           <meta
             name="keywords"
-            content="battery, car battery replacement dubai, battery replacement near me, car battery replacement near me, mjbattery, dubai car battery replacement, sharjah battery replacement, battery for porsche, battery for audi, battery for chrevlot, battery for kia, battery for ranault, battery for acura, battery for chrysler, battery for dodge, battery for daewoo, battery for ford, battery for fiat"
+            content="car battery, car battery replacement dubai,car battery replacement sharjah,sharjah, dubai, arab, united arab emirates, uae, mjbattery, dubai car battery replacement, sharjah battery replacement, amaron battery, solite battery, acdelco battery, varta battery,  porsche battery,audi battery,chrevlot battery, battery for kia battery, battery for ranault battery,acura battery,chrysler battery,dodge battery,daewoo battery,ford battery,fiat battery, lexus battery, maserati battery"
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />

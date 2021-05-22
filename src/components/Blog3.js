@@ -10,7 +10,7 @@ export default class Blog3 extends Component {
     return (
       <div>
         <MetaTags>
-          <title>Tips to sanitize your car during covid-19</title>
+          <title>Autobatteries | Tips to sanitize your car during covid-19</title>
           <meta charset="utf-8" />
           <meta
             name="title"
@@ -29,9 +29,9 @@ export default class Blog3 extends Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-8">
-              <h2 className="blog-heading text-center">
+              <h1 className="blog-heading text-center">
                 Tips to sanitize your car during covid-19
-              </h2>
+              </h1>
               <img
                 src={Sanitize}
                 className="img-fluid blog-img"

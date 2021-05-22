@@ -13,7 +13,7 @@ export default class Varta extends Component {
     return (
       <div>
         <MetaTags>
-          <title>Autobatteries |Varta battery replacement</title>
+          <title>Autobatteries | Varta battery replacement</title>
           <meta charset="utf-8" />
           <meta
             name="title"
@@ -25,7 +25,7 @@ export default class Varta extends Component {
           />
           <meta
             name="keywords"
-            content="varta battery, varta car battery, varta best price, best car battery price in uae, onsite battery replacement, battery delivery in dubai, battery instalation in dubai, battery delivery in sharjah, battery installation in sharjah, car battery replacement"
+            content="varta battery, varta car battery, varta best price, best car battery price in uae, onsite battery replacement, battery delivery in dubai, battery instalation in dubai, battery delivery in sharjah, battery installation in sharjah, car battery replacement, dubai, sharjah, united arab emirates"
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
