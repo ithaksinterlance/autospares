@@ -247,7 +247,7 @@ footer {
   color: #25d366;
 }
 .blog-paragraph-heading {
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-family: "Karla";
   margin-top: 2vw;
   color: #47484c;
@@ -337,6 +337,9 @@ footer {
   }
   .card {
     margin-left: 0px;
+  }
+  .blog-paragraph-heading {
+    font-size: 1.7rem;
   }
 }
 @media (max-width: 576px) {
@@ -442,6 +445,9 @@ footer {
   }
   .card {
     margin-left: 0px;
+  }
+  .blog-paragraph-heading {
+    font-size: 1.4rem;
   }
 }
 
