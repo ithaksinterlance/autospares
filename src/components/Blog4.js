@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import MetaTags from "react-meta-tags";
 import BlogSidebar from "./BlogSidebar";
-import Sanitize from "../img/sanitize.jpg";
+import CarBattery from "../img/carbattery.jpeg";
 import { Link } from "react-router-dom";
 
 export default class Blog4 extends Component {
@@ -34,9 +34,9 @@ export default class Blog4 extends Component {
               All you need to know about car battery
               </h1>
               <img
-                src={Sanitize}
+                src={CarBattery}
                 className="img-fluid blog-img"
-                alt="autobatteries"
+                alt="car battery replacement dubai"
               />
               <hr />
               <div className="sharethis-inline-share-buttons"></div>

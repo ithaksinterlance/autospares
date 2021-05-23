@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import CarBattery from "../img/battery.jpeg";
 import Speedometer from "../img/speedometer.jpeg";
 import Sanitize from "../img/sanitize.jpg";
+import Battery from "../img/carbattery.jpeg";
 
 export default class BlogSidebar extends Component {
   render() {
@@ -132,7 +133,7 @@ export default class BlogSidebar extends Component {
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src={HAKS} alt="autobatteries" />
+          <img class="card-img-top" src={Battery} alt="car battery replacement dubai" />
           <div class="card-body">
             <h5 class="card-title">Top 4 battery for your car</h5>
             <p class="card-text">
