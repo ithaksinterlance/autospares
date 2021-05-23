@@ -22,6 +22,10 @@ import Post from "./Post";
 const Main = () => (
   <Switch>
     <Route exact path="/" component={Home} />
+    <Route exact path="/google760dbaa359091b71.html" component={() => { 
+     window.location.href = 'google760dbaa359091b71.html'; 
+     return null;
+}}/>
     <Route exact path="/solite" component={Solite} />
     <Route exact path="/varta" component={Varta} />
     <Route exact path="/acdelco" component={Acdelco} />
