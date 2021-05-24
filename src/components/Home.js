@@ -390,35 +390,35 @@ export default class Home extends Component {
             <div className="col-md-4">
               <i class="fab fa-whatsapp fa-3x " aria-hidden="true"></i>
               <br />
-              <p className="paragraph">
+              <h1 className="paragraph">
                 Send Your Location &<br /> Contact No.
-              </p>
+              </h1>
             </div>
             <div className="col-md-4">
               <i class="fa fa-quote-right fa-3x " aria-hidden="true"></i>
               <br />
-              <p className="paragraph"> Get Best Quote</p>
+              <h1 className="paragraph"> Get Best Quote</h1>
             </div>
             <div className="col-md-4">
               <i class="fas fa-car-battery fa-3x" aria-hidden="true"></i>
               <br />
-              <p className="paragraph">
+              <h1 className="paragraph">
                 Get Battery
                 <br /> installed at Your
                 <br /> designation location{" "}
-              </p>
+              </h1>
             </div>
           </div>
         </div>
         <div className="container-fluid div-bg py-5">
           <div className="container">
             <hr />
-            <h2 className="heading">
+            <h1 className="heading">
               Automobile Battery Replacement Service ! Why you need us?
-            </h2>
+            </h1>
             <hr />
           </div>
-          <p className="container paragraph">
+          <h1 className="container paragraph">
             Automobile Battery is an essential part of every vehicle be it cars,
             buses, trucks and so on. For almost all vehicles which are driven
             typically in an typical life the car battery lasts for 2 years more
@@ -431,14 +431,14 @@ export default class Home extends Component {
             battery might have been dead and we are here to charge back the soul
             into your ride and in turn you feel back on track. (you just need to
             WhatsApp and we will be at your service fixing the battery)
-          </p>
+          </h1>
         </div>
         <div className="container-fluid py-5">
           <div className="container">
             <div className="row">
               <div className="col-md-6">
                 <hr />
-                <h2 className="heading">Onsite Battery Replacement</h2>
+                <h1 className="heading">Onsite Battery Replacement</h1>
                 <hr />
                 <p className="lead">
                   <ul className="list">
@@ -470,21 +470,21 @@ export default class Home extends Component {
         <div className="container-fluid div-bg py-5">
           <div className="container">
             <hr />
-            <h2 className="heading">Our Brands</h2>
+            <h1 className="heading">Our Brands</h1>
             <hr />
           </div>
-          <p className="container paragraph">
+          <h1 className="container paragraph">
             We deal only with genuine brands namely SOLITE. ACDELCO, AMARON,
             VARTA and other genuine and authentic battery batteries depending on
             the demand for our battery supply and replacement services.
-          </p>
+          </h1>
           <div className="container">
             <div className="row">
               <div className="col-md-3 col-xs-6">
                 <Link to="/acdelco" title="car battery near me">
                   <img
                     src={Prod1}
-                    alt="battery replacement"
+                    alt="car battery replacement in dubai"
                     className="img-fluid battery"
                   />
                   <div className="text-center">
@@ -500,7 +500,7 @@ export default class Home extends Component {
                     className="img-fluid battery"
                   />
                   <div className="text-center">
-                    <p className="paragraph">Read {">>"}</p>
+                    <h1 className="paragraph">Read {">>"}</h1>
                   </div>
                 </Link>
               </div>
@@ -509,11 +509,11 @@ export default class Home extends Component {
                   <a href="/">
                     <img
                       src={Prod3}
-                      alt="battery"
+                      alt="battery replacement sharjah"
                       className="img-fluid battery"
                     />
                     <div className="text-center">
-                      <p className="paragraph">Read {">>"}</p>
+                      <h1 className="paragraph">Read {">>"}</h1>
                     </div>
                   </a>
                 </Link>
@@ -526,7 +526,7 @@ export default class Home extends Component {
                     className="img-fluid battery"
                   />
                   <div className="text-center">
-                    <p className="paragraph">Read {">>"}</p>
+                    <h1 className="paragraph">Read {">>"}</h1>
                   </div>
                 </Link>
               </div>

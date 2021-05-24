@@ -15,7 +15,7 @@ export default class BlogSidebar extends Component {
           alt="autobatteries"
           className="img-fluid rounded-circle haks"
         />
-        <p className="heading pt-3 ">PUBLISHER</p>
+        <h1 className="heading pt-3 ">PUBLISHER</h1>
         <div className="contain">
           <a
             href="https://www.facebook.com/haksinterlance/"
@@ -60,9 +60,9 @@ export default class BlogSidebar extends Component {
             <i class="fab fa-3x fa-telegram-plane"></i>
           </a>
         </div>
-        <p className="paragraph pt-3" style={{ textDecoration: "underline" }}>
+        <h1 className="paragraph pt-3" style={{ textDecoration: "underline" }}>
           RELATED ARTICLES
-        </p>
+        </h1>
         <div class="card">
           <img class="card-img-top" src={CarBattery} alt="autobatteries" />
           <div class="card-body">

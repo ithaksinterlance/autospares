@@ -43,15 +43,15 @@ export default class services extends Component {
           </div>
         </div>
         <div className="container pt-5 text-center">
-          <h2 className="nav1">
+          <h1 className="nav1">
             <i class="fa fa-quote-left" aria-hidden="true"></i>
             We provide Car battery Replacement services ANYTIME at Dubai and
             Sharjarh. <i class="fa fa-quote-right" aria-hidden="true"></i>
-          </h2>
+          </h1>
         </div>
         <div className="container pt-5 text-center">
           <hr />
-          <h2 className="heading">SERVICES</h2>
+          <h1 className="heading">SERVICES</h1>
           <hr />
         </div>
         <div className="container pt-5 text-center">
@@ -59,23 +59,23 @@ export default class services extends Component {
             <div className="col-md-4">
               <i class="fab fa-whatsapp fa-3x " aria-hidden="true"></i>
               <br />
-              <p className="paragraph">
+              <h1 className="paragraph">
                 Send Your Location &<br /> Contact No.
-              </p>
+              </h1>
             </div>
             <div className="col-md-4">
               <i class="fa fa-quote-right fa-3x " aria-hidden="true"></i>
               <br />
-              <p className="paragraph"> Get Best Quote</p>
+              <h1 className="paragraph"> Get Best Quote</h1>
             </div>
             <div className="col-md-4">
               <i class="fas fa-car-battery fa-3x" aria-hidden="true"></i>
               <br />
-              <p className="paragraph">
+              <h1 className="paragraph">
                 Get Battery
                 <br /> installed at Your
                 <br /> designation location{" "}
-              </p>
+              </h1>
             </div>
           </div>
         </div>
@@ -84,17 +84,17 @@ export default class services extends Component {
             <div className="col-md-4">
               <i class="fas fa-clock   fa-3x "></i>
               <br />
-              <p className="paragraph">ANY TIME</p>
+              <h1 className="paragraph">ANY TIME</h1>
             </div>
             <div className="col-md-4">
               <i class="fas fa-screwdriver fa-3x   "></i>
               <br />
-              <p className="paragraph">PROFESSIONAL SERVICE</p>
+              <h1 className="paragraph">PROFESSIONAL SERVICE</h1>
             </div>
             <div className="col-md-4">
               <i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
               <br />
-              <p className="paragraph">AT DUBAI AND SHARJAH</p>
+              <h1 className="paragraph">AT DUBAI AND SHARJAH</h1>
             </div>
           </div>
         </div>
@@ -103,8 +103,9 @@ export default class services extends Component {
           VARTA and other genuine and authentic battery batteries depending on
           the demand for our battery supply and replacement services.**
         </p>
-
+        <div className="text-center">
         <Footer />
+        </div>
       </div>
     );
   }

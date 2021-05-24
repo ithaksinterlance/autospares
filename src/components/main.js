@@ -8,7 +8,6 @@ import Amaron from "./Amaron";
 import Brands from "./brands";
 import Services from "./services";
 import Sell from "./sell";
-import Sold from "./sold";
 import test from "./Blog1";
 import contact from "./Contact";
 import How_to_maintain_your_car_battery from "./Blog1";
@@ -20,6 +19,7 @@ import BlogSidebar from "./BlogSidebar";
 import Post from "./Post";
 
 const Main = () => (
+  
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/google760dbaa359091b71.html" component={() => { 
@@ -33,7 +33,6 @@ const Main = () => (
     <Route exact path="/car-battery-brands" component={Brands} />
     <Route exact path="/car-battery-replacement" component={Services} />
     <Route exact path="/become-a-partner" component={Sell} />
-    <Route exact path="/sold" component={Sold} />
     <Route exact path="/test" component={test} />
     <Route exact path="/contact" component={contact} />
     <Route exact path="/BlogSidebar" component={BlogSidebar} />
