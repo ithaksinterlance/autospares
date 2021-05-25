@@ -21,7 +21,7 @@ export default class Acdelco extends Component {
           />
           <meta
             name="description"
-            content="Acdelco battery replacement |Acdelco car battery - best price - onsite battery replacement - Acdelco battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
+            content="Acdelco battery replacement |Acdelco car battery - best price - onsite battery replacement - Acdelco battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement ,Amaron battery replacement |Amaron car battery - best price - onsite battery replacement - Amaron battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement, "
           />
           <meta
             name="keywords"
