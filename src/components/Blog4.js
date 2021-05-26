@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import MetaTags from "react-meta-tags";
 import BlogSidebar from "./BlogSidebar";
-import CarBattery from "../img/carbattery.jpeg";
+import BlackCar from "../img/blackcar.jpg";
 import { Link } from "react-router-dom";
 
 export default class Blog4 extends Component {
@@ -19,7 +19,7 @@ export default class Blog4 extends Component {
           />
           <meta
             name="description"
-            content="All you need to know about car battery | "
+            content="All you need to know about car battery | Do's and Dont's inside the car during pandemic , When will your car battery die , Don't use tap water to refill your battery , Find the CCA(Cold Cranking Amps) of your battery , Brand of your car battery, Warranty, Manufacturing date , Battery types , Know about our service"
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
@@ -34,7 +34,7 @@ export default class Blog4 extends Component {
               All you need to know about car battery
               </h1>
               <img
-                src={CarBattery}
+                src={BlackCar}
                 className="img-fluid blog-img"
                 alt="car battery replacement dubai"
               />
@@ -53,37 +53,42 @@ export default class Blog4 extends Component {
                  It is very important to know when your car battery wears off because it gives your an awareness of when to change your battery before it stops you to the middle of the road. It generally takes about 3.5 years for your battery to wear off. To know more about When will your car battery die, <Link to="/how_to_know_if_your_car_battery_is_dying">click here.</Link>
                 </p>
                 <li className="blog-list-heading">
-                  Donot use wet cloth for sanitizing
+                  Don't use tap water to refill your battery
                 </li>
                 <p className="blog-paragraph-heading">
+                Tap water is not processed. It may contain some minerals or ions or other impurities which may damage your battery. Thus resulting in reduce of lifespan of your battery. So use demenaralized water for your battery. Because it is processed well and it is deactivated of all the mineral it contains. You can also use deionised water. No need to panic if you see that you dont find demineralized water but only find deionized water. Deionized water is also safer to refill the battery.
               
                 </p>
                 <li className="blog-list-heading">
-                  Disinfect your air conditioning system
+                  Find the CCA(Cold Cranking Amps) of your battery
                 </li>
                 <p className="blog-paragraph-heading">
-               
+               The car battery with more CCA, has high chance of starting the engine very soon than the car battery which has less CCA value. So when buying battery make sure that your battery has a good cold cranking Amp value. 
                 </p>
-                <li className="blog-list-heading">Personal Hygiene</li>
+                <li className="blog-list-heading">Brand of your car battery, Warranty, Manufacturing date</li>
                 <p className="blog-paragraph-heading">
-                
-                </p>
-                <li className="blog-list-heading">
-                  Wear disposable hand gloves and Mask
-                </li>
-                <p className="blog-paragraph-heading">
-            
+                It is necessary to know the brand of your car battery because certain car fits to certain types of car battery. And also it is important to know the warranty because generally the car battery has life span upto 3.5 years. So if your car battery is dying in very short period of time, it must be your car battery service provider has put a car battery with fault. In such case claim your warranty. It is necessary to know the car battery because if old battery are installed in your car, there might be the chance that it has a corroded terminal.
                 </p>
                 <li className="blog-list-heading">
-                  Get off the car only if necessary
+                  Battery types
                 </li>
                 <p className="blog-paragraph-heading">
+                  Car battery are of AGM types or of EFB types. Some other batteries are mostly the variation of lead acid batteries. It works by chemical reaction between lead plates, sulphuric acid and distilled water to create electrical power.            
+                </p>
+                <li className="blog-list-heading">
+                  Know about our service
+                </li>
+                <p className="blog-paragraph-heading">
+                  It is not recommended to change your car battery all by yourself taking in account the battery that is being fixed, the vulnerable damage that may be caused due to wrong placement at a moment. <a href="tel:971551478994">Call us</a> or <a
+                    href="https://api.whatsapp.com/send?phone=971551478994"
+                    title="WhatsApp us for car battery replacement in dubai and sharjah"
+                  >
+                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                    WhatsApp
+                  </a> , we are available at anytime at DUBAI and SHARJAH.  
              
                 </p>
-                <li className="blog-list-heading">Prepare sticky notes</li>
-                <p className="blog-paragraph-heading">
                
-                </p>
               </ol>
             </div>
             <BlogSidebar />

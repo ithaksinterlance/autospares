@@ -5,6 +5,7 @@ import CarBattery from "../img/battery.jpeg";
 import Speedometer from "../img/speedometer.jpeg";
 import Sanitize from "../img/sanitize.jpg";
 import Battery from "../img/carbattery.jpeg";
+import BlackCar from "../img/blackcar.jpg"
 
 export default class BlogSidebar extends Component {
   render() {
@@ -76,8 +77,9 @@ export default class BlogSidebar extends Component {
             <Link
               to="/How_to_maintain_your_car_battery"
               class="btn btn-primary"
+              rel="noopener noreferrer" target="_blank"
             >
-              Read more
+              Read more {'>>'}
             </Link>
           </div>
         </div>
@@ -93,8 +95,9 @@ export default class BlogSidebar extends Component {
             <Link
               to="/How_to_know_if_your_car_battery_is_dying"
               class="btn btn-primary"
+              rel="noopener noreferrer" target="_blank"
             >
-              Read more
+              Read more {'>>'}
             </Link>
           </div>
         </div>
@@ -111,24 +114,24 @@ export default class BlogSidebar extends Component {
             <Link
               to="/Tip_to_sanitize_your_car_during_covid_19"
               class="btn btn-primary"
+              rel="noopener noreferrer" target="_blank"
             >
-              Read more
+              Read more {'>>'}
             </Link>
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src={HAKS} alt="autobatteries" />
+          <img class="card-img-top" src={BlackCar} alt="autobatteries" />
           <div class="card-body">
             <h5 class="card-title">All you need to know about car battery</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            Do's and Dont's inside the car during pandemic , When will your car battery die , Don't use tap water to refill your battery , Find the CCA(Cold Cranking Amps) of your battery , Brand of your car battery, Warranty, Manufacturing date , Battery types , Know about our service
             </p>
             <Link
-              to="/All_you_need_to_know_about_car_battery"
+              to="/All_you_need_to_know_about_car_battery" rel="noopener noreferrer" target="_blank"
               class="btn btn-primary"
             >
-              Read more
+              Read more {'>>'}
             </Link>
           </div>
         </div>
@@ -137,11 +140,10 @@ export default class BlogSidebar extends Component {
           <div class="card-body">
             <h5 class="card-title">Top 4 battery for your car</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            Amaron , Acdelco , Solite , Varta
             </p>
-            <Link to="/Top_4_battery_for_your_car" class="btn btn-primary">
-              Read more
+            <Link to="/top_4_battery_for_your_car" class="btn btn-primary">
+              Read more {'>>'}
             </Link>
           </div>
         </div>
