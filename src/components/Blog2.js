@@ -82,7 +82,7 @@ export default class Blog2 extends Component {
                   >
                     <i class="fab fa-whatsapp" aria-hidden="true"></i>
                     WhatsApp
-                  </a>{" "}
+                  </a>
                 </p>
                 <li className="blog-list-heading">Bad smells</li>
                 <p className="blog-paragraph-heading">

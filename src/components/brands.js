@@ -5,7 +5,6 @@ import Battery1 from "../img/product1.webp";
 import Battery2 from "../img/product2.webp";
 import Battery3 from "../img/product3.webp";
 import Battery4 from "../img/product4.webp";
-import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import MetaTags from "react-meta-tags";
 

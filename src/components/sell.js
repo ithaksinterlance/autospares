@@ -4,7 +4,6 @@ import Navbar from "./Navbar";
 import World from "../img/haks.jpg";
 import CarBattery from "../img/sell.jpg";
 import Swal from "sweetalert2";
-import anime from "animejs";
 
 export default class sell extends Component {
   constructor(props) {

@@ -8,7 +8,15 @@ import Sanitize from "../img/sanitize.jpg";
 import BlackCar from "../img/blackcar.jpg";
 
 export default class Post extends Component {
+  
   render() {
+    async function getPosts() {
+    const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+    const data = await response.json();
+    return data;
+    }
+
+    getPosts().then(posts => console.log(posts));
     return (
       <div>
         <Navbar />
@@ -72,7 +80,7 @@ export default class Post extends Component {
                 <div class="card postCard">
                   <img
                     class="card-img-top"
-                    src={BlackCar}
+                    src={Sanitize}
                     alt="autobatteries"
                   />
                   <div class="card-body">

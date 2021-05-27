@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import WhatsApp from "../img/wabattery.png";
+import WhatsApp from "../img/wabattery.webp";
 
 export default class Navbar extends Component {
   render() {
