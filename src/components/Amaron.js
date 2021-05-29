@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "./Footer.js";
+import Navbar from "./Navbar.js";
 import AmaronBattery from "../img/product2.webp";
 import Solite from "../img/product4.webp";
 import Varta from "../img/product1.webp";
@@ -145,7 +145,7 @@ export default class Amaron extends Component {
             <div className="col-md-2">
               <div className="col-md-12 pt-1">Other Battery List</div>
               <div className="col-md-12">
-                <Link to="/solite">
+                <Link to="/solite-battery">
                   <img
                     src={Solite}
                     alt="solite Battery replacement in dubai"
@@ -155,7 +155,7 @@ export default class Amaron extends Component {
               </div>
 
               <div className="col-md-12">
-                <Link to="/acdelco">
+                <Link to="/acdelco-battery">
                   <img
                     src={Varta}
                     alt="varta battery"
@@ -164,7 +164,7 @@ export default class Amaron extends Component {
                 </Link>
               </div>
               <div className="col-md-12">
-                <Link to="/varta">
+                <Link to="/varta-battery">
                   <img
                     src={Acdelco}
                     alt="acdelco battery"

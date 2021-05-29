@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "./Footer.js";
+import Navbar from "./Navbar.js";
 import SoliteBattery from "../img/product4.webp";
 import Amaron from "../img/product1.webp";
 import Varta from "../img/product2.webp";

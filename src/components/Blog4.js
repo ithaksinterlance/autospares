@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./Navbar.js";
+import Footer from "./Footer.js";
 import MetaTags from "react-meta-tags";
-import BlogSidebar from "./BlogSidebar";
+import BlogSidebar from "./BlogSidebar.js";
 import BlackCar from "../img/blackcar.jpg";
 import { Link } from "react-router-dom";
 

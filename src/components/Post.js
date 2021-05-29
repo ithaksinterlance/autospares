@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./Navbar.js";
+import Footer from "./Footer.js";
 import { Link } from "react-router-dom";
 import CarBattery from "../img/battery.jpeg";
 import Speedometer from "../img/speedometer.jpeg";

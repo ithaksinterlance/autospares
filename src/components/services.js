@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "./Footer.js";
+import Navbar from "./Navbar.js";
 import CarBattery from "../img/carbattery.jpeg";
 import { MetaTags } from "react-meta-tags";
 

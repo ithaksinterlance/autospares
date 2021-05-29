@@ -1,11 +1,11 @@
 //How to maintain Your car battery
 import React, { Component } from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./Navbar.js";
+import Footer from "./Footer.js";
 import CarBattery from "../img/battery.jpeg";
 import MetaTags from "react-meta-tags";
 import { Link } from "react-router-dom";
-import BlogSidebar from "./BlogSidebar";
+import BlogSidebar from "./BlogSidebar.js";
 
 class Blog1 extends Component {
   render() {

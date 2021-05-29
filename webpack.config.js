@@ -1,11 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: {
-    app : ["./src/index.js"],
-  },
+  entry: 
+    ["@babel/polyfill","./src/index.js"],
   resolve: {
-    extensions: ['.webpack.js', '.web.js', '.ts', '.js','.jsx','.css']
+    extensions: ['.webpack.js', '.web.js', '.ts', '.js','.jsx','.css'],
   },
   output: {
     path: path.resolve(__dirname, 'build'),
@@ -32,6 +31,10 @@ module.exports = {
       options: {
         outputPath: 'images',
       },
+    },
+    {
+      test: /\.html$/i,
+      loader: 'html-loader',
     },
   ],
   }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar.js";
 import Prod1 from "../img/product1.webp";
 import Prod2 from "../img/product2.webp";
 import Prod3 from "../img/product3.webp";
@@ -7,7 +7,7 @@ import Prod4 from "../img/product4.webp";
 import MJ from "../img/autobatteries.hakstime.com.png";
 import Green from "../img/greencar.webp";
 import Road from "../img/road.webp";
-import Footer from "./Footer";
+import Footer from "./Footer.js";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import MetaTags from "react-meta-tags";
@@ -481,7 +481,7 @@ export default class Home extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-3 col-xs-6">
-                <Link to="/acdelco" title="car battery near me">
+                <Link to="/acdelco-battery" title="car battery near me">
                   <img
                     src={Prod1}
                     alt="car battery replacement in dubai"
@@ -493,7 +493,7 @@ export default class Home extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-xs-6">
-                <Link to="/amaron" title="car battery near me">
+                <Link to="/amaron-battery" title="car battery near me">
                   <img
                     src={Prod2}
                     alt="battery replacement"
@@ -505,7 +505,7 @@ export default class Home extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-xs-6">
-                <Link to="/varta" title="car battery service">
+                <Link to="/varta-battery" title="car battery service">
                   <a href="/">
                     <img
                       src={Prod3}
@@ -519,7 +519,7 @@ export default class Home extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-xs-6">
-                <Link to="/solite" title="solite battery">
+                <Link to="/solite-battery" title="solite battery">
                   <img
                     src={Prod4}
                     alt="battery"

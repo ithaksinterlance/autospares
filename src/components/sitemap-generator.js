@@ -1,9 +1,10 @@
-import routes from "./main";
-require('@babel/register');
-const router = require(routes).default;
-const Sitemap = require('react-router-sitemap').default;
+import {Sitemap} from "react-router-sitemap";
+import "@babel/register";
+import router from "./main.mjs";
+const route = router.default;
+
 (
-    new Sitemap(router)
+    new Sitemap(route)
         .build('https://autobatteries.hakstime.com')
         .save('./sitemap.xml')
 );

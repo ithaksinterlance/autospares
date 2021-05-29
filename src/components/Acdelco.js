@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "./Footer.js";
+import Navbar from "./Navbar.js";
 import AcdelcoBattery from "../img/product1.webp";
 import Amaron from "../img/product3.webp";
 import Solite from "../img/product2.webp";
@@ -13,7 +13,7 @@ export default class Acdelco extends Component {
     return (
       <div>
         <MetaTags>
-          <title>Autobatteries |Acdelco battery replacement</title>
+          <title>Autobatteries | Acdelco battery replacement</title>
           <meta charset="utf-8" />
           <meta
             name="title"
@@ -146,7 +146,7 @@ export default class Acdelco extends Component {
             <div className="col-md-2">
               <div className="col-md-12 pt-1">Other Battery List</div>
               <div className="col-md-12">
-                <Link to="/amaron">
+                <Link to="/amaron-battery">
                   <img
                     src={Solite}
                     alt="amaron Automotive car battery"
@@ -156,7 +156,7 @@ export default class Acdelco extends Component {
               </div>
 
               <div className="col-md-12">
-                <Link to="/solite">
+                <Link to="/solite-battery">
                   <img
                     src={Varta}
                     alt="amaron car Battery replacement in dubai"
@@ -165,7 +165,7 @@ export default class Acdelco extends Component {
                 </Link>
               </div>
               <div className="col-md-12">
-                <Link to="/varta">
+                <Link to="/varta-battery">
                   <img
                     src={Amaron}
                     alt="Solite car Battery replacement in dubai"

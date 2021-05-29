@@ -1,22 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./Home";
-import Solite from "./Solite";
-import Varta from "./Varta";
-import Acdelco from "./Acdelco";
-import Amaron from "./Amaron";
-import Brands from "./brands";
-import Services from "./services";
-import Sell from "./sell";
-import test from "./Blog1";
-import contact from "./Contact";
-import How_to_maintain_your_car_battery from "./Blog1";
-import How_to_know_if_your_car_battery_is_dying from "./Blog2";
-import Tip_to_sanitize_your_car_during_covid_19 from "./Blog3";
-import All_you_need_to_know_about_car_battery from "./Blog4";
-import Top_4_battery_for_your_car from "./Blog5";
-import BlogSidebar from "./BlogSidebar";
-import Post from "./Post";
+import Home from "./Home.js";
+import Solite from "./Solite.js";
+import Varta from "./Varta.js";
+import Acdelco from "./Acdelco.js";
+import Amaron from "./Amaron.js";
+import Brands from "./brands.js";
+import Services from "./services.js";
+import Sell from "./sell.js";
+import test from "./Blog1.js";
+import contact from "./Contact.js";
+import How_to_maintain_your_car_battery from "./Blog1.js";
+import How_to_know_if_your_car_battery_is_dying from "./Blog2.js";
+import Tip_to_sanitize_your_car_during_covid_19 from "./Blog3.js";
+import All_you_need_to_know_about_car_battery from "./Blog4.js";
+import Top_4_battery_for_your_car from "./Blog5.js";
+import BlogSidebar from "./BlogSidebar.js";
+import Post from "./Post.js";
 
 const Main = () => (
   
@@ -26,10 +26,10 @@ const Main = () => (
      window.location.href = 'google760dbaa359091b71.html'; 
      return null;
 }}/>
-    <Route exact path="/solite" component={Solite} />
-    <Route exact path="/varta" component={Varta} />
-    <Route exact path="/acdelco" component={Acdelco} />
-    <Route exact path="/amaron" component={Amaron} />
+    <Route exact path="/solite-battery" component={Solite} />
+    <Route exact path="/varta-battery" component={Varta} />
+    <Route exact path="/acdelco-battery" component={Acdelco} />
+    <Route exact path="/amaron-battery" component={Amaron} />
     <Route exact path="/car-battery-brands" component={Brands} />
     <Route exact path="/car-battery-replacement" component={Services} />
     <Route exact path="/become-a-partner" component={Sell} />

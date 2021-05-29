@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./Navbar.js";
+import Footer from "./Footer.js";
 import CarBattery from "../img/carbattery.jpeg";
 import MetaTags from "react-meta-tags";
-import BlogSidebar from "./BlogSidebar";
+import BlogSidebar from "./BlogSidebar.js";
 
 class Blog5 extends Component {
   render() {
@@ -45,14 +45,14 @@ class Blog5 extends Component {
                  Amaron battery is made in india. It is made of Silven X-Alloy. So it has high capacity to withstand heat. A battery has six cells of 12 volt battery in it thus giving the best durability. Amaron batteries are made in QS 9000 IS 14000 & TS 16949 certified plants using world-class technology. The raw materials we use are of best-in-class purity and we make absolutely no compromise on the quality. Every item is stringently tested for conformance to specifications. Our batteries are manufactured in a totally automated assembly line, to ensure consistent products of the highest quality. 
                 </p>
                 <div className="flex-container d-flex justify-content-center">
-            <a href="/Amaron" title="Amaron"><p className="nav1 blink_me">Get Your Amaron battery Now {'>>'}</p></a></div>
+            <a href="/amaron-battery" title="Amaron"><p className="nav1 blink_me">Get Your Amaron battery Now {'>>'}</p></a></div>
                 <li className="blog-list-heading">
                   Acdelco
                 </li>
                 <p className="blog-paragraph-heading">
                   Acdelco battery types are of AGM types. Some of it benefits are Sealed Maintainence-free design, ACDelco full frame technology stamped positive plates, patented high-density active material on plates, has built-in 'state of charge hydrometer' etc. Acdelco batteries are Laboratory-tested, field-proven, and backed by GM with outstanding limited-warranty coverage, ACDelco Gold (Professional) and Silver (Advantage) Batteries set the standard for performance.                  
                 </p><div className="flex-container d-flex justify-content-center">
-            <a href="/Acdelco" title="Amaron"><p className="nav1 blink_me">Get Your Acdelco battery Now {'>>'}</p></a></div>
+            <a href="/acdelco-battery" title="Acdelco"><p className="nav1 blink_me">Get Your Acdelco battery Now {'>>'}</p></a></div>
                 <li className="blog-list-heading">
                   Varta
                 </li>
@@ -60,7 +60,7 @@ class Blog5 extends Component {
                  VARTA batteries are engineered in germany. Vrta batteries are AGM based. EFB batteries types are also available for varta. But AGM suits the best for car batteries. It is designed to deliver the right level of power and longevity for every kind of car. VARTA batteries provide longer life, less corrosion and lower cost of ownership, qualities you’ll find in all our products from our advanced start-stop automotive range to our professional powerboat products.
                 </p>
                 <div className="flex-container d-flex justify-content-center">
-            <a href="/Varta" title="Amaron"><p className="nav1 blink_me">Get Your Varta battery Now {'>>'}</p></a></div>
+            <a href="/varta-battery" title="Varta"><p className="nav1 blink_me">Get Your Varta battery Now {'>>'}</p></a></div>
                 
                 <li className="blog-list-heading">
                   Solite
@@ -69,7 +69,7 @@ class Blog5 extends Component {
                 Solite is a highly reliable automotive battery that satisfies the car lovers all over the world under any circumstance. It is the major OEM supplier to Hyundai and KIA motors all over the world, and the presence of Solite batteries in all factory assembled Hyundai and KIA vehicles is a solid assurity of its superior quality.
                 </p>
                 <div className="flex-container d-flex justify-content-center">
-            <a href="/Solite" title="Amaron"><p className="nav1 blink_me">Get Your Solite battery Now {'>>'}</p></a></div>
+            <a href="/solite-battery" title="solite"><p className="nav1 blink_me">Get Your Solite battery Now {'>>'}</p></a></div>
               </ol>
             </div>
             <BlogSidebar />

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "./Footer.js";
+import Navbar from "./Navbar.js";
 import Battery1 from "../img/product1.webp";
 import Battery2 from "../img/product2.webp";
 import Battery3 from "../img/product3.webp";
@@ -44,7 +44,7 @@ export default class brands extends Component {
                   >
                     CALL NOW {">>"}
                   </a>
-                  <Link to="/acdelco" title="acdelco battery replacement in dubai and sharjah">
+                  <Link to="/acdelco-battery" title="acdelco battery replacement in dubai and sharjah">
                     <div className="text-center">
                       <p className="paragraph">Read {">>"}</p>
                     </div>
@@ -65,7 +65,7 @@ export default class brands extends Component {
                   >
                     CALL NOW {">>"}
                   </a>
-                  <Link to="/amaron" title="amaron battery replacement in dubai and sharjah">
+                  <Link to="/amaron-battery" title="amaron battery replacement in dubai and sharjah">
                     <div className="text-center">
                       <p className="paragraph">Read {">>"}</p>
                     </div>
@@ -86,7 +86,7 @@ export default class brands extends Component {
                   >
                     CALL NOW {">>"}
                   </a>
-                  <Link to="/varta" title="car battery near me">
+                  <Link to="/varta-battery" title="car battery near me">
                     <div className="text-center">
                       <p className="paragraph">Read {">>"}</p>
                     </div>
@@ -107,7 +107,7 @@ export default class brands extends Component {
                   >
                     CALL NOW {">>"}
                   </a>
-                  <Link to="/solite" title="car battery near me">
+                  <Link to="/solite-battery" title="car battery near me">
                     <div className="text-center">
                       <p className="paragraph">Read {">>"}</p>
                     </div>

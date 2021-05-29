@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "./Footer.js";
+import Navbar from "./Navbar.js";
 import World from "../img/haks.jpg";
 import CarBattery from "../img/sell.jpg";
 import Swal from "sweetalert2";

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./Navbar.js";
+import Footer from "./Footer.js";
 import MetaTags from "react-meta-tags";
-import BlogSidebar from "./BlogSidebar";
+import BlogSidebar from "./BlogSidebar.js";
 import Sanitize from "../img/sanitize.jpg";
 
 export default class Blog3 extends Component {
