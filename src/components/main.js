@@ -22,7 +22,7 @@ import Post from "./Post.js";
 const history = createHistory();
 
 const Main = () => (
-<Router history={history}>
+<Router history={history} basename={window.location.pathname || ''}>
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/google760dbaa359091b71.html" component={() => { 
