@@ -1,5 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {  Route, Switch } from "react-router-dom";
+import { Router, browserHistory } from 'react-router';
+
 import Home from "./Home.js";
 import Solite from "./Solite.js";
 import Varta from "./Varta.js";
@@ -18,7 +20,7 @@ import Top_4_battery_for_your_car from "./Blog5.js";
 import BlogSidebar from "./BlogSidebar.js";
 import Post from "./Post.js";
 const Main = () => (
-<Router>
+<Router history={browserHistory}>
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/google760dbaa359091b71.html" component={() => { 
