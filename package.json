@@ -1,7 +1,6 @@
 {
   "homepage": "http://ithaksinterlance.github.io/",
-  "name": "my-webpack-project",
-  "type": "module",
+  "name": "autobatteries",
   "main": "./src/index.js",
   "version": "1.0.0",
   "private": true,
