@@ -18,6 +18,7 @@ import Top_4_battery_for_your_car from "./Blog5.js";
 import BlogSidebar from "./BlogSidebar.js";
 import Post from "./Post.js";
 const Main = () => (
+<Router>
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/google760dbaa359091b71.html" component={() => { 
@@ -87,6 +88,7 @@ const Main = () => (
       component={Top_4_battery_for_your_car}
     />
   </Switch>
+  </Router>
 );
 
 export default Main;
