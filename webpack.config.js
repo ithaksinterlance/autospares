@@ -1,58 +1,52 @@
-// Generated using webpack-cli https://github.com/webpack/webpack-cli
-
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-
-const isProduction = process.env.NODE_ENV == "production";
-
-const stylesHandler = MiniCssExtractPlugin.loader;
-
-const config = {
-  entry: "./src/index.js",
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+module.exports = {
+  mode: "production",
+  entry: 
+    ["@babel/polyfill","./src/index.js"],
+  resolve: {
+    extensions: ['.webpack.js', '.web.js', '.ts', '.js','.jsx','.css','.mjs'],
+  },
   output: {
-    path: path.resolve(__dirname, "dist")
+    path: path.resolve(__dirname, 'build'),
+    filename: 'app.bundle.js'
   },
-  devServer: {
-    open: true,
-    host: "localhost"
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: "index.html"
-    }),
-
-    new MiniCssExtractPlugin()
-
-    // Add your plugins here
-    // Learn more about plugins from https://webpack.js.org/configuration/plugins/
-  ],
   module: {
-    rules: [
-      {
-        test: /\.(js|jsx)$/i,
-        loader: "babel-loader"
+    rules: [{
+      test: /\.js?$/,
+      exclude: /node_modules/,
+      loader: 'babel-loader',
+      query: {
+        presets: ["@babel/preset-env","@babel/preset-react"] 
       },
-      {
-        test: /\.css$/i,
-        use: [stylesHandler, "css-loader", "postcss-loader"]
+    },
+    {
+      test: /\.css$/i,
+      use: [
+        "file-loader", 
+      ],
+    },
+    {
+      test: /\.(png|jpe?g|gif|webp)$/i,
+      loader: 'file-loader',
+      options: {
+        outputPath: 'images',
       },
-      {
-        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
-        type: "asset"
-      }
-
-      // Add your rules for custom modules here
-      // Learn more about loaders from https://webpack.js.org/loaders/
-    ]
+    },
+    {
+      test: /\.html$/i,
+      loader: 'html-loader',
+    },
+    {
+      test: /\.xml$/,
+      use: {
+        loader: 'xml-loader',
+        options: {
+          explicitArray: false,
+        },
+      },
+    },
+  ],
+  plugins: [new HtmlWebpackPlugin()],
   }
-};
-
-module.exports = () => {
-  if (isProduction) {
-    config.mode = "production";
-  } else {
-    config.mode = "development";
-  }
-  return config;
-};
+}
