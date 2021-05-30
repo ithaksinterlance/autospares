@@ -17,7 +17,6 @@ import All_you_need_to_know_about_car_battery from "./Blog4.js";
 import Top_4_battery_for_your_car from "./Blog5.js";
 import BlogSidebar from "./BlogSidebar.js";
 import Post from "./Post.js";
-
 const Main = () => (
   
   <Switch>

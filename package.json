@@ -1,8 +1,9 @@
 {
   "homepage": "http://ithaksinterlance.github.io/",
-  "name": "haksinterlance",
+  "name": "my-webpack-project",
+  "type": "module",
   "main": "./src/index.js",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
@@ -28,11 +29,15 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "webpack",
+    "build": "webpack --mode=production --node-env=production",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sitemap": "babel-node ./components/sitemap-generator",
-    "generate-sitemap": "node ./src/components/sitemap-generator.mjs"
+    "generate-sitemap": "node ./src/components/sitemap-generator.mjs",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
   },
   "eslintConfig": {
     "extends": [
@@ -55,17 +60,28 @@
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
     "@babel/preset-stage-0": "^7.8.3",
     "@babel/register": "^7.13.16",
-    "babel-loader": "^8.1.0",
+    "@webpack-cli/generators": "^2.1.0",
+    "autoprefixer": "^10.2.6",
+    "babel-loader": "^8.2.2",
     "babel-polyfill": "^6.26.0",
+    "css-loader": "^5.2.6",
     "file-loader": "^6.2.0",
     "gh-pages": "^3.1.0",
     "html-loader": "^2.1.2",
-    "webpack": "^4.44.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "postcss": "^8.3.0",
+    "postcss-loader": "^5.3.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.46.0",
     "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.2",
+    "xml-loader": "^1.2.1"
   },
-  "proxy": "http://localhost:3000"
+  "proxy": "http://localhost:3000",
+  "description": "My webpack project"
 }

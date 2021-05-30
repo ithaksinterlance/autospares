@@ -41,7 +41,7 @@ export default class Acdelco extends Component {
             <div className="col-md-5">
               <img
                 src={AcdelcoBattery}
-                alt="Solite battery replacement"
+                alt="car battery"
                 class="img-fluid batteryProd"
               />
               <smal className="small d-flex justify-content-end">
@@ -96,7 +96,7 @@ export default class Acdelco extends Component {
                       id="nav-home-tab"
                       data-toggle="tab"
                       href="#nav-home"
-                      title="car battery replacement"
+                      title="car battery dubai"
                       role="tab"
                       aria-controls="nav-home"
                       aria-selected="true"
@@ -149,7 +149,7 @@ export default class Acdelco extends Component {
                 <Link to="/amaron-battery">
                   <img
                     src={Solite}
-                    alt="amaron Automotive car battery"
+                    alt="car battery dubai price"
                     className="img-fluid spanbattery"
                   />
                 </Link>
@@ -159,7 +159,7 @@ export default class Acdelco extends Component {
                 <Link to="/solite-battery">
                   <img
                     src={Varta}
-                    alt="amaron car Battery replacement in dubai"
+                    alt="agm car battery"
                     className="img-fluid spanbattery"
                   />
                 </Link>
@@ -168,7 +168,7 @@ export default class Acdelco extends Component {
                 <Link to="/varta-battery">
                   <img
                     src={Amaron}
-                    alt="Solite car Battery replacement in dubai"
+                    alt="car battery price"
                     className="img-fluid spanbattery"
                   />
                 </Link>
