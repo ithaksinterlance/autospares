@@ -1,11 +1,10 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: "production",
   entry: 
     ["@babel/polyfill","./src/index.js"],
   resolve: {
-    extensions: ['.webpack.js', '.web.js', '.ts', '.js','.jsx','.css','.mjs'],
+    extensions: ['.webpack.js', '.web.js', '.ts', '.js','.jsx','.css'],
   },
   output: {
     path: path.resolve(__dirname, 'build'),

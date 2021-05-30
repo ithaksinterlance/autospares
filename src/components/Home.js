@@ -4,7 +4,7 @@ import Prod1 from "../img/product1.webp";
 import Prod2 from "../img/product2.webp";
 import Prod3 from "../img/product3.webp";
 import Prod4 from "../img/product4.webp";
-import MJ from "../img/autobatteries.hakstime.com.png";
+import MJ from "../img/autobatteries.hakstime.com.webp";
 import Green from "../img/greencar.webp";
 import Road from "../img/road.webp";
 import Footer from "./Footer.js";

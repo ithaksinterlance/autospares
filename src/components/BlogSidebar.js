@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import HAKS from "../img/Logo.jpeg";
 import { Link } from "react-router-dom";
-import CarBattery from "../img/battery.jpeg";
-import Speedometer from "../img/speedometer.jpeg";
-import Sanitize from "../img/sanitize.jpg";
-import Battery from "../img/carbattery.jpeg";
+import CarBattery from "../img/battery.webp";
+import Speedometer from "../img/speedometer.webp";
+import Sanitize from "../img/sanitize.webp";
+import Battery from "../img/carbattery.webp";
 import BlackCar from "../img/blackcar.jpg"
 
 export default class BlogSidebar extends Component {

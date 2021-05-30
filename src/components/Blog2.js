@@ -3,7 +3,7 @@ import Navbar from "./Navbar.js";
 import Footer from "./Footer.js";
 import MetaTags from "react-meta-tags";
 import BlogSidebar from "./BlogSidebar.js";
-import Speedometer from "../img/speedometer.jpeg";
+import Speedometer from "../img/speedometer.webp";
 
 export default class Blog2 extends Component {
   render() {

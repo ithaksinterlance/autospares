@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Navbar from "./Navbar.js";
 import Footer from "./Footer.js";
 import { Link } from "react-router-dom";
-import CarBattery from "../img/battery.jpeg";
-import Speedometer from "../img/speedometer.jpeg";
-import Sanitize from "../img/sanitize.jpg";
+import CarBattery from "../img/battery.webp";
+import Speedometer from "../img/speedometer.webp";
+import Sanitize from "../img/sanitize.webp";
 import BlackCar from "../img/blackcar.jpg";
 
 export default class Post extends Component {

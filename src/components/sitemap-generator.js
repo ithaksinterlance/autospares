@@ -1,6 +1,6 @@
 import {Sitemap} from "react-router-sitemap";
 import "@babel/register";
-import router from "./main.mjs";
+import router from "./main.js";
 const route = router.default;
 
 (

@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar.js";
 import Footer from "./Footer.js";
-import CarBattery from "../img/battery.jpeg";
+import CarBattery from "../img/battery.webp";
 import MetaTags from "react-meta-tags";
 import { Link } from "react-router-dom";
 import BlogSidebar from "./BlogSidebar.js";

@@ -3,7 +3,7 @@ import Navbar from "./Navbar.js";
 import Footer from "./Footer.js";
 import MetaTags from "react-meta-tags";
 import BlogSidebar from "./BlogSidebar.js";
-import Sanitize from "../img/sanitize.jpg";
+import Sanitize from "../img/sanitize.webp";
 
 export default class Blog3 extends Component {
   render() {

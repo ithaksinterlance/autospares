@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from "./Navbar.js";
 import Footer from "./Footer.js";
-import CarBattery from "../img/carbattery.jpeg";
+import CarBattery from "../img/carbattery.webp";
 import MetaTags from "react-meta-tags";
 import BlogSidebar from "./BlogSidebar.js";
 

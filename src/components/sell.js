@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Footer from "./Footer.js";
 import Navbar from "./Navbar.js";
-import World from "../img/haks.jpg";
-import CarBattery from "../img/sell.jpg";
+import World from "../img/haks.webp";
+import CarBattery from "../img/sell.webp";
 import Swal from "sweetalert2";
 
 export default class sell extends Component {
