@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   mode: "production",
   entry: 
-    ["@babel/polyfill","./src/index.js"],
+    ["./src/index.js"],
   resolve: {
     extensions: ['.webpack.js', '.web.js', '.ts', '.js','.jsx','.css'],
   },
@@ -22,7 +22,7 @@ module.exports = {
       use: {
         loader: 'babel-loader',
         options: {
-          presets: ['@babel/preset-env']
+          presets: ['@babel/preset-env','@babel/preset-react']
         }
       }
     },

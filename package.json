@@ -1,5 +1,5 @@
 {
-  "homepage": "http://ithaksinterlance.github.io/autospares",
+  "homepage": "http://ithaksinterlance.github.io/",
   "name": "haksinterlance",
   "main": "./src/index.js",
   "version": "1.0.0",
@@ -54,6 +54,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.14.4",
     "@babel/preset-react": "^7.13.13",
