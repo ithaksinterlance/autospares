@@ -9,7 +9,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: path.resolve(__dirname, 'build'),
   },
   output: {
     path: path.resolve(__dirname, 'build'),
@@ -21,10 +21,8 @@ module.exports = {
       exclude: /node_modules/,
       use: {
         loader: 'babel-loader',
-        query: {
-          presets: ['@babel/preset-env',{
-            "useBuiltIns": "entry"
-          }]
+        options: {
+          presets: ['@babel/preset-env']
         }
       }
     },
