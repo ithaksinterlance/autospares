@@ -1,6 +1,7 @@
 {
   "homepage": "http://ithaksinterlance.github.io",
   "name": "haksinterlance",
+  "main": "./src/index.js",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -30,8 +31,8 @@
     "build": "webpack",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sitemap": "babel-node ./components/sitemap-generator",
-    "generate-sitemap": "node ./src/components/sitemap-generator.mjs"
+    "sitemap": "babel-node ./src/components/sitemap-generator.js",
+    "generate-sitemap": "node ./src/components/sitemap-generator.js"
   },
   "eslintConfig": {
     "extends": [

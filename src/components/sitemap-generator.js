@@ -1,10 +1,17 @@
-import {Sitemap} from "react-router-sitemap";
-import "@babel/register";
-import router from "./main.js";
-const route = router.default;
+const env = require('@babel/preset-env');
+const presetReact = require('@babel/preset-react');
+require("@babel/register")({
+  presets: [env, presetReact]
+});
+const router = require('./main').default;
+const Sitemap = require('react-router-sitemap').default;
 
-(
-    new Sitemap(route)
-        .build('https://autobatteries.hakstime.com')
-        .save('./sitemap.xml')
-);
+function generateSitemap() {
+  return (
+  new Sitemap(router())
+  .build("https://autobatteries.hakstime.com")
+  .save("../public/sitemap.xml")
+  );
+}
+
+generateSitemap();

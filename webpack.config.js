@@ -1,3 +1,4 @@
+
 const path = require('path');
 module.exports = {
   mode: "production",
@@ -5,6 +6,10 @@ module.exports = {
     ["@babel/polyfill","./src/index.js"],
   resolve: {
     extensions: ['.webpack.js', '.web.js', '.ts', '.js','.jsx','.css'],
+  },
+  devServer: {
+    historyApiFallback: true,
+    contentBase: './'
   },
   output: {
     path: path.resolve(__dirname, 'build'),
@@ -14,10 +19,14 @@ module.exports = {
     rules: [{
       test: /\.js?$/,
       exclude: /node_modules/,
-      loader: 'babel-loader',
-      query: {
-        presets: ["@babel/preset-env","@babel/preset-react"] 
-      },
+      use: {
+        loader: 'babel-loader',
+        query: {
+          presets: ['@babel/preset-env',{
+            "useBuiltIns": "entry"
+          }]
+        }
+      }
     },
     {
       test: /\.css$/i,
@@ -44,8 +53,7 @@ module.exports = {
           explicitArray: false,
         },
       },
-    },
-    
+    },    
   ],
   }
 }
