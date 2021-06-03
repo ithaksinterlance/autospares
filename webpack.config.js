@@ -1,6 +1,9 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const nodeExternals = require('webpack-node-externals');
 const path = require('path');
 module.exports = {
+  target: 'node',
+  externals: [nodeExternals()],
   mode: "production",
   entry: 
     ["./src/index.js"],
