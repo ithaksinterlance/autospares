@@ -1,5 +1,5 @@
 import React, {lazy, Suspense} from "react";
-import { Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { createMemoryHistory } from 'history';
 const history = createMemoryHistory();
 const Home = lazy(() => import('./Home'));
@@ -21,8 +21,8 @@ const Post = lazy(() => import('./Post'));
 
 const Main = () => (
   <Router history={history}>
+     <Switch>
 <Suspense fallback={<div className="loader"></div>}>
-  <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/google760dbaa359091b71.html" component={() => { 
      window.location.href = 'google760dbaa359091b71.html'; 
@@ -89,8 +89,8 @@ const Main = () => (
       path="/top_4_battery_for_your_car"
       component={Top_4_battery_for_your_car}
     />
-  </Switch>
   </Suspense>
+  </Switch>
   </Router>
   
 );
