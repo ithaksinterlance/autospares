@@ -1,19 +1,22 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path');
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: 
     ["./src/index.js"],
   resolve: {
     extensions: ['.webpack.js', '.web.js', '.ts', '.js','.jsx','.css'],
   },
   devServer: {
-    historyApiFallback: true,
     contentBase: path.resolve(__dirname, 'build'),
   },
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'app.bundle.js'
   },
+  plugins: [
+    new HtmlWebpackPlugin()
+  ],
   module: {
     rules: [{
       test: /\.js?$/,
