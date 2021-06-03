@@ -13,7 +13,7 @@ export default class Solite extends Component {
     return (
       <div>
         <MetaTags>
-          <title>Autobatteries |Solite battery replacement</title>
+          <title>Solite battery</title>
           <meta charset="utf-8" />
           <meta
             name="title"

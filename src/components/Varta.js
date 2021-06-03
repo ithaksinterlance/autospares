@@ -13,7 +13,7 @@ export default class Varta extends Component {
     return (
       <div>
         <MetaTags>
-          <title>Autobatteries | Varta battery replacement</title>
+          <title>Varta battery</title>
           <meta charset="utf-8" />
           <meta
             name="title"

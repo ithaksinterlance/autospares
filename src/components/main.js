@@ -1,25 +1,27 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./Home.js";
-import Solite from "./Solite.js";
-import Varta from "./Varta.js";
-import Acdelco from "./Acdelco.js";
-import Amaron from "./Amaron.js";
-import Brands from "./brands.js";
-import Services from "./services.js";
-import Sell from "./sell.js";
-import test from "./Blog1.js";
-import contact from "./Contact.js";
-import How_to_maintain_your_car_battery from "./Blog1.js";
-import How_to_know_if_your_car_battery_is_dying from "./Blog2.js";
-import Tip_to_sanitize_your_car_during_covid_19 from "./Blog3.js";
-import All_you_need_to_know_about_car_battery from "./Blog4.js";
-import Top_4_battery_for_your_car from "./Blog5.js";
-import BlogSidebar from "./BlogSidebar.js";
-import Post from "./Post.js";
+import React, {lazy, Suspense} from "react";
+import { Router, Route, Switch } from "react-router-dom";
+import { createMemoryHistory } from 'history';
+const history = createMemoryHistory();
+const Home = lazy(() => import('./Home'));
+const Solite = lazy(() => import('./Solite'));
+const Varta = lazy(() => import('./Varta'));
+const Acdelco = lazy(() => import('./Acdelco'));
+const Amaron = lazy(() => import('./Amaron'));
+const Brands = lazy(() => import('./brands'));
+const Services = lazy(() => import('./services'));
+const Sell = lazy(() => import('./sell'));
+const contact = lazy(() => import('./Contact'));
+const How_to_maintain_your_car_battery = lazy(() => import('./Blog1'));
+const How_to_know_if_your_car_battery_is_dying = lazy(() => import('./Blog2'));
+const Tip_to_sanitize_your_car_during_covid_19 = lazy(() => import('./Blog3'));
+const All_you_need_to_know_about_car_battery = lazy(() => import('./Blog4'));
+const Top_4_battery_for_your_car = lazy(() => import('./Blog5'));
+const BlogSidebar = lazy(() => import('./BlogSidebar'));
+const Post = lazy(() => import('./Post'));
 
 const Main = () => (
-  <Router>
+  <Router history={history}>
+<Suspense fallback={<div className="loader"></div>}>
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/google760dbaa359091b71.html" component={() => { 
@@ -33,7 +35,6 @@ const Main = () => (
     <Route exact path="/car-battery-brands" component={Brands} />
     <Route exact path="/car-battery-replacement" component={Services} />
     <Route exact path="/become-a-partner" component={Sell} />
-    <Route exact path="/test" component={test} />
     <Route exact path="/contact" component={contact} />
     <Route exact path="/BlogSidebar" component={BlogSidebar} />
     <Route exact path="/post" component={Post} />
@@ -89,6 +90,8 @@ const Main = () => (
       component={Top_4_battery_for_your_car}
     />
   </Switch>
+  </Suspense>
   </Router>
+  
 );
 export default Main;

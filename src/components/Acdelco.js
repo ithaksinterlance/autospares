@@ -13,7 +13,7 @@ export default class Acdelco extends Component {
     return (
       <div>
         <MetaTags>
-          <title>Autobatteries | Acdelco battery replacement</title>
+          <title>Acdelco battery</title>
           <meta charset="utf-8" />
           <meta
             name="title"

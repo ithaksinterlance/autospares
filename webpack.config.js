@@ -1,7 +1,6 @@
-
 const path = require('path');
 module.exports = {
-  mode: "production",
+  mode: "development",
   entry: 
     ["./src/index.js"],
   resolve: {
@@ -19,39 +18,20 @@ module.exports = {
     rules: [{
       test: /\.js?$/,
       exclude: /node_modules/,
-      use: {
-        loader: 'babel-loader',
-        options: {
-          presets: ['@babel/preset-env','@babel/preset-react']
-        }
-      }
+      use: ['babel-loader'],
     },
     {
-      test: /\.css$/i,
-      use: [
-        "file-loader", 
-      ],
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader'],
     },
     {
       test: /\.(png|jpe?g|gif|webp)$/i,
       loader: 'file-loader',
-      options: {
-        outputPath: 'images',
-      },
     },
     {
       test: /\.html$/i,
       loader: 'html-loader',
     },
-    {
-      test: /\.xml$/,
-      use: {
-        loader: 'xml-loader',
-        options: {
-          explicitArray: false,
-        },
-      },
-    },    
   ],
-  }
+}
 }

@@ -13,7 +13,7 @@ export default class Amaron extends Component {
     return (
       <div>
         <MetaTags>
-          <title>Autobatteries |Amaron battery replacement</title>
+          <title>Amaron battery</title>
           <meta charset="utf-8" />
           <meta
             name="title"
