@@ -113,7 +113,7 @@ export default class Home extends Component {
         <Navbar />
         <MetaTags>
           <title>
-            Autobatteries | Car Battery replacement | Dubai & Sharjah
+            Autobatteries | Car Battery replacement | Dubai {'&'} Sharjah
           </title>
           <meta charset="utf-8" />
           <meta
@@ -419,18 +419,7 @@ export default class Home extends Component {
             <hr />
           </div>
           <h1 className="container paragraph">
-            Automobile Battery is an essential part of every vehicle be it cars,
-            buses, trucks and so on. For almost all vehicles which are driven
-            typically in an typical life the car battery lasts for 2 years more
-            or less. There is always a need for replacement of batteries and we
-            are here to fulfill that need of yours. After a long term attachment
-            with your ride all of a sudden you feel somethings wrong or all of a
-            sudden your love just stopped cranking it wont start anymore it just
-            keeps clicking but wont just start you feel dead, saddened like a
-            part of you missing, the feelings mutual, well do not worry for it
-            battery might have been dead and we are here to charge back the soul
-            into your ride and in turn you feel back on track. (you just need to
-            WhatsApp and we will be at your service fixing the battery)
+            Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta. We come to you.
           </h1>
         </div>
         <div className="container-fluid py-5">
