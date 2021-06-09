@@ -11,6 +11,7 @@ import Footer from "./Footer.js";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import MetaTags from "react-meta-tags";
+import JsonLd from "./structureJSON"
 
 export default class Home extends Component {
   submit() {
@@ -132,6 +133,10 @@ export default class Home extends Component {
           <meta name="theme-color" content="#000000" />
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />
           <meta name="author" content="autobatteries.hakstime.com" />
+          {
+          this.props.jsonLd && 
+            <JsonLd data={this.props.jsonLd} />
+        }
         </MetaTags>
         <div className="container-fluid header-text1 px-0">
           <img
