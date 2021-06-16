@@ -1,8 +1,44 @@
 import React, { Component } from "react";
 import Footer from "./Footer.js";
 import Navbar from "./Navbar.js";
+import Swal from "sweetalert2";
 
 export default class Contact extends Component {
+  submit() {
+    var carbattery1 = document.getElementById("carbattery1").value;
+    var area1 = document.getElementById("area1").value;
+    var contactno1 = document.getElementById("contactno1").value;
+    var submitted = true;
+
+   if (carbattery1 === "") {
+      submitted = false;
+      document.getElementById("carbatteryerror1").innerHTML =
+        "** Please fill the Battery Model";
+      //return false;
+    } else if (area1 === "") {
+      submitted = false;
+      document.getElementById("areaerror1").innerHTML =
+        "** Please fill the Area";
+      //return false;
+    } else if (contactno1 === "") {
+      submitted = false;
+      document.getElementById("contactnoerror1").innerHTML =
+        "** Please fill the Contact";
+      //return false;
+    } else if (isNaN(contactno1)) {
+      submitted = false;
+      document.getElementById("contactnoerror1").innerHTML =
+        "** Check Your contact no";
+      //return false;
+    } else {
+      if (submitted) {
+        Swal.fire("Form submitted. We will contact you shortly ;)").then(() =>
+          document.getElementById("miForm").onreset(window.location.reload())
+        );
+        return submitted;
+      }
+    }
+  }
   render() {
     return (
       <div>

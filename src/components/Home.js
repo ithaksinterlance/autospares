@@ -15,23 +15,12 @@ import JsonLd from "./structureJSON"
 
 export default class Home extends Component {
   submit() {
-    var year1 = document.getElementById("year1").value;
     var carbattery1 = document.getElementById("carbattery1").value;
     var area1 = document.getElementById("area1").value;
     var contactno1 = document.getElementById("contactno1").value;
     var submitted = true;
 
-    if (year1 === "") {
-      submitted = false;
-      document.getElementById("yearerror1").innerHTML =
-        "** Please fill the year";
-      //return false;
-    } else if (!year1.match([0 - 9]) && year1.length < 4) {
-      submitted = false;
-      document.getElementById("yearerror1").innerHTML =
-        "** Must be a number or 4 digit number";
-      //return false;
-    } else if (carbattery1 === "") {
+   if (carbattery1 === "") {
       submitted = false;
       document.getElementById("carbatteryerror1").innerHTML =
         "** Please fill the Battery Model";
@@ -62,23 +51,12 @@ export default class Home extends Component {
   }
 
   submituserInquiryForm() {
-    var year = document.getElementById("year").value;
     var carbattery = document.getElementById("carbattery").value;
     var area = document.getElementById("area").value;
     var contactno = document.getElementById("contactno").value;
     var submitted = true;
 
-    if (year === "") {
-      submitted = false;
-      document.getElementById("yearerror").innerHTML =
-        "** Please fill the year";
-      //return false;
-    } else if (!year.match([0 - 9]) && year.length < 4) {
-      submitted = false;
-      document.getElementById("yearerror").innerHTML =
-        "** Must be a number or 4 digit number";
-      //return false;
-    } else if (carbattery === "") {
+    if (carbattery === "") {
       submitted = false;
       document.getElementById("carbatteryerror").innerHTML =
         "** Please fill the Battery Model";
@@ -101,7 +79,7 @@ export default class Home extends Component {
     } else {
       if (submitted) {
         Swal.fire("Form submitted. We will contact you shortly ;)").then(() =>
-          document.getElementById("miForm").onreset(window.location.reload())
+          document.getElementById("myForm").onreset(window.location.reload())
         );
         return submitted;
       }
