@@ -134,7 +134,7 @@ export default class Home extends Component {
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />
           <meta name="author" content="autobatteries.hakstime.com" />
           {
-          this.props.jsonLd && 
+          this.props.jsonLd &&
             <JsonLd data={this.props.jsonLd} />
         }
         </MetaTags>
@@ -178,29 +178,10 @@ export default class Home extends Component {
                 class="mx-2 my-2 formtab"
                 target="hidden_iframe"
               >
+
                 <div class="form-group">
-                  <small id="Year" class="form-text text-muted">
-                    <i class="fas fa-calendar-alt"></i> Year
-                  </small>
-                  <input
-                    type="text"
-                    name="entry.1437758037"
-                    id="year"
-                    class=" form-control"
-                    aria-describedby="Year"
-                    placeholder=" Year"
-                    autoComplete="off"
-                  />
-                  <div>
-                    <span
-                      id="yearerror"
-                      className="text-danger font-weight-bold"
-                    ></span>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <small id="CarBatteryModel" class="form-text text-muted">
-                    <i class="fas fa-car-battery"></i> Car Brand Model Trim
+                  <small id="CarBatteryModel" class="form-text">
+                    <i class="fas fa-car-battery"></i> Vehicle Details
                   </small>
                   <input
                     type="text"
@@ -208,7 +189,7 @@ export default class Home extends Component {
                     id="carbattery"
                     class="form-control "
                     aria-describedby="CarBatteryModel"
-                    placeholder=" Car Brand Model Trim"
+                    placeholder=" Car Model Year"
                     autoComplete="off"
                   />
                   <div>
@@ -219,9 +200,8 @@ export default class Home extends Component {
                   </div>
                 </div>
                 <div class="form-group">
-                  <small id="AreaName" class="form-text text-muted">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i> Area
-                    Name, Emirate *
+                  <small id="AreaName" class="form-text">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> Delivery Location
                   </small>
                   <input
                     type="text"
@@ -240,9 +220,8 @@ export default class Home extends Component {
                   </div>
                 </div>
                 <div class="form-group">
-                  <small id="ContactNo" class="form-text text-muted pt-3">
+                  <small id="ContactNo" class="form-text">
                     <i class="fa fa-phone" aria-hidden="true"></i> Contact
-                    Number (971_________){" "}
                   </small>
                   <input
                     type="text"
@@ -250,7 +229,7 @@ export default class Home extends Component {
                     id="contactno"
                     class="form-control "
                     aria-describedby="ContactNo"
-                    placeholder="Contact Number (971_________)"
+                    placeholder="WhatsApp Number"
                     autoComplete="off"
                   />
                   <div>
@@ -262,7 +241,7 @@ export default class Home extends Component {
                 </div>
                 <button
                   type="submit"
-                  class="btn btn-danger btn-lg btn-block pb-3"
+                  class="btn btn-danger btn-lg btn-block pb-3 form-btn"
                   target="_self"
                 >
                   <i class="fab fa-whatsapp"></i>
@@ -295,28 +274,8 @@ export default class Home extends Component {
                 target="hidden_iframe"
               >
                 <div class="form-group">
-                  <small id="Year" class="form-text text-muted">
-                    <i class="fas fa-calendar-alt"></i> Year
-                  </small>
-                  <input
-                    type="text"
-                    name="entry.1437758037"
-                    id="year1"
-                    class=" form-control"
-                    aria-describedby="Year"
-                    placeholder=" Year"
-                    autoComplete="off"
-                  />
-                  <div>
-                    <span
-                      id="yearerror1"
-                      className="text-danger font-weight-bold"
-                    ></span>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <small id="CarBatteryModel" class="form-text text-muted">
-                    <i class="fas fa-car-battery    "></i> Car Brand Model Trim
+                  <small id="CarBatteryModel" class="form-text">
+                    <i class="fas fa-car-battery    "></i> Vehicle Details
                   </small>
                   <input
                     type="text"
@@ -324,7 +283,7 @@ export default class Home extends Component {
                     id="carbattery1"
                     class="form-control "
                     aria-describedby="CarBatteryModel"
-                    placeholder=" Car Brand Model Trim"
+                    placeholder=" Car Model Year"
                     autoComplete="off"
                   />
                   <div>
@@ -335,9 +294,8 @@ export default class Home extends Component {
                   </div>
                 </div>
                 <div class="form-group">
-                  <small id="AreaName" class="form-text text-muted">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i> Area
-                    Name, Emirate *
+                  <small id="AreaName" class="form-text">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> Delivery Location
                   </small>
                   <input
                     type="text"
@@ -356,9 +314,8 @@ export default class Home extends Component {
                   </div>
                 </div>
                 <div class="form-group">
-                  <small id="ContactNo" class="form-text text-muted pt-3">
+                  <small id="ContactNo" class="form-text">
                     <i class="fa fa-phone" aria-hidden="true"></i> Contact
-                    Number (971_________){" "}
                   </small>
                   <input
                     type="text"
@@ -366,7 +323,7 @@ export default class Home extends Component {
                     id="contactno1"
                     class="form-control "
                     aria-describedby="ContactNo"
-                    placeholder="Contact Number (971_________)"
+                    placeholder="WhatsApp Number"
                     autoComplete="off"
                   />
                   <div>
@@ -379,7 +336,7 @@ export default class Home extends Component {
                 <button
                   type="submit"
                   id="RefreshPage"
-                  class="btn btn-danger btn-lg btn-block pb-3"
+                  class="btn btn-danger btn-lg btn-block form-btn pb-3"
                   target="_self"
                 >
                   <i class="fab fa-whatsapp"></i>

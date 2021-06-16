@@ -27,29 +27,10 @@ export default class Contact extends Component {
                 class="mx-2 my-2"
                 target="hidden_iframe"
               >
+
                 <div class="form-group">
-                  <small id="Year" class="form-text text-muted">
-                    <i class="fas fa-calendar-alt"></i> Year
-                  </small>
-                  <input
-                    type="text"
-                    name="entry.1437758037"
-                    id="year1"
-                    class=" form-control"
-                    aria-describedby="Year"
-                    placeholder=" Year"
-                    autoComplete="off"
-                  />
-                  <div>
-                    <span
-                      id="yearerror1"
-                      className="text-danger font-weight-bold"
-                    ></span>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <small id="CarBatteryModel" class="form-text text-muted">
-                    <i class="fas fa-car-battery    "></i> Car Brand Model Trim
+                  <small id="CarBatteryModel" class="form-text">
+                    <i class="fas fa-car-battery"></i> Vehicle Details
                   </small>
                   <input
                     type="text"
@@ -57,7 +38,7 @@ export default class Contact extends Component {
                     id="carbattery1"
                     class="form-control "
                     aria-describedby="CarBatteryModel"
-                    placeholder=" Car Brand Model Trim"
+                    placeholder=" Car Model Year"
                     autoComplete="off"
                   />
                   <div>
@@ -68,9 +49,8 @@ export default class Contact extends Component {
                   </div>
                 </div>
                 <div class="form-group">
-                  <small id="AreaName" class="form-text text-muted">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i> Area
-                    Name, Emirate *
+                  <small id="AreaName" class="form-text">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> Delivery Location
                   </small>
                   <input
                     type="text"
@@ -78,7 +58,7 @@ export default class Contact extends Component {
                     id="area1"
                     class="form-control "
                     aria-describedby="AreaName"
-                    placeholder=" Area Name, Emirate"
+                    placeholder="Area Name, Emirate"
                     autoComplete="off"
                   />
                   <div>
@@ -89,9 +69,8 @@ export default class Contact extends Component {
                   </div>
                 </div>
                 <div class="form-group">
-                  <small id="ContactNo" class="form-text text-muted pt-3">
+                  <small id="ContactNo" class="form-text">
                     <i class="fa fa-phone" aria-hidden="true"></i> Contact
-                    Number (971_________){" "}
                   </small>
                   <input
                     type="text"
@@ -99,7 +78,7 @@ export default class Contact extends Component {
                     id="contactno1"
                     class="form-control "
                     aria-describedby="ContactNo"
-                    placeholder="Contact Number (971_________)"
+                    placeholder="Whatsapp Number"
                     autoComplete="off"
                   />
                   <div>
@@ -112,7 +91,7 @@ export default class Contact extends Component {
                 <button
                   type="submit"
                   id="RefreshPage"
-                  class="btn btn-danger btn-lg btn-block pb-3"
+                  class="btn btn-danger btn-lg btn-block pb-3 form-btn"
                   target="_self"
                 >
                   <i class="fab fa-whatsapp"></i>

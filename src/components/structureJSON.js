@@ -25,12 +25,12 @@ class structureJSON extends Component {
             "image" : ["product2.webp","product1.webp","product3.webp","product4.webp"],
             }
         },
-        
+
     }
     return (
       <div>
-        <Home jsonLd={data} title={"Car battery replacement sharjah"} description={"Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta."} />
-        
+        <Home jsonLd={data} title={"Car battery replacement"} description={"Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta."} />
+
       </div>
     );
   }

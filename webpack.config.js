@@ -1,25 +1,22 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const nodeExternals = require('webpack-node-externals');
+const HtmlWebPackPlugin = require("html-webpack-plugin")
 const path = require('path');
 module.exports = {
   target: 'node',
   externals: [nodeExternals()],
   mode: "production",
-  entry: 
+  entry:
     ["./src/index.js"],
+    output: {
+      path: path.resolve(__dirname, 'build'),
+      filename: 'app.bundle.js'
+    },
   resolve: {
     extensions: ['.webpack.js', '.web.js', '.ts', '.js','.jsx','.css'],
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'build'),
   },
-  output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: 'app.bundle.js'
-  },
-  plugins: [
-    new HtmlWebpackPlugin()
-  ],
   module: {
     rules: [{
       test: /\.js?$/,
@@ -39,5 +36,8 @@ module.exports = {
       loader: 'html-loader',
     },
   ],
-}
+},
+plugins: [
+  new HtmlWebPackPlugin()
+]
 }
