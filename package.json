@@ -33,7 +33,7 @@
     "xml2js": "^0.4.23"
   },
   "scripts": {
-    "predeploy": "npm run webpack",
+    "predeploy": "npm run prod",
     "deploy": "gh-pages -d dist",
     "start": "react-scripts start",
     "webpack": "webpack",
