@@ -7,7 +7,7 @@ import MetaTags from "react-meta-tags";
 import { Link } from "react-router-dom";
 import BlogSidebar from "./BlogSidebar.js";
 
-class Blog1 extends Component {
+export default class Blog1 extends Component {
   render() {
     return (
       <div>
@@ -117,5 +117,3 @@ class Blog1 extends Component {
     );
   }
 }
-
-export default Blog1;

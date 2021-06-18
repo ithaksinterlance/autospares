@@ -2,9 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Patua+One&family=Ubuntu+Condensed&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
@@ -207,11 +205,6 @@ footer {
   color: #25d366;
   position: fixed;
   z-index: 1;
-}
-#menu :hover {
-  position: relative;
-  animation: mymove 5s infinite;
-  animation-timing-function: linear;
 }
 .blink_me {
   animation: blinker 1s linear infinite;

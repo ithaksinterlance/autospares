@@ -1,22 +1,21 @@
-const nodeExternals = require('webpack-node-externals');
-const HtmlWebPackPlugin = require("html-webpack-plugin")
 const path = require('path');
+const HtmlWebPackPlugin = require("html-webpack-plugin");
+
 module.exports = {
-  target: 'node',
-  externals: [nodeExternals()],
-  mode: "production",
+  devServer: {
+    historyApiFallback: true,
+    contentBase: path.resolve(__dirname,"./public")
+  },
   entry:
-    ["./src/index.js"],
+    path.resolve(__dirname,"./src/index.js"),
     output: {
-      path: path.resolve(__dirname, 'build'),
-      filename: 'app.bundle.js'
+      path: path.resolve(__dirname, 'dist'),
+      filename: 'bundle.js',
     },
   resolve: {
     extensions: ['.webpack.js', '.web.js', '.ts', '.js','.jsx','.css'],
   },
-  devServer: {
-    contentBase: path.resolve(__dirname, 'build'),
-  },
+
   module: {
     rules: [{
       test: /\.js?$/,
@@ -31,13 +30,12 @@ module.exports = {
       test: /\.(png|jpe?g|gif|webp)$/i,
       loader: 'file-loader',
     },
-    {
-      test: /\.html$/i,
-      loader: 'html-loader',
-    },
   ],
 },
 plugins: [
-  new HtmlWebPackPlugin()
-]
+  new HtmlWebPackPlugin({
+    template: 'public/index.html',
+    favicon: 'public/favicon.ico'
+  })
+],
 }

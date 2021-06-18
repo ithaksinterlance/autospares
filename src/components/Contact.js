@@ -10,7 +10,7 @@ export default class Contact extends Component {
     var contactno1 = document.getElementById("contactno1").value;
     var submitted = true;
 
-   if (carbattery1 === "") {
+    if (carbattery1 === "") {
       submitted = false;
       document.getElementById("carbatteryerror1").innerHTML =
         "** Please fill the Battery Model";
@@ -63,7 +63,6 @@ export default class Contact extends Component {
                 class="mx-2 my-2"
                 target="hidden_iframe"
               >
-
                 <div class="form-group">
                   <small id="CarBatteryModel" class="form-text">
                     <i class="fas fa-car-battery"></i> Vehicle Details
@@ -86,7 +85,8 @@ export default class Contact extends Component {
                 </div>
                 <div class="form-group">
                   <small id="AreaName" class="form-text">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i> Delivery Location
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> Delivery
+                    Location
                   </small>
                   <input
                     type="text"

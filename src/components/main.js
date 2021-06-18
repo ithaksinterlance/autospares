@@ -16,13 +16,11 @@ const All_you_need_to_know_about_car_battery = lazy(() => import('./Blog4'));
 const Top_4_battery_for_your_car = lazy(() => import('./Blog5'));
 const BlogSidebar = lazy(() => import('./BlogSidebar'));
 const Post = lazy(() => import('./Post'));
-const Sitemap = lazy(() => import('./sitemap.xml'))
 
 const Main = () => (
   <Suspense fallback={<div className="loader"></div>}>
 <Switch>
     <Route exact path="/" component={Home} />
-    <Route exact path="/sitemap.xml" component={Sitemap} />
     <Route exact path="/google760dbaa359091b71.html" component={() => {
      window.location.href = 'google760dbaa359091b71.html';
      return null;
