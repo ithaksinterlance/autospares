@@ -1,2 +1,0 @@
-(this.webpackJsonphaksinterlance=this.webpackJsonphaksinterlance||[]).push([[21],{136:function(e,s,t){"use strict";t.r(s),s.default=t.p+"static/media/sitemap.736d156e.xml"}}]);
-//# sourceMappingURL=21.f03cc295.chunk.js.map
