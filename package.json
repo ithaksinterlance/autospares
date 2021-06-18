@@ -34,7 +34,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d webpack",
+    "deploy": "gh-pages -d prod",
     "start": "react-scripts start",
     "webpack": "webpack",
     "build": "react-scripts build",
