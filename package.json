@@ -73,7 +73,8 @@
     "html-webpack-plugin": "^4.0.0",
     "webpack": "^4.44.2",
     "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.0",
+    "webpack-node-externals": "^3.0.0"
   },
   "proxy": "http://localhost:3000",
   "description": "Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service"
