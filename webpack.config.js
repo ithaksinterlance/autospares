@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
   devServer: {
@@ -11,7 +12,10 @@ module.exports = {
     output: {
       path: path.resolve(__dirname, 'dist'),
       filename: 'bundle.js',
+      publicPath: "/autospares/",
     },
+    target: 'node',
+    externals: [nodeExternals()],
   resolve: {
     extensions: ['.webpack.js', '.web.js', '.ts', '.js','.jsx','.css'],
   },
