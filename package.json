@@ -41,7 +41,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "ssr": "node server/index.js",
-    "webpack-dev-server": "webpack serve --progress",
+    "webpack-dev-server": "webpack serve --progress --mode=production",
     "dev": "webpack serve --mode=production",
     "prod": "webpack --mode=production"
   },
