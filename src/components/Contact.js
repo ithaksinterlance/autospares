@@ -48,7 +48,7 @@ export default class Contact extends Component {
               <h1 className="heading">We have made it easier :)! Fill the following form. We will be contact you through whatsapp</h1>
             </div>
           </div>
-        <div class="container-fluid pt-5">
+        <div class="container-fluid pt-5 form-bg">
           <div class="row justify-content-center">
             <div class="col-md-4 col-xs-12 col-sm-10  ">
               <iframe

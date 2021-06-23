@@ -104,7 +104,7 @@ export default class Home extends Component {
             CAR BATTERY REPLACEMENT SERVICE AT DUBAI AND SHARJAH
           </div>
         </div>
-        <div class="container-fluid ">
+        <div class="container-fluid form-bg">
           <div class="row  ">
             <div class="col-md-3 col-xs-8 col-sm-10 top-right d-flex justify-content-center">
               <iframe

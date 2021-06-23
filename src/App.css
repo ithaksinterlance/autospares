@@ -105,7 +105,7 @@ form .input {
   border: 1px #272343;
 }
 
-.form-bg {
+form {
   background: url('./img/whatsappbg.jpg');
   border-radius: 15px;
   font-size: 20px;
