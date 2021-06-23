@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import WhatsApp from "../img/wa.png";
+import Phone from "../img/phoneicon.png";
 
 export default class Navbar extends Component {
   render() {
@@ -9,7 +10,12 @@ export default class Navbar extends Component {
         <div>
           <a href="https://api.whatsapp.com/send?phone=971551478994" id="menu">
             <img src={WhatsApp} alt="car battery price" id="menu" />
-          </a>{" "}
+          </a>
+        </div>
+        <div>
+          <a href="tel:971551478994" id="menu1">
+            <img src={Phone} alt="car battery price dubai" className="rounded-circle" id="menu1" />
+          </a>
         </div>
 
         <div className="container-fluid nav1 pt-2">

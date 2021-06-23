@@ -29,7 +29,7 @@ nav {
 
 li .nav-link {
   font-size: 1.5rem;
-  color: #4286f4;
+  color: #D3D3D3;
 }
 li .nav-link:hover {
   font-size: 1.9rem;
@@ -51,7 +51,7 @@ a:active {
 }
 .navbar-color {
   background-color: #47484c;
-  border-bottom: 5px solid #EBECF0;
+  border-bottom: 5px solid black;
   margin-bottom: 0;
 }
 
@@ -84,7 +84,7 @@ a:active {
 .top-right {
   position: absolute;
   top: 16rem;
-  left: 4rem;
+  left: 5rem;
 }
 .top-left {
   position: absolute;
@@ -93,8 +93,8 @@ a:active {
 }
 
 .paragraph {
-  font-family: "Lobster Two", sans-serif;
-  color: #2d334a;
+  font-family: "Poppins", sans-serif;
+  color: black;
   font-weight: 200;
   font-size: 20px;
 }
@@ -104,13 +104,7 @@ a:active {
 form .input {
   border: 1px #272343;
 }
-form {
-  background: url('./img/whatsappbg.jpg');
-  border: 1px solid grey;
-  border-radius: 15px;
-  font-size: 20px;
-  font-family: "Poppins";
-}
+
 .form-bg {
   background: url('./img/whatsappbg.jpg');
   border-radius: 15px;
@@ -165,8 +159,9 @@ form {
 }
 .heading {
   font-size: 30px;
-  font-family: "Langar", sans-serif;
-  color: #272343;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #128C7E;
   word-spacing: 3pt;
   letter-spacing: 0.5pt;
 }
@@ -200,9 +195,12 @@ footer {
   text-shadow: none;
   margin: 3px;
 }
+hr {
+  background-color: #9ca0af;
+}
 .card-title {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #272343;
+  color: #4286f4;
 }
 .sellcontainer {
   border: 2px solid black;
@@ -211,7 +209,14 @@ footer {
 #menu {
   left: 2%;
   top: 80%;
-  color: #25d366;
+  height: 5rem;
+  width: 5rem;
+  position: fixed;
+  z-index: 1;
+}
+#menu1 {
+  left: 2%;
+  top: 68%;
   height: 5rem;
   width: 5rem;
   position: fixed;
@@ -446,6 +451,12 @@ footer {
     right: 0.1px;
     top: 70%;
     color: #25d366;
+    position: fixed;
+    z-index: 1;
+  }
+  #menu1 {
+    right: 0.1px;
+    top: 50%;
     position: fixed;
     z-index: 1;
   }

@@ -69,7 +69,7 @@ export default class WhatsAppForm extends Component {
             <JsonLd data={this.props.jsonLd} />
         }
         </MetaTags>
-            <div class="col-md-4 col-xs-12 col-sm-10 top-left">
+            <div class="col-md-4 top-left">
               <iframe
                 title="car battery replacement uae"
                 name="hidden_iframe"
@@ -81,7 +81,7 @@ export default class WhatsAppForm extends Component {
                 method="POST"
                 action="https://docs.google.com/forms/d/e/1FAIpQLSd6fL_M5hLUjjBLJyMFWUijW2qNrGwQ0RxMVhpmTOEEqj3Jxg/formResponse"
                 onSubmit={this.submituserInquiryForm}
-                class="py-4 px-4"
+                class="py-4 px-4 form-bg"
                 target="hidden_iframe"
               >
 

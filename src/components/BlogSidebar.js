@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default class BlogSidebar extends Component {
   render() {
     return (
-      <div className="col-md-4 text-center pt-3">
+      <div className="col-md-3 text-center pt-3">
         <img
           src={HAKS}
           alt="autobatteries"

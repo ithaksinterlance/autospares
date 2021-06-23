@@ -4,7 +4,8 @@ import Prod1 from "../img/battery1.png";
 import Prod2 from "../img/battery2.png";
 import Prod3 from "../img/battery3.png";
 import Prod4 from "../img/battery4.png";
-import MJ from "../img/autobatteries.hakstime.com.webp";
+import MJ from "../img/carbattery.webp";
+import MJ2 from "../img/batteryimg.jpg";
 import Green from "../img/greencar.webp";
 import Road from "../img/road.webp";
 import Footer from "./Footer.js";
@@ -120,7 +121,6 @@ export default class Home extends Component {
                 class="py-4 px-4"
                 target="hidden_iframe"
               >
-
                 <div class="form-group">
                   <small id="CarBatteryModel" class="form-text">
                     <i class="fas fa-car-battery"></i> Vehicle Details
@@ -220,26 +220,15 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="container-fluid div-bg py-5">
-          <div className="container">
-            <hr />
-            <h1 className="heading">
-              Automobile Battery Replacement Service ! Why you need us?
-            </h1>
-            <hr />
-          </div>
-          <h1 className="container paragraph">
-            Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta. We come to you.
-          </h1>
-        </div>
-        <div className="container-fluid py-5">
+
+        <div className="container-fluid py-5 div-bg ">
           <div className="container">
             <div className="row">
               <div className="col-md-6">
                 <hr />
                 <h1 className="heading">Onsite Battery Replacement</h1>
                 <hr />
-                <p className="lead">
+                <p className="lead paragraph">
                   <ul className="list">
                     <li className="pt-2">Vehicle Details or Battery Details</li>
                     <li className="pt-2">Send Your Location & Contact No.</li>
@@ -266,7 +255,7 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="container-fluid div-bg py-5">
+        <div className="container-fluid  py-5">
           <div className="container">
             <hr />
             <h1 className="heading">Our Brands</h1>
@@ -279,19 +268,23 @@ export default class Home extends Component {
           </h1>
           <div className="container">
             <div className="row">
-              <div className="col-md-3 col-xs-6">
+              <div className="col-md-3 col-xs-6 border shadow-lg">
                 <Link to="/acdelco-battery" title="car battery near me">
+                  <h5 className="card-title text-center">ACDELCO</h5>
+                  <hr/>
                   <img
                     src={Prod1}
                     alt="car battery replacement in dubai"
                     className="img-fluid battery"
                   />
                   <div className="text-center">
-                    <p className="paragraph">BUY NOW ON WHATSAPP {">>"}</p>
+                    <p className="paragraph">BUY NOW</p>
                   </div>
                 </Link>
               </div>
-              <div className="col-md-3 col-xs-6">
+              <div className="col-md-3 col-xs-6 border shadow-lg">
+              <h5 className="card-title text-center">AMARON</h5>
+              <hr/>
                 <Link to="/amaron-battery" title="car battery near me">
                   <img
                     src={Prod2}
@@ -299,11 +292,13 @@ export default class Home extends Component {
                     className="img-fluid battery"
                   />
                   <div className="text-center">
-                    <h1 className="paragraph">BUY NOW ON WHATSAPP {">>"}</h1>
+                    <h1 className="paragraph">BUY NOW</h1>
                   </div>
                 </Link>
               </div>
-              <div className="col-md-3 col-xs-6">
+              <div className="col-md-3 col-xs-6 border shadow-lg">
+              <h5 className="card-title text-center">SOLITE</h5>
+              <hr/>
                 <Link to="/varta-battery" title="car battery service">
                   <a href="/">
                     <img
@@ -312,12 +307,14 @@ export default class Home extends Component {
                       className="img-fluid battery"
                     />
                     <div className="text-center">
-                      <h1 className="paragraph">BUY NOW ON WHATSAPP {">>"}</h1>
+                      <h1 className="paragraph">BUY NOW</h1>
                     </div>
                   </a>
                 </Link>
               </div>
-              <div className="col-md-3 col-xs-6">
+              <div className="col-md-3 col-xs-6 border shadow-lg">
+              <h5 className="text-center">VARTA</h5>
+              <hr/>
                 <Link to="/solite-battery" title="solite battery">
                   <img
                     src={Prod4}
@@ -325,22 +322,41 @@ export default class Home extends Component {
                     className="img-fluid battery"
                   />
                   <div className="text-center">
-                    <h1 className="paragraph">BUY NOW ON WHATSAPP {">>"}</h1>
+                    <h1 className="paragraph">BUY NOW</h1>
                   </div>
                 </Link>
               </div>
             </div>
           </div>
-
-          <div className="d-flex justify-content-center">
-            <Link to="/sell" title="sell with us">
-              <button type="button" class="btn btn-primary btn-lg">
-                Sell with Us {">>"}
-              </button>
-            </Link>
           </div>
+
+        <div className="container-fluid py-5 div-bg">
+        <div className="container">
+          <div className="row">
+          <div className="col-md-6">
+            <img
+                  src={MJ2}
+                  alt="car battery dubai"
+                  className="img-fluid warranty"
+                />
+
+            </div>
+            <div className="col-md-6">
+
+            <hr />
+            <h1 className="heading">
+              Automobile Battery Replacement Service ! Why you need us?
+            </h1>
+            <hr />
+          <h1 className=" paragraph">
+            Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta. We come to you.
+          </h1>
+          </div>
+            </div>
+          </div>
+
         </div>
-        <Footer />
+         <Footer />
       </div>
     );
   }

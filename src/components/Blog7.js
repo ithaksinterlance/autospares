@@ -36,10 +36,8 @@ export default class Blog7 extends Component {
           <Navbar />
           <div class="container-fluid">
             <div className="row">
-            <WhatsAppForm />
-            <div className="col-md-4">
-              <BlogSidebar/>
-            </div>
+
+            <BlogSidebar />
             <div class="col-md-4 col-xs-12">
               <div>
                 <h1 class="display-4">{data.title}</h1>
@@ -50,8 +48,9 @@ export default class Blog7 extends Component {
               <div class="padding">{data.post}</div>
               <hr />
             </div>
+            <WhatsAppForm />
             </div>
-            <BlogSidebar />
+
           </div>
           <div className="text-center">
             <Footer />

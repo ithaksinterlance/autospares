@@ -21,11 +21,11 @@ export default class Acdelco extends Component {
           />
           <meta
             name="description"
-            content="Acdelco battery replacement |Acdelco car battery - best price - onsite battery replacement - Acdelco battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement ,Amaron battery replacement |Amaron car battery - best price - onsite battery replacement - Amaron battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement, "
+            content="Acdelco battery replacement dubai |Acdelco car battery sharjah - best price - onsite battery replacement - Acdelco battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
           />
           <meta
             name="keywords"
-            content="Acdelco battery, Acdelco car battery, Acdelco best price, best car battery price in uae, onsite battery replacement, battery delivery in dubai, battery instalation in dubai, battery delivery in sharjah, battery installation in sharjah, car battery replacement, dubai, sharjah, united arab emirates"
+            content="Acdelco battery sharjah, Acdelco car battery dubai, Acdelco best price uae, best car battery price in uae,  car battery replacement , dubai, sharjah, united arab emirates, car battery replacement sharjah, car battery replacement dubai , car battery replacement uae ,car battery change uae, car battery dubai, car battery uae, car battery sharjah,amaron battery dubai,battery replacement dubai, battery dubai,battery sharjah,  battery uae, car battery change dubai, car battery dubai price,dubai car battery, sharjah car battery, uae car battery,battery uae, battery dubai, battery sharjah,car battery price dubai, car battery price uae, battery change dubai, dubai audi, BMW dubai, solite battery price uae, amaron battery price uae, agm battery dubai, dubai car battery replacement ,uae car battery replacement "
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
