@@ -18,10 +18,8 @@ export default class Navbar extends Component {
           </a>
         </div>
 
-        <div className="container-fluid nav1 pt-2">
-          <div className="flex-container"></div>{" "}
-        </div>
-        <div className="container-fluid nav1 pt-2">
+
+        <div className="container-fluid navhide nav1 pt-2">
           <div className="flex-container d-flex justify-content-around">
             <p className="nav1 blink_me">Replace Your battery Now!</p>
 

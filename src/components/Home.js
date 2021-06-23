@@ -195,7 +195,7 @@ export default class Home extends Component {
           </div>
         </div>
 
-        <div className="container pt-5 text-center">
+        <div className="container pt-3 text-center">
           <div className="row">
             <div className="col-md-4">
               <i class="fab fa-whatsapp fa-3x " aria-hidden="true"></i>
@@ -215,7 +215,7 @@ export default class Home extends Component {
               <h1 className="paragraph">
                 Get Battery
                 <br /> installed at Your
-                <br /> designation location{" "}
+                <br /> designation location
               </h1>
             </div>
           </div>
@@ -313,7 +313,7 @@ export default class Home extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-xs-6 border shadow-lg">
-              <h5 className="text-center">VARTA</h5>
+              <h5 className="card-title text-center">VARTA</h5>
               <hr/>
                 <Link to="/solite-battery" title="solite battery">
                   <img

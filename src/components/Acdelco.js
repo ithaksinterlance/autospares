@@ -52,13 +52,13 @@ export default class Acdelco extends Component {
               <div class="col-md-12">
                 <h1 className="heading">Acdelco</h1>
               </div>
-              <div class="col-md-12">
-                <span class="label label-primary">Acdelco</span>
-                <span class="monospaced">No. 00003</span>
+              <div className="col-md-12">
+                <span className="label label-primary">Acdelco</span>
+                <span className="monospaced">No. 00003</span>
               </div>
-              <div class="col-md-12">
+              <div className="col-md-12">
                 <span
-                  class="glyphicon glyphicon-star glyph"
+                  className="glyphicon glyphicon-star glyph"
                   aria-hidden="true"
                 ></span>
                 <span
@@ -83,14 +83,14 @@ export default class Acdelco extends Component {
                   <span class="label label-success">In Stock</span>
                 </p>
                 <Link to="/contact" rel="noopener noreferrer" target="_newtab">
-                  <button type="button" class="btn  btn-success btn-lg">
+                  <button type="button" className="btn  btn-success btn-lg">
                     ORDER NOW
                   </button>
                 </Link>
               </div>
               <div className="col-md-12 pt-4">
                 <nav>
-                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <div className="nav nav-tabs" id="nav-tab" role="tablist">
                     <a
                       class="nav-item nav-link active"
                       id="nav-home-tab"

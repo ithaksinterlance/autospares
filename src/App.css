@@ -385,8 +385,8 @@ footer {
     margin: 0;
   }
   .top-right {
-    position: absolute;
-    top: 15rem;
+    position: relative;
+    top: -5rem;
     width: 100%;
   }
   .top-left {
@@ -447,18 +447,14 @@ footer {
   #navbar {
     display: none;
   }
+  .nav1{
+    display:none;
+  }
   #menu {
-    right: 0.1px;
-    top: 70%;
-    color: #25d366;
-    position: fixed;
-    z-index: 1;
+    display:none;
   }
   #menu1 {
-    right: 0.1px;
-    top: 50%;
-    position: fixed;
-    z-index: 1;
+   display:none;
   }
 
   #bottomNav {
