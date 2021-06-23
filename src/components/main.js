@@ -16,6 +16,7 @@ const All_you_need_to_know_about_car_battery = lazy(() => import('./Blog4'));
 const Top_4_battery_for_your_car = lazy(() => import('./Blog5'));
 const BlogSidebar = lazy(() => import('./BlogSidebar'));
 const Post = lazy(() => import('./Post'));
+const Car_Battery_Replacement_Sharjah = lazy(() => import('./Blog7'));
 
 const Main = () => (
   <Suspense fallback={<div className="loader"></div>}>
@@ -35,32 +36,6 @@ const Main = () => (
     <Route exact path="/contact" component={contact} />
     <Route exact path="/BlogSidebar" component={BlogSidebar} />
     <Route exact path="/post" component={Post} />
-    <Route
-      exact
-      path="/post/how_to_maintain_your_car_battery"
-      component={How_to_maintain_your_car_battery}
-    />
-    <Route
-      exact
-      path="/post/how_to_know_if_your_car_battery_is_dying"
-      component={How_to_know_if_your_car_battery_is_dying}
-    />
-    <Route
-      exact
-      path="/post/tip_to_sanitize_your_car_during_covid_19"
-      component={Tip_to_sanitize_your_car_during_covid_19}
-    />
-    <Route
-      exact
-      path="/post/all_you_need_to_know_about_car_battery"
-      component={All_you_need_to_know_about_car_battery}
-    />
-    <Route
-      exact
-      path="/post/top_4_battery_for_your_car"
-      component={Top_4_battery_for_your_car}
-    />
-
     <Route
       exact
       path="/how_to_maintain_your_car_battery"
@@ -85,6 +60,11 @@ const Main = () => (
       exact
       path="/top_4_battery_for_your_car"
       component={Top_4_battery_for_your_car}
+    />
+    <Route
+      exact
+      path="/car_battery_replacement_sharjah"
+      component={Car_Battery_Replacement_Sharjah}
     />
   </Switch>
   </Suspense>

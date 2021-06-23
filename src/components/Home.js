@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar.js";
-import Prod1 from "../img/product1.webp";
-import Prod2 from "../img/product2.webp";
-import Prod3 from "../img/product3.webp";
-import Prod4 from "../img/product4.webp";
+import Prod1 from "../img/battery1.png";
+import Prod2 from "../img/battery2.png";
+import Prod3 from "../img/battery3.png";
+import Prod4 from "../img/battery4.png";
 import MJ from "../img/autobatteries.hakstime.com.webp";
 import Green from "../img/greencar.webp";
 import Road from "../img/road.webp";
@@ -14,42 +14,6 @@ import MetaTags from "react-meta-tags";
 import JsonLd from "./structureJSON"
 
 export default class Home extends Component {
-  submit() {
-    var carbattery1 = document.getElementById("carbattery1").value;
-    var area1 = document.getElementById("area1").value;
-    var contactno1 = document.getElementById("contactno1").value;
-    var submitted = true;
-
-   if (carbattery1 === "") {
-      submitted = false;
-      document.getElementById("carbatteryerror1").innerHTML =
-        "** Please fill the Battery Model";
-      //return false;
-    } else if (area1 === "") {
-      submitted = false;
-      document.getElementById("areaerror1").innerHTML =
-        "** Please fill the Area";
-      //return false;
-    } else if (contactno1 === "") {
-      submitted = false;
-      document.getElementById("contactnoerror1").innerHTML =
-        "** Please fill the Contact";
-      //return false;
-    } else if (isNaN(contactno1)) {
-      submitted = false;
-      document.getElementById("contactnoerror1").innerHTML =
-        "** Check Your contact no";
-      //return false;
-    } else {
-      if (submitted) {
-        Swal.fire("Form submitted. We will contact you shortly ;)").then(() =>
-          document.getElementById("miForm").onreset(window.location.reload())
-        );
-        return submitted;
-      }
-    }
-  }
-
   submituserInquiryForm() {
     var carbattery = document.getElementById("carbattery").value;
     var area = document.getElementById("area").value;
@@ -124,7 +88,7 @@ export default class Home extends Component {
           />
           <a
             href="https://api.whatsapp.com/send?phone=971551478994?text='Hello! I need price details'"
-            title="car battery replacement"
+            title="car battery replacement uae"
           >
             <img
               src={Green}
@@ -139,9 +103,9 @@ export default class Home extends Component {
             CAR BATTERY REPLACEMENT SERVICE AT DUBAI AND SHARJAH
           </div>
         </div>
-        <div class="container-fluid">
-          <div class="row padding d-flex justify-content-center">
-            <div class="col-md-3 top-right flex-end pt-4">
+        <div class="container-fluid ">
+          <div class="row  ">
+            <div class="col-md-3 col-xs-8 col-sm-10 top-right d-flex justify-content-center">
               <iframe
                 title="car battery replacement uae"
                 name="hidden_iframe"
@@ -153,7 +117,7 @@ export default class Home extends Component {
                 method="POST"
                 action="https://docs.google.com/forms/d/e/1FAIpQLSd6fL_M5hLUjjBLJyMFWUijW2qNrGwQ0RxMVhpmTOEEqj3Jxg/formResponse"
                 onSubmit={this.submituserInquiryForm}
-                class="mx-2 my-2 formtab"
+                class="py-4 px-4"
                 target="hidden_iframe"
               >
 
@@ -185,7 +149,7 @@ export default class Home extends Component {
                     type="text"
                     name="entry.1153362739"
                     id="area"
-                    class="form-control "
+                    class="form-control"
                     aria-describedby="AreaName"
                     placeholder=" Area Name, Emirate"
                     autoComplete="off"
@@ -207,7 +171,7 @@ export default class Home extends Component {
                     id="contactno"
                     class="form-control "
                     aria-describedby="ContactNo"
-                    placeholder="WhatsApp Number"
+                    placeholder="(Country code)(No.)"
                     autoComplete="off"
                   />
                   <div>
@@ -217,104 +181,10 @@ export default class Home extends Component {
                     ></span>
                   </div>
                 </div>
+                <input type="hidden" id="ref" name="entry.376651987" value="AJB"/>
                 <button
                   type="submit"
                   class="btn btn-danger btn-lg btn-block pb-3 form-btn"
-                  target="_self"
-                >
-                  <i class="fab fa-whatsapp"></i>
-                  &nbsp;&nbsp;SEND
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-
-        <div className="container pt-4  form-phone">
-          <div className="row d-flex justify-content-center">
-            <div className="col-md-8 col-sm-12 col-lg-4 col-xs-12">
-              <div className="container pt-5">
-                <h2 className="heading">Send Inquiries</h2>
-                <hr />
-              </div>
-              <iframe
-                title="form"
-                name="hidden_iframe"
-                id="hidden_iframe"
-                style={{ display: "none" }}
-              ></iframe>
-              <form
-                id="miForm"
-                method="POST"
-                action="https://docs.google.com/forms/d/e/1FAIpQLSd6fL_M5hLUjjBLJyMFWUijW2qNrGwQ0RxMVhpmTOEEqj3Jxg/formResponse"
-                onSubmit={this.submit}
-                class="mx-2 my-2"
-                target="hidden_iframe"
-              >
-                <div class="form-group">
-                  <small id="CarBatteryModel" class="form-text">
-                    <i class="fas fa-car-battery    "></i> Vehicle Details
-                  </small>
-                  <input
-                    type="text"
-                    name="entry.1911907904"
-                    id="carbattery1"
-                    class="form-control "
-                    aria-describedby="CarBatteryModel"
-                    placeholder=" Car Model Year"
-                    autoComplete="off"
-                  />
-                  <div>
-                    <span
-                      id="carbatteryerror1"
-                      className="text-danger font-weight-bold"
-                    ></span>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <small id="AreaName" class="form-text">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i> Delivery Location
-                  </small>
-                  <input
-                    type="text"
-                    name="entry.1153362739"
-                    id="area1"
-                    class="form-control "
-                    aria-describedby="AreaName"
-                    placeholder=" Area Name, Emirate"
-                    autoComplete="off"
-                  />
-                  <div>
-                    <span
-                      id="areaerror1"
-                      className="text-danger font-weight-bold"
-                    ></span>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <small id="ContactNo" class="form-text">
-                    <i class="fa fa-phone" aria-hidden="true"></i> Contact
-                  </small>
-                  <input
-                    type="text"
-                    name="entry.153243795"
-                    id="contactno1"
-                    class="form-control "
-                    aria-describedby="ContactNo"
-                    placeholder="WhatsApp Number"
-                    autoComplete="off"
-                  />
-                  <div>
-                    <span
-                      id="contactnoerror1"
-                      className="text-danger font-weight-bold"
-                    ></span>
-                  </div>
-                </div>
-                <button
-                  type="submit"
-                  id="RefreshPage"
-                  class="btn btn-danger btn-lg btn-block form-btn pb-3"
                   target="_self"
                 >
                   <i class="fab fa-whatsapp"></i>
@@ -417,7 +287,7 @@ export default class Home extends Component {
                     className="img-fluid battery"
                   />
                   <div className="text-center">
-                    <p className="paragraph">Read {">>"}</p>
+                    <p className="paragraph">BUY NOW ON WHATSAPP {">>"}</p>
                   </div>
                 </Link>
               </div>
@@ -429,7 +299,7 @@ export default class Home extends Component {
                     className="img-fluid battery"
                   />
                   <div className="text-center">
-                    <h1 className="paragraph">Read {">>"}</h1>
+                    <h1 className="paragraph">BUY NOW ON WHATSAPP {">>"}</h1>
                   </div>
                 </Link>
               </div>
@@ -442,7 +312,7 @@ export default class Home extends Component {
                       className="img-fluid battery"
                     />
                     <div className="text-center">
-                      <h1 className="paragraph">Read {">>"}</h1>
+                      <h1 className="paragraph">BUY NOW ON WHATSAPP {">>"}</h1>
                     </div>
                   </a>
                 </Link>
@@ -455,7 +325,7 @@ export default class Home extends Component {
                     className="img-fluid battery"
                   />
                   <div className="text-center">
-                    <h1 className="paragraph">Read {">>"}</h1>
+                    <h1 className="paragraph">BUY NOW ON WHATSAPP {">>"}</h1>
                   </div>
                 </Link>
               </div>

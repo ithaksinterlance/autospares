@@ -8,15 +8,8 @@ import Sanitize from "../img/sanitize.webp";
 import BlackCar from "../img/blackcar.jpg";
 
 export default class Post extends Component {
-  
-  render() {
-    async function getPosts() {
-    const response = await fetch('https://jsonplaceholder.typicode.com/posts');
-    const data = await response.json();
-    return data;
-    }
 
-    getPosts().then(posts => console.log(posts));
+  render() {
     return (
       <div>
         <Navbar />
@@ -39,7 +32,7 @@ export default class Post extends Component {
                       often should your change your battery?
                     </p>
                     <Link
-                      to="/post/How_to_maintain_your_car_battery"
+                      to="/How_to_maintain_your_car_battery"
                       class="btn btn-primary"
                     >
                       Read more
@@ -66,7 +59,7 @@ export default class Post extends Component {
                       battery is more than 3.5 years, Bad smells
                     </p>
                     <Link
-                      to="/post/How_to_know_if_your_car_battery_is_dying"
+                      to="/How_to_know_if_your_car_battery_is_dying"
                       class="btn btn-primary"
                     >
                       Read more
@@ -91,7 +84,7 @@ export default class Post extends Component {
                     Sanitize your car handles, Clean your upholstery, Donot use wet cloth for sanitizing, Disinfect your air conditioning system, Personal Hygiene, Wear disposable hand gloves and Mask, Get off the car only if necessary, Prepare sticky notes
                     </p>
                     <Link
-                      to="/post/Tips_to_sanitize_your_car_during_covid-19"
+                      to="/Tips_to_sanitize_your_car_during_covid-19"
                       class="btn btn-primary"
                     >
                       Read more
@@ -118,7 +111,7 @@ export default class Post extends Component {
                       Amaron , Acdelco , Solite , Varta
                     </p>
                     <Link
-                      to="/post/top_4_battery_for_your_car"
+                      to="/top_4_battery_for_your_car"
                       class="btn btn-primary"
                     >
                       Read more
@@ -143,7 +136,7 @@ export default class Post extends Component {
                     Do's and Dont's inside the car during pandemic , When will your car battery die , Don't use tap water to refill your battery , Find the CCA(Cold Cranking Amps) of your battery , Brand of your car battery, Warranty, Manufacturing date , Battery types , Know about our service
                     </p>
                     <Link
-                      to="/post/All_you_need_to_know_about_car_battery"
+                      to="/All_you_need_to_know_about_car_battery"
                       class="btn btn-primary"
                     >
                       Read more
@@ -152,7 +145,7 @@ export default class Post extends Component {
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
         <div className="text-center">
