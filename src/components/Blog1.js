@@ -12,9 +12,9 @@ export default class Blog1 extends Component {
     return (
       <div>
         <MetaTags>
-          <title>Autobatteries | How to maintain Your car battery</title>
+          <title>Autobatteries.hakstime</title>
           <meta charset="utf-8" />
-          <meta name="title" content="How to maintain Your car battery" />
+          <meta name="title" content="How to maintain Your car battery | Autobatteries.hakstime" />
           <meta
             name="description"
             content="How to maintain Your car battery |Switch On Your Car Engine very often in winter, Cool the temprature of your car in summer, Idea from this based lady in cooling her car, Clean Your battery from Dust, How often should your change your battery?"

@@ -17,11 +17,11 @@ export default class Varta extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Autobatteries |Varta battery replacement"
+            content="Varta battery | Autobatteries.hakstime"
           />
           <meta
             name="description"
-            content="Varta battery replacement |Varta car battery - best price - onsite battery replacement - Varta battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
+            content="Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. 24/7 support. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta."
           />
           <meta
             name="keywords"

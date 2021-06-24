@@ -11,11 +11,11 @@ export default class Blog4 extends Component {
     return (
       <div>
         <MetaTags>
-          <title>Autobatteries | All you need to know about car battery</title>
+          <title>Autobatteries.hakstime</title>
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="All you need to know about car battery"
+            content="All you need to know about car battery | Autobatteries.hakstime"
           />
           <meta
             name="description"
@@ -41,7 +41,7 @@ export default class Blog4 extends Component {
               <hr />
               <div className="sharethis-inline-share-buttons"></div>
               <p className="blog-paragraph-heading">
-               
+
               </p>
               <ol>
                 <li className="blog-list-heading">Do's and Dont's inside the car during pandemic</li>
@@ -57,13 +57,13 @@ export default class Blog4 extends Component {
                 </li>
                 <p className="blog-paragraph-heading">
                 Tap water is not processed. It may contain some minerals or ions or other impurities which may damage your battery. Thus resulting in reduce of lifespan of your battery. So use demenaralized water for your battery. Because it is processed well and it is deactivated of all the mineral it contains. You can also use deionised water. No need to panic if you see that you dont find demineralized water but only find deionized water. Deionized water is also safer to refill the battery.
-              
+
                 </p>
                 <li className="blog-list-heading">
                   Find the CCA(Cold Cranking Amps) of your battery
                 </li>
                 <p className="blog-paragraph-heading">
-               The car battery with more CCA, has high chance of starting the engine very soon than the car battery which has less CCA value. So when buying battery make sure that your battery has a good cold cranking Amp value. 
+               The car battery with more CCA, has high chance of starting the engine very soon than the car battery which has less CCA value. So when buying battery make sure that your battery has a good cold cranking Amp value.
                 </p>
                 <li className="blog-list-heading">Brand of your car battery, Warranty, Manufacturing date</li>
                 <p className="blog-paragraph-heading">
@@ -73,7 +73,7 @@ export default class Blog4 extends Component {
                   Battery types
                 </li>
                 <p className="blog-paragraph-heading">
-                  Car battery are of AGM types or of EFB types. Some other batteries are mostly the variation of lead acid batteries. It works by chemical reaction between lead plates, sulphuric acid and distilled water to create electrical power.            
+                  Car battery are of AGM types or of EFB types. Some other batteries are mostly the variation of lead acid batteries. It works by chemical reaction between lead plates, sulphuric acid and distilled water to create electrical power.
                 </p>
                 <li className="blog-list-heading">
                   Know about our service
@@ -85,10 +85,10 @@ export default class Blog4 extends Component {
                   >
                     <i class="fab fa-whatsapp" aria-hidden="true"></i>
                     WhatsApp
-                  </a> , we are available at anytime at DUBAI and SHARJAH.  
-             
+                  </a> , we are available at anytime at DUBAI and SHARJAH.
+
                 </p>
-               
+
               </ol>
             </div>
             <BlogSidebar />

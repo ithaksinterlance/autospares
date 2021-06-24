@@ -10,11 +10,11 @@ export default class Blog3 extends Component {
     return (
       <div>
         <MetaTags>
-          <title>Autobatteries | Tips to sanitize your car during covid-19</title>
+          <title>Autobatteries.hakstime</title>
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Tips to sanitize your car during covid-19"
+            content="Tips to sanitize your car during covid-19 | Autobatteries.hakstime"
           />
           <meta
             name="description"

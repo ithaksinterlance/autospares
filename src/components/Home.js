@@ -62,11 +62,11 @@ export default class Home extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Car Battery replacement | Dubai & Sharjah"
+            content="Car Battery replacement | Dubai & Sharjah | Autobatteries.hakstime"
           />
           <meta
             name="description"
-            content="Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service"
+            content="Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. 24/7 support. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta."
           />
           <meta
             name="keywords"

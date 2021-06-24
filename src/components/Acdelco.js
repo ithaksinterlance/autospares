@@ -17,11 +17,11 @@ export default class Acdelco extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Autobatteries |Acdelco battery replacement"
+            content="Acdelco battery replacement | Autobatteries.hakstime"
           />
           <meta
             name="description"
-            content="Acdelco battery replacement dubai |Acdelco car battery sharjah - best price - onsite battery replacement - Acdelco battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
+            content="Acdelco battery replacement dubai |Acdelco car battery sharjah - best price - onsite battery replacement - Acdelco battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement | Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. 24/7 support. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta."
           />
           <meta
             name="keywords"

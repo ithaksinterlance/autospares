@@ -10,7 +10,7 @@ export default class Blog2 extends Component {
     return (
       <div>
         <MetaTags>
-          <title>Autobatteries | How to know if your car battery is dying</title>
+          <title>Autobatteries.hakstime</title>
           <meta charset="utf-8" />
           <meta
             name="title"

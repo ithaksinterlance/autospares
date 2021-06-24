@@ -15,20 +15,20 @@ export default class brands extends Component {
         <Navbar />
         <MetaTags>
           <meta charSet="utf-8" />
-          <title>Autobatteries | Car battery brands</title>
+          <title>Autobatteries.hakstime</title>
           <meta
             name="title"
-            content="Car Battery replacement DUBAI| Replace your car battery at anytime at Dubai and Sharjah. We offer the best battery replacement service"
+            content="Car Battery Dubai & Sharjah | Autobatteries.hakstime"
           />
           <meta
             name="description"
-            content="Replace your car battery at anytime at Dubai and Sharjah. We offer the best battery replacement service"
+            content="Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. 24/7 support. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta."
           />
           <meta
             name="keywords"
-            content="amaron battery, solite battery, acdelco battery, varta battery,  porsche battery,audi battery,chrevlot battery, battery for kia battery, battery for ranault battery,acura battery,chrysler battery,dodge battery,daewoo battery,ford battery,fiat battery, lexus battery, maserati battery"
+            content="car battery replacement sharjah, car battery replacement dubai, car battery replacement uae ,car battery change, car battery dubai, car battery uae, car battery sharjah,amaron battery dubai,battery replacement dubai, battery dubai,battery sharjah,  battery uae, car battery change dubai, car battery dubai price,dubai car battery, sharjah car battery, uae car battery,battery uae, battery dubai, battery sharjah,car battery price dubai, car battery price uae, battery change dubai, dubai audi, BMW dubai, solite battery price uae, amaron battery price uae, agm battery dubai, dubai car battery replacement ,uae car battery replacement"
           />
-          <link rel="canonical" href="https://autobatteries.hakstime.com/#/car-battery-brands" />
+          <link rel="canonical" href="https://autobatteries.hakstime.com/car-battery-brands" />
         </MetaTags>
         <div className="container pt-5 pb-5">
           <div className="row">

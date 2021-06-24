@@ -6,6 +6,7 @@ import CarBattery from "../img/battery.webp";
 import Speedometer from "../img/speedometer.webp";
 import Sanitize from "../img/sanitize.webp";
 import BlackCar from "../img/blackcar.jpg";
+import {MetaTags} from "react-meta-tags"
 
 export default class Post extends Component {
 
@@ -13,6 +14,23 @@ export default class Post extends Component {
     return (
       <div>
         <Navbar />
+        <MetaTags>
+          <meta charSet="utf-8" />
+          <title>Blogs | Autobatteries.hakstime</title>
+          <meta
+            name="title"
+            content="Car Battery replacement DUBAI| Replace your car battery at anytime at Dubai and Sharjah. We offer the best battery replacement service"
+          />
+          <meta
+            name="description"
+            content="Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. 24/7 support. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta."
+          />
+          <meta
+            name="keywords"
+            content="car battery replacement sharjah, car battery replacement dubai, car battery replacement uae ,car battery change, car battery dubai, car battery uae, car battery sharjah,amaron battery dubai,battery replacement dubai, battery dubai,battery sharjah,  battery uae, car battery change dubai, car battery dubai price,dubai car battery, sharjah car battery, uae car battery,battery uae, battery dubai, battery sharjah,car battery price dubai, car battery price uae, battery change dubai, dubai audi, BMW dubai, solite battery price uae, amaron battery price uae, agm battery dubai, dubai car battery replacement ,uae car battery replacement"
+          />
+          <link rel="canonical" href="https://autobatteries.hakstime.com/post" />
+        </MetaTags>
         <div className="container">
           <div className="row d-xs-flex justify-content-center d-sm-flex justify-content-center d-flex justify-content-between ">
             <div className="col-md-3">

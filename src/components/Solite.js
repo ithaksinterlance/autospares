@@ -17,15 +17,15 @@ export default class Solite extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Autobatteries |Solite battery replacement"
+            content="Solite battery | Autobatteries.hakstime"
           />
           <meta
             name="description"
-            content="Solite battery replacement |Solite car battery - best price - onsite battery replacement - Solite battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement"
+            content="Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. 24/7 support. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta."
           />
           <meta
             name="keywords"
-            content="dubai Solite battery,sharjah solite battery, Solite car battery, Solite best price, best car battery price uae,  battery delivery dubai, battery instalation dubai, battery delivery sharjah, battery installation sharjah, car battery replacement dubai, united arab emirates, car battery replacement sharjah, car battery replacement dubai, car battery replacement uae ,car battery change, car battery dubai, car battery uae, car battery sharjah,amaron battery dubai,battery replacement dubai, battery dubai,battery sharjah,  battery uae, car battery change dubai, car battery dubai price,dubai car battery, sharjah car battery, uae car battery,battery uae, battery dubai, battery sharjah,car battery price dubai, car battery price uae, battery change dubai, dubai audi, BMW dubai, solite battery price uae, amaron battery price uae, agm battery dubai, dubai car battery replacement ,uae car battery replacement "
+            content="dubai Solite battery,sharjah solite battery, Solite car battery, Solite best price, best car battery price uae,  battery delivery dubai, battery instalation dubai, battery delivery sharjah, battery installation sharjah, car battery replacement dubai, united arab emirates, car battery replacement sharjah, car battery replacement dubai, car battery replacement uae ,car battery change, car battery dubai, car battery uae, car battery sharjah,amaron battery dubai,battery replacement dubai, battery dubai,battery sharjah,  battery uae, car battery change dubai, car battery dubai price,dubai car battery, sharjah car battery, uae car battery,battery uae, battery dubai, battery sharjah,car battery price dubai, car battery price uae, battery change dubai, dubai audi, BMW dubai, solite battery price uae, amaron battery price uae, agm battery dubai, dubai car battery replacement ,uae car battery replacement"
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />

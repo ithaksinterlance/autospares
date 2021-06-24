@@ -17,11 +17,11 @@ export default class Amaron extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Autobatteries |Amaron battery replacement"
+            content="Amaron battery replacement | Autobatteries.hakstime"
           />
           <meta
             name="description"
-            content="Amaron battery replacement |Amaron car battery - best price - onsite battery replacement - Amaron battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement dubai | Sharjah- Car battery change Dubai | Sharjah"
+            content="Amaron battery replacement |Amaron car battery - best price - onsite battery replacement - Amaron battery installation - Battery delivery in @dubai - Battery delivery @sharjah - Car battery Replacement dubai | Sharjah- Car battery change Dubai | Sharjah | Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. 24/7 support. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta."
           />
           <meta
             name="keywords"
