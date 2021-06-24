@@ -387,8 +387,7 @@ footer {
   .top-right {
     position: relative;
     top: -9rem;
-    margin: auto;
-  width: 100%;
+    left: 0.1rem;
   }
   .top-left {
     display: none;
