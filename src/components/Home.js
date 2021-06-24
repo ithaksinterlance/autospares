@@ -105,7 +105,7 @@ export default class Home extends Component {
           </div>
         </div>
         <div class="container-fluid form-bg">
-          <div class="row  ">
+          <div class="row ">
             <div class="col-md-3 col-xs-8 col-sm-10 top-right d-flex justify-content-center">
               <iframe
                 title="car battery replacement uae"

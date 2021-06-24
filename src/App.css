@@ -386,8 +386,9 @@ footer {
   }
   .top-right {
     position: relative;
-    top: -5rem;
-    width: 100%;
+    top: -9rem;
+    margin: auto;
+  width: 100%;
   }
   .top-left {
     display: none;
