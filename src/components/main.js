@@ -17,8 +17,6 @@ const Top_4_battery_for_your_car = lazy(() => import('./Blog5'));
 const BlogSidebar = lazy(() => import('./BlogSidebar'));
 const Post = lazy(() => import('./Post'));
 const Car_Battery_Replacement_Sharjah = lazy(() => import('./Blog7'));
-const { SitemapStream, streamToPromise } = require( 'sitemap' )
-  const { Readable } = require( 'stream' )
 
 const Main = () => (
   <Suspense fallback={<div className="loader"></div>}>
