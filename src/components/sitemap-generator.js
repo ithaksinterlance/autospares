@@ -1,9 +1,7 @@
 import "core-js/stable";
 import "regenerator-runtime/runtime";
-const env = require('@babel/preset-env');
-const presetReact = require('@babel/preset-react');
 require("@babel/register")({
-  presets: [env, presetReact]
+  presets: [ "@babel/preset-react","@babel/preset-env"]
 });
 const router = require("./main").default;
 const Sitemap = require("react-router-sitemap").default;
@@ -11,7 +9,7 @@ const Sitemap = require("react-router-sitemap").default;
 function generateSitemap() {
   return (
   new Sitemap(router)
-  .build("https://autobatteries.hakstime.com")
+  .build("localhost:3000")
   .save("./sitemap.xml")
   );
 }

@@ -17,6 +17,8 @@ const Top_4_battery_for_your_car = lazy(() => import('./Blog5'));
 const BlogSidebar = lazy(() => import('./BlogSidebar'));
 const Post = lazy(() => import('./Post'));
 const Car_Battery_Replacement_Sharjah = lazy(() => import('./Blog7'));
+const { SitemapStream, streamToPromise } = require( 'sitemap' )
+  const { Readable } = require( 'stream' )
 
 const Main = () => (
   <Suspense fallback={<div className="loader"></div>}>
@@ -24,6 +26,10 @@ const Main = () => (
     <Route exact path="/" component={Home} />
     <Route exact path="/google760dbaa359091b71.html" component={() => {
      window.location.href = 'google760dbaa359091b71.html';
+     return null;
+}}/>
+<Route exact path="/google1a02148ea2112982.html" component={() => {
+     window.location.href = 'google1a02148ea2112982.html';
      return null;
 }}/>
     <Route exact path="/solite-battery" component={Solite} />

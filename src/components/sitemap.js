@@ -5,6 +5,6 @@ const route = router.default;
 
 (
     new Sitemap(route)
-        .build('https://autobatteries.hakstime.com')
+        .build('localhost:3000')
         .save('./sitemap.xml')
 );
