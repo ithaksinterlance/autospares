@@ -102,7 +102,7 @@ export default class Post extends Component {
                     Sanitize your car handles, Clean your upholstery, Donot use wet cloth for sanitizing, Disinfect your air conditioning system, Personal Hygiene, Wear disposable hand gloves and Mask, Get off the car only if necessary, Prepare sticky notes
                     </p>
                     <Link
-                      to="/Tips_to_sanitize_your_car_during_covid-19"
+                      to="/tips_to_sanitize_your_car_during_covid_19"
                       class="btn btn-primary"
                     >
                       Read more
