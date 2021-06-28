@@ -1,10 +1,8 @@
-import "core-js/stable";
-import "regenerator-runtime/runtime";
 require("@babel/register")({
   presets: [ "@babel/preset-react","@babel/preset-env"]
 });
-const router = require("./main").default;
-const Sitemap = require("react-router-sitemap").default;
+const router = require("./main").default();
+const Sitemap = require("../").default();
 
 function generateSitemap() {
   return (

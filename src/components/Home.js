@@ -12,7 +12,7 @@ import Footer from "./Footer.js";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import MetaTags from "react-meta-tags";
-import JsonLd from "./structureJSON"
+import JsonLd from "./structureJSON";
 
 export default class Home extends Component {
   submituserInquiryForm() {
@@ -57,7 +57,8 @@ export default class Home extends Component {
         <Navbar />
         <MetaTags>
           <title>
-            Autobatteries | Car Battery replacement | Dubai {'&'} Sharjah
+            Car Battery replacement | Dubai {"&"} Sharjah |
+            Autobatteries.hakstime
           </title>
           <meta charset="utf-8" />
           <meta
@@ -70,16 +71,13 @@ export default class Home extends Component {
           />
           <meta
             name="keywords"
-            content="car battery, car battery replacement dubai,car battery replacement sharjah,sharjah, dubai, arab, united arab emirates, uae, mjbattery, dubai car battery replacement, sharjah battery replacement, amaron battery, solite battery, acdelco battery, varta battery,  porsche battery,audi battery,chrevlot battery, battery for kia battery, battery for ranault battery,acura battery,chrysler battery,dodge battery,daewoo battery,ford battery,fiat battery, lexus battery, maserati battery"
+            content="car battery replacement sharjah, car battery replacement dubai , car battery replacement uae ,car battery change, car battery dubai, car battery uae,car battery sharjah,amaron battery dubai,battery replacement dubai, battery dubai,battery sharjah,  battery uae, car battery change dubai, car battery dubai price,dubai car battery, sharjah car battery, uae car battery,battery uae, battery dubai, battery sharjah,car battery price dubai, car battery price uae, battery change dubai, dubai audi, BMW dubai, solite battery price uae, amaron battery price uae, agm battery dubai, dubai car battery replacement ,uae car battery replacement"
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />
           <meta name="author" content="autobatteries.hakstime.com" />
-          {
-          this.props.jsonLd &&
-            <JsonLd data={this.props.jsonLd} />
-        }
+          {this.props.jsonLd && <JsonLd data={this.props.jsonLd} />}
         </MetaTags>
         <div className="container-fluid header-text1 px-0">
           <img
@@ -89,11 +87,11 @@ export default class Home extends Component {
           />
           <a
             href="https://api.whatsapp.com/send?phone=971551478994?text='Hello! I need price details'"
-            title="car battery replacement uae"
+            title="car battery replacement sharjah and dubai"
           >
             <img
               src={Green}
-              alt="battery replacement"
+              alt="car battery replacement dubai"
               className="img-fluid green"
             />
           </a>
@@ -108,7 +106,7 @@ export default class Home extends Component {
           <div class="row ">
             <div class="col-md-3 col-xs-12 col-sm-10 top-right d-flex justify-content-center">
               <iframe
-                title="car battery replacement uae"
+                title="car battery replacement dubai and sharjah"
                 name="hidden_iframe"
                 id="hidden_iframe"
                 style={{ display: "none" }}
@@ -143,7 +141,8 @@ export default class Home extends Component {
                 </div>
                 <div class="form-group">
                   <small id="AreaName" class="form-text">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i> Delivery Location
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> Delivery
+                    Location
                   </small>
                   <input
                     type="text"
@@ -181,7 +180,12 @@ export default class Home extends Component {
                     ></span>
                   </div>
                 </div>
-                <input type="hidden" id="ref" name="entry.376651987" value="AJB"/>
+                <input
+                  type="hidden"
+                  id="ref"
+                  name="entry.376651987"
+                  value="AJB"
+                />
                 <button
                   type="submit"
                   class="btn btn-danger btn-lg btn-block pb-3 form-btn"
@@ -271,7 +275,7 @@ export default class Home extends Component {
               <div className="col-md-3 col-xs-6 border shadow-lg">
                 <Link to="/acdelco-battery" title="car battery near me">
                   <h5 className="card-title text-center">ACDELCO</h5>
-                  <hr/>
+                  <hr />
                   <img
                     src={Prod1}
                     alt="car battery replacement in dubai"
@@ -283,12 +287,12 @@ export default class Home extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-xs-6 border shadow-lg">
-              <h5 className="card-title text-center">AMARON</h5>
-              <hr/>
-                <Link to="/amaron-battery" title="car battery near me">
+                <h5 className="card-title text-center">AMARON</h5>
+                <hr />
+                <Link to="/amaron-battery" title="car battery dubai">
                   <img
                     src={Prod2}
-                    alt="battery replacement"
+                    alt="battery replacement sharjah"
                     className="img-fluid battery"
                   />
                   <div className="text-center">
@@ -297,9 +301,9 @@ export default class Home extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-xs-6 border shadow-lg">
-              <h5 className="card-title text-center">SOLITE</h5>
-              <hr/>
-                <Link to="/varta-battery" title="car battery service">
+                <h5 className="card-title text-center">SOLITE</h5>
+                <hr />
+                <Link to="/varta-battery" title="battery replacement dubai">
                   <a href="/">
                     <img
                       src={Prod3}
@@ -313,9 +317,9 @@ export default class Home extends Component {
                 </Link>
               </div>
               <div className="col-md-3 col-xs-6 border shadow-lg">
-              <h5 className="card-title text-center">VARTA</h5>
-              <hr/>
-                <Link to="/solite-battery" title="solite battery">
+                <h5 className="card-title text-center">VARTA</h5>
+                <hr />
+                <Link to="/solite-battery" title="solite battery dubai">
                   <img
                     src={Prod4}
                     alt="battery"
@@ -328,35 +332,36 @@ export default class Home extends Component {
               </div>
             </div>
           </div>
-          </div>
+        </div>
 
         <div className="container-fluid py-5 div-bg">
-        <div className="container">
-          <div className="row">
-          <div className="col-md-6">
-            <img
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6">
+                <img
                   src={MJ2}
                   alt="car battery dubai"
                   className="img-fluid warranty"
                 />
-
+              </div>
+              <div className="col-md-6">
+                <hr />
+                <h1 className="heading">
+                  Autobatteries.hakstime.com | Why you need us?
+                </h1>
+                <hr />
+                <h1 className="paragraph">
+                  Car Battery Replacement | Replace your car battery anytime at
+                  Dubai and Sharjah. We offer the best battery replacement
+                  service. Delivery {'&'} installation service at best price. We
+                  offer battery replacement for battery such as Solite, Amaron,
+                  Acdelco, Varta. We come to you.
+                </h1>
+              </div>
             </div>
-            <div className="col-md-6">
-
-            <hr />
-            <h1 className="heading">
-              Automobile Battery Replacement Service ! Why you need us?
-            </h1>
-            <hr />
-          <h1 className=" paragraph">
-            Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta. We come to you.
-          </h1>
           </div>
-            </div>
-          </div>
-
         </div>
-         <Footer />
+        <Footer />
       </div>
     );
   }

@@ -83,7 +83,7 @@ export default class Amaron extends Component {
                 <p className="smal">
                   <span class="label label-success">In Stock</span>
                 </p>
-                <Link to="/contact" rel="noopener noreferrer" target="_newtab">
+                <Link to="/contact" rel="noopener noreferrer" title="car battery replacement dubai and sharjah" target="_newtab">
                   <button type="button" class="btn  btn-success btn-lg">
                     ORDER NOW
                   </button>
@@ -145,29 +145,29 @@ export default class Amaron extends Component {
             <div className="col-md-2">
               <div className="col-md-12 pt-1">Other Battery List</div>
               <div className="col-md-12">
-                <Link to="/solite-battery">
+                <Link to="/solite-battery" title="car battery replacement dubai and sharjah">
                   <img
                     src={Solite}
-                    alt="car battery"
+                    alt="car battery change dubai"
                     className="img-fluid spanbattery"
                   />
                 </Link>
               </div>
 
               <div className="col-md-12">
-                <Link to="/acdelco-battery">
+                <Link to="/acdelco-battery" title="car battery replacement dubai and sharjah">
                   <img
                     src={Varta}
-                    alt="car battery replacement"
+                    alt="car battery replacement sharjah"
                     className="img-fluid spanbattery"
                   />
                 </Link>
               </div>
               <div className="col-md-12">
-                <Link to="/varta-battery">
+                <Link to="/varta-battery" title="car battery replacement dubai and sharjah">
                   <img
                     src={Acdelco}
-                    alt="car battery change"
+                    alt="car battery change dubai"
                     className="img-fluid spanbattery"
                   />
                 </Link>

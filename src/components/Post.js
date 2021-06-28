@@ -39,7 +39,7 @@ export default class Post extends Component {
                   <img
                     class="card-img-top"
                     src={CarBattery}
-                    alt="autobatteries"
+                    alt="car battery replacement sharjah"
                   />
                   <div class="card-body">
                     <h5 class="card-title">How to maintain your car battery</h5>
@@ -65,7 +65,7 @@ export default class Post extends Component {
                   <img
                     class="card-img-top"
                     src={Speedometer}
-                    alt="autobatteries"
+                    alt="car battery replacement dubai"
                   />
                   <div class="card-body">
                     <h5 class="card-title">
@@ -92,7 +92,7 @@ export default class Post extends Component {
                   <img
                     class="card-img-top"
                     src={Sanitize}
-                    alt="autobatteries"
+                    alt="car battery uae"
                   />
                   <div class="card-body">
                     <h5 class="card-title">
@@ -121,7 +121,7 @@ export default class Post extends Component {
                   <img
                     class="card-img-top"
                     src={CarBattery}
-                    alt="autobatteries"
+                    alt="car battery dubai"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Top 4 battery for your car</h5>
@@ -144,7 +144,7 @@ export default class Post extends Component {
                   <img
                     class="card-img-top"
                     src={BlackCar}
-                    alt="autobatteries"
+                    alt="battery replacement dubai"
                   />
                   <div class="card-body">
                     <h5 class="card-title">

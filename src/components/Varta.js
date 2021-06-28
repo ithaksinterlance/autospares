@@ -41,7 +41,7 @@ export default class Varta extends Component {
             <div className="col-md-5">
               <img
                 src={VartaBattery}
-                alt="Solite battery replacement"
+                alt="battery replacement sharjah"
                 class="img-fluid batteryProd"
               />
               <smal className="small d-flex justify-content-end">
@@ -96,7 +96,7 @@ export default class Varta extends Component {
                       id="nav-home-tab"
                       data-toggle="tab"
                       href="#nav-home"
-                      title="car battery replacement"
+                      title="car battery replacement uae"
                       role="tab"
                       aria-controls="nav-home"
                       aria-selected="true"
@@ -108,7 +108,7 @@ export default class Varta extends Component {
                       id="nav-profile-tab"
                       data-toggle="tab"
                       href="#nav-profile"
-                      title="car battery replacement"
+                      title="battery replacement sharjah"
                       role="tab"
                       aria-controls="nav-profile"
                       aria-selected="false"
@@ -151,7 +151,7 @@ export default class Varta extends Component {
                 <Link to="/acdelco">
                   <img
                     src={Amaron}
-                    alt="amaron Battery replacement in dubai"
+                    alt="car battery replacement dubai"
                     className="img-fluid spanbattery"
                   />
                 </Link>
@@ -161,7 +161,7 @@ export default class Varta extends Component {
                 <Link to="/amaron">
                   <img
                     src={Solite}
-                    alt="amaron Battery replacement in dubai"
+                    alt="sharjah car battery replacement"
                     className="img-fluid spanbattery"
                   />
                 </Link>
@@ -170,7 +170,7 @@ export default class Varta extends Component {
                 <Link to="/solite">
                   <img
                     src={Acdelco}
-                    alt="amaron Battery replacement in dubai"
+                    alt="dubai car battery replacement"
                     className="img-fluid spanbattery"
                   />
                 </Link>

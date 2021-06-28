@@ -41,7 +41,7 @@ export default class Acdelco extends Component {
             <div className="col-md-5">
               <img
                 src={AcdelcoBattery}
-                alt="car battery"
+                alt="car battery replacement dubai"
                 class="img-fluid batteryProd"
               />
               <smal className="small d-flex justify-content-end">
@@ -82,7 +82,7 @@ export default class Acdelco extends Component {
                 <p className="smal">
                   <span class="label label-success">In Stock</span>
                 </p>
-                <Link to="/contact" rel="noopener noreferrer" target="_newtab">
+                <Link to="/contact" rel="noopener noreferrer" target="_newtab" title="car battery replacement dubai and sharjah">
                   <button type="button" className="btn  btn-success btn-lg">
                     ORDER NOW
                   </button>
@@ -108,7 +108,7 @@ export default class Acdelco extends Component {
                       id="nav-profile-tab"
                       data-toggle="tab"
                       href="#nav-profile"
-                      title="car battery replacement"
+                      title="car battery replacement sharjah"
                       role="tab"
                       aria-controls="nav-profile"
                       aria-selected="false"
@@ -146,7 +146,7 @@ export default class Acdelco extends Component {
             <div className="col-md-2">
               <div className="col-md-12 pt-1">Other Battery List</div>
               <div className="col-md-12">
-                <Link to="/amaron-battery">
+                <Link to="/amaron-battery" title="car battery replacement dubai and sharjah">
                   <img
                     src={Solite}
                     alt="car battery dubai price"
@@ -155,20 +155,20 @@ export default class Acdelco extends Component {
                 </Link>
               </div>
 
-              <div className="col-md-12">
-                <Link to="/solite-battery">
+              <div className="col-md-12" >
+                <Link to="/solite-battery" title="car battery replacement dubai and sharjah">
                   <img
                     src={Varta}
-                    alt="agm car battery"
+                    alt="agm car battery dubai"
                     className="img-fluid spanbattery"
                   />
                 </Link>
               </div>
               <div className="col-md-12">
-                <Link to="/varta-battery">
+                <Link to="/varta-battery" title="car battery replacement dubai and sharjah">
                   <img
                     src={Amaron}
-                    alt="car battery price"
+                    alt="car battery price sharjah"
                     className="img-fluid spanbattery"
                   />
                 </Link>

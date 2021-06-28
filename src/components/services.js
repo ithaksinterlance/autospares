@@ -34,7 +34,7 @@ export default class services extends Component {
         <div className="container-fluid header-text1 px-0">
           <img
             src={CarBattery}
-            alt="car battery"
+            alt="dubai audi"
             className="img-fluid header-img"
           />
 
@@ -87,7 +87,7 @@ export default class services extends Component {
               <h1 className="paragraph">ANY TIME</h1>
             </div>
             <div className="col-md-4">
-              <i class="fas fa-screwdriver fa-3x   "></i>
+              <i class="fas fa-screwdriver fa-3x"></i>
               <br />
               <h1 className="paragraph">PROFESSIONAL SERVICE</h1>
             </div>

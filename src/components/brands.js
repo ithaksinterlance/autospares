@@ -75,7 +75,7 @@ export default class brands extends Component {
             </div>
             <div className="col-md-3 col-sm-6 col-xs-12 pt-3">
               <div class="card" style={{ width: "18rem" }}>
-                <img src={Battery3} alt="car battery replacement in dubai" />
+                <img src={Battery3} alt="car battery replacement sharjah" />
                 <div class="card-body">
                   <h5 class="card-title">VARTA</h5>
 
