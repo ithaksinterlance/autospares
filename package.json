@@ -1,5 +1,4 @@
 {
-  "homepage": "http://ithaksinterlance.github.io/",
   "name": "haksinterlance",
   "main": "./src/index.js",
   "version": "1.0.0",
