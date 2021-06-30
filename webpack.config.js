@@ -32,14 +32,12 @@ module.exports = {
     hot:true,
     contentBase: path.join(__dirname, './dist'),
     open: true,
-    publicPath: "/"
+    publicPath: "/autospares/"
   },
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
-  target: 'node',
-    externals: [nodeExternals()],
   resolve: {
     extensions: [".webpack.js", ".web.js", ".ts", ".js", ".jsx", ".css"],
   },

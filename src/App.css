@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Patua+One&family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap");
+
 body {
   background-color: #EBECF0;
   font-family: "Poppins", sans-serif;
@@ -150,7 +158,6 @@ form {
 }
 
 footer {
-  height: 12vh;
   padding-top: 4vh;
   background-color: #47484c;
   color: #25d366;

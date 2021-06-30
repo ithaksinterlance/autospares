@@ -1,14 +1,15 @@
-require("@babel/register")({
-  presets: [ "@babel/preset-react","@babel/preset-env"]
-});
-const router = require("./main").default();
-const Sitemap = require("../").default();
+import { sitemapBuilder as buildSitemap } from 'react-router-sitemap';
+import routes from './main';
+import path from 'path'; // add path which will be needed for file write
+import fs from 'fs'; // import file system object
 
-function generateSitemap() {
-  return (
-  new Sitemap(router)
-  .build("localhost:3000")
-  .save("./sitemap.xml")
-  );
-}
-generateSitemap();
+// use your website root address here. Optimally you can
+// include dev and production enviorenments with variable
+const hostname = 'http://localhost:3000';
+
+// define our destination folder and sitemap file name
+const dest = path.resolve('/build/', 'sitemap.xml');
+
+// Generate sitemap and return Sitemap instance
+const sitemap = buildSitemap(hostname, routes);
+fs.writeFileSync(dest, sitemap.toString())

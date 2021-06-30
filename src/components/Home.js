@@ -303,8 +303,7 @@ export default class Home extends Component {
               <div className="col-md-3 col-xs-6 border shadow-lg">
                 <h5 className="card-title text-center">SOLITE</h5>
                 <hr />
-                <Link to="/varta-battery" title="battery replacement dubai">
-                  <a href="/">
+                <Link to="/solite-battery" title="battery replacement dubai">
                     <img
                       src={Prod3}
                       alt="battery replacement sharjah"
@@ -313,13 +312,12 @@ export default class Home extends Component {
                     <div className="text-center">
                       <h1 className="paragraph">BUY NOW</h1>
                     </div>
-                  </a>
                 </Link>
               </div>
               <div className="col-md-3 col-xs-6 border shadow-lg">
                 <h5 className="card-title text-center">VARTA</h5>
                 <hr />
-                <Link to="/solite-battery" title="solite battery dubai">
+                <Link to="/varta-battery" title="solite battery dubai">
                   <img
                     src={Prod4}
                     alt="battery"
