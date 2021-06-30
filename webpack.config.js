@@ -1,6 +1,5 @@
 const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
-var nodeExternals = require('webpack-node-externals');
 const SitemapPlugin = require("sitemap-webpack-plugin").default;
 const paths = [
   "/",
@@ -38,8 +37,7 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
-  target: 'web',
-    externals: [nodeExternals()],
+
   resolve: {
     extensions: [".webpack.js", ".web.js", ".ts", ".js", ".jsx", ".css"],
   },
