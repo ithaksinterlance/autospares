@@ -38,7 +38,7 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
-  target: 'node',
+  target: 'web',
     externals: [nodeExternals()],
   resolve: {
     extensions: [".webpack.js", ".web.js", ".ts", ".js", ".jsx", ".css"],
