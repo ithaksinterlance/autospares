@@ -32,7 +32,7 @@ module.exports = {
     hot:true,
     contentBase: path.join(__dirname, './dist'),
     open: true,
-    publicPath: "/autospares/"
+    publicPath: "/"
   },
   output: {
     filename: "bundle.js",
