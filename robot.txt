@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: autobatteries.hakstime.com
+Sitemap: https://autobatteries.hakstime.com/sitemap.xml
