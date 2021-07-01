@@ -32,12 +32,12 @@ module.exports = {
     hot:true,
     contentBase: path.join(__dirname, './dist'),
     open: true,
+    publicPath: "/",
 
   },
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/"
   },
   target: 'node',
     externals: [nodeExternals()],
@@ -69,7 +69,7 @@ module.exports = {
       inject: "body",
     }),
     new SitemapPlugin({
-      base: "https://autobatteries.hakstime.com",
+      base: "https://autobatteries.hakstime.com/#/",
       paths,
       options: {
         filename: "sitemap.xml",

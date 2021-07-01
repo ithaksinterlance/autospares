@@ -91,7 +91,7 @@ export default class Home extends Component {
           >
             <img
               src={Green}
-              alt="car battery replacement dubai"
+              alt="car battery dubai"
               className="img-fluid green"
             />
           </a>
@@ -230,7 +230,7 @@ export default class Home extends Component {
             <div className="row">
               <div className="col-md-6">
                 <hr />
-                <h1 className="heading">Onsite Battery Replacement</h1>
+                <h1 className="heading">Car Battery Replacement Dubai and Sharjah</h1>
                 <hr />
                 <p className="lead paragraph">
                   <ul className="list">
