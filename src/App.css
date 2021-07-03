@@ -298,6 +298,23 @@ footer {
   width: 100%;
   height: 18rem;
 }
+.brandImg {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+height:60px;
+width: 60px;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+margin-right: 5px;
+border: 1px solid #25d325;
+}
+.brandCol {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
 @media(max-width: 992px) {
   .form-phone {
     align-items: center;

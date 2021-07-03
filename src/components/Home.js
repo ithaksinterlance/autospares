@@ -13,8 +13,16 @@ import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import MetaTags from "react-meta-tags";
 import JsonLd from "./structureJSON";
+import { CarBrandList } from "./CarBrandList";
+import CarBrandImages from "./CarBrandImages";
 
 export default class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      CarBrandList: CarBrandList,
+    };
+  }
   submituserInquiryForm() {
     var carbattery = document.getElementById("carbattery").value;
     var area = document.getElementById("area").value;
@@ -52,6 +60,9 @@ export default class Home extends Component {
   }
 
   render() {
+    const brands = CarBrandList;
+    console.log("Car brand length: ", brands);
+
     return (
       <div>
         <Navbar />
@@ -82,7 +93,7 @@ export default class Home extends Component {
         <div className="container-fluid header-text1 px-0">
           <img
             src={Road}
-            alt="battery replacement"
+            alt="car battery uae"
             className="img-fluid header-img"
           />
           <a
@@ -230,7 +241,9 @@ export default class Home extends Component {
             <div className="row">
               <div className="col-md-6">
                 <hr />
-                <h1 className="heading">Car Battery Replacement Dubai and Sharjah</h1>
+                <h1 className="heading">
+                  Car Battery Replacement Dubai and Sharjah
+                </h1>
                 <hr />
                 <p className="lead paragraph">
                   <ul className="list">
@@ -252,7 +265,7 @@ export default class Home extends Component {
               <div className="col-md-6">
                 <img
                   src={MJ}
-                  alt="car battery"
+                  alt="car battery dubai"
                   className="img-fluid warranty"
                 />
               </div>
@@ -304,14 +317,14 @@ export default class Home extends Component {
                 <h5 className="card-title text-center">SOLITE</h5>
                 <hr />
                 <Link to="/solite-battery" title="battery replacement dubai">
-                    <img
-                      src={Prod3}
-                      alt="battery replacement sharjah"
-                      className="img-fluid battery"
-                    />
-                    <div className="text-center">
-                      <h1 className="paragraph">BUY NOW</h1>
-                    </div>
+                  <img
+                    src={Prod3}
+                    alt="battery replacement sharjah"
+                    className="img-fluid battery"
+                  />
+                  <div className="text-center">
+                    <h1 className="paragraph">BUY NOW</h1>
+                  </div>
                 </Link>
               </div>
               <div className="col-md-3 col-xs-6 border shadow-lg">
@@ -320,7 +333,7 @@ export default class Home extends Component {
                 <Link to="/varta-battery" title="solite battery dubai">
                   <img
                     src={Prod4}
-                    alt="battery"
+                    alt="solite battery uae"
                     className="img-fluid battery"
                   />
                   <div className="text-center">
@@ -351,7 +364,7 @@ export default class Home extends Component {
                 <h1 className="paragraph">
                   Car Battery Replacement | Replace your car battery anytime at
                   Dubai and Sharjah. We offer the best battery replacement
-                  service. Delivery {'&'} installation service at best price. We
+                  service. Delivery {"&"} installation service at best price. We
                   offer battery replacement for battery such as Solite, Amaron,
                   Acdelco, Varta. We come to you.
                 </h1>
@@ -359,6 +372,44 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
+
+        <div className="container py-5">
+          <div className="col-md-6">
+            <hr />
+            <h1 className="heading">Car Brands Tags</h1>
+            <hr />
+            <h1 className="paragraph">
+
+              We provide battery replacement services at sharjah and dubai at best rate for various car brands. <br/><br/>
+
+
+              AC Battery, Acura Battery, Alfa Romeo, Ariel, Aston Martin, Audi,
+              Bentley Battery | BMW Battery | Bugatti Battery | Cardillac
+              Battery | Chrevlot Battery | Chrylser Battery | Citroën Battery |
+              Daihatsu Battery | Ferrari Battery | Dodge Battery | Fiat Battery
+              |Ford Battery | GMC Battery | Great Wall Battery | Honda Battery |
+              Hummer Battery | Hyundai Battery | Infiniti Battery | Isuzu
+              Battery | Jaguar Battery | Jeep Battery | Kia Battery |
+              Lamborghini Battery | Land Rover Battery | Lexus Battery | Lincoln
+              Battery | Mahindra Battery | Maruti Suzuki Battery | Maserati
+              Battery | Maybach Battery | Mazda Battery | Mclaren Battery |
+              Mercedes Battery | MG Battery | Mini Battery | Mitsubishi Battery
+              | Morgan Motor Battery | Mustang Battery | Nissan Battery | Opel
+              Battery | Peugeot Battery | Porsche Battery | Proton Battery |
+              Renault Battery | Reva Battery | Rimac Battery | Rolls Royce
+              Battery | Seat Battery | Shelby Battery | Skoda Battery | Smart
+              Battery | Spyker Battery | Ssangyong Battery | SSC Battery |
+              Subaru Battery | Suzuki Battery | Tata Battery | Tesla Battery |
+              Toyota Battery | Volkswagen Battery | Volvo Battery
+            </h1>
+          </div>
+          <div className="col-md-6 d-flex justify-content-center">
+            <div className="row">
+              <CarBrandImages images={this.state.CarBrandList} />
+            </div>
+          </div>
+        </div>
+
         <Footer />
       </div>
     );
