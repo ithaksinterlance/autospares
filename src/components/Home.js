@@ -319,7 +319,7 @@ export default class Home extends Component {
                 <Link to="/solite-battery" title="battery replacement dubai">
                   <img
                     src={Prod3}
-                    alt="battery replacement sharjah"
+                    alt="solite car battery price in uae"
                     className="img-fluid battery"
                   />
                   <div className="text-center">

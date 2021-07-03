@@ -2,272 +2,338 @@ export const CarBrandList =
 [
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/ac-cars.png",
-    "name": "AC"
+    "name": "AC",
+    "alt":"car battery replacement sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/acura.png",
-    "name": "Acura"
+    "name": "Acura",
+    "alt":"car battery replacement dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/alfa_romeo.png",
-    "name": "Alfa Romeo"
+    "name": "Alfa Romeo",
+    "alt":"car battery change dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/ariel.png",
-    "name": "Ariel"
+    "name": "Ariel",
+    "alt":"car battery dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/aston_martin.png",
-    "name": "Aston Martin"
+    "name": "Aston Martin",
+    "alt":"car batteries dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/audi.png",
-    "name": "Audi"
+    "name": "Audi",
+    "alt":"car battery uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/bentley.png",
-    "name": "Bentley"
+    "name": "Bentley",
+    "alt":"car battery sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/bmw.png",
-    "name": "BMW"
+    "name": "BMW",
+    "alt":"battery replacement dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/bugatti.png",
-    "name": "Bugatti"
+    "name": "Bugatti",
+    "alt":"battery replacement sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/cadillac.png",
-    "name": "Cadillac"
+    "name": "Cadillac",
+    "alt":"battery sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/chevrolet.png",
-    "name": "Chevrolet"
+    "name": "Chevrolet",
+    "alt":"car battery dubai price"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/chrysler.png",
-    "name": "Chrysler"
+    "name": "Chrysler",
+    "alt":"dubai car battery"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/citroen.png",
-    "name": "Citroën"
+    "name": "Citroën",
+    "alt":"sharjah car battery"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/daihat.png",
-    "name": "Daihatsu"
+    "name": "Daihatsu",
+    "alt":"uae car battery"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/dodge.png",
-    "name": "Dodge"
+    "name": "Dodge",
+    "alt":"battery uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/ferrari.png",
-    "name": "Ferrari"
+    "name": "Ferrari",
+    "alt":"battery dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/fiat.png",
-    "name": "Fiat"
+    "name": "Fiat",
+    "alt":"battery sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/ford.png",
-    "name": "Ford"
+    "name": "Ford",
+    "alt":"car battery price dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/gmc.png",
-    "name": "GMC"
+    "name": "GMC",
+    "alt":"car battery price uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2013/10/Great-Wall.png",
-    "name": "Great Wall"
+    "name": "Great Wall",
+    "alt":"battery change dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/honda.png",
-    "name": "Honda"
+    "name": "Honda",
+    "alt":"solite battery price uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/hummer.png",
-    "name": "Hummer"
+    "name": "Hummer",
+    "alt":"amaron battery price uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/hyundai.png",
-    "name": "Hyundai"
+    "name": "Hyundai",
+    "alt":"amaron battery dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/inf.png",
-    "name": "Infiniti"
+    "name": "Infiniti",
+    "alt":"car battery dead dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/isuzu.png",
-    "name": "Isuzu"
+    "name": "Isuzu",
+    "alt":"dubai car battery replacement"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/jagu.png",
-    "name": "Jaguar"
+    "name": "Jaguar",
+    "alt":"amaron batteries dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/jeep.png",
-    "name": "Jeep"
+    "name": "Jeep",
+    "alt":"amaron battery dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/kia.png",
-    "name": "Kia"
+    "name": "Kia",
+    "alt":"car battery replacement sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/lamb.png",
-    "name": "Lamborghini"
+    "name": "Lamborghini",
+    "alt":"car battery replacement dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/land-rover.png",
-    "name": "Land Rover"
+    "name": "Land Rover",
+    "alt":"car battery change dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/lexus.png",
-    "name": "Lexus"
+    "name": "Lexus",
+    "alt":"car battery dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/linc.png",
-    "name": "Lincoln"
+    "name": "Lincoln",
+    "alt":"car batteries dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/11/mahindra.png",
-    "name": "Mahindra"
+    "name": "Mahindra",
+    "alt":"car battery uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/12/Maruti_Suzuki.png",
-    "name": "Maruti Suzuki"
+    "name": "Maruti Suzuki",
+    "alt":"car battery sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/mase.png",
-    "name": "Maserati"
+    "name": "Maserati",
+    "alt":"battery replacement dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/maybach.png",
-    "name": "Maybach"
+    "name": "Maybach",
+    "alt":"battery replacement sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/mazda.png",
-    "name": "Mazda"
+    "name": "Mazda",
+    "alt":"battery sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/mclaren.png",
-    "name": "Mclaren"
+    "name": "Mclaren",
+    "alt":"car battery dubai price"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/marchedrs.png",
-    "name": "Mercedes"
+    "name": "Mercedes",
+    "alt":"dubai car battery"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/mg.png",
-    "name": "MG"
+    "name": "MG",
+    "alt":"sharjah car battery"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/mini.png",
-    "name": "Mini"
+    "name": "Mini",
+    "alt":"uae car battery"
   },
 
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/mitub.png",
-    "name": "Mitsubishi"
+    "name": "Mitsubishi",
+    "alt":"battery uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/morgan.png",
-    "name": "Morgan Motor"
+    "name": "Morgan Motor",
+    "alt":"battery dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/mustang.png",
-    "name": "Mustang"
+    "name": "Mustang",
+    "alt":"battery sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/nissan.png",
-    "name": "Nissan"
+    "name": "Nissan",
+    "alt":"car battery price dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/opel.png",
-    "name": "Opel"
+    "name": "Opel",
+    "alt":"car battery price uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/peug.png",
-    "name": "Peugeot"
+    "name": "Peugeot",
+    "alt":"battery change dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/porsche.png",
-    "name": "Porsche"
+    "name": "Porsche",
+    "alt":"solite battery price uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/proton.png",
-    "name": "Proton"
+    "name": "Proton",
+    "alt":"amaron battery price uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/renault.png",
-    "name": "Renault"
+    "name": "Renault",
+    "alt":"amaron battery dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/reva.png",
-    "name": "Reva"
+    "name": "Reva",
+    "alt":"car battery dead dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2012/01/rimac-150x150.png",
-    "name": "Rimac"
+    "name": "Rimac",
+    "alt":"dubai car battery replacement"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/rolls-royce.png",
-    "name": "Rolls Royce"
+    "name": "Rolls Royce",
+    "alt":"amaron batteries dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/seat.png",
-    "name": "Seat"
+    "name": "Seat",
+    "alt":"amaron battery dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/10/shelby.png",
-    "name": "Shelby"
+    "name": "Shelby",
+    "alt":"car battery replacement sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/skoda.png",
-    "name": "Skoda"
+    "name": "Skoda",
+    "alt":"car battery replacement dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/smart.png",
-    "name": "Smart"
+    "name": "Smart",
+    "alt":"car battery change dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/spyker.png",
-    "name": "Spyker"
+    "name": "Spyker",
+    "alt":"car battery dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/ssangyong.png",
-    "name": "Ssangyong"
+    "name": "Ssangyong",
+    "alt":"car batteries dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/10/ssc.png",
-    "name": "SSC"
+    "name": "SSC",
+    "alt":"car battery uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/subaru.png",
-    "name": "Subaru"
+    "name": "Subaru",
+    "alt":"car battery sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/suzuki.png",
-    "name": "Suzuki"
+    "name": "Suzuki",
+    "alt":"battery replacement dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/tata.png",
-    "name": "Tata"
+    "name": "Tata",
+    "alt":"battery replacement sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/tesla.png",
-    "name": "Tesla"
+    "name": "Tesla",
+    "alt":"battery sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/toyota.png",
-    "name": "Toyota"
+    "name": "Toyota",
+    "alt":"car battery dubai price"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/volkswagen.png",
-    "name": "Volkswagen"
+    "name": "Volkswagen",
+    "alt":"dubai car battery"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/volvo.png",
-    "name": "Volvo"
+    "name": "Volvo",
+    "alt":"sharjah car battery"
   },
-
 ]
