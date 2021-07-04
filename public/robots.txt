@@ -68,4 +68,4 @@ Disallow: https://www.car-logos.org/wp-content/uploads/2011/09/volkswagen.png
 Disallow: https://www.car-logos.org/wp-content/uploads/2011/09/volvo.png
 Disallow: https://platform-api.sharethis.com/js/sharethis.js#property=60a0be2d18d187001189f192&product=inline-share-buttons
 Disallow: https://script.google.com/macros/s/AKfycbx0NaKHtikg3lfPVuhiSee3I_Lc_2EM8SCwsrSqm_6lr3o2XkTMaqp2A46ao9H2SyKc/exec
-https://script.google.com/macros/s/AKfycbwtSEpqXIA3B7HAYsxqQCEB22uL4mkpKwk_KHWnhUMMyCRTgkOES5l8/exec
+Disallow: https://script.google.com/macros/s/AKfycbwtSEpqXIA3B7HAYsxqQCEB22uL4mkpKwk_KHWnhUMMyCRTgkOES5l8/exec
