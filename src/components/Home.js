@@ -63,21 +63,18 @@ export default class Home extends Component {
   }
 
   render() {
-    const brands = CarBrandList;
-    console.log("Car brand length: ", brands);
-
     return (
       <div>
         <Navbar />
         <MetaTags>
           <title>
-            Car Battery replacement | Dubai {"&"} Sharjah |
-            Autobatteries.hakstime
+            Car Battery replacement | Dubai {"&"} Sharjah
+            Autobatteries.hakstime |
           </title>
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Car Battery replacement | Dubai & Sharjah | Autobatteries.hakstime"
+            content="Autobatteries.hakstime | Car Battery replacement | Dubai & Sharjah"
           />
           <meta
             name="description"

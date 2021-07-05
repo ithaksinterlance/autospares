@@ -1,14 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Patua+One&family=Ubuntu+Condensed&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap");
 
 body {
   background-color: #EBECF0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 nav {
   color: #272343;
@@ -47,7 +42,7 @@ a:active {
 }
 
 .nav1 {
-  font-family: "Oswald";
+  font-family: "Big Shoulders Display";
   background-color: #EBECF0;
   margin: 0;
   font-size: 30px;
@@ -84,7 +79,7 @@ a:active {
 }
 
 .paragraph {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: black;
   line-height: 2.5rem;
   font-weight: 200;
@@ -101,7 +96,7 @@ form {
   background: url('./img/whatsappbg.jpg');
   border-radius: 15px;
   font-size: 20px;
-  font-family: "Poppins";
+  font-family: "Roboto";
 }
 .form-btn {
   background-color: #25d366;
@@ -151,7 +146,7 @@ form {
 }
 .heading {
   font-size: 30px;
-  font-family: "Poppins", sans-serif;
+  font-family:  sans-serif;
   font-weight: 500;
   color: #128C7E;
   word-spacing: 3pt;
@@ -163,12 +158,12 @@ footer {
   background-color: #47484c;
   color: #25d366;
   font-size: 2.5vh;
-  font-family: "Poppins", "sans-serif";
+  font-family: "Roboto", "sans-serif";
 }
 .list {
   color: black;
   font-size: 18px;
-  font-family: "Patua One", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .warranty {
   height: 480px;
@@ -225,7 +220,7 @@ hr {
   width: 75vh;
 }
 .battery {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 40px;
   text-shadow: #4286f4;
   color: #47484c;
@@ -253,20 +248,20 @@ footer {
 }
 .blog-heading {
   font-size: 2rem;
-  font-family: "Langar";
+  font-family: "Big Shoulders Display";
   color: #272343;
   word-spacing: 3pt;
   letter-spacing: 0.5pt;
 }
 .blog-list-heading {
   font-size: 1.6rem;
-  font-family: "Patua One";
+  font-family: "Big Shoulders Display";
   margin-top: 3vw;
   color: #25d366;
 }
 .blog-paragraph-heading {
-  font-size: 2rem;
-  font-family: "Karla";
+  font-size: 1.5rem;
+  font-family: "Roboto";
   margin-top: 2vw;
   color: #47484c;
 }

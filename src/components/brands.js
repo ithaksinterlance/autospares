@@ -60,6 +60,7 @@ export default class brands extends Component {
                 <LazyLoadImage
                     alt="car battery dubai"
                     effect="blur"
+                    className="card-img-top"
                     src={Battery2}
                   />
                 <div class="card-body">
@@ -84,6 +85,7 @@ export default class brands extends Component {
               <div class="card" style={{ width: "18rem" }}>
                 <LazyLoadImage
                     alt="car battery replacement sharjah"
+                    className="card-img-top"
                     effect="blur"
                     src={Battery3}
                   />
