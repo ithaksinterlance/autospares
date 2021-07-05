@@ -11,7 +11,7 @@
     "static/js/3.b3e35860.chunk.js.map": "/static/js/3.b3e35860.chunk.js.map",
     "static/js/4.29d08931.chunk.js": "/static/js/4.29d08931.chunk.js",
     "static/js/4.29d08931.chunk.js.map": "/static/js/4.29d08931.chunk.js.map",
-    "main.css": "/static/css/main.a9c24fc1.chunk.css",
+    "main.css": "/static/css/main.1164e54f.chunk.css",
     "main.js": "/static/js/main.5cc817ed.chunk.js",
     "main.js.map": "/static/js/main.5cc817ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ff3349b.js",
@@ -54,7 +54,7 @@
     "index.html": "/index.html",
     "static/css/3.c699c03f.chunk.css.map": "/static/css/3.c699c03f.chunk.css.map",
     "static/css/7.73cc2f71.chunk.css.map": "/static/css/7.73cc2f71.chunk.css.map",
-    "static/css/main.a9c24fc1.chunk.css.map": "/static/css/main.a9c24fc1.chunk.css.map",
+    "static/css/main.1164e54f.chunk.css.map": "/static/css/main.1164e54f.chunk.css.map",
     "static/js/7.b8bb2ad4.chunk.js.LICENSE.txt": "/static/js/7.b8bb2ad4.chunk.js.LICENSE.txt",
     "static/media/Logo.ba2b1b0f.jpeg": "/static/media/Logo.ba2b1b0f.jpeg",
     "static/media/battery.webp": "/static/media/battery.953d7d66.webp",
@@ -83,7 +83,7 @@
     "static/js/runtime-main.4ff3349b.js",
     "static/css/7.73cc2f71.chunk.css",
     "static/js/7.b8bb2ad4.chunk.js",
-    "static/css/main.a9c24fc1.chunk.css",
+    "static/css/main.1164e54f.chunk.css",
     "static/js/main.5cc817ed.chunk.js"
   ]
 }
