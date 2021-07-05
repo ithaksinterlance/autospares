@@ -3,14 +3,17 @@ import Footer from "./Footer.js";
 import Navbar from "./Navbar.js";
 import CarBattery from "../img/carbattery.webp";
 import { MetaTags } from "react-meta-tags";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default class services extends Component {
   render() {
     return (
       <div>
-                <MetaTags>
+        <MetaTags>
           <title>
-             Car Battery replacement | Dubai & Sharjah | Autobatteries.hakstime
+            Car Battery replacement | Dubai & Sharjah | Autobatteries.hakstime
           </title>
           <meta charset="utf-8" />
           <meta
@@ -32,10 +35,11 @@ export default class services extends Component {
         </MetaTags>
         <Navbar />
         <div className="container-fluid header-text1 px-0">
-          <img
+          <LazyLoadImage
+            alt="car battery sharjah"
+            effect="blur"
+            className="img-fluid batteryProd"
             src={CarBattery}
-            alt="dubai audi"
-            className="img-fluid header-img"
           />
 
           <div className="header-txt display-4" style={{ paddingLeft: "10px" }}>
@@ -104,7 +108,7 @@ export default class services extends Component {
           the demand for our battery supply and replacement services.**
         </p>
         <div className="text-center">
-        <Footer />
+          <Footer />
         </div>
       </div>
     );

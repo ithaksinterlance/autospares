@@ -4,12 +4,13 @@ import Footer from "./Footer.js";
 import { Link } from "react-router-dom";
 import CarBattery from "../img/battery.webp";
 import Speedometer from "../img/speedometer.webp";
-import Sanitize from "../img/sanitize.webp";
 import BlackCar from "../img/blackcar.jpg";
-import {MetaTags} from "react-meta-tags"
+import { MetaTags } from "react-meta-tags";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default class Post extends Component {
-
   render() {
     return (
       <div>
@@ -29,17 +30,21 @@ export default class Post extends Component {
             name="keywords"
             content="car battery replacement sharjah, car battery replacement dubai, car battery replacement uae ,car battery change, car battery dubai, car battery uae, car battery sharjah,amaron battery dubai,battery replacement dubai, battery dubai,battery sharjah,  battery uae, car battery change dubai, car battery dubai price,dubai car battery, sharjah car battery, uae car battery,battery uae, battery dubai, battery sharjah,car battery price dubai, car battery price uae, battery change dubai, dubai audi, BMW dubai, solite battery price uae, amaron battery price uae, agm battery dubai, dubai car battery replacement ,uae car battery replacement"
           />
-          <link rel="canonical" href="https://autobatteries.hakstime.com/post" />
+          <link
+            rel="canonical"
+            href="https://autobatteries.hakstime.com/post"
+          />
         </MetaTags>
         <div className="container">
           <div className="row d-xs-flex justify-content-center d-sm-flex justify-content-center d-flex justify-content-between ">
             <div className="col-md-3">
               <div className="container-fluid">
                 <div class="card postCard">
-                  <img
-                    class="card-img-top"
+                  <LazyLoadImage
+                    alt="car battery sharjah"
+                    effect="blur"
+                    className="card-img-top"
                     src={CarBattery}
-                    alt="car battery replacement sharjah"
                   />
                   <div class="card-body">
                     <h5 class="card-title">How to maintain your car battery</h5>
@@ -62,10 +67,12 @@ export default class Post extends Component {
             <div className="col-md-3">
               <div className="container-fluid">
                 <div class="card postCard">
-                  <img
-                    class="card-img-top"
+
+                  <LazyLoadImage
+                    alt="car battery replacement sharjah"
+                    effect="blur"
+                    className="card-img-top"
                     src={Speedometer}
-                    alt="car battery replacement dubai"
                   />
                   <div class="card-body">
                     <h5 class="card-title">
@@ -89,17 +96,22 @@ export default class Post extends Component {
             <div className="col-md-3">
               <div className="container-fluid">
                 <div class="card postCard">
-                  <img
-                    class="card-img-top"
-                    src={Sanitize}
-                    alt="car battery uae"
+                  <LazyLoadImage
+                    alt="car battery dubai"
+                    effect="blur"
+                    className="card-img-top"
+                    src={CarBattery}
                   />
                   <div class="card-body">
                     <h5 class="card-title">
-                    Tips to sanitize your car during covid-19
+                      Tips to sanitize your car during covid-19
                     </h5>
                     <p class="card-text">
-                    Sanitize your car handles, Clean your upholstery, Donot use wet cloth for sanitizing, Disinfect your air conditioning system, Personal Hygiene, Wear disposable hand gloves and Mask, Get off the car only if necessary, Prepare sticky notes
+                      Sanitize your car handles, Clean your upholstery, Donot
+                      use wet cloth for sanitizing, Disinfect your air
+                      conditioning system, Personal Hygiene, Wear disposable
+                      hand gloves and Mask, Get off the car only if necessary,
+                      Prepare sticky notes
                     </p>
                     <Link
                       to="/tips_to_sanitize_your_car_during_covid_19"
@@ -118,16 +130,15 @@ export default class Post extends Component {
             <div className="col-md-3">
               <div className="container-fluid">
                 <div class="card postCard">
-                  <img
-                    class="card-img-top"
+                  <LazyLoadImage
+                    alt="car battery sharjah"
+                    effect="blur"
+                    className="card-img-top"
                     src={CarBattery}
-                    alt="car battery dubai"
                   />
                   <div class="card-body">
                     <h5 class="card-title">Top 4 battery for your car</h5>
-                    <p class="card-text">
-                      Amaron , Acdelco , Solite , Varta
-                    </p>
+                    <p class="card-text">Amaron , Acdelco , Solite , Varta</p>
                     <Link
                       to="/top_4_battery_for_your_car"
                       class="btn btn-primary"
@@ -141,20 +152,26 @@ export default class Post extends Component {
             <div className="col-md-3">
               <div className="container-fluid">
                 <div class="card postCard">
-                  <img
-                    class="card-img-top"
+
+                  <LazyLoadImage
+                    alt="battery replacement sharjah"
+                    effect="blur"
+                    className="card-img-top"
                     src={BlackCar}
-                    alt="battery replacement dubai"
                   />
                   <div class="card-body">
                     <h5 class="card-title">
-                    All you need to know about car battery
+                      All you need to know about car battery
                     </h5>
                     <p class="card-text">
-                    Do's and Dont's inside the car during pandemic , When will your car battery die , Don't use tap water to refill your battery , Find the CCA(Cold Cranking Amps) of your battery , Brand of your car battery, Warranty, Manufacturing date , Battery types , Know about our service
+                      Do's and Dont's inside the car during pandemic , When will
+                      your car battery die , Don't use tap water to refill your
+                      battery , Find the CCA(Cold Cranking Amps) of your battery
+                      , Brand of your car battery, Warranty, Manufacturing date
+                      , Battery types , Know about our service
                     </p>
                     <Link
-                      to="/All_you_need_to_know_about_car_battery"
+                      to="/all_you_need_to_know_about_car_battery"
                       class="btn btn-primary"
                     >
                       Read more
@@ -163,7 +180,6 @@ export default class Post extends Component {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
         <div className="text-center">

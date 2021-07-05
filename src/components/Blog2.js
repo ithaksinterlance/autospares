@@ -4,6 +4,9 @@ import Footer from "./Footer.js";
 import MetaTags from "react-meta-tags";
 import BlogSidebar from "./BlogSidebar.js";
 import Speedometer from "../img/speedometer.webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default class Blog2 extends Component {
   render() {
@@ -32,10 +35,11 @@ export default class Blog2 extends Component {
               <h1 className="blog-heading text-center">
                 How to know if your car battery is dying
               </h1>
-              <img
-                src={Speedometer}
-                className="img-fluid blog-img"
+              <LazyLoadImage
                 alt="car battery replacement dubai"
+                effect="blur"
+                className="img-fluid blog-img"
+                src={Speedometer}
               />
               <hr />
               <div className="sharethis-inline-share-buttons"></div>

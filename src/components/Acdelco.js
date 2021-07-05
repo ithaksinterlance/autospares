@@ -7,6 +7,9 @@ import Solite from "../img/product2.webp";
 import Varta from "../img/product4.webp";
 import { Link } from "react-router-dom";
 import MetaTags from "react-meta-tags";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default class Acdelco extends Component {
   render() {
@@ -25,7 +28,7 @@ export default class Acdelco extends Component {
           />
           <meta
             name="keywords"
-            content="Acdelco battery sharjah, Acdelco car battery dubai, Acdelco best price uae, best car battery price in uae,  car battery replacement , dubai, sharjah, united arab emirates, car battery replacement sharjah, car battery replacement dubai , car battery replacement uae ,car battery change uae, car battery dubai, car battery uae, car battery sharjah,amaron battery dubai,battery replacement dubai, battery dubai,battery sharjah,  battery uae, car battery change dubai, car battery dubai price,dubai car battery, sharjah car battery, uae car battery,battery uae, battery dubai, battery sharjah,car battery price dubai, car battery price uae, battery change dubai, dubai audi, BMW dubai, solite battery price uae, amaron battery price uae, agm battery dubai, dubai car battery replacement ,uae car battery replacement "
+            content="Acdelco battery sharjah, Acdelco car battery dubai, Acdelco best price uae, best car battery price in uae,  car battery replacement sharjah, car battery replacement dubai, car battery change dubai, car battery dubai,car batteries dubai, car battery uae,car battery sharjah,battery replacement dubai,battery replacement sharjah,battery sharjah, car battery dubai price,dubai car battery, sharjah car battery, uae car battery,battery uae, battery dubai, battery sharjah,car battery price dubai, car battery price uae, battery change dubai, solite battery price uae, amaron battery price uae,amaron battery dubai, car battery dead dubai, dubai car battery replacement,  amaron batteries dubai,amaron battery dubai"
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#000000" />
@@ -39,10 +42,11 @@ export default class Acdelco extends Component {
         <div className="container shadow-lg">
           <div className="row">
             <div className="col-md-5">
-              <img
-                src={AcdelcoBattery}
+            <LazyLoadImage
                 alt="car battery replacement dubai"
-                class="img-fluid batteryProd"
+                effect="blur"
+                className="img-fluid batteryProd"
+                src={AcdelcoBattery}
               />
               <smal className="small d-flex justify-content-end">
                 Sold By hakstime{" "}

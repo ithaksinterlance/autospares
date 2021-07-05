@@ -4,6 +4,9 @@ import Footer from "./Footer.js";
 import CarBattery from "../img/carbattery.webp";
 import MetaTags from "react-meta-tags";
 import BlogSidebar from "./BlogSidebar.js";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 class Blog5 extends Component {
   render() {
@@ -29,11 +32,11 @@ class Blog5 extends Component {
               <h1 className="blog-heading text-center">
               Top 4 battery for your car
               </h1>
-
-              <img
-                src={CarBattery}
+              <LazyLoadImage
+                alt="car battery sharjah"
+                effect="blur"
                 className="img-fluid blog-img"
-                alt="autobatteries.hakstime.com"
+                src={CarBattery}
               />
               <hr />
               <div className="sharethis-inline-share-buttons"></div>

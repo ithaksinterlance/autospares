@@ -6,6 +6,9 @@ import CarBattery from "../img/battery.webp";
 import MetaTags from "react-meta-tags";
 import { Link } from "react-router-dom";
 import BlogSidebar from "./BlogSidebar.js";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default class Blog1 extends Component {
   render() {
@@ -31,12 +34,12 @@ export default class Blog1 extends Component {
               <h1 className="blog-heading text-center">
                 How to maintain Your car battery
               </h1>
-
-              <img
-                src={CarBattery}
-                className="img-fluid blog-img"
-                alt="autobatteries.hakstime.com"
-              />
+              <LazyLoadImage
+                  alt="car battery replacement sharjah"
+                  effect="blur"
+                  className="img-fluid blog-img"
+                  src={CarBattery}
+                />
               <hr />
               <div className="sharethis-inline-share-buttons"></div>
               <ol>

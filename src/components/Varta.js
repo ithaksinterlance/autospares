@@ -7,6 +7,9 @@ import Solite from "../img/product2.webp";
 import Acdelco from "../img/product4.webp";
 import { Link } from "react-router-dom";
 import MetaTags from "react-meta-tags";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default class Varta extends Component {
   render() {
@@ -39,10 +42,11 @@ export default class Varta extends Component {
         <div className="container shadow-lg">
           <div className="row">
             <div className="col-md-5">
-              <img
+              <LazyLoadImage
+                alt="car battery replacement dubai"
+                effect="blur"
+                className="img-fluid batteryProd"
                 src={VartaBattery}
-                alt="battery replacement sharjah"
-                class="img-fluid batteryProd"
               />
               <smal className="small d-flex justify-content-end">
                 Sold By hakstime{" "}

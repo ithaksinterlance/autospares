@@ -7,6 +7,9 @@ import Battery3 from "../img/product3.webp";
 import Battery4 from "../img/product4.webp";
 import { Link } from "react-router-dom";
 import MetaTags from "react-meta-tags";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default class brands extends Component {
   render() {
@@ -54,7 +57,11 @@ export default class brands extends Component {
             </div>
             <div className="col-md-3 col-sm-6 col-xs-12 pt-3">
               <div class="card" style={{ width: "18rem" }}>
-                <img src={Battery2} alt="car battery replacement in dubai" />
+                <LazyLoadImage
+                    alt="car battery dubai"
+                    effect="blur"
+                    src={Battery2}
+                  />
                 <div class="card-body">
                   <h5 class="card-title">AMARON</h5>
 
@@ -75,7 +82,11 @@ export default class brands extends Component {
             </div>
             <div className="col-md-3 col-sm-6 col-xs-12 pt-3">
               <div class="card" style={{ width: "18rem" }}>
-                <img src={Battery3} alt="car battery replacement sharjah" />
+                <LazyLoadImage
+                    alt="car battery replacement sharjah"
+                    effect="blur"
+                    src={Battery3}
+                  />
                 <div class="card-body">
                   <h5 class="card-title">VARTA</h5>
 
@@ -96,7 +107,12 @@ export default class brands extends Component {
             </div>
             <div className="col-md-3 col-sm-6 col-xs-12 pt-3">
               <div class="card" style={{ width: "18rem" }}>
-                <img src={Battery4} alt="car battery replacement in dubai" />
+                <LazyLoadImage
+                    alt="car battery replacement dubai"
+                    effect="blur"
+                    className="card-img-top"
+                    src={Battery4}
+                  />
                 <div class="card-body">
                   <h5 class="card-title">SOLITE</h5>
 

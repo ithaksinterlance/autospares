@@ -15,6 +15,9 @@ import MetaTags from "react-meta-tags";
 import JsonLd from "./structureJSON";
 import { CarBrandList } from "./CarBrandList";
 import CarBrandImages from "./CarBrandImages";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default class Home extends Component {
   constructor(props) {
@@ -263,10 +266,11 @@ export default class Home extends Component {
                 </p>
               </div>
               <div className="col-md-6">
-                <img
-                  src={MJ}
+                <LazyLoadImage
                   alt="car battery dubai"
+                  effect="blur"
                   className="img-fluid warranty"
+                  src={MJ}
                 />
               </div>
             </div>
@@ -289,10 +293,11 @@ export default class Home extends Component {
                 <Link to="/acdelco-battery" title="car battery near me">
                   <h5 className="card-title text-center">ACDELCO</h5>
                   <hr />
-                  <img
-                    src={Prod1}
-                    alt="car battery replacement in dubai"
+                  <LazyLoadImage
+                    alt="car battery replacement dubai"
+                    effect="blur"
                     className="img-fluid battery"
+                    src={Prod1}
                   />
                   <div className="text-center">
                     <p className="paragraph">BUY NOW</p>
@@ -303,10 +308,11 @@ export default class Home extends Component {
                 <h5 className="card-title text-center">AMARON</h5>
                 <hr />
                 <Link to="/amaron-battery" title="car battery dubai">
-                  <img
-                    src={Prod2}
-                    alt="battery replacement sharjah"
+                  <LazyLoadImage
+                    alt="car battery replacement sharjah"
+                    effect="blur"
                     className="img-fluid battery"
+                    src={Prod2}
                   />
                   <div className="text-center">
                     <h1 className="paragraph">BUY NOW</h1>
@@ -317,10 +323,11 @@ export default class Home extends Component {
                 <h5 className="card-title text-center">SOLITE</h5>
                 <hr />
                 <Link to="/solite-battery" title="battery replacement dubai">
-                  <img
-                    src={Prod3}
-                    alt="solite car battery price in uae"
+                  <LazyLoadImage
+                    alt="solite car battery price uae"
+                    effect="blur"
                     className="img-fluid battery"
+                    src={Prod3}
                   />
                   <div className="text-center">
                     <h1 className="paragraph">BUY NOW</h1>
@@ -331,10 +338,11 @@ export default class Home extends Component {
                 <h5 className="card-title text-center">VARTA</h5>
                 <hr />
                 <Link to="/varta-battery" title="solite battery dubai">
-                  <img
-                    src={Prod4}
-                    alt="solite battery uae"
+                  <LazyLoadImage
+                    alt="car battery dubai"
+                    effect="blur"
                     className="img-fluid battery"
+                    src={Prod4}
                   />
                   <div className="text-center">
                     <h1 className="paragraph">BUY NOW</h1>
@@ -349,10 +357,11 @@ export default class Home extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-6">
-                <img
-                  src={MJ2}
-                  alt="car battery dubai"
+                <LazyLoadImage
+                  alt="car battery replacement sharjah"
+                  effect="blur"
                   className="img-fluid warranty"
+                  src={MJ2}
                 />
               </div>
               <div className="col-md-6">
@@ -379,10 +388,9 @@ export default class Home extends Component {
             <h1 className="heading">Car Brands Tags</h1>
             <hr />
             <h1 className="paragraph">
-
-              We provide battery replacement services at sharjah and dubai at best rate for various car brands. <br/><br/>
-
-
+              We provide battery replacement services at sharjah and dubai at
+              best rate for various car brands. <br />
+              <br />
               AC Battery, Acura Battery, Alfa Romeo, Ariel, Aston Martin, Audi,
               Bentley Battery | BMW Battery | Bugatti Battery | Cardillac
               Battery | Chrevlot Battery | Chrylser Battery | Citroën Battery |

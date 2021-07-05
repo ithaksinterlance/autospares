@@ -5,6 +5,9 @@ import MetaTags from "react-meta-tags";
 import BlogSidebar from "./BlogSidebar.js";
 import BlackCar from "../img/blackcar.jpg";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default class Blog4 extends Component {
   render() {
@@ -33,10 +36,11 @@ export default class Blog4 extends Component {
               <h1 className="blog-heading text-center">
               All you need to know about car battery
               </h1>
-              <img
-                src={BlackCar}
+              <LazyLoadImage
+                alt="battery replacement sharjah"
+                effect="blur"
                 className="img-fluid blog-img"
-                alt="car battery replacement dubai"
+                src={BlackCar}
               />
               <hr />
               <div className="sharethis-inline-share-buttons"></div>

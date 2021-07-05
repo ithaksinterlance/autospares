@@ -7,6 +7,9 @@ import Varta from "../img/product1.webp";
 import Acdelco from "../img/product3.webp";
 import { Link } from "react-router-dom";
 import MetaTags from "react-meta-tags";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default class Amaron extends Component {
   render() {
@@ -40,10 +43,11 @@ export default class Amaron extends Component {
         <div className="container shadow-lg">
           <div className="row">
             <div className="col-md-5">
-              <img
+              <LazyLoadImage
+                alt="car battery replacement sharjah"
+                effect="blur"
+                className="img-fluid batteryProd"
                 src={AmaronBattery}
-                alt="dubai car battery replacement"
-                class="img-fluid batteryProd"
               />
               <smal className="small d-flex justify-content-end">
                 Sold By hakstime{" "}
@@ -83,7 +87,12 @@ export default class Amaron extends Component {
                 <p className="smal">
                   <span class="label label-success">In Stock</span>
                 </p>
-                <Link to="/contact" rel="noopener noreferrer" title="car battery replacement dubai and sharjah" target="_newtab">
+                <Link
+                  to="/contact"
+                  rel="noopener noreferrer"
+                  title="car battery replacement dubai and sharjah"
+                  target="_newtab"
+                >
                   <button type="button" class="btn  btn-success btn-lg">
                     ORDER NOW
                   </button>
@@ -145,7 +154,10 @@ export default class Amaron extends Component {
             <div className="col-md-2">
               <div className="col-md-12 pt-1">Other Battery List</div>
               <div className="col-md-12">
-                <Link to="/solite-battery" title="car battery replacement dubai and sharjah">
+                <Link
+                  to="/solite-battery"
+                  title="car battery replacement dubai and sharjah"
+                >
                   <img
                     src={Solite}
                     alt="car battery change dubai"
@@ -155,7 +167,10 @@ export default class Amaron extends Component {
               </div>
 
               <div className="col-md-12">
-                <Link to="/acdelco-battery" title="car battery replacement dubai and sharjah">
+                <Link
+                  to="/acdelco-battery"
+                  title="car battery replacement dubai and sharjah"
+                >
                   <img
                     src={Varta}
                     alt="car battery replacement sharjah"
@@ -164,7 +179,10 @@ export default class Amaron extends Component {
                 </Link>
               </div>
               <div className="col-md-12">
-                <Link to="/varta-battery" title="car battery replacement dubai and sharjah">
+                <Link
+                  to="/varta-battery"
+                  title="car battery replacement dubai and sharjah"
+                >
                   <img
                     src={Acdelco}
                     alt="car battery change dubai"
