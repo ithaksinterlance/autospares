@@ -40,6 +40,7 @@ export default class Blog4 extends Component {
                 alt="battery replacement sharjah"
                 effect="blur"
                 className="img-fluid blog-img"
+                width="100%"
                 src={BlackCar}
               />
               <hr />

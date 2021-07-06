@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Swal from "sweetalert2";
-import MetaTags from "react-meta-tags";
-import JsonLd from "./structureJSON"
 
 export default class WhatsAppForm extends Component {
   submituserInquiryForm() {
@@ -43,33 +41,6 @@ export default class WhatsAppForm extends Component {
 
     return (
       <div>
-        <MetaTags>
-          <title>
-            Autobatteries | Car Battery replacement | Dubai {'&'} Sharjah
-          </title>
-          <meta charset="utf-8" />
-          <meta
-            name="title"
-            content="Car Battery replacement | Dubai & Sharjah"
-          />
-          <meta
-            name="description"
-            content="Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service"
-          />
-          <meta
-            name="keywords"
-            content="car battery, car battery replacement dubai,car battery replacement sharjah,sharjah, dubai, arab, united arab emirates, uae, mjbattery, dubai car battery replacement, sharjah battery replacement, amaron battery, solite battery, acdelco battery, varta battery,  porsche battery,audi battery,chrevlot battery, battery for kia battery, battery for ranault battery,acura battery,chrysler battery,dodge battery,daewoo battery,ford battery,fiat battery, lexus battery, maserati battery"
-          />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="theme-color" content="#000000" />
-          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-          <meta name="author" content="autobatteries.hakstime.com" />
-          {
-          this.props.jsonLd &&
-            <JsonLd data={this.props.jsonLd} />
-        }
-        </MetaTags>
-            <div class="col-md-4 top-left">
               <iframe
                 title="car battery replacement uae"
                 name="hidden_iframe"
@@ -82,6 +53,7 @@ export default class WhatsAppForm extends Component {
                 action="https://docs.google.com/forms/d/e/1FAIpQLSd6fL_M5hLUjjBLJyMFWUijW2qNrGwQ0RxMVhpmTOEEqj3Jxg/formResponse"
                 onSubmit={this.submituserInquiryForm}
                 class="py-4 px-4 form-bg"
+                width="50"
                 target="hidden_iframe"
               >
 
@@ -155,7 +127,6 @@ export default class WhatsAppForm extends Component {
                   &nbsp;&nbsp;SEND
                 </button>
               </form>
-            </div>
         </div>
     )
   }
