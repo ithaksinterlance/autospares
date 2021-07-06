@@ -13,7 +13,7 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/alfa_romeo.png",
     "name": "Alfa Romeo",
-    "alt":"car battery change dubai"
+    "alt":"car battery"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/ariel.png",
@@ -68,7 +68,7 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/daihat.png",
     "name": "Daihatsu",
-    "alt":"uae car battery"
+    "alt":"car battery"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/dodge.png",
@@ -118,7 +118,7 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/inf.png",
     "name": "Infiniti",
-    "alt":"car battery dead dubai"
+    "alt":"car battery"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/isuzu.png",
@@ -254,7 +254,7 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/reva.png",
     "name": "Reva",
-    "alt":"car battery dead dubai"
+    "alt":"car battery"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2012/01/rimac-150x150.png",
@@ -264,7 +264,7 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/rolls-royce.png",
     "name": "Rolls Royce",
-    "alt":"amaron batteries dubai"
+    "alt":"car battery"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/seat.png",
@@ -299,7 +299,7 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/10/ssc.png",
     "name": "SSC",
-    "alt":"car battery uae"
+    "alt":"car battery"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/subaru.png",
@@ -329,7 +329,7 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/volkswagen.png",
     "name": "Volkswagen",
-    "alt":"dubai car battery"
+    "alt":"car battery"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/volvo.png",

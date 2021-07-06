@@ -5,9 +5,8 @@
     "background_color": "#47484c",
     "display": "standalone",
     "scope": "/",
-    "start_url": ".",
+    "start_url": "/",
     "icons": [
-
       {
         "src": "icons/logo192x192.png",
         "sizes": "192x192",
@@ -25,6 +24,13 @@
         "sizes": "384x384",
         "type": "image/png",
         "purpose": "any maskable"
+      },
+      {
+        "src":"favicon.ico",
+        "sizes":"64x64 32x32 24x24 16x16",
+        "type":"image/x-icon",
+        "purpose":"any maskable"
+
       },
       {
         "src": "icons/logo512x512.png",
