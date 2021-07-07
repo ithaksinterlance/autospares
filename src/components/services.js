@@ -38,7 +38,7 @@ export default class services extends Component {
           <LazyLoadImage
             alt="car battery sharjah"
             effect="blur"
-            className="img-fluid batteryProd"
+            className="img-fluid header-img"
             src={CarBattery}
           />
 
