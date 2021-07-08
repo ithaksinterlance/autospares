@@ -85,6 +85,7 @@ a:active {
   font-weight: 200;
   font-size: 20px;
 }
+
 ::placeholder {
   font-size: 16px;
 }
@@ -283,7 +284,6 @@ footer {
   justify-content: center;
   width: 100%;
   margin-bottom: 2rem;
-  border: 5px solid #47484c;
 }
 .postCard {
   box-shadow: 10px 10px 10px #47484c;
@@ -319,6 +319,7 @@ border: 1px solid #25d325;
   .formtab {
     display: none;
   }
+
 }
 @media(max-width: 768px) {
   .header-img {
