@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import WhatsApp from "../img/wa.png";
 import Phone from "../img/phoneicon.png";
+import favicon from "../img/favicon.ico";
 
 export default class Navbar extends Component {
   render() {
@@ -103,7 +104,7 @@ export default class Navbar extends Component {
             </div>
 
             <div class="col-xs-2 text-center pt-3">
-              <a href="https://api.whatsapp.com/send?text=autobatteries.hakstime.com">
+              <a href="https://api.whatsapp.com/send?phone=971551478994">
                 <i class="fa fa-share fa-2x" aria-hidden="true"></i>
                 <br />
                 <p className="fontSize text-center">SHARE</p>
@@ -137,7 +138,8 @@ export default class Navbar extends Component {
             ></i>
           </button>
           <div className="d-flex d-block flex-row mx-auto mx-0">
-            <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div><img src={favicon} alt="car battery" className="rounded-circle" style={{height: "50px", width:"50px"}}/></div>
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <ul className="container navbar-nav justify-content-between">
                 <li className="nav-item">
                   <Link to="/" className="nav-link">

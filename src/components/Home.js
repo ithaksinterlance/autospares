@@ -90,22 +90,18 @@ export default class Home extends Component {
           <meta name="author" content="autobatteries.hakstime.com" />
           {this.props.jsonLd && <JsonLd data={this.props.jsonLd} />}
         </MetaTags>
-        <div className="container-fluid header-text1 px-0">
+        <div className="container-fluid header-text1 px-0" >
           <img
             src={Road}
             alt="car battery uae"
             className="img-fluid header-img"
           />
-          <a
-            href="https://api.whatsapp.com/send?phone=971551478994?text='Hello! I need price details'"
-            title="car battery replacement sharjah and dubai"
-          >
+
             <img
               src={Green}
               alt="car battery dubai"
               className="img-fluid green"
             />
-          </a>
           <div
             className="header-text display-4"
             style={{ paddingLeft: "10px" }}
@@ -209,6 +205,13 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
+        <hr/>
+        <div className="container-fluid py-5">
+          <h1 className="container paragraph" style={{fontStyle:"italic"}}>
+            Welcome to AUTOBATTERIES.HAKstime! We are the company dedicated to serve the people in need of car battery at dubai and sharjah , at whatsoever the situation it may be, be it rain,be it middle of the road, be it car battery delivery at home. We provide service such as car battery replacement sharjah and car battery replacement dubai , car battery delivery , car battery installation , car battery warranty are given compusorily. Car battery change done at dubai and sharjah. We come to you. You can enter your CAR BATTERY DETAILS , AREA YOU ARE IN , AND YOUR MOBILE NUMBER WITH COUNTRY CODE. We get notified at a moment and We come to you.
+          </h1>
+        </div>
+        <hr/>
 
         <div className="container pt-3 text-center">
           <div className="row">
@@ -273,7 +276,7 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="container-fluid  py-5">
+        <div className="container-fluid py-5">
           <div className="container">
             <hr />
             <h1 className="heading">Our Brands</h1>
@@ -388,7 +391,7 @@ export default class Home extends Component {
               We provide battery replacement services at sharjah and dubai at
               best rate for various car brands. <br />
               <br />
-              AC Battery, Acura Battery, Alfa Romeo, Ariel, Aston Martin, Audi,
+              AC Battery | Acura Battery| Alfa Romeo| Ariel Battery | Aston Martin | Audi Battery |
               Bentley Battery | BMW Battery | Bugatti Battery | Cardillac
               Battery | Chrevlot Battery | Chrylser Battery | Citroën Battery |
               Daihatsu Battery | Ferrari Battery | Dodge Battery | Fiat Battery
@@ -405,7 +408,7 @@ export default class Home extends Component {
               Battery | Seat Battery | Shelby Battery | Skoda Battery | Smart
               Battery | Spyker Battery | Ssangyong Battery | SSC Battery |
               Subaru Battery | Suzuki Battery | Tata Battery | Tesla Battery |
-              Toyota Battery | Volkswagen Battery | Volvo Battery
+              Toyota Battery | Volkswagen Battery | Volvo Battery | Car battery replacement dubai | car battery replacement sharjah | car battery dubai | car battery sharjah | amaron batteries dubai | solite battery price dubai | dubai car battery | sharjah car battery | car battery uae | car battery change | car battery dubai | amaron battery dubai | battery replacement dubai | battery dubai | battery sharjah |  battery uae | car battery change dubai | car battery dubai price | dubai car battery | uae car battery |battery uae | battery sharjah | car battery price uae | battery change dubai | solite battery price uae | amaron battery price uae | agm battery dubai | dubai car battery replacement | uae car battery replacement
             </h1>
           </div>
           <div className="col-md-6 d-flex justify-content-center">
