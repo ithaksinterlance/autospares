@@ -74,7 +74,7 @@ export default class Home extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Autobatteries.hakstime | Car Battery replacement | Dubai & Sharjah"
+            content="Car Battery replacement | Dubai & Sharjah | Autobatteries.hakstime"
           />
           <meta
             name="description"
