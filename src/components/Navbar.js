@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import WhatsApp from "../img/wa.png";
 import Phone from "../img/phoneicon.png";
-import favicon from "../img/favicon.ico";
+import favicon from "../img/logo192.png";
 
 export default class Navbar extends Component {
   render() {

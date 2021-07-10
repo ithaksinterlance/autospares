@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import HAKS from "../img/Logo.jpeg";
+import HAKS from "../img/Logo.png";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 

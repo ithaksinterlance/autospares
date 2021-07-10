@@ -74,11 +74,11 @@ export default class Home extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Car Battery replacement | Dubai & Sharjah | Autobatteries.hakstime"
+            content="AutoB - Car Battery replacement | Dubai & Sharjah"
           />
           <meta
             name="description"
-            content="Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. 24/7 support. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta."
+            content="We are listening you... Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer car battery change for batteries such as Solite, Amaron, Acdelco, Varta. We offer the best car battery services. Car battery delivery & car battery installation service at best price. 24/7 support.  Car battery price in uae, dubai and sharjah starting from 200AED"
           />
           <meta
             name="keywords"
