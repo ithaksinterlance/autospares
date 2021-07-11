@@ -68,8 +68,7 @@ export default class Home extends Component {
         <Navbar />
         <MetaTags>
           <title>
-            Car Battery replacement | Dubai {"&"} Sharjah
-            Autobatteries.hakstime |
+            AutoB-Car battery Replacement Dubai | Car battery Replacement Sharjah
           </title>
           <meta charset="utf-8" />
           <meta
