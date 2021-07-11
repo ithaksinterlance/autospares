@@ -20,7 +20,7 @@ export default class Acdelco extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Acdelco battery replacement | Autobatteries.hakstime"
+            content="Acdelco battery replacement | AutoB"
           />
           <meta
             name="description"

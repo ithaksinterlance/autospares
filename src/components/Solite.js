@@ -20,7 +20,7 @@ export default class Solite extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Solite battery | Autobatteries.hakstime"
+            content="Solite battery | AutoB"
           />
           <meta
             name="description"

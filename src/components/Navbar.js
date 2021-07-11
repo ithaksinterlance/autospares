@@ -10,7 +10,7 @@ export default class Navbar extends Component {
       <div>
         <div>
           <a href="https://api.whatsapp.com/send?phone=971551478994" id="menu">
-            <img src={WhatsApp} alt="car battery price" id="menu" />
+            <img src={WhatsApp} alt="car battery price in dubai" id="menu" />
           </a>
         </div>
         <div>

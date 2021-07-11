@@ -13,9 +13,9 @@ export default class Blog6 extends Component {
     return (
       <div>
         <MetaTags>
-          <title>Autobatteries.hakstime</title>
+          <title>AutoB</title>
           <meta charset="utf-8" />
-          <meta name="title" content="Car Tinting rules UAE| Autobatteries.hakstime" />
+          <meta name="title" content="Car Tinting rules UAE| AutoB" />
           <meta
             name="description"
             content="UAE new traffic rules allows citizens to have 50% car tinting!"

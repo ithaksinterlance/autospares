@@ -18,7 +18,7 @@ export default class Blog4 extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="All you need to know about car battery | Autobatteries.hakstime"
+            content="All you need to know about car battery | AutoB"
           />
           <meta
             name="description"

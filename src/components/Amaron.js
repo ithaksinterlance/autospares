@@ -20,7 +20,7 @@ export default class Amaron extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Amaron battery replacement | Autobatteries.hakstime"
+            content="Amaron battery replacement | AutoB"
           />
           <meta
             name="description"

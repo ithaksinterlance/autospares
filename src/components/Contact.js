@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Footer from "./Footer.js";
 import Navbar from "./Navbar.js";
 import Swal from "sweetalert2";
+import MetaTags from "react-meta-tags";
 
 export default class Contact extends Component {
   submituserInquiryForm() {
@@ -36,6 +37,22 @@ export default class Contact extends Component {
   render() {
     return (
       <div>
+        <MetaTags>
+          <meta charSet="utf-8" />
+          <title>AutoB</title>
+          <meta
+            name="title"
+            content="Car Battery Dubai & Sharjah | AutoB"
+          />
+          <meta
+            name="description"
+            content="Car Battery Replacement | Replace your car battery anytime at Dubai and Sharjah. We offer the best battery replacement service. Delivery & installation service at best price. 24/7 support. We offer battery replacement for battery such as Solite, Amaron, Acdelco, Varta."
+          />
+          <meta
+            name="keywords"
+            content="car battery replacement sharjah, car battery replacement dubai, car battery replacement uae ,car battery change, car battery dubai, car battery uae, car battery sharjah,amaron battery dubai,battery replacement dubai, battery dubai,battery sharjah,  battery uae, car battery change dubai, car battery dubai price,dubai car battery, sharjah car battery, uae car battery,battery uae, battery dubai, battery sharjah,car battery price dubai, car battery price uae, battery change dubai, dubai audi, BMW dubai, solite battery price uae, amaron battery price uae, agm battery dubai, dubai car battery replacement ,uae car battery replacement"
+          />
+        </MetaTags>
         <Navbar/>
         <div className="container pt-5 text-center">
           <div className="row justify-content-center">

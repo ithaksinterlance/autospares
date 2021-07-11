@@ -43,7 +43,7 @@ export default class BlogSidebar extends Component {
     return (
       <div className="col-md-3 text-center pt-3">
         <div className="py-4">
-        <h1 className="paragraph">Pre-order your battery now!</h1>
+        <h1 className="paragraph blink_me">Pre-order your battery now!</h1>
         <iframe
                 title="car battery replacement uae"
                 name="hidden_iframe"

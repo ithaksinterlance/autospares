@@ -13,11 +13,11 @@ export default class Blog2 extends Component {
     return (
       <div>
         <MetaTags>
-          <title>Autobatteries.hakstime</title>
+          <title>AutoB</title>
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Warning Signs that your Car Battery is dying"
+            content="Warning Signs that your Car Battery is dying | AutoB"
           />
           <meta
             name="description"

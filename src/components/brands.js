@@ -18,10 +18,10 @@ export default class brands extends Component {
         <Navbar />
         <MetaTags>
           <meta charSet="utf-8" />
-          <title>Autobatteries.hakstime</title>
+          <title>AutoB</title>
           <meta
             name="title"
-            content="Car Battery Dubai & Sharjah | Autobatteries.hakstime"
+            content="Car Battery Dubai & Sharjah | AutoB"
           />
           <meta
             name="description"
@@ -31,7 +31,6 @@ export default class brands extends Component {
             name="keywords"
             content="car battery replacement sharjah, car battery replacement dubai, car battery replacement uae ,car battery change, car battery dubai, car battery uae, car battery sharjah,amaron battery dubai,battery replacement dubai, battery dubai,battery sharjah,  battery uae, car battery change dubai, car battery dubai price,dubai car battery, sharjah car battery, uae car battery,battery uae, battery dubai, battery sharjah,car battery price dubai, car battery price uae, battery change dubai, dubai audi, BMW dubai, solite battery price uae, amaron battery price uae, agm battery dubai, dubai car battery replacement ,uae car battery replacement"
           />
-          <link rel="canonical" href="https://autobatteries.hakstime.com/car-battery-brands" />
         </MetaTags>
         <div className="container pt-5 pb-5">
           <div className="row">

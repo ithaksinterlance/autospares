@@ -17,7 +17,7 @@ export default class Post extends Component {
         <Navbar />
         <MetaTags>
           <meta charSet="utf-8" />
-          <title>Blogs | Autobatteries.hakstime</title>
+          <title>Blogs | AutoB</title>
           <meta
             name="title"
             content="Car Battery replacement DUBAI| Replace your car battery at anytime at Dubai and Sharjah. We offer the best battery replacement service"

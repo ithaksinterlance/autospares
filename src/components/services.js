@@ -21,7 +21,7 @@ export default class services extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Car Battery replacement Dubai | Autobatteries.hakstime"
+            content="AutoB - Car Battery replacement Dubai | Car Battery Replacement Sharjah"
           />
           <meta
             name="description"
