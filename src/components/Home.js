@@ -8,6 +8,7 @@ import MJ from "../img/carbattery.webp";
 import MJ2 from "../img/batteryimg.jpg";
 import Green from "../img/greencar.webp";
 import Road from "../img/road.webp";
+import WelcomeImg from "../img/logo512.png"
 import Footer from "./Footer.js";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
@@ -206,9 +207,16 @@ export default class Home extends Component {
         </div>
         <hr/>
         <div className="container-fluid py-5">
-          <h1 className="container paragraph" style={{fontStyle:"italic"}}>
+          <div className="row">
+            <div className="col-md-6"><h1 className="container paragraph" style={{fontStyle:"italic"}}>
             Welcome to AUTOBATTERIES.HAKstime! We are the company dedicated to serve the people in need of car battery at dubai and sharjah , at whatsoever the situation it may be, be it rain,be it middle of the road, be it car battery delivery at home. We provide service such as car battery replacement sharjah and car battery replacement dubai , car battery delivery , car battery installation , car battery warranty are given compusorily. Car battery change done at dubai and sharjah. We come to you. You can enter your CAR BATTERY DETAILS , AREA YOU ARE IN , AND YOUR MOBILE NUMBER WITH COUNTRY CODE. We get notified at a moment and We come to you.
-          </h1>
+          </h1></div>
+          <div className="col-md-6">
+            <img src={WelcomeImg} className="img-fluid" alt="car battery replacement sharjah"/>
+
+          </div>
+          </div>
+
         </div>
         <hr/>
 
