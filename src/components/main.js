@@ -16,6 +16,7 @@ const All_you_need_to_know_about_car_battery = lazy(() => import("./Blog4"));
 const Top_4_battery_for_your_car = lazy(() => import("./Blog5"));
 const BlogSidebar = lazy(() => import("./BlogSidebar"));
 const Post = lazy(() => import("./Post"));
+const report = lazy(() => import("../reportWebVitals"))
 
 const Main = () => (
   <Suspense fallback={<div className="loader"></div>}>
@@ -47,6 +48,7 @@ const Main = () => (
       <Route exact path="/contact" component={contact} />
       <Route exact path="/BlogSidebar" component={BlogSidebar} />
       <Route exact path="/post" component={Post} />
+      <Route exact path="/report" component={report} />
       <Route
         exact
         path="/how_to_maintain_your_car_battery"

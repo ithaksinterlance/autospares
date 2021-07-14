@@ -72,46 +72,46 @@ export default class Navbar extends Component {
             </div>
           </div>
         </div>
-        <div class="col-xs-12 flex-container navbar-fixed-bottom pb-0 pt-2">
-          <div class="row pb-0" id="bottomNav">
-            <div class="col-xs-2 text-center pt-3">
-              <Link to="/">
+        <div class="col-xs-12 flex-container fixed-bottom pb-0 pt-2">
+          <div class="row" >
+            <div class="col-xs-2 text-center pt-3 mx-1" >
+              <Link to="/" className="bottomNav">
                 <i class="fa fa-2x fa-home" aria-hidden="true"></i>
                 <br />
                 <p className="fontSize text-center">HOME</p>
               </Link>
             </div>
-            <div class="col-xs-2 text-center pt-3">
-              <Link to="/car-battery-replacement">
+            <div class="col-xs-2 text-center pt-3 mx-1" >
+              <Link to="/car-battery-replacement" className="bottomNav">
                 <i class="fas fa-2x fa-screwdriver"></i>
                 <br />
                 <p className="fontSize text-center">SERVICE</p>
               </Link>
             </div>
-            <div class="col-xs-2 text-center pt-3">
-              <Link to="/post">
+            <div class="col-xs-2 text-center pt-3 mx-1">
+              <Link to="/post" className="bottomNav">
                 <i class="fa fa-book fa-2x" aria-hidden="true"></i>
                 <br />
                 <p className="fontSize text-center">BLOG</p>
               </Link>
             </div>
-            <div class="col-xs-2 text-center pt-3">
-              <Link to="/car-battery-brands">
+            <div class="col-xs-2 text-center pt-3 mx-1">
+              <Link to="/car-battery-brands" className="bottomNav">
                 <i class="fas fa-car-battery fa-2x"></i>
                 <br />
                 <p className="fontSize text-center">BRANDS</p>
               </Link>
             </div>
 
-            <div class="col-xs-2 text-center pt-3">
-              <a href="https://api.whatsapp.com/send?phone=971551478994">
+            <div class="col-xs-2 text-center pt-3 mx-1">
+              <a href="https://api.whatsapp.com/send?phone=971551478994" className="bottomNav">
                 <i class="fa fa-share fa-2x" aria-hidden="true"></i>
                 <br />
                 <p className="fontSize text-center">SHARE</p>
               </a>
             </div>
-            <div class="col-xs-2 text-center pt-3">
-              <a href="tel:971551478994">
+            <div class="col-xs-2 text-center pt-3 mx-1">
+              <a href="tel:971551478994" className="bottomNav">
                 <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
                 <br />
                 <p className="fontSize text-center">CALL </p>
@@ -137,7 +137,7 @@ export default class Navbar extends Component {
               }}
             ></i>
           </button>
-          <div className="d-flex d-block flex-row mx-auto mx-0">
+          <div className="d-flex d-block flex-row mx-auto mx-0 ">
           <div><img src={favicon} alt="car battery" className="rounded-circle" style={{height: "50px", width:"50px"}}/></div>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <ul className="container navbar-nav justify-content-between">

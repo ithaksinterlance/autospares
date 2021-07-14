@@ -310,6 +310,9 @@ border: 1px solid #25d325;
   grid-row-start: 1;
   grid-row-end: 3;
 }
+.bottomNav {
+  display: none;
+}
 
 @media(max-width: 992px) {
   .form-phone {
@@ -381,6 +384,9 @@ border: 1px solid #25d325;
   }
   .blog-paragraph-heading {
     font-size: 1.7rem;
+  }
+  .bottomNav {
+    display: none;
   }
 }
 @media(max-width: 576px) {
@@ -460,16 +466,23 @@ border: 1px solid #25d325;
   #menu1 {
    display:none;
   }
+  .fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: black;
+  }
+  .bottomNav {
+    display: block;
+    color: red;
 
-  #bottomNav {
-    flex-direction: column;
-    display: inline;
-    background-color: #47484c;
-    color: #25d366;
   }
-  #bottomNav a {
-    color: #25d366;
+  .bottomNav :hover {
+    color: white;
   }
+
 
   .batteryProd {
     height: 50vh;
