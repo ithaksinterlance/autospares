@@ -208,7 +208,7 @@ export default class Home extends Component {
         <hr/>
         <div className="container-fluid py-5">
           <div className="row">
-            <div className="col-md-6 container"><h1 className="container paragraph" style={{fontStyle:"italic"}}>
+            <div className="col-md-6 container"><h1 className="container paragraph" >
             Welcome to AUTOBATTERIES.HAKstime! We are the company dedicated to serve the people in need of car battery at dubai and sharjah , at whatsoever the situation it may be, be it rain,be it middle of the road, be it car battery delivery at home. We provide service such as car battery replacement sharjah and car battery replacement dubai , car battery delivery , car battery installation , car battery warranty are given compusorily. Car battery change done at dubai and sharjah. We come to you. You can enter your CAR BATTERY DETAILS , AREA YOU ARE IN , AND YOUR MOBILE NUMBER WITH COUNTRY CODE. We get notified at a moment and We come to you.
           </h1></div>
           <div className="col-md-6">
@@ -220,21 +220,21 @@ export default class Home extends Component {
         </div>
         <hr/>
 
-        <div className="container pt-3 text-center">
+        <div className="container py-3 text-center">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4 bg-white pt-4 border">
               <i class="fab fa-whatsapp fa-3x " aria-hidden="true"></i>
               <br />
               <h1 className="paragraph">
                 Send Your Location &<br /> Contact No.
               </h1>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 bg-white pt-4 border">
               <i class="fa fa-quote-right fa-3x " aria-hidden="true"></i>
               <br />
               <h1 className="paragraph"> Get Best Quote</h1>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 bg-white pt-4 border">
               <i class="fas fa-car-battery fa-3x" aria-hidden="true"></i>
               <br />
               <h1 className="paragraph">
@@ -389,7 +389,8 @@ export default class Home extends Component {
           </div>
         </div>
 
-        <div className="container py-5">
+        <div className="container-fluid py-5">
+          <div className="row">
           <div className="col-md-6">
             <hr />
             <h1 className="heading">Car Brands Tags</h1>
@@ -418,10 +419,9 @@ export default class Home extends Component {
               Toyota Battery | Volkswagen Battery | Volvo Battery | Car battery replacement dubai | car battery replacement sharjah | car battery dubai | car battery sharjah | amaron batteries dubai | solite battery price dubai | dubai car battery | sharjah car battery | car battery uae | car battery change | car battery dubai | amaron battery dubai | battery replacement dubai | battery dubai | battery sharjah |  battery uae | car battery change dubai | car battery dubai price | dubai car battery | uae car battery |battery uae | battery sharjah | car battery price uae | battery change dubai | solite battery price uae | amaron battery price uae | agm battery dubai | dubai car battery replacement | uae car battery replacement
             </h1>
           </div>
-          <div className="col-md-6 d-flex justify-content-center">
-            <div className="row">
+          <div className="col-md-6 ">
               <CarBrandImages images={this.state.CarBrandList} />
-            </div>
+          </div>
           </div>
         </div>
 
