@@ -74,7 +74,7 @@ export default class Home extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="AutoB - Car Battery replacement | Dubai & Sharjah"
+            content="AutoB - Car Battery replacement Dubai | Car Battery Replacement Sharjah"
           />
           <meta
             name="description"
