@@ -13,7 +13,6 @@ import Footer from "./Footer.js";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import MetaTags from "react-meta-tags";
-import JsonLd from "./structureJSON";
 import { CarBrandList } from "./CarBrandList";
 import CarBrandImages from "./CarBrandImages";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -88,7 +87,6 @@ export default class Home extends Component {
           <meta name="theme-color" content="#000000" />
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />
           <meta name="author" content="autobatteries.hakstime.com" />
-          {this.props.jsonLd && <JsonLd data={this.props.jsonLd} />}
         </MetaTags>
         <div className="container-fluid header-text1 px-0" >
           <img
@@ -106,7 +104,7 @@ export default class Home extends Component {
             className="header-text display-4"
             style={{ paddingLeft: "10px" }}
           >
-            CAR BATTERY REPLACEMENT SERVICE AT DUBAI AND SHARJAH
+            NO.1 CAR BATTERY REPLACEMENT SERVICE AT DUBAI AND SHARJAH
           </div>
         </div>
         <div class="container-fluid form-bg">
@@ -206,7 +204,7 @@ export default class Home extends Component {
           </div>
         </div>
         <hr/>
-        <div className="container-fluid py-5">
+        <div className="container py-5">
           <div className="row">
             <div className="col-md-6 container"><h1 className="container paragraph" >
             Welcome to AUTOBATTERIES.HAKstime! We are the company dedicated to serve the people in need of car battery at dubai and sharjah , at whatsoever the situation it may be, be it rain,be it middle of the road, be it car battery delivery at home. We provide service such as car battery replacement sharjah and car battery replacement dubai , car battery delivery , car battery installation , car battery warranty are given compusorily. Car battery change done at dubai and sharjah. We come to you. You can enter your CAR BATTERY DETAILS , AREA YOU ARE IN , AND YOUR MOBILE NUMBER WITH COUNTRY CODE. We get notified at a moment and We come to you.
@@ -389,7 +387,7 @@ export default class Home extends Component {
           </div>
         </div>
 
-        <div className="container-fluid py-5">
+        <div className="container py-5">
           <div className="row">
           <div className="col-md-6">
             <hr />

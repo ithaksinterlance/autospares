@@ -56,7 +56,7 @@ export default class Contact extends Component {
         <Navbar/>
         <div className="container pt-5 text-center">
           <div className="row justify-content-center">
-            <h1 className="heading">We have made it easier :)! Fill the following form. We will be contact you through whatsapp</h1>
+            <h1 className="heading">Enter your CAR BATTERY DETAILS , AREA YOU ARE IN , AND YOUR MOBILE NUMBER WITH COUNTRY CODE. We get notified at a moment and We come to you.</h1>
           </div>
         </div>
 

@@ -17,7 +17,6 @@
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"/>
     <link rel="apple-touch-icon" type="image/png" href="%PUBLIC_URL%/logo192.png"/>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css"/>
@@ -52,21 +51,7 @@
 
     gtag("config", "G-8P591Y4PG9", {send_page_view: true});
   </script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('worker.js').then(function (registration) {
-          console.log('Worker registration successful', registration.scope);
-        }, function (err) {
-          console.log('Worker registration failed', err);
-        }).catch(function (err) {
-          console.log(err);
-        });
-      });
-    } else {
-      console.log('Service Worker is not supported by browser.');
-    }
-  </script>
+
   <!--HAKSTIME-->
   <script src="https://script.google.com/macros/s/AKfycbwtSEpqXIA3B7HAYsxqQCEB22uL4mkpKwk_KHWnhUMMyCRTgkOES5l8/exec"></script>
 
