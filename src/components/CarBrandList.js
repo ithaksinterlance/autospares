@@ -63,12 +63,12 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/citroen.png",
     "name": "Citroën",
-    "alt":"sharjah car battery"
+    "alt":"car battery sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/daihat.png",
     "name": "Daihatsu",
-    "alt":"car battery"
+    "alt":"car battery sharjah"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/dodge.png",
@@ -118,7 +118,7 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/inf.png",
     "name": "Infiniti",
-    "alt":"car battery"
+    "alt":"car battery dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/isuzu.png",
