@@ -19,59 +19,6 @@ export default class Navbar extends Component {
           </a>
         </div>
 
-
-        <div className="container-fluid navhide nav1 pt-2">
-          <div className="flex-container d-flex justify-content-around">
-            <p className="nav1 blink_me">Replace Your battery Now!</p>
-
-            <p className="nav1 mr-0">
-              <a href="tel:971551478994" style={{ color: "black" }}>
-                <i class="fa fa-phone" aria-hidden="true"></i>Call now or
-              </a>
-            </p>
-            <p className="nav1">
-              <a
-                href="https://api.whatsapp.com/send?phone=971551478994"
-                className="nav1-icon"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i class="fab fa-whatsapp" aria-hidden="true"></i>WhatsApp
-              </a>
-            </p>
-            <div style={{ fontSize: "20px" }}>
-              <a href="https://api.whatsapp.com/send?phone=971551478994">
-                <i
-                  class="fab fa-whatsapp  fa-2x"
-                  style={{ color: "#25d366" }}
-                ></i>
-              </a>
-              &nbsp;&nbsp;
-              <a href="mailto:haksinterlance@gmail.com">
-                <i
-                  class="fas fa-2x fa-envelope"
-                  style={{ color: "#dd4b39" }}
-                  aria-hidden="true"
-                ></i>
-              </a>
-              &nbsp;&nbsp;
-              <i
-                class="fab fa-2x fa-telegram"
-                style={{ color: "#0088cc" }}
-                aria-hidden="true"
-              ></i>
-              &nbsp;&nbsp;
-              <a href="https://www.instagram.com/haksinterlance/">
-                <i
-                  class="fab fa-2x fa-instagram"
-                  style={{ color: "#8134af" }}
-                  aria-hidden="true"
-                ></i>
-              </a>
-              &nbsp;&nbsp;
-            </div>
-          </div>
-        </div>
         <div class="col-xs-12 flex-container fixed-bottom pb-0 pt-2">
           <div class="row" >
             <div class="col-xs-2 text-center pt-3 mx-1" >
@@ -120,7 +67,8 @@ export default class Navbar extends Component {
           </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-color" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-color bg-light" id="navbar">
+        <a href="/"><div><img src={favicon} alt="car battery" id="logo" className="d-flex justify-content-start" style={{height: "50px", width:"50px"}}/></div></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -130,15 +78,9 @@ export default class Navbar extends Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i
-              className="fa fa-2x fa-bars"
-              style={{
-                border: "black",
-              }}
-            ></i>
           </button>
           <div className="d-flex d-block flex-row mx-auto mx-0 ">
-          <div><img src={favicon} alt="car battery" className="rounded-circle" style={{height: "50px", width:"50px"}}/></div>
+
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <ul className="container navbar-nav justify-content-between">
                 <li className="nav-item">
@@ -149,13 +91,13 @@ export default class Navbar extends Component {
 
                 <li className="nav-item">
                   <Link to="/car-battery-brands" className="nav-link">
-                    Our Brands
+                    Brands
                   </Link>
                 </li>
 
                 <li className="nav-item">
                   <Link to="/car-battery-replacement" className="nav-link">
-                    Our Services
+                    Services
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -165,7 +107,7 @@ export default class Navbar extends Component {
                 </li>
                 <li className="nav-item">
                   <Link to="/contact" className="nav-link">
-                    Contact Us
+                    Contact
                   </Link>
                 </li>
                 <li className="nav-item">

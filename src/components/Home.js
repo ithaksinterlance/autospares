@@ -73,7 +73,7 @@ export default class Home extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="HAKStime - Car Battery Replacement | UAE, Dubai & Sharjah | Best Batteries price change | Amaron | Solite | Varta | Acdelco"
+            content="HAKStime - Car Battery Replacement Dubai | Sharjah"
           />
           <meta name="keywords" content="auto battery, autobatteries, auto batteries, car auto, car battery, car battery replacement, car battery replacement sharjah, car battery replacement dubai, car battery change dubai, car battery dubai,car batteries dubai, car battery uae,car battery sharjah,battery replacement dubai,battery replacement sharjah,battery sharjah, car battery dubai price,dubai car battery, sharjah car battery, uae car battery, car battery price dubai,car battery price in dubai,car battery price in Sharjah, car battery price uae, battery change dubai, solite battery price uae, amaron battery price uae,amaron battery dubai, dubai car battery replacement, amaron batteries dubai,amaron battery dubai"/>
           <meta
@@ -95,7 +95,6 @@ export default class Home extends Component {
             alt="car battery uae"
             className="img-fluid header-img"
           />
-
             <img
               src={Green}
               alt="car battery dubai"
@@ -110,6 +109,7 @@ export default class Home extends Component {
         </div>
         <div class="container-fluid form-bg">
           <div class="row ">
+
             <div class="col-md-3 col-xs-12 col-sm-10 top-right d-flex justify-content-center">
               <iframe
                 title="car battery replacement dubai and sharjah"
@@ -125,6 +125,7 @@ export default class Home extends Component {
                 class="py-4 px-4"
                 target="hidden_iframe"
               >
+
                 <div class="form-group">
                   <small id="CarBatteryModel" class="form-text">
                     <i class="fas fa-car-battery"></i> Vehicle Details
@@ -206,44 +207,14 @@ export default class Home extends Component {
         </div>
         <hr/>
         <div className="container py-5">
-          <div className="row">
-            <div className="col-md-6 container"><h1 className="container paragraph" >
+          <div className="d-flex">
+          <img src={WelcomeImg} className="img-fluid rounded-circle welcomeImg" alt="car battery replacement sharjah" style={{backgroundColor: "red"}}/>
+          <h1 className="container paragraph" >
             Welcome to AUTOBATTERIES.HAKstime! We are the company dedicated to serve the people in need of car battery at dubai and sharjah , at whatsoever the situation it may be, be it rain,be it middle of the road, be it car battery delivery at home. We provide service such as car battery replacement sharjah and car battery replacement dubai , car battery delivery , car battery installation , car battery warranty are given compusorily. Car battery change done at dubai and sharjah. We come to you. You can enter your CAR BATTERY DETAILS , AREA YOU ARE IN , AND YOUR MOBILE NUMBER WITH COUNTRY CODE. We get notified at a moment and We come to you.
-          </h1></div>
-          <div className="col-md-6">
-            <img src={WelcomeImg} className="img-fluid" alt="car battery replacement sharjah"/>
-
+          </h1>
           </div>
-          </div>
-
         </div>
         <hr/>
-
-        <div className="container py-3 text-center">
-          <div className="row">
-            <div className="col-md-4 bg-white pt-4 border">
-              <i class="fab fa-whatsapp fa-3x " aria-hidden="true"></i>
-              <br />
-              <h1 className="paragraph">
-                Send Your Location &<br /> Contact No.
-              </h1>
-            </div>
-            <div className="col-md-4 bg-white pt-4 border">
-              <i class="fa fa-quote-right fa-3x " aria-hidden="true"></i>
-              <br />
-              <h1 className="paragraph"> Get Best Quote</h1>
-            </div>
-            <div className="col-md-4 bg-white pt-4 border">
-              <i class="fas fa-car-battery fa-3x" aria-hidden="true"></i>
-              <br />
-              <h1 className="paragraph">
-                Get Battery
-                <br /> installed at Your
-                <br /> designation location
-              </h1>
-            </div>
-          </div>
-        </div>
 
         <div className="container-fluid py-5 div-bg ">
           <div className="container">
