@@ -6,7 +6,7 @@ import Prod3 from "../img/battery3.png";
 import Prod4 from "../img/battery4.png";
 import MJ from "../img/carbattery.webp";
 import MJ2 from "../img/batteryimg.jpg";
-import Green from "../img/greencar.webp";
+import Green from "../img/greencar.png";
 import Road from "../img/road.webp";
 import WelcomeImg from "../img/logo512.png"
 import Footer from "./Footer.js";
