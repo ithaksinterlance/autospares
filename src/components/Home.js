@@ -75,10 +75,10 @@ export default class Home extends Component {
             name="title"
             content="HAKStime - Car Battery Replacement Dubai | Sharjah"
           />
-          <meta name="keywords" content="auto battery, autobatteries, auto batteries, car auto, car battery, car battery replacement, car battery replacement sharjah, car battery replacement dubai, car battery change dubai, car battery dubai,car batteries dubai, car battery uae,car battery sharjah,battery replacement dubai,battery replacement sharjah,battery sharjah, car battery dubai price,dubai car battery, sharjah car battery, uae car battery, car battery price dubai,car battery price in dubai,car battery price in Sharjah, car battery price uae, battery change dubai, solite battery price uae, amaron battery price uae,amaron battery dubai, dubai car battery replacement, amaron batteries dubai,amaron battery dubai"/>
+          <meta name="keywords" content="battery dubai, auto battery, autobatteries, auto batteries, car auto, car battery, car battery replacement, car battery replacement sharjah, car battery replacement dubai, car battery change dubai, car battery dubai,car batteries dubai, car battery uae,car battery sharjah,battery replacement dubai,battery replacement sharjah,battery sharjah, car battery dubai price,dubai car battery, sharjah car battery, uae car battery, car battery price dubai,car battery price in dubai,car battery price in Sharjah, car battery price uae, battery change dubai, solite battery price uae, amaron battery price uae,amaron battery dubai, dubai car battery replacement, amaron batteries dubai,amaron battery dubai, varta battery uae"/>
           <meta
             name="description"
-            content="We are listening you... Car Battery Replacement | Replace your car battery anytime at United Arab Emirates, Dubai and Sharjah. We offer car battery change for batteries such as Solite, Amaron, Acdelco, Varta. We offer the best car battery services. Auto batteries delivery & car battery installation service at best price. 24/7 support.  Auto battery price in uae, dubai and sharjah starting from 200AED"
+            content="We are listening you... Order your battery now online! Car Battery Replacement | Replace your car battery anytime at United Arab Emirates, Dubai and Sharjah. We offer car battery change for batteries such as Solite, Amaron, Acdelco, Varta. We offer the best car battery services. Auto batteries delivery & car battery installation service at best price. 24/7 support.  Auto battery price in uae, dubai and sharjah starting from 200AED"
           />
           <meta
             name="keywords"
@@ -92,7 +92,7 @@ export default class Home extends Component {
         <div className="container-fluid header-text1 px-0" >
           <img
             src={Road}
-            alt="car battery uae"
+            alt="car battery"
             className="img-fluid header-img"
           />
             <img
