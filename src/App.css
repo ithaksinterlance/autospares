@@ -1,25 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap");
+@font-face { font-family: Valencia-Regular; src: url('Valencia-Regular.otf'); }
 
 body {
-  background-color: #EBECF0;
   font-family: "Roboto", sans-serif;
 }
 nav {
   color: #272343;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: fixed;
 }
 .div-bg {
-  background-color: #D3D3D3;
+  background-color: #FFAF7A;
 }
 
 li .nav-link {
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: black;
+  color: white;
 }
 li  :hover {
-  color:#9ca0af;
+  color:#FFAF7A;
 }
 a:link {
   text-decoration: none;
@@ -37,9 +38,22 @@ a:active {
   text-decoration: none;
 }
 .navbar-color {
-  background-color: lightgray;
+  background-color: #FF4500;
   margin-bottom: 0;
 }
+.welcome-message {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 2.5rem;
+  font-weight: 200;
+  font-size: 20px;
+}
+.welcome-expressive {
+  font-family: 'Valencia-Regular', sans serif;
+  line-height: 2.5rem;
+  font-weight: 200;
+  font-size: 20px;
+}
+
 #logo {
   left: 0rem;
   background-color: transparent;
@@ -59,7 +73,7 @@ a:active {
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  height: 70vh;
+  height: 90vh;
   width: 100%;
   margin-right: 0;
 }
@@ -97,14 +111,14 @@ form .input {
 }
 
 form {
-  background: url('./img/whatsappbg.jpg');
-  border-radius: 15px;
+  background-color: #FF9D5C;
+  border-radius: 5px;
   font-size: 20px;
   font-family: "Roboto";
 }
 .form-btn {
-  background-color: #25d366;
-  border: 1px solid #128C7E;
+  background-color: red;
+  border: 1px solid red;
 }
 
 .flex-container {
@@ -127,7 +141,7 @@ form {
   font-size: 45px;
   font-family: "Big Shoulders Display", sans-serif;
   top: 10%;
-  color: #faed27;
+  color: red;
 }
 .loader {
   position: fixed;
@@ -161,8 +175,8 @@ form {
 
 footer {
   padding-top: 4vh;
-  background-color: #47484c;
-  color: #25d366;
+  background-color: #FF4500;
+  color: black;
   font-size: 2.5vh;
   font-family: "Roboto", "sans-serif";
 }
@@ -179,20 +193,25 @@ footer {
   display: none;
 }
 .btn-primary {
-  color: #4286f4;
-  background-color: #c9f6ff;
+  color: black;
+  background-color:red;
+  border: red;
   font-size: 18px;
   width: 13rem;
   height: 3rem;
   text-shadow: none;
   margin: 3px;
 }
+
 hr {
   background-color: #9ca0af;
 }
 .card-title {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #4286f4;
+  color:#FF4500;
+}
+.card-text {
+  color: white;
 }
 .sellcontainer {
   border: 2px solid black;
@@ -279,12 +298,16 @@ footer {
   border-top: 2px solid #272343;
 }
 .haks {
+  height: 40rem;
+  width: 60rem;
+}
+.autob {
   height: 9rem;
   width: 9rem;
-  border: 1px solid #47484c;
 }
 
 .card {
+  background-color: #FF9D5C;
   margin-top: 2rem;
   justify-content: center;
   width: 100%;

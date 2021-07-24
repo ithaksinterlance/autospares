@@ -68,20 +68,7 @@ export default class sell extends Component {
     return (
       <div>
         <Navbar />
-        <div className="container-fluid header-text1 px-0">
-          <img
-            src={CarBattery}
-            alt="battery replacement"
-            className="img-fluid header-img"
-          />
 
-          <div
-            className="header-text display-4"
-            style={{ paddingLeft: "10px" }}
-          >
-            DEAL WITH TRUST
-          </div>
-        </div>
         <div className="container">
           <div className="row d-flex justify-content-center">
             <h1 className="ml">
@@ -90,167 +77,163 @@ export default class sell extends Component {
           </div>
         </div>
         <div className="container div-bg">
-          <div className="col-md-6 col-xs-12 col-sm-6">
-            <div className="container py-4 ">
-              <div className="row">
-                <div className="col-md-8 col-sm-12 col-lg-4 col-xs-12">
-                  <div className="container">
-                    <h2 className="heading">Send Inquiries</h2>
-                  </div>
-                  <iframe
-                    title="Automotive battery"
-                    name="hidden_iframe"
-                    id="hidden_iframe"
-                    style={{ display: "none" }}
-                  ></iframe>
-                  <form
-                    id="miForm"
-                    method="POST"
-                    action="https://docs.google.com/forms/d/e/1FAIpQLSfqIJGLOakrqak1od66bUHwpY7Ftn9YJVMTMTi021LUziofYw/formResponse"
-                    onSubmit={this.submit}
-                    class="mx-2 my-2"
-                    target="hidden_iframe"
-                  >
-                    <div class="form-group">
-                      <small id="Name" class="form-text text-muted">
-                        <i class="fas fa-calendar-alt"></i>Name
-                      </small>
-                      <input
-                        type="text"
-                        name="entry.1442417937"
-                        id="name"
-                        class="form-control"
-                        aria-describedby="Name"
-                        placeholder="Name"
-                        autoComplete="off"
-                      />
-                      <div>
-                        <span
-                          id="namerror"
-                          className="text-danger font-weight-bold"
-                        ></span>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <small id="Email" class="form-text text-muted">
-                        <i class="fas fa-car-battery"></i>Email
-                      </small>
-                      <input
-                        type="text"
-                        name="entry.578512623"
-                        id="email"
-                        class="form-control "
-                        aria-describedby="Email"
-                        placeholder="Email"
-                        autoComplete="off"
-                      />
-                      <div>
-                        <span
-                          id="emailerror"
-                          className="text-danger font-weight-bold"
-                        ></span>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <small id="WhatsappNo" class="form-text text-muted">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        Whatsapp No*
-                      </small>
-                      <input
-                        type="text"
-                        name="entry.1480016484"
-                        id="whatsappno"
-                        class="form-control "
-                        aria-describedby="WhatsappNo"
-                        placeholder="Whatsapp No (971_________)*"
-                        autoComplete="off"
-                      />
-                      <div>
-                        <span
-                          id="whatsappnoerror"
-                          className="text-danger font-weight-bold"
-                        ></span>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <small id="Country" class="form-text text-muted pt-3">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Country
-                      </small>
-                      <input
-                        type="text"
-                        name="entry.1141971151"
-                        id="country"
-                        class="form-control "
-                        aria-describedby="Country"
-                        placeholder="Country"
-                        autoComplete="off"
-                      />
-                      <div>
-                        <span
-                          id="countryerror"
-                          className="text-danger font-weight-bold"
-                        ></span>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <small id="Company" class="form-text text-muted pt-3">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Company
-                      </small>
-                      <input
-                        type="text"
-                        name="entry.1602135448"
-                        id="company"
-                        class="form-control "
-                        aria-describedby="Company "
-                        placeholder="Company"
-                        autoComplete="off"
-                      />
-                      <div>
-                        <span
-                          id="companyerror"
-                          className="text-danger font-weight-bold"
-                        ></span>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <small id="Inquire" class="form-text text-muted pt-3">
-                        <i class="fa fa-phone" aria-hidden="true"></i>Inquire
-                      </small>
-                      <input
-                        type="textarea"
-                        name="entry.2068787174"
-                        id="inquire"
-                        class="form-control "
-                        aria-describedby="Inquire"
-                        placeholder="Inquire"
-                        autoComplete="off"
-                      />
-                      <div>
-                        <span
-                          id="inquirerror"
-                          className="text-danger font-weight-bold"
-                        ></span>
-                      </div>
-                    </div>
-                    <button
-                      type="submit"
-                      id="RefreshPage"
-                      class="btn btn-danger btn-lg btn-block pb-3"
-                      target="_self"
-                    >
-                      <i class="fab fa-whatsapp"></i>
-                      &nbsp;&nbsp;SEND
-                    </button>
-                  </form>
-                </div>
-                <div className="col-md-6 col-xs-12 col-sm-6 my-5">
-                  <img
-                    src={World}
-                    alt="automotive battery replacement"
-                    className="img-fluid"
-                  />
-                </div>
+          <div className="row">
+            <div className="col-md-6 col-xs-12 col-sm-6 py-5">
+              <div className="container">
+                <h2 className="heading">Send Inquiries</h2>
               </div>
+              <iframe
+                title="Automotive battery"
+                name="hidden_iframe"
+                id="hidden_iframe"
+                style={{ display: "none" }}
+              ></iframe>
+              <form
+                id="miForm"
+                method="POST"
+                action="https://docs.google.com/forms/d/e/1FAIpQLSfqIJGLOakrqak1od66bUHwpY7Ftn9YJVMTMTi021LUziofYw/formResponse"
+                onSubmit={this.submit}
+                class="py-5 px-5"
+                target="hidden_iframe"
+              >
+                <div class="form-group">
+                  <small id="Name" class="form-text text-muted">
+                    <i class="fas fa-calendar-alt"></i>Name
+                  </small>
+                  <input
+                    type="text"
+                    name="entry.1442417937"
+                    id="name"
+                    class="form-control"
+                    aria-describedby="Name"
+                    placeholder="Name"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="namerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <small id="Email" class="form-text text-muted">
+                    <i class="fas fa-car-battery"></i>Email
+                  </small>
+                  <input
+                    type="text"
+                    name="entry.578512623"
+                    id="email"
+                    class="form-control "
+                    aria-describedby="Email"
+                    placeholder="Email"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="emailerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <small id="WhatsappNo" class="form-text text-muted">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    Whatsapp No*
+                  </small>
+                  <input
+                    type="text"
+                    name="entry.1480016484"
+                    id="whatsappno"
+                    class="form-control "
+                    aria-describedby="WhatsappNo"
+                    placeholder="Whatsapp No (971_________)*"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="whatsappnoerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <small id="Country" class="form-text text-muted pt-3">
+                    <i class="fa fa-phone" aria-hidden="true"></i>Country
+                  </small>
+                  <input
+                    type="text"
+                    name="entry.1141971151"
+                    id="country"
+                    class="form-control "
+                    aria-describedby="Country"
+                    placeholder="Country"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="countryerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <small id="Company" class="form-text text-muted pt-3">
+                    <i class="fa fa-phone" aria-hidden="true"></i>Company
+                  </small>
+                  <input
+                    type="text"
+                    name="entry.1602135448"
+                    id="company"
+                    class="form-control "
+                    aria-describedby="Company "
+                    placeholder="Company"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="companyerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <small id="Inquire" class="form-text text-muted pt-3">
+                    <i class="fa fa-phone" aria-hidden="true"></i>Inquire
+                  </small>
+                  <input
+                    type="textarea"
+                    name="entry.2068787174"
+                    id="inquire"
+                    class="form-control "
+                    aria-describedby="Inquire"
+                    placeholder="Inquire"
+                    autoComplete="off"
+                  />
+                  <div>
+                    <span
+                      id="inquirerror"
+                      className="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <button
+                  type="submit"
+                  id="RefreshPage"
+                  class="btn btn-danger btn-lg btn-block pb-3"
+                  target="_self"
+                >
+                  <i class="fab fa-whatsapp"></i>
+                  &nbsp;&nbsp;SEND
+                </button>
+              </form>
+            </div>
+            <div className="col-md-6 col-xs-12 col-sm-6 my-5">
+              <img
+                src={World}
+                alt="automotive battery replacement"
+                className="img-fluid haks"
+              />
             </div>
           </div>
         </div>

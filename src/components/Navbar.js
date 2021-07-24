@@ -67,7 +67,7 @@ export default class Navbar extends Component {
           </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-color bg-light" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-color" id="navbar">
         <a href="/"><div><img src={favicon} alt="car battery" id="logo" className="d-flex justify-content-start" style={{height: "50px", width:"50px"}}/></div></a>
           <button
             class="navbar-toggler"

@@ -12,7 +12,7 @@ class Footer extends Component {
               <div className="my-2">
                 <img
                   src={Logo}
-                  className="img-fluid rounded-circle haks"
+                  className="img-fluid rounded-circle autob"
                   alt="car battery dubai"
                 />
               </div>

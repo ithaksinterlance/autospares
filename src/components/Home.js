@@ -4,9 +4,10 @@ import Prod1 from "../img/battery1.png";
 import Prod2 from "../img/battery2.png";
 import Prod3 from "../img/battery3.png";
 import Prod4 from "../img/battery4.png";
-import MJ from "../img/carbattery.webp";
-import MJ2 from "../img/batteryimg.jpg";
+import MJ from "../img/carbattery.gif";
+import MJ2 from "../img/batteryimg.gif";
 import Green from "../img/greencar.png";
+import Hero from "../img/A.png";
 import Road from "../img/road.webp";
 import WelcomeImg from "../img/logo512.png"
 import Footer from "./Footer.js";
@@ -91,15 +92,11 @@ export default class Home extends Component {
         </MetaTags>
         <div className="container-fluid header-text1 px-0" >
           <img
-            src={Road}
+            src={Hero}
             alt="car battery"
             className="img-fluid header-img"
           />
-            <img
-              src={Green}
-              alt="car battery dubai"
-              className="img-fluid green"
-            />
+
           <div
             className="header-text display-4"
             style={{ paddingLeft: "10px" }}
@@ -209,7 +206,7 @@ export default class Home extends Component {
         <div className="container py-5">
           <div className="d-flex">
           <img src={WelcomeImg} className="img-fluid rounded-circle welcomeImg" alt="car battery replacement sharjah" style={{backgroundColor: "red"}}/>
-          <h1 className="container paragraph" >
+          <h1 className="container welcome-message" >
             Welcome to AUTOBATTERIES.HAKstime! We are the company dedicated to serve the people in need of car battery at dubai and sharjah , at whatsoever the situation it may be, be it rain,be it middle of the road, be it car battery delivery at home. We provide service such as car battery replacement sharjah and car battery replacement dubai , car battery delivery , car battery installation , car battery warranty are given compusorily. Car battery change done at dubai and sharjah. We come to you. You can enter your CAR BATTERY DETAILS , AREA YOU ARE IN , AND YOUR MOBILE NUMBER WITH COUNTRY CODE. We get notified at a moment and We come to you.
           </h1>
           </div>

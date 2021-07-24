@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Footer from "./Footer.js";
 import Navbar from "./Navbar.js";
-import CarBattery from "../img/carbattery.webp";
-import MJ2 from "../img/batteryimg.jpg";
-import Road from "../img/road.webp";
+import CarBattery from "../img/carbattery.png";
+import MJ2 from "../img/batteryimg.gif";
+import Road from "../img/Road.gif";
 import { MetaTags } from "react-meta-tags";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/opacity.css";
@@ -37,7 +37,7 @@ export default class services extends Component {
           <meta name="author" content="autobatteries.hakstime.com" />
         </MetaTags>
         <Navbar />
-        <div className="container-fluid header-text1 px-0">
+        <div className="container-fluid header-text1 px-0 d-flex justify-content-center">
           <LazyLoadImage
             alt="car battery sharjah"
             effect="blur"
@@ -52,7 +52,7 @@ export default class services extends Component {
           <div className="row d-flex justify-content-center">
             <div className="col-md-3">
               <div className="card mx-1" style={{ width: "18rem" }}>
-                <div className="card-body bg-white text-center shadow-lg">
+                <div className="card-body div-bg text-center shadow-lg">
                   <i className="fa fa-check-circle fa-5x" aria-hidden="true"></i>
                   <h5 className="text-center paragraph">
                     Warranty Guaranteed
@@ -62,7 +62,7 @@ export default class services extends Component {
             </div>
             <div className="col-md-3">
               <div className="card mx-1" style={{ width: "18rem" }}>
-                <div className="card-body bg-white text-center shadow-lg">
+                <div className="card-body div-bg text-center shadow-lg">
                   <i className="fas fa-money-bill fa-5x" aria-hidden="true"></i>
                   <h5 className="text-center paragraph">Easy payment</h5>
                 </div>
@@ -70,7 +70,7 @@ export default class services extends Component {
             </div>
             <div className="col-md-3">
               <div className="card mx-1" style={{ width: "18rem" }}>
-                <div className="card-body bg-white text-center shadow-lg">
+                <div className="card-body div-bg text-center shadow-lg">
                   <i className="fa fa-wrench fa-5x" aria-hidden="true"></i>
                   <h5 className="text-center paragraph">
                     Professional Service
@@ -82,7 +82,7 @@ export default class services extends Component {
           <div className="row d-flex justify-content-center">
             <div className="col-md-3">
               <div className="card mx-1" style={{ width: "18rem" }}>
-                <div className="card-body bg-white text-center shadow-lg">
+                <div className="card-body div-bg text-center shadow-lg">
                   <i className="fa fa-phone fa-5x" aria-hidden="true"></i>
                   <h5 className="text-center paragraph">
                     Quick response
@@ -92,7 +92,7 @@ export default class services extends Component {
             </div>
             <div className="col-md-3">
               <div className="card mx-1" style={{ width: "18rem" }}>
-                <div className="card-body bg-white text-center shadow-lg">
+                <div className="card-body div-bg text-center shadow-lg">
                   <i className="fas fa-clock fa-5x" aria-hidden="true"></i>
                   <h5 className="text-center paragraph">24/7 Support</h5>
                 </div>
@@ -100,7 +100,7 @@ export default class services extends Component {
             </div>
             <div className="col-md-3">
               <div className="card mx-1" style={{ width: "18rem" }}>
-                <div className="card-body bg-white text-center shadow-lg">
+                <div className="card-body div-bg text-center shadow-lg">
                   <i className="fas fa-car-battery fa-5x paragraph1-icon" aria-hidden="true"></i>
                   <h5 className="text-center paragraph">
                     OEM Batteries
@@ -125,7 +125,7 @@ export default class services extends Component {
                 <hr />
                 <h1 className="heading">Car battery replacement sharjah</h1>
                 <hr />
-                <h1 className="paragraph">
+                <h1 className="welcome-expressive">
                   Have you ever experienced the situation when your car battery
                   dead in middle of the road? Indeed! this is the most difficult
                   situation one can have. But here we are to help you with car
