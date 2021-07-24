@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap");
-@font-face { font-family: Valencia-Regular; src: url('Valencia-Regular.otf'); }
 
 body {
   font-family: "Roboto", sans-serif;
@@ -48,7 +47,7 @@ a:active {
   font-size: 20px;
 }
 .welcome-expressive {
-  font-family: 'Valencia-Regular', sans serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 2.5rem;
   font-weight: 200;
   font-size: 20px;
