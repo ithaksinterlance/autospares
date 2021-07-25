@@ -68,12 +68,12 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/daihat.png",
     "name": "Daihatsu",
-    "alt":"car battery sharjah"
+    "alt":"car battery installation at home dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/dodge.png",
     "name": "Dodge",
-    "alt":"battery uae"
+    "alt":"car battery installation near me"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/ferrari.png",

@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import WhatsApp from "../img/wa.png";
-import Phone from "../img/phoneicon.png";
 import favicon from "../img/logo192.png";
 
 export default class Navbar extends Component {
@@ -68,7 +66,7 @@ export default class Navbar extends Component {
         </div>
 
         <nav class="navbar navbar-expand-lg navbar-color" id="navbar">
-        <a href="/"><div><img src={favicon} alt="car battery dubai" id="logo" className="d-flex justify-content-start" style={{height: "50px", width:"50px"}}/></div></a>
+        <a href="/"><div><img src={favicon} alt="best car battery services" id="logo" className="d-flex justify-content-start" style={{height: "50px", width:"50px"}}/></div></a>
           <button
             class="navbar-toggler"
             type="button"

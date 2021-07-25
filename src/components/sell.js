@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Footer from "./Footer.js";
 import Navbar from "./Navbar.js";
 import World from "../img/haks.webp";
-import CarBattery from "../img/sell.webp";
 import Swal from "sweetalert2";
 
 export default class sell extends Component {
@@ -18,7 +17,6 @@ export default class sell extends Component {
     var country = document.getElementById("country").value;
     var company = document.getElementById("company").value;
     var inquire = document.getElementById("inquire").value;
-    var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     var submitted = true;
 
     if (name === "") {
