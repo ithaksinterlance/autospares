@@ -157,10 +157,10 @@ form {
   z-index: 1000;
   border: 16px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 16px solid #25d366;
-  border-right: 16px solid #272343;
-  border-bottom: 16px solid #47484c;
-  border-left: 16px solid #faed27;
+  border-top: 16px solid #FF4500;
+  border-right: 16px solid #FF9D5C;
+  border-bottom: 16px solid #FF4500;
+  border-left: 16px solid #FFAF7A;
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite;
@@ -299,7 +299,7 @@ footer {
   width: 100%;
 }
 .list-group-item {
-  border-top: 2px solid #272343;
+  border-top: 2px solid #FF4500;
 }
 .haks {
   height: 40rem;
@@ -432,7 +432,7 @@ border: 1px solid #FF4500;
   }
   .top-right {
     position: relative;
-    top: -9rem;
+    top: -5rem;
     left: 0.1rem;
   }
   .top-left {
