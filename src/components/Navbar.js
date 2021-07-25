@@ -8,12 +8,12 @@ export default class Navbar extends Component {
       <div>
         <div>
           <a href="tel:971551478994" id="menu">
-            <i class="fab fa-4x fa-whatsapp side-icon" id="menu"></i>
+            <i class="fab fa-3x fa-whatsapp side-icon" id="menu"></i><br/>
           </a>
         </div>
         <div>
           <a href="https://api.whatsapp.com/send?phone=971551478994" id="menu1">
-            <i class="fa fa-4x fa-phone side-icon" aria-hidden="true" id="menu1"></i>
+            <i class="fa fa-3x fa-phone side-icon" aria-hidden="true" id="menu1"></i>
           </a>
         </div>
 

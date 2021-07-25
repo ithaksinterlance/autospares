@@ -46,13 +46,6 @@ a:active {
   font-weight: 200;
   font-size: 20px;
 }
-.welcome-expressive {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  line-height: 2.5rem;
-  font-weight: 200;
-  font-size: 20px;
-}
-
 #logo {
   left: 0rem;
   background-color: transparent;
@@ -76,22 +69,10 @@ a:active {
   width: 100%;
   margin-right: 0;
 }
-.green {
-  position: absolute;
-  right: 15rem;
-  top: 25%;
-  height: 80vh;
-  width: 130vh;
-}
 .top-right {
   position: absolute;
   top: 16rem;
   left: 5rem;
-}
-.top-left {
-  position: absolute;
-  top: 10rem;
-  right: 4rem;
 }
 .paragraph {
   font-family: "Roboto", sans-serif;
@@ -103,7 +84,6 @@ a:active {
 .side-icon {
   color: #FF4500;
 }
-
 ::placeholder {
   font-size: 16px;
 }
@@ -132,7 +112,6 @@ form {
   display: flex;
   flex-direction: row;
 }
-
 .header-text1 {
   position: relative;
 }
@@ -186,6 +165,9 @@ footer {
   color: black;
   font-size: 2.5vh;
   font-family: "Roboto", "sans-serif";
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 .list {
   color: black;
@@ -220,27 +202,20 @@ hr {
 .card-text {
   color: white;
 }
-.sellcontainer {
-  border: 2px solid black;
-  padding-top: 95px;
-}
 #menu {
-  left: 2%;
-  top: 80%;
+  right: 2%;
+  top: 25%;
   position: fixed;
   z-index: 1;
 }
 
 #menu1 {
-  left: 2%;
-  top: 68%;
+  right: 2%;
+  top: 34%;
   position: fixed;
   z-index: 1;
 }
-.blink_me {
-  animation: blinker 1s linear infinite;
-  color: red;
-}
+
 #bottomNav {
   display: none;
 }
@@ -258,27 +233,14 @@ hr {
 .glyph {
   font-size: 40px;
 }
-footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
+
 .text-danger {
   font-size: 12px;
-}
-.ml {
-  font-weight: 900;
-  font-size: 3.5em;
-}
-
-.ml .letter {
-  display: inline-block;
-  line-height: 1em;
 }
 .blog-heading {
   font-size: 2rem;
   font-family: "Big Shoulders Display";
-  color: #272343;
+  color: #FF4500;
   word-spacing: 3pt;
   letter-spacing: 0.5pt;
 }
@@ -286,13 +248,13 @@ footer {
   font-size: 1.6rem;
   font-family: "Big Shoulders Display";
   margin-top: 3vw;
-  color: #25d366;
+  color: #FF4500;
 }
 .blog-paragraph-heading {
   font-size: 1.5rem;
   font-family: "Roboto";
   margin-top: 2vw;
-  color: #47484c;
+  color: #FF4500;
 }
 .blog-img {
   height: 32rem;
@@ -369,10 +331,6 @@ border: 1px solid #FF4500;
   .top-left {
     display: none;
   }
-  .green {
-    right: 0.1px;
-    left: 40%;
-  }
   .nav1 {
     font-size: 15px;
   }
@@ -437,17 +395,6 @@ border: 1px solid #FF4500;
   }
   .top-left {
     display: none;
-  }
-  .green {
-    display: none;
-  }
-
-  .green {
-    position: absolute;
-    left: 3rem;
-    top: 30vh;
-    height: 40vh;
-    width: 55vh;
   }
   .form-phone {
     background: url("./img/whatsappbg.jpg");
@@ -574,8 +521,4 @@ border: 1px solid #FF4500;
     left: 200px;
   }
 }
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
+
