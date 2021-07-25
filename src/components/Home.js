@@ -9,7 +9,7 @@ import MJ2 from "../img/batteryimg.gif";
 import Green from "../img/greencar.png";
 import Hero from "../img/A.png";
 import Road from "../img/road.webp";
-import WelcomeImg from "../img/logo512.png"
+import WelcomeImg from "../img/logo512.png";
 import Footer from "./Footer.js";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
@@ -69,14 +69,18 @@ export default class Home extends Component {
         <Navbar />
         <MetaTags>
           <title>
-            AutoB - Car battery Replacement Dubai | Car battery Replacement Sharjah
+            AutoB - Car battery Replacement Dubai | Car battery Replacement
+            Sharjah
           </title>
           <meta charset="utf-8" />
           <meta
             name="title"
             content="HAKStime - Car Battery Replacement Dubai | Sharjah"
           />
-          <meta name="keywords" content="battery dubai, auto battery, autobatteries, auto batteries, car auto, car battery, car battery replacement, car battery replacement sharjah, car battery replacement dubai, car battery change dubai, car battery dubai,car batteries dubai, car battery uae,car battery sharjah,battery replacement dubai,battery replacement sharjah,battery sharjah, car battery dubai price,dubai car battery, sharjah car battery, uae car battery, car battery price dubai,car battery price in dubai,car battery price in Sharjah, car battery price uae, battery change dubai, solite battery price uae, amaron battery price uae,amaron battery dubai, dubai car battery replacement, amaron batteries dubai,amaron battery dubai, varta battery uae"/>
+          <meta
+            name="keywords"
+            content="battery dubai, auto battery, autobatteries, auto batteries, car auto, car battery, car battery replacement, car battery replacement sharjah, car battery replacement dubai, car battery change dubai, car battery dubai,car batteries dubai, car battery uae,car battery sharjah,battery replacement dubai,battery replacement sharjah,battery sharjah, car battery dubai price,dubai car battery, sharjah car battery, uae car battery, car battery price dubai,car battery price in dubai,car battery price in Sharjah, car battery price uae, battery change dubai, solite battery price uae, amaron battery price uae,amaron battery dubai, dubai car battery replacement, amaron batteries dubai,amaron battery dubai, varta battery uae"
+          />
           <meta
             name="description"
             content="We are listening you... Order your battery now online! Car Battery Replacement | Replace your car battery anytime at United Arab Emirates, Dubai and Sharjah. We offer car battery change for batteries such as Solite, Amaron, Acdelco, Varta. We offer the best car battery services. Auto batteries delivery & car battery installation service at best price. 24/7 support.  Auto battery price in uae, dubai and sharjah starting from 200AED"
@@ -90,12 +94,8 @@ export default class Home extends Component {
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />
           <meta name="author" content="autobatteries.hakstime.com" />
         </MetaTags>
-        <div className="container-fluid header-text1 px-0" >
-          <img
-            src={Hero}
-            alt="car battery"
-            className="img-fluid header-img"
-          />
+        <div className="container-fluid header-text1 px-0">
+          <img src={Hero} alt="car battery" className="img-fluid header-img" />
 
           <div
             className="header-text display-4"
@@ -106,7 +106,6 @@ export default class Home extends Component {
         </div>
         <div class="container-fluid form-bg">
           <div class="row ">
-
             <div class="col-md-3 col-xs-12 col-sm-10 top-right d-flex justify-content-center">
               <iframe
                 title="car battery replacement dubai and sharjah"
@@ -122,7 +121,6 @@ export default class Home extends Component {
                 class="py-4 px-4"
                 target="hidden_iframe"
               >
-
                 <div class="form-group">
                   <small id="CarBatteryModel" class="form-text">
                     <i class="fas fa-car-battery"></i> Vehicle Details
@@ -202,16 +200,96 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <hr/>
+        <hr />
         <div className="container py-5">
           <div className="d-flex">
-          <img src={WelcomeImg} className="img-fluid rounded-circle welcomeImg" alt="car battery replacement sharjah" style={{backgroundColor: "red"}}/>
-          <h1 className="container welcome-message" >
-            Welcome to AUTOBATTERIES.HAKstime! We are the company dedicated to serve the people in need of car battery at dubai and sharjah , at whatsoever the situation it may be, be it rain,be it middle of the road, be it car battery delivery at home. We provide service such as car battery replacement sharjah and car battery replacement dubai , car battery delivery , car battery installation , car battery warranty are given compusorily. Car battery change done at dubai and sharjah. We come to you. You can enter your CAR BATTERY DETAILS , AREA YOU ARE IN , AND YOUR MOBILE NUMBER WITH COUNTRY CODE. We get notified at a moment and We come to you.
-          </h1>
+            <img
+              src={WelcomeImg}
+              className="img-fluid rounded-circle welcomeImg"
+              alt="car battery replacement sharjah"
+              style={{ backgroundColor: "#FF4500" }}
+            />
+            <h1 className="container welcome-message">
+              Welcome to AUTOBATTERIES.HAKstime! We are the company dedicated to
+              serve the people in need of car battery at dubai and sharjah , at
+              whatsoever the situation it may be, be it rain,be it middle of the
+              road, be it car battery delivery at home. We provide service such
+              as car battery replacement sharjah and car battery replacement
+              dubai , car battery delivery , car battery installation , car
+              battery warranty are given compusorily. Car battery change done at
+              dubai and sharjah. We come to you. You can enter your CAR BATTERY
+              DETAILS , AREA YOU ARE IN , AND YOUR MOBILE NUMBER WITH COUNTRY
+              CODE. We get notified at a moment and We come to you.
+            </h1>
           </div>
         </div>
-        <hr/>
+        <div className="container pt-5">
+          <hr />
+          <h1 className="heading">AutoB | Why you need us?</h1>
+          <hr />
+        </div>
+        <div className="container-fluid pb-5">
+          <div className="row d-flex justify-content-center">
+            <div className="col-md-3">
+              <div className="card mx-1" style={{ width: "18rem" }}>
+                <div className="card-body div-bg text-center shadow-lg">
+                  <i
+                    className="fa fa-check-circle fa-5x"
+                    aria-hidden="true"
+                  ></i>
+                  <h5 className="text-center paragraph">Warranty Guaranteed</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="card mx-1" style={{ width: "18rem" }}>
+                <div className="card-body div-bg text-center shadow-lg">
+                  <i className="fas fa-money-bill fa-5x" aria-hidden="true"></i>
+                  <h5 className="text-center paragraph">Easy payment</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="card mx-1" style={{ width: "18rem" }}>
+                <div className="card-body div-bg text-center shadow-lg">
+                  <i className="fa fa-wrench fa-5x" aria-hidden="true"></i>
+                  <h5 className="text-center paragraph">
+                    Professional Service
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row d-flex justify-content-center">
+            <div className="col-md-3">
+              <div className="card mx-1" style={{ width: "18rem" }}>
+                <div className="card-body div-bg text-center shadow-lg">
+                  <i className="fa fa-phone fa-5x" aria-hidden="true"></i>
+                  <h5 className="text-center paragraph">Quick response</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="card mx-1" style={{ width: "18rem" }}>
+                <div className="card-body div-bg text-center shadow-lg">
+                  <i className="fas fa-clock fa-5x" aria-hidden="true"></i>
+                  <h5 className="text-center paragraph">24/7 Support</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="card mx-1" style={{ width: "18rem" }}>
+                <div className="card-body div-bg text-center shadow-lg">
+                  <i
+                    className="fas fa-car-battery fa-5x paragraph1-icon"
+                    aria-hidden="true"
+                  ></i>
+                  <h5 className="text-center paragraph">OEM Batteries</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div className="container-fluid py-5 div-bg ">
           <div className="container">
@@ -257,9 +335,14 @@ export default class Home extends Component {
             <hr />
           </div>
           <h1 className="container paragraph">
-            We deal only with genuine brands namely SOLITE. ACDELCO, AMARON,
-            VARTA and other genuine and authentic battery batteries depending on
-            the demand for our battery supply and replacement services.
+            Car Battery Replacement | Replace your car battery anytime at Dubai
+            and Sharjah. We offer the best battery replacement service. Delivery{" "}
+            {"&"} installation service at best price. We offer battery
+            replacement for battery such as Solite, Amaron, Acdelco, Varta. We
+            come to you. We deal only with genuine brands namely SOLITE.
+            ACDELCO, AMARON, VARTA and other genuine and authentic battery
+            batteries depending on the demand for our battery supply and
+            replacement services.
           </h1>
           <div className="container">
             <div className="row">
@@ -327,68 +410,13 @@ export default class Home extends Component {
           </div>
         </div>
 
-        <div className="container-fluid py-5 div-bg">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6">
-                <LazyLoadImage
-                  alt="car battery replacement sharjah"
-                  effect="blur"
-                  className="img-fluid warranty"
-                  src={MJ2}
-                />
-              </div>
-              <div className="col-md-6">
-                <hr />
-                <h1 className="heading">
-                  Autobatteries.hakstime.com | Why you need us?
-                </h1>
-                <hr />
-                <h1 className="paragraph">
-                  Car Battery Replacement | Replace your car battery anytime at
-                  Dubai and Sharjah. We offer the best battery replacement
-                  service. Delivery {"&"} installation service at best price. We
-                  offer battery replacement for battery such as Solite, Amaron,
-                  Acdelco, Varta. We come to you.
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
+
 
         <div className="container py-5">
           <div className="row">
-          <div className="col-md-6">
-            <hr />
-            <h1 className="heading">Car Brands Tags</h1>
-            <hr />
-            <h1 className="paragraph">
-              We provide battery replacement services at sharjah and dubai at
-              best rate for various car brands. <br />
-              <br />
-              AC Battery | Acura Battery| Alfa Romeo| Ariel Battery | Aston Martin | Audi Battery |
-              Bentley Battery | BMW Battery | Bugatti Battery | Cardillac
-              Battery | Chrevlot Battery | Chrylser Battery | Citroën Battery |
-              Daihatsu Battery | Ferrari Battery | Dodge Battery | Fiat Battery
-              |Ford Battery | GMC Battery | Great Wall Battery | Honda Battery |
-              Hummer Battery | Hyundai Battery | Infiniti Battery | Isuzu
-              Battery | Jaguar Battery | Jeep Battery | Kia Battery |
-              Lamborghini Battery | Land Rover Battery | Lexus Battery | Lincoln
-              Battery | Mahindra Battery | Maruti Suzuki Battery | Maserati
-              Battery | Maybach Battery | Mazda Battery | Mclaren Battery |
-              Mercedes Battery | MG Battery | Mini Battery | Mitsubishi Battery
-              | Morgan Motor Battery | Mustang Battery | Nissan Battery | Opel
-              Battery | Peugeot Battery | Porsche Battery | Proton Battery |
-              Renault Battery | Reva Battery | Rimac Battery | Rolls Royce
-              Battery | Seat Battery | Shelby Battery | Skoda Battery | Smart
-              Battery | Spyker Battery | Ssangyong Battery | SSC Battery |
-              Subaru Battery | Suzuki Battery | Tata Battery | Tesla Battery |
-              Toyota Battery | Volkswagen Battery | Volvo Battery | Car battery replacement dubai | car battery replacement sharjah | car battery dubai | car battery sharjah | amaron batteries dubai | solite battery price dubai | dubai car battery | sharjah car battery | car battery uae | car battery change | car battery dubai | amaron battery dubai | battery replacement dubai | battery dubai | battery sharjah |  battery uae | car battery change dubai | car battery dubai price | dubai car battery | uae car battery |battery uae | battery sharjah | car battery price uae | battery change dubai | solite battery price uae | amaron battery price uae | agm battery dubai | dubai car battery replacement | uae car battery replacement
-            </h1>
-          </div>
-          <div className="col-md-6 ">
+            <div className="col-md-12 ">
               <CarBrandImages images={this.state.CarBrandList} />
-          </div>
+            </div>
           </div>
         </div>
 

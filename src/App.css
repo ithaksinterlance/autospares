@@ -93,13 +93,15 @@ a:active {
   top: 10rem;
   right: 4rem;
 }
-
 .paragraph {
   font-family: "Roboto", sans-serif;
   color: black;
   line-height: 2.5rem;
   font-weight: 200;
   font-size: 20px;
+}
+.side-icon {
+  color: #FF4500;
 }
 
 ::placeholder {
@@ -109,11 +111,17 @@ form .input {
   border: 1px #272343;
 }
 
+form .input :focus {
+  border: 2px solid #FF4500;
+}
+
 form {
-  background-color: #FF9D5C;
+  background-color:#FF9D5C;
   border-radius: 5px;
   font-size: 20px;
   font-family: "Roboto";
+  border: 2px solid #FF4500;
+  color: white;
 }
 .form-btn {
   background-color: red;
@@ -133,14 +141,14 @@ form {
   font-size: 45px;
   font-family: "Big Shoulders Display", sans-serif;
   top: 10%;
-  color: red;
+  color: #FF4500;
 }
 .header-txt {
   position: absolute;
   font-size: 45px;
   font-family: "Big Shoulders Display", sans-serif;
   top: 10%;
-  color: red;
+  color: #FF4500;
 }
 .loader {
   position: fixed;
@@ -162,7 +170,7 @@ form {
   font-size: 32px;
   font-family:  sans-serif;
   font-weight: 800;
-  color: #DD0004;
+  color:#FF4500;
   text-transform: uppercase;
   word-spacing: 3pt;
   letter-spacing: 0.5pt;
@@ -203,7 +211,7 @@ footer {
 }
 
 hr {
-  background-color: #9ca0af;
+  background-color:#f3f3f3;
 }
 .card-title {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -219,16 +227,13 @@ hr {
 #menu {
   left: 2%;
   top: 80%;
-  height: 5rem;
-  width: 5rem;
   position: fixed;
   z-index: 1;
 }
+
 #menu1 {
   left: 2%;
   top: 68%;
-  height: 5rem;
-  width: 5rem;
   position: fixed;
   z-index: 1;
 }
@@ -331,7 +336,7 @@ margin-top: 5px;
 margin-bottom: 5px;
 margin-left: 5px;
 margin-right: 5px;
-border: 1px solid #25d325;
+border: 1px solid #FF4500;
 }
 .brandCol {
   grid-row-start: 1;
@@ -497,15 +502,18 @@ border: 1px solid #25d325;
     bottom: 0;
     left: 0;
     z-index: 1030;
-    background-color: black;
+    background-color:#FF4500;
   }
   .bottomNav {
     display: block;
-    color: red;
+    color:white;
 
   }
   .bottomNav :hover {
-    color: white;
+    color:#FF9D5C;
+  }
+  .bottomNav :active {
+    color:#FF9D5C;
   }
 
 

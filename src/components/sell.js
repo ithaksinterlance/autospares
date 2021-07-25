@@ -69,14 +69,14 @@ export default class sell extends Component {
       <div>
         <Navbar />
 
-        <div className="container">
+        <div className="container text-center">
           <div className="row d-flex justify-content-center">
-            <h1 className="ml">
+            <h1 className="heading">
               Become a partner with us. We can bring customers to you.
             </h1>
           </div>
         </div>
-        <div className="container div-bg">
+        <div className="container">
           <div className="row">
             <div className="col-md-6 col-xs-12 col-sm-6 py-5">
               <div className="container">
@@ -229,6 +229,8 @@ export default class sell extends Component {
               </form>
             </div>
             <div className="col-md-6 col-xs-12 col-sm-6 my-5">
+            <h1 className="paragraph">We also deal car batteries!</h1>
+              <hr/>
               <img
                 src={World}
                 alt="automotive battery replacement"

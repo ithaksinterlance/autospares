@@ -9,13 +9,13 @@ export default class Navbar extends Component {
     return (
       <div>
         <div>
-          <a href="https://api.whatsapp.com/send?phone=971551478994" id="menu">
-            <img src={WhatsApp} alt="car battery price in dubai" id="menu" />
+          <a href="tel:971551478994" id="menu">
+            <i class="fab fa-4x fa-whatsapp side-icon" id="menu"></i>
           </a>
         </div>
         <div>
-          <a href="tel:971551478994" id="menu1">
-            <img src={Phone} alt="car battery price dubai" className="rounded-circle" id="menu1" />
+          <a href="https://api.whatsapp.com/send?phone=971551478994" id="menu1">
+            <i class="fa fa-4x fa-phone side-icon" aria-hidden="true" id="menu1"></i>
           </a>
         </div>
 
@@ -68,7 +68,7 @@ export default class Navbar extends Component {
         </div>
 
         <nav class="navbar navbar-expand-lg navbar-color" id="navbar">
-        <a href="/"><div><img src={favicon} alt="car battery" id="logo" className="d-flex justify-content-start" style={{height: "50px", width:"50px"}}/></div></a>
+        <a href="/"><div><img src={favicon} alt="car battery dubai" id="logo" className="d-flex justify-content-start" style={{height: "50px", width:"50px"}}/></div></a>
           <button
             class="navbar-toggler"
             type="button"
