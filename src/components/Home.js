@@ -411,7 +411,11 @@ export default class Home extends Component {
 
         <div className="container py-5">
           <div className="row">
-            <div className="col-md-12 ">
+          <div className="col-md-6">
+              <h1 className="heading">CAR BATTERY REPLACEMENT UAE TAGS</h1>
+              <h1 className="paragraph">car battery replacement dubai | car battery replacement sharjah | car battery dubai | car battery sharjah | amaron battery price in uae | solite battery price in uae | Audi battery | Toyota battery | Lexus battery | Honda battery | Chevrolet battery | BMW battery | Ford battery | Mitsubishi battery | Mercedes benz battery | Mazda battery | Hyundai battery | Nissan battery | Peugeot battery</h1>
+            </div>
+            <div className="col-md-6">
               <CarBrandImages images={this.state.CarBrandList} />
             </div>
           </div>

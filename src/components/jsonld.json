@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "Car battery replacement service in Dubai and sharjah, UAE",
+          "url": "https://autobatteries.hakstime.com/#/",
+          "logo": {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "url": "https://autobatteries.hakstime.com/logo192.png",
+            "width": 192,
+            "height": 192,
+            "caption": "Car battery replacement service in Dubai and sharjah, UAE "
+          }
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://autobatteries.hakstime.com/#/",
+          "inLanguage": "en-US",
+          "url": "https://autobatteries.hakstime.com/2.png",
+          "width": 1920,
+          "height": 1080,
+          "caption": "Car battery replacement service in Dubai and sharjah, UAE"
+        },
+        {
+          "@type": "WebSite",
+          "url": "https://autobatteries.hakstime.com/#/",
+          "name": "Car battery replacement service in Dubai and sharjah, UAE",
+          "description": "Car Battery Replacement service anytime United Arab Emirates, Dubai and Sharjah for batteries such as Solite, Amaron, Acdelco, Varta. Delivered and installed at your location.",
+          "inLanguage": "en-US"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Car battery replacement service in Dubai and sharjah, UAE",
+            "item": "https://autobatteries.hakstime.com/#/"
+          },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "How to maintain Your car battery | AutoB",
+            "item": "https://autobatteries.hakstime.com/#/How_to_maintain_your_car_battery"
+          },{
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Top 4 battery for your car | AutoB",
+            "item": "https://autobatteries.hakstime.com/#/top_4_battery_for_your_car"
+          },{
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Car battery replacement service in Dubai and sharjah, UAE",
+            "item": "https://autobatteries.hakstime.com/#/car-battery-replacement"
+          }]
+        }
+      ]
+}
