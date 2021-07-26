@@ -48,7 +48,7 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/cadillac.png",
     "name": "Cadillac",
-    "alt":"battery sharjah"
+    "alt":"car battery price dubai"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/chevrolet.png",
@@ -128,7 +128,7 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/jagu.png",
     "name": "Jaguar",
-    "alt":"amaron batteries dubai"
+    "alt":"amaron battery uae price"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/jeep.png",
@@ -183,7 +183,7 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/mazda.png",
     "name": "Mazda",
-    "alt":"battery sharjah"
+    "alt":"solite battery in uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/mclaren.png",
@@ -198,7 +198,7 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/mg.png",
     "name": "MG",
-    "alt":"sharjah car battery"
+    "alt":"amaron car battery in uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/mini.png",
@@ -214,7 +214,7 @@ export const CarBrandList =
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/morgan.png",
     "name": "Morgan Motor",
-    "alt":"battery dubai"
+    "alt":"acdelco battery price in uae"
   },
   {
     "logo": "https://www.car-logos.org/wp-content/uploads/2011/09/mustang.png",
