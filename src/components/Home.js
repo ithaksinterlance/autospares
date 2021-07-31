@@ -413,7 +413,7 @@ export default class Home extends Component {
           <div className="row">
           <div className="col-md-6">
               <h1 className="heading">CAR BATTERY REPLACEMENT UAE TAGS</h1>
-              <h1 className="paragraph">car battery replacement dubai | car battery replacement sharjah | car battery dubai | car battery sharjah | amaron battery price in uae | solite battery price in uae | Audi battery | Toyota battery | Lexus battery | Honda battery | Chevrolet battery | BMW battery | Ford battery | Mitsubishi battery | Mercedes benz battery | Mazda battery | Hyundai battery | Nissan battery | Peugeot battery</h1>
+              <h1 className="paragraph">car battery replacement dubai | car battery replacement sharjah | car battery dubai | car battery sharjah | amaron battery price in uae | solite battery price in uae | Audi battery | Toyota battery | Lexus battery | Honda battery | Chevrolet battery | BMW battery | Ford battery | Mitsubishi battery | Mercedes benz battery | Mazda battery | Hyundai battery | Nissan battery | Peugeot battery | car battery replacement dubai | car battery replacement sharjah | car battery sharjah | bmw battery replacement dubai | car battery change | battery replacement sharjah |  car battery replacement | car battery shop sharjah | car battery price dubai | solite battery price in uae |  car battery replacement near me | amaron battery dubai | car battery change dubai | battery change dubai |  car battery price |  battery replacement dubai | amaron car battery | amaron battery | varta battery | solite battery | amaron battery</h1>
             </div>
             <div className="col-md-6">
               <CarBrandImages images={this.state.CarBrandList} />
