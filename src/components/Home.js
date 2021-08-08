@@ -66,7 +66,7 @@ export default class Home extends Component {
         <Navbar />
         <MetaTags>
           <title>
-            AutoB - Car battery  replacement ,delivery, installation Dubai & Sharjah
+          AutoB - Car battery  replacement ,delivery, installation Dubai & Sharjah
           </title>
           <meta charset="utf-8" />
           <meta
@@ -91,7 +91,7 @@ export default class Home extends Component {
           <meta name="author" content="autobatteries.hakstime.com" />
         </MetaTags>
         <div className="container-fluid header-text1 px-0">
-          <img src={Hero} alt="car battery" className="img-fluid header-img" />
+          <img src={Hero} alt="car battery replacement" className="img-fluid header-img" />
 
           <div
             className="header-text display-4"

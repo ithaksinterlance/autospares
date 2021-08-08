@@ -20,7 +20,7 @@ export default class Amaron extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Amaron battery replacement | AutoB"
+            content="AutoB | Amaron battery replacement , delivery , installation | Dubai and sharjah"
           />
           <meta
             name="description"

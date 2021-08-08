@@ -17,7 +17,7 @@ export default class Blog2 extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Warning Signs that your Car Battery is dying | AutoB"
+            content="AutoB | Warning Signs that your Car Battery is dying"
           />
           <meta
             name="description"

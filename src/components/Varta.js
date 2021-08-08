@@ -152,7 +152,7 @@ export default class Varta extends Component {
             <div className="col-md-2">
               <div className="col-md-12 pt-1">Other Battery List</div>
               <div className="col-md-12">
-                <Link to="/acdelco">
+                <Link to="/acdelco-battery">
                   <img
                     src={Amaron}
                     alt="car battery replacement dubai"
@@ -162,7 +162,7 @@ export default class Varta extends Component {
               </div>
 
               <div className="col-md-12">
-                <Link to="/amaron">
+                <Link to="/amaron-battery">
                   <img
                     src={Solite}
                     alt="sharjah car battery replacement"
@@ -171,7 +171,7 @@ export default class Varta extends Component {
                 </Link>
               </div>
               <div className="col-md-12">
-                <Link to="/solite">
+                <Link to="/solite-battery">
                   <img
                     src={Acdelco}
                     alt="dubai car battery replacement"

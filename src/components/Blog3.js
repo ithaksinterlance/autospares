@@ -17,7 +17,7 @@ export default class Blog3 extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Tips to sanitize your car during covid-19 | AutoB"
+            content="AutoB | Tips to sanitize your car during covid-19"
           />
           <meta
             name="description"

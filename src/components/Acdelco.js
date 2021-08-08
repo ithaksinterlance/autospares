@@ -20,7 +20,7 @@ export default class Acdelco extends Component {
           <meta charset="utf-8" />
           <meta
             name="title"
-            content="Acdelco battery replacement | AutoB"
+            content="AutoB | Acdelco battery replacement , delivery , installation | Dubai and sharjah"
           />
           <meta
             name="description"

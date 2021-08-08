@@ -151,7 +151,7 @@ export default class Solite extends Component {
             <div className="col-md-2">
               <div className="col-md-12 pt-1">Other Battery List</div>
               <div className="col-md-12">
-                <Link to="/acdelco">
+                <Link to="/acdelco-battery">
                   <img
                     src={Amaron}
                     alt="amaron Battery replacement in dubai"
@@ -161,7 +161,7 @@ export default class Solite extends Component {
               </div>
 
               <div className="col-md-12">
-                <Link to="/amaron">
+                <Link to="/amaron-battery">
                   <img
                     src={Varta}
                     alt="amaron Battery replacement in dubai"
@@ -170,7 +170,7 @@ export default class Solite extends Component {
                 </Link>
               </div>
               <div className="col-md-12">
-                <Link to="/varta">
+                <Link to="/varta-battery">
                   <img
                     src={Acdelco}
                     alt="amaron Battery replacement in dubai"

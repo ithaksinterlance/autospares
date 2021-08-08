@@ -21,7 +21,7 @@ export default class brands extends Component {
           <title>AutoB</title>
           <meta
             name="title"
-            content="Car Battery Dubai & Sharjah | AutoB"
+            content="AutoB | Car Battery Dubai & Sharjah | Replacement ,delivery , installation"
           />
           <meta
             name="description"

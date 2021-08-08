@@ -15,7 +15,7 @@ class Blog5 extends Component {
         <MetaTags>
           <title>Autobatteries.hakstime</title>
           <meta charset="utf-8" />
-          <meta name="title" content="Top 4 battery for your car | AutoB" />
+          <meta name="title" content="AutoB | Top 4 battery for your car" />
           <meta
             name="description"
             content="Top 4 battery for your car | Amaron , Acdelco , Solite , Varta | Autobatteries.hakstime"
