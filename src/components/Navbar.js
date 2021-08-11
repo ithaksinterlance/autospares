@@ -23,28 +23,28 @@ export default class Navbar extends Component {
               <Link to="/" className="bottomNav">
                 <i class="fa fa-2x fa-home" aria-hidden="true"></i>
                 <br />
-                <p className="fontSize text-center">HOME</p>
+                <p className="fontSize text-center"> Home</p>
               </Link>
             </div>
             <div class="col-xs-2 text-center pt-3 mx-1" >
               <Link to="/car-battery-replacement" className="bottomNav">
                 <i class="fas fa-2x fa-screwdriver"></i>
                 <br />
-                <p className="fontSize text-center">SERVICE</p>
+                <p className="fontSize text-center">Services</p>
               </Link>
             </div>
             <div class="col-xs-2 text-center pt-3 mx-1">
               <Link to="/post" className="bottomNav">
                 <i class="fa fa-book fa-2x" aria-hidden="true"></i>
                 <br />
-                <p className="fontSize text-center">BLOG</p>
+                <p className="fontSize text-center">Blog</p>
               </Link>
             </div>
             <div class="col-xs-2 text-center pt-3 mx-1">
               <Link to="/car-battery-brands" className="bottomNav">
                 <i class="fas fa-car-battery fa-2x"></i>
                 <br />
-                <p className="fontSize text-center">BRANDS</p>
+                <p className="fontSize text-center">Brands</p>
               </Link>
             </div>
 
@@ -52,14 +52,14 @@ export default class Navbar extends Component {
               <a href="https://api.whatsapp.com/send?phone=971551478994" className="bottomNav">
                 <i class="fa fa-share fa-2x" aria-hidden="true"></i>
                 <br />
-                <p className="fontSize text-center">SHARE</p>
+                <p className="fontSize text-center">Share</p>
               </a>
             </div>
             <div class="col-xs-2 text-center pt-3 mx-1">
               <a href="tel:971551478994" className="bottomNav">
                 <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
                 <br />
-                <p className="fontSize text-center">CALL </p>
+                <p className="fontSize text-center">Call </p>
               </a>
             </div>
           </div>

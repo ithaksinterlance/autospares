@@ -66,7 +66,8 @@ export default class Home extends Component {
         <Navbar />
         <MetaTags>
           <title>
-          AutoB - Car battery  replacement ,delivery, installation Dubai & Sharjah
+            AutoB - Car battery replacement ,delivery, installation Dubai &
+            Sharjah
           </title>
           <meta charset="utf-8" />
           <meta
@@ -91,18 +92,44 @@ export default class Home extends Component {
           <meta name="author" content="autobatteries.hakstime.com" />
         </MetaTags>
         <div className="container-fluid header-text1 px-0">
-          <img src={Hero} alt="car battery replacement" className="img-fluid header-img" />
+          <img
+            src={Hero}
+            alt="car battery replacement"
+            className="img-fluid header-img"
+          />
 
           <div
             className="header-text display-4"
             style={{ paddingLeft: "10px" }}
           >
-            NO.1 CAR BATTERY REPLACEMENT SERVICE AT DUBAI AND SHARJAH
+            NO.1 CAR BATTERY REPLACEMENT SERVICE AT DUBAI AND SHARJAH<br/>
+
+          <Link className="btn btn-danger btn-lg" to="/contact" style={{color:"white"}}>SEND YOUR CAR DETAILS</Link>
           </div>
         </div>
-        <div class="container-fluid form-bg">
-          <div class="row ">
-            <div class="col-md-3 col-xs-12 col-sm-10 top-right">
+
+        <div className="container py-5">
+          <div className="row">
+          <div className="col-md-6 text-center">
+            <img
+              src={WelcomeImg}
+              className="img-fluid rounded-circle welcomeImg"
+              alt="car battery replacement sharjah"
+              style={{ backgroundColor: "#FF4500" }}
+            />
+            <h1 className="container heading">
+              Welcome to AutoB !
+              <p className="paragraph">
+                We at AutoB are dedicated to provide services such as Roadside
+                assistance, car battery delivery at home / office / etc, car
+                battery installation , car battery replacement anywhere at dubai
+                and sharjah.
+              </p>
+            </h1>
+          </div>
+          <div className="col-md-6 text-center" style={{borderLeft:"1px solid lightgray" }}>
+            <p className="paragraph" style={{textDecoration:"underline"}}>WHATSAPP INQUIRY FORM</p>
+            <hr/>
               <iframe
                 title="car battery replacement dubai and sharjah"
                 name="hidden_iframe"
@@ -114,18 +141,18 @@ export default class Home extends Component {
                 method="POST"
                 action="https://docs.google.com/forms/d/e/1FAIpQLSd6fL_M5hLUjjBLJyMFWUijW2qNrGwQ0RxMVhpmTOEEqj3Jxg/formResponse"
                 onSubmit={this.submituserInquiryForm}
-                class="py-4 px-4"
+                className="py-4 px-4"
                 target="hidden_iframe"
               >
-                <div class="form-group">
-                  <small id="CarBatteryModel" class="form-text">
-                    <i class="fas fa-car-battery"></i> Vehicle Details
+                <div className="form-group">
+                  <small id="CarBatteryModel" className="form-text">
+                    <i className="fas fa-car-battery"></i> Vehicle Details
                   </small>
                   <input
                     type="text"
                     name="entry.1911907904"
                     id="carbattery"
-                    class="form-control "
+                    className="form-control "
                     aria-describedby="CarBatteryModel"
                     placeholder=" Car Model Year"
                     autoComplete="off"
@@ -137,16 +164,16 @@ export default class Home extends Component {
                     ></span>
                   </div>
                 </div>
-                <div class="form-group">
-                  <small id="AreaName" class="form-text">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i> Delivery
-                    Location
+                <div className="form-group">
+                  <small id="AreaName" className="form-text">
+                    <i className="fa fa-map-marker" aria-hidden="true"></i>{" "}
+                    Delivery Location
                   </small>
                   <input
                     type="text"
                     name="entry.1153362739"
                     id="area"
-                    class="form-control"
+                    className="form-control"
                     aria-describedby="AreaName"
                     placeholder=" Area Name, Emirate"
                     autoComplete="off"
@@ -158,15 +185,15 @@ export default class Home extends Component {
                     ></span>
                   </div>
                 </div>
-                <div class="form-group">
-                  <small id="ContactNo" class="form-text">
-                    <i class="fa fa-phone" aria-hidden="true"></i> Contact
+                <div className="form-group">
+                  <small id="ContactNo" className="form-text">
+                    <i className="fa fa-phone" aria-hidden="true"></i> Contact
                   </small>
                   <input
                     type="text"
                     name="entry.153243795"
                     id="contactno"
-                    class="form-control "
+                    className="form-control "
                     aria-describedby="ContactNo"
                     placeholder="(Country code)(No.)"
                     autoComplete="off"
@@ -186,68 +213,48 @@ export default class Home extends Component {
                 />
                 <button
                   type="submit"
-                  class="btn btn-danger btn-lg btn-block pb-3 form-btn"
+                  className="btn btn-danger btn-lg btn-block pb-3 form-btn"
                   target="_self"
                 >
-                  <i class="fab fa-whatsapp"></i>
+                  <i className="fab fa-whatsapp"></i>
                   &nbsp;&nbsp;SEND
                 </button>
               </form>
-            </div>
           </div>
-        </div>
-        <hr />
-        <div className="container py-5">
-          <div className="d-flex">
-            <img
-              src={WelcomeImg}
-              className="img-fluid rounded-circle welcomeImg"
-              alt="car battery replacement sharjah"
-              style={{ backgroundColor: "#FF4500" }}
-            />
-            <h1 className="container welcome-message">
-              Welcome to AUTOBATTERIES.HAKstime! We are the company dedicated to
-              serve the people in need of car battery at dubai and sharjah , at
-              whatsoever the situation it may be, be it rain,be it middle of the
-              road, be it car battery delivery at home. We provide service such
-              as car battery replacement sharjah and car battery replacement
-              dubai , car battery delivery , car battery installation , car
-              battery warranty are given compusorily. Car battery change done at
-              dubai and sharjah. We come to you. You can enter your CAR BATTERY
-              DETAILS , AREA YOU ARE IN , AND YOUR MOBILE NUMBER WITH COUNTRY
-              CODE. We get notified at a moment and We come to you.
-            </h1>
           </div>
-        </div>
+         </div>
         <div className="container pt-5">
-          <hr />
           <h1 className="heading">AutoB | Why you need us?</h1>
-          <hr />
         </div>
         <div className="container-fluid pb-5">
           <div className="row d-flex justify-content-center">
             <div className="col-md-3">
               <div className="card mx-1" style={{ width: "18rem" }}>
-                <div className="card-body div-bg text-center shadow-lg">
+                <div className="card-body text-center">
                   <i
                     className="fa fa-check-circle fa-5x"
                     aria-hidden="true"
                   ></i>
-                  <h5 className="text-center paragraph">Warranty Guaranteed</h5>
+                  <h5 className="text-center paragraph">
+                    Warranty Guaranteed
+                  </h5>
                 </div>
               </div>
             </div>
             <div className="col-md-3">
               <div className="card mx-1" style={{ width: "18rem" }}>
-                <div className="card-body div-bg text-center shadow-lg">
-                  <i className="fas fa-money-bill fa-5x" aria-hidden="true"></i>
+                <div className="card-body text-center">
+                  <i
+                    className="fas fa-money-bill fa-5x"
+                    aria-hidden="true"
+                  ></i>
                   <h5 className="text-center paragraph">Easy payment</h5>
                 </div>
               </div>
             </div>
             <div className="col-md-3">
               <div className="card mx-1" style={{ width: "18rem" }}>
-                <div className="card-body div-bg text-center shadow-lg">
+                <div className="card-body text-center">
                   <i className="fa fa-wrench fa-5x" aria-hidden="true"></i>
                   <h5 className="text-center paragraph">
                     Professional Service
@@ -259,7 +266,7 @@ export default class Home extends Component {
           <div className="row d-flex justify-content-center">
             <div className="col-md-3">
               <div className="card mx-1" style={{ width: "18rem" }}>
-                <div className="card-body div-bg text-center shadow-lg">
+                <div className="card-body text-center">
                   <i className="fa fa-phone fa-5x" aria-hidden="true"></i>
                   <h5 className="text-center paragraph">Quick response</h5>
                 </div>
@@ -267,7 +274,7 @@ export default class Home extends Component {
             </div>
             <div className="col-md-3">
               <div className="card mx-1" style={{ width: "18rem" }}>
-                <div className="card-body div-bg text-center shadow-lg">
+                <div className="card-body text-center">
                   <i className="fas fa-clock fa-5x" aria-hidden="true"></i>
                   <h5 className="text-center paragraph">24/7 Support</h5>
                 </div>
@@ -275,7 +282,7 @@ export default class Home extends Component {
             </div>
             <div className="col-md-3">
               <div className="card mx-1" style={{ width: "18rem" }}>
-                <div className="card-body div-bg text-center shadow-lg">
+                <div className="card-body text-center">
                   <i
                     className="fas fa-car-battery fa-5x paragraph1-icon"
                     aria-hidden="true"
@@ -287,48 +294,9 @@ export default class Home extends Component {
           </div>
         </div>
 
-        <div className="container-fluid py-5 div-bg ">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6">
-                <hr />
-                <h1 className="heading">
-                  Car Battery Replacement Dubai and Sharjah
-                </h1>
-                <hr />
-                <p className="lead paragraph">
-                  <ul className="list">
-                    <li className="pt-2">Vehicle Details or Battery Details</li>
-                    <li className="pt-2">Send Your Location & Contact No.</li>
-                    <li className="pt-2">We Quote the best price</li>
-                    <li className="pt-2">
-                      Battery is delivered and installed at your designated
-                      location
-                    </li>
-                    <li className="pt-2">Warranty included</li>
-                    <li className="pt-2">
-                      Delivered anywhere in Dubai & Sharjah , United Arab
-                      Emirates
-                    </li>
-                  </ul>
-                </p>
-              </div>
-              <div className="col-md-6">
-                <LazyLoadImage
-                  alt="car battery dubai"
-                  effect="blur"
-                  className="img-fluid warranty"
-                  src={MJ}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="container-fluid py-5">
           <div className="container">
-            <hr />
-            <h1 className="heading">Our Brands</h1>
-            <hr />
+            <h1 className="heading">Brands</h1>
           </div>
           <h1 className="container paragraph">
             Car Battery Replacement | Replace your car battery anytime at Dubai
@@ -340,26 +308,35 @@ export default class Home extends Component {
             batteries depending on the demand for our battery supply and
             replacement services.
           </h1>
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-md-3 col-xs-6 border shadow-lg">
                 <Link to="/acdelco-battery" title="car battery near me">
-                  <h5 className="card-title text-center">ACDELCO</h5>
-                  <hr />
                   <LazyLoadImage
                     alt="car battery replacement dubai"
                     effect="blur"
                     className="img-fluid battery"
                     src={Prod1}
                   />
+                  <h5 className="card-title text-center">ACDELCO</h5>
+                  <p style={{ color: "black", fontSize: "14px" }}>
+                    The AC DElco AA batteries performed as good as the much more
+                    expensive Duracell and energizer batteries and are well
+                    worth buying. This applies if you use a lot of these guy's
+                    for remote controls or other small electric battery powered
+                    devices.
+                  </p>
                   <div className="text-center">
-                    <p className="paragraph">BUY NOW</p>
+                    <p
+                      className="paragraph btn-success"
+                      style={{ color: "white" }}
+                    >
+                      BUY NOW
+                    </p>
                   </div>
                 </Link>
               </div>
               <div className="col-md-3 col-xs-6 border shadow-lg">
-                <h5 className="card-title text-center">AMARON</h5>
-                <hr />
                 <Link to="/amaron-battery" title="car battery dubai">
                   <LazyLoadImage
                     alt="car battery replacement sharjah"
@@ -367,14 +344,23 @@ export default class Home extends Component {
                     className="img-fluid battery"
                     src={Prod2}
                   />
+                  <h5 className="card-title text-center">AMARON</h5>
+                  <p style={{ color: "black", fontSize: "14px" }}>
+                    Amaron is the only battery that contains the patented Silven
+                    X alloy. And that's what gives it the power to last long,
+                    really long.
+                  </p>
                   <div className="text-center">
-                    <h1 className="paragraph">BUY NOW</h1>
+                    <h1
+                      className="paragraph btn-success"
+                      style={{ color: "white" }}
+                    >
+                      BUY NOW
+                    </h1>
                   </div>
                 </Link>
               </div>
               <div className="col-md-3 col-xs-6 border shadow-lg">
-                <h5 className="card-title text-center">SOLITE</h5>
-                <hr />
                 <Link to="/solite-battery" title="battery replacement dubai">
                   <LazyLoadImage
                     alt="solite car battery price uae"
@@ -382,14 +368,25 @@ export default class Home extends Component {
                     className="img-fluid battery"
                     src={Prod3}
                   />
+                  <h5 className="card-title text-center">SOLITE</h5>
+                  <p style={{ color: "black", fontSize: "14px" }}>
+                    Solite is a very common brand in the UAE due to its
+                    ruggedness and ability to withstand all weather conditions
+                    as they come. Solite has proven to be a reliable car battery
+                    over the years, it has a very high rating and numerous
+                    positive reviews from previously purchased units.
+                  </p>
                   <div className="text-center">
-                    <h1 className="paragraph">BUY NOW</h1>
+                    <h1
+                      className="paragraph btn-success"
+                      style={{ color: "white" }}
+                    >
+                      BUY NOW
+                    </h1>
                   </div>
                 </Link>
               </div>
               <div className="col-md-3 col-xs-6 border shadow-lg">
-                <h5 className="card-title text-center">VARTA</h5>
-                <hr />
                 <Link to="/varta-battery" title="solite battery dubai">
                   <LazyLoadImage
                     alt="car battery dubai"
@@ -397,8 +394,21 @@ export default class Home extends Component {
                     className="img-fluid battery"
                     src={Prod4}
                   />
+                  <h5 className="card-title text-center">VARTA</h5>
+                  <p style={{ color: "black", fontSize: "14px" }}>
+                    VARTA Primary Batteries provide the optimal energy solution
+                    for all your devices of daily use, from toys to digital
+                    cameras to remote controls and many more. To suit every type
+                    of energy consumption we developed the VARTA LONGLIFE
+                    Primary range.
+                  </p>
                   <div className="text-center">
-                    <h1 className="paragraph">BUY NOW</h1>
+                    <h1
+                      className="paragraph btn-success"
+                      style={{ color: "white" }}
+                    >
+                      BUY NOW
+                    </h1>
                   </div>
                 </Link>
               </div>
@@ -408,87 +418,152 @@ export default class Home extends Component {
 
         <div className="container py-5">
           <div className="row">
-            <div className="col-md-6">
-              <h1 className="heading">CAR BATTERY REPLACEMENT UAE TAGS</h1>
-              <h1 className="paragraph">
-                car battery replacement dubai,car battery replacement sharjah,
-                car battery sharjah, bmw battery replacement dubai , car battery
-                change, battery replacement sharjah , car battery replacement ,
-                car battery shop sharjah, car battery price dubai, solite
-                battery price in uae , car battery replacement near me, amaron
-                battery dubai, car battery change dubai, battery change dubai ,
-                car battery price , battery replacement dubai , amaron car
-                battery , amaron battery, Car Battery change Dubai, Car battery
-                service near me, Car battery recharging shop near me, Car
-                battery charging, Car battery mechanic near me, Car battery
-                service near me, BMW car battery replacement, Mercedes Car
-                battery replacement, Kia battery replacement, Kia Battery
-                change, Kia Battery charging, BMW car battery change, BMW car
-                battery change, Mercedes car battery change, Mercedes car
-                battery change, Audi car battery replacement Service, Audi car
-                battery change, Audi car battery charging, Honda car battery
-                replacement, Honda car battery change, Honda car battery
-                charging service, Lexus car battery replacement, Lexus car
-                battery recharge, Lexus car battery change, Nissan car battery
-                replacement, Nissan car battery change, Nissan car battery
-                recharge, ford car battery replacement service, Nissan car
-                battery change, Nissan car battery recharging service,
-                Mitsubishi car battery replacement, Mitsubishi car battery
-                service, Mitsubishi car battery change, AMARON car battery
-                service, AMARON car battery replacement, AMARON car battery
-                change, AMARON car battery shop, Acdelco car battery
-                replacement, Acdelco car battery service, Acdelco car battery
-                change, Acdelco car battery charging, Varta car battery
-                replacement, Varta car battery service, Varta car battery
-                change, Varta car battery charging, solite car battery service,
-                solite car battery replacement, solite car battery change,
-                solite car battery recharge, car battery service Sharjah,Car
-                battery change Sharjah, dial a battery, 800 battery dubai,
-                onsite car battery, Camry battery replacement dubai, Corolla
-                Battery replacement dubai, Elantra Battery replacement dubai,
-                Chevrolet battery replacement dubai, Accord battery replacement
-                dubai, altima battery replacement dubai, sunny battery
-                replacement dubai, land cruiser battery replacement dubai, yaris
-                battery replacement dubai, sentra battery replacement dubai,
-                prado battery replacement dubai,alfa romeo battery replacement
-                dubai, honda battery replacement dubai, bentley battery
-                replacement dubai,Bugatti battery replacement dubai, cadillac
-                battery replacement dubai,Chrysler battery replacement dubai,
-                citron battery replacement dubai ,Daihatsu battery replacement
-                dubai, dodge battery replacement dubai, ferrari battery
-                replacement dubai, fiat battery replacement dubai, ford battery
-                replacement dubai, gmc battery replacement dubai, great wall
-                battery replacement dubai, hummer battery replacement dubai,
-                hyundai battery replacement dubai, isuzu battery replacement
-                dubai, infiniti battery replacement dubai, jaguar battery
-                replacement dubai, jeep battery replacement dubai, kia battery
-                replacement dubai, lamborghini battery replacement dubai, onsite
-                battery Sharjah, replace battery car, Camry battery replacement
-                sharjah, Corolla Battery replacement sharjah, Elantra Battery
-                replacement sharjah, Chevrolet battery replacement sharjah,
-                Accord battery replacement sharjah, altima battery replacement
-                sharjah, sunny battery replacement sharjah, land cruiser battery
-                replacement sharjah, yaris battery replacement sharjah, sentra
-                battery replacement sharjah, prado battery replacement
-                sharjah,alfa romeo battery replacement sharjah, honda battery
-                replacement sharjah, bentley battery replacement sharjah,Bugatti
-                battery replacement sharjah, cadillac battery replacement
-                sharjah,Chrysler battery replacement sharjah, citron battery
-                replacement sharjah ,Daihatsu battery replacement sharjah, dodge
-                battery replacement sharjah, ferrari battery replacement
-                sharjah, fiat battery replacement sharjah, ford battery
-                replacement sharjah, gmc battery replacement sharjah, great wall
-                battery replacement sharjah, hummer battery replacement sharjah,
-                hyundai battery replacement sharjah, isuzu battery replacement
-                sharjah, infiniti battery replacement sharjah, jaguar battery
-                replacement sharjah, jeep battery replacement sharjah, kia
-                battery replacement sharjah, lamborghini battery replacement
-                sharjah
+            <div className="col-md-12">
+              <h1 className="heading">
+                GET CAR BATTERY FOR ALMOST ALL MAKES
               </h1>
-            </div>
-            <div className="col-md-6">
               <CarBrandImages images={this.state.CarBrandList} />
+
             </div>
+          </div>
+        </div>
+
+        <div className="container py-5">
+          <div className="row d-flex justify-content-center">
+            <h1 className="heading">FREQUENTLY ASKED QUESTIONS</h1>
+          </div>
+          <div className="row d-flex justify-content-center">
+            <div className="col-md-6">
+            <div id="accordion">
+              <div className="card">
+                <div className="card-header" id="headingOne">
+                  <h5 className="mb-0">
+                    <button
+                      className="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                     What is CCA(cold cranking amps?)
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  className="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                >
+                  <div className="card-body">
+                  The car battery with more CCA, has high chance of starting the engine very soon than the car battery which has less CCA value. So when buying battery make sure that your battery has a good cold cranking Amp value.
+                  </div>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-header" id="headingTwo">
+                  <h5 className="mb-0">
+                    <button
+                      className="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      What are the types of battery?
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseTwo"
+                  className="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordion"
+                >
+                  <div className="card-body">
+                  Car battery are of AGM types or of EFB types. Some other batteries are mostly the variation of lead acid batteries. It works by chemical reaction between lead plates, sulphuric acid and distilled water to create electrical power.
+                  </div>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-header" id="headingThree">
+                  <h5 className="mb-0">
+                    <button
+                      className="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      What are all the tips to sanitize your car?
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseThree"
+                  className="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordion"
+                >
+                  <div className="card-body">
+                  Sanitize your car handles, Clean your upholstery, Donot use wet cloth for sanitizing, Disinfect your air conditioning system, Personal Hygiene, Wear disposable hand gloves and Mask, Get off the car only if necessary, Prepare sticky notes
+                  </div>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-header" id="headingFour">
+                  <h5 className="mb-0">
+                    <button
+                      className="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      How to know if your car battery is dying
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseFour"
+                  className="collapse"
+                  aria-labelledby="headingFour"
+                  data-parent="#accordion"
+                >
+                  <div className="card-body">
+                  Dimming of headlights, Battery connectors are corroded, Car makes a sound when turning on the engine, Your car battery is more than 3.5 years, Bad smells
+                  </div>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-header" id="headingFive">
+                  <h5 className="mb-0">
+                    <button
+                      className="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      How to know if your car battery is dying
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseFive"
+                  className="collapse"
+                  aria-labelledby="headingFive"
+                  data-parent="#accordion"
+                >
+                  <div className="card-body">
+                  Dimming of headlights, Battery connectors are corroded, Car makes a sound when turning on the engine, Your car battery is more than 3.5 years, Bad smells
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
           </div>
         </div>
 

@@ -9,6 +9,7 @@ export default class Contact extends Component {
     var carbattery = document.getElementById("carbattery").value;
     var area = document.getElementById("area").value;
     var contactno = document.getElementById("contactno").value;
+    var make = document.getElementById("make").value;
     var submitted = true;
 
     if (carbattery === "") {
@@ -26,6 +27,10 @@ export default class Contact extends Component {
     } else if (isNaN(contactno)) {
       submitted = false;
       document.getElementById("contactnoerror").innerHTML = "** Check Your contact no";
+      // return false;
+    } else if (make === "") {
+      submitted = false;
+      document.getElementById("makeerror").innerHTML = "** Select your make";
       // return false;
     } else {
       if (submitted) {
@@ -78,6 +83,141 @@ export default class Contact extends Component {
                 }
                 class="py-4 px-4"
                 target="hidden_iframe">
+                  <div class="form-group">
+              <select class="form-control" type="dropdown" id="make" name="entry.562376282" required="required">
+                <option value="">Choose Make</option>
+                <option value="AC">AC</option>
+                <option value="Acura">Acura</option>
+                <option value="Alfa Romeo">Alfa Romeo</option>
+                <option value="AMG">AMG</option>
+                <option value="ARO">ARO</option>
+                <option value="Asia">Asia</option>
+                <option value="Aston Martin">Aston Martin</option>
+                <option selected value="Audi">Audi</option>
+                <option value="Beijing">Beijing</option>
+                <option value="Bentley">Bentley</option>
+                <option value="BMW">BMW</option>
+                <option value="BMW Alpina">BMW Alpina</option>
+                <option value="Brilliance">Brilliance</option>
+                <option value="Bristol">Bristol</option>
+                <option value="Bugatti">Bugatti</option>
+                <option value="Buick">Buick</option>
+                <option value="BYD">BYD</option>
+                <option value="Cadillac">Cadillac</option>
+                <option value="Callaway">Callaway</option>
+                <option value="Carbodies">Carbodies</option>
+                <option value="Caterham">Caterham</option>
+                <option value="Chana">Chana</option>
+                <option value="Chery">Chery</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Chrysler">Chrysler</option>
+                <option value="Citroen">Citroen</option>
+                <option value="Cizeta">Cizeta</option>
+                <option value="Dacia">Dacia</option>
+                <option value="DADI">DADI</option>
+                <option value="Daewoo">Daewoo</option>
+                <option value="Daihatsu">Daihatsu</option>
+                <option value="De Tomaso">De Tomaso</option>
+                <option value="Derways">Derways</option>
+                <option value="Dodge">Dodge</option>
+                <option value="Doninvest">Doninvest</option>
+                <option value="Eagle">Eagle</option>
+                <option value="FAW">FAW</option>
+                <option value="Ferrari">Ferrari</option>
+                <option value="Fiat">Fiat</option>
+                <option value="Ford">Ford</option>
+                <option value="Ford USA">Ford USA</option>
+                <option value="Foton">Foton</option>
+                <option value="FSO">FSO</option>
+                <option value="Fuqi">Fuqi</option>
+                <option value="Geely">Geely</option>
+                <option value="Ginetta">Ginetta</option>
+                <option value="GMC">GMC</option>
+                <option value="Great Wall">Great Wall</option>
+                <option value="Harbin Hafei">Harbin Hafei</option>
+                <option value="Hindustan">Hindustan</option>
+                <option value="Holden">Holden</option>
+                <option value="Honda">Honda</option>
+                <option value="Huabei">Huabei</option>
+                <option value="Hummer">Hummer</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Infiniti">Infiniti</option>
+                <option value="Isuzu">Isuzu</option>
+                <option value="Iveco">Iveco</option>
+                <option value="Jaguar">Jaguar</option>
+                <option value="Jeep">Jeep</option>
+                <option value="Kia">Kia</option>
+                <option value="Lamborghini">Lamborghini</option>
+                <option value="Lancia">Lancia</option>
+                <option value="Land Rover">Land Rover</option>
+                <option value="Lexus">Lexus</option>
+                <option value="Lifan">Lifan</option>
+                <option value="Lincoln">Lincoln</option>
+                <option value="Lotec">Lotec</option>
+                <option value="Lotus">Lotus</option>
+                <option value="Mahindra">Mahindra</option>
+                <option value="Marcos">Marcos</option>
+                <option value="Maruti">Maruti</option>
+                <option value="Maserati">Maserati</option>
+                <option value="Maybach">Maybach</option>
+                <option value="Mazda">Mazda</option>
+                <option value="McLaren">McLaren</option>
+                <option value="Mega">Mega</option>
+                <option value="Mercedes-Benz">Mercedes-Benz</option>
+                <option value="Mercury">Mercury</option>
+                <option value="MG">MG</option>
+                <option value="MINI">MINI</option>
+                <option value="Mitsubishi">Mitsubishi</option>
+                <option value="Morgan.">Morgan.</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Oldsmobile">Oldsmobile</option>
+                <option value="Opel">Opel</option>
+                <option value="Pagani">Pagani</option>
+                <option value="Peugeot">Peugeot</option>
+                <option value="Pininfarina">Pininfarina</option>
+                <option value="Plymouth">Plymouth</option>
+                <option value="Pontiac">Pontiac</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Proton">Proton</option>
+                <option value="Renault">Renault</option>
+                <option value="Rolls-Royce">Rolls-Royce</option>
+                <option value="Rover">Rover</option>
+                <option value="Saab">Saab</option>
+                <option value="Samand">Samand</option>
+                <option value="Samsung">Samsung</option>
+                <option value="Saturn">Saturn</option>
+                <option value="Scion">Scion</option>
+                <option value="Seat">Seat</option>
+                <option value="Shuanghuan">Shuanghuan</option>
+                <option value="Skoda">Skoda</option>
+                <option value="Smart">Smart</option>
+                <option value="Soueast">Soueast</option>
+                <option value="SSangYong">SSangYong</option>
+                <option value="Subaru">Subaru</option>
+                <option value="Suzuki">Suzuki</option>
+                <option value="Talbot">Talbot</option>
+                <option value="Tatra">Tatra</option>
+                <option value="Tianma">Tianma</option>
+                <option value="Tianye">Tianye</option>
+                <option value="Tofas">Tofas</option>
+                <option value="Toyota">Toyota</option>
+                <option value="TVR">TVR</option>
+                <option value="Vauxhall">Vauxhall</option>
+                <option value="Venturi">Venturi</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Volvo">Volvo</option>
+                <option value="Wanfeng">Wanfeng</option>
+                <option value="Wartburg">Wartburg</option>
+                <option value="Wiesmann">Wiesmann</option>
+                <option value="Xin Kai">Xin Kai</option>
+                <option value="Yugo">Yugo</option>
+                <option value="Zastava">Zastava</option>
+                <option value="Zhongxing">Zhongxing</option>
+              </select>
+              <div>
+                    <span id="makeerror" className="text-danger font-weight-bold"></span>
+                  </div>
+            </div>
 
                 <div class="form-group">
                   <small id="CarBatteryModel" class="form-text">
