@@ -4,7 +4,6 @@ import Prod1 from "../img/battery1.png";
 import Prod2 from "../img/battery2.png";
 import Prod3 from "../img/battery3.png";
 import Prod4 from "../img/battery4.png";
-import MJ from "../img/carbattery.gif";
 import Hero from "../img/A.png";
 import WelcomeImg from "../img/logo512.png";
 import Footer from "./Footer.js";
