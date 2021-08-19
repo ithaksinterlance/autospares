@@ -566,6 +566,16 @@ export default class Home extends Component {
 
           </div>
         </div>
+        <div className="container py-5">
+        <div className="row d-flex justify-content-center">
+            <h1 className="heading">TAGS</h1>
+          </div>
+          <div className="row d-flex justify-content-center">
+            <div className="col-md-12">
+              <a href="/" title="car battery replacement"><span class="badge badge-pill badge-dark">car battery replacement</span></a> <a href="/" title="car battery replacement dubai"><span class="badge badge-pill badge-dark">car battery replacement in dubai</span></a> <a href="/" title="car battery replacement sharjah"><span class="badge badge-pill badge-dark">car battery replacement in sharjah</span></a> <a href="/amaron-battery" title="amaron battery near me"><span class="badge badge-pill badge-dark">amaron battery near me</span></a> <a href="/solite-battery" title="solite battery near me"><span class="badge badge-pill badge-dark">solite battery near me</span></a> <a href="/amaron-battery" title="amaron battery near me"><span class="badge badge-pill badge-dark">amaron battery near me</span></a><a href="/varta-battery" title="varta battery near me"><span class="badge badge-pill badge-dark">varta battery near me</span></a><a href="/amaron-battery" title="amaron battery sharjah"><span class="badge badge-pill badge-dark">amaron battery sharjah</span></a> <a href="/solite-battery" title="solite battery sharjah"><span class="badge badge-pill badge-dark">solite battery sharjah</span></a> <a href="/varta-battery" title="varta battery sharjah"><span class="badge badge-pill badge-dark">varta battery sharjah</span></a> <a href="/solite-battery" title="solite battery sharjah"><span class="badge badge-pill badge-dark">solite battery sharjah</span></a> <a href="/amaron-battery" title="amaron battery dubai"><span class="badge badge-pill badge-dark">amaron battery dubai</span></a> <a href="/solite-battery" title="solite battery dubai"><span class="badge badge-pill badge-dark">solite battery dubai</span></a> <a href="/varta-battery" title="varta battery dubai"><span class="badge badge-pill badge-dark">varta battery dubai</span></a> <a href="/solite-battery" title="solite battery dubai"><span class="badge badge-pill badge-dark">solite battery dubai</span></a> <a href="/solite-battery" title="solite battery replacement in uae"><span class="badge badge-pill badge-dark">solite battery replacement in uae</span></a>
+
+              </div></div>
+        </div>
 
         <Footer />
       </div>
