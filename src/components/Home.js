@@ -75,7 +75,7 @@ export default class Home extends Component {
           />
           <meta
             name="keywords"
-            content="battery dubai, auto battery, autobatteries, auto batteries, car auto, car battery, car battery replacement, car battery replacement sharjah, car battery replacement dubai, car battery change dubai, car battery dubai,car batteries dubai, car battery uae,car battery sharjah,battery replacement dubai,battery replacement sharjah,battery sharjah, car battery dubai price,dubai car battery, sharjah car battery, uae car battery, car battery price dubai,car battery price in dubai,car battery price in Sharjah, car battery price uae, battery change dubai, solite battery price uae, amaron battery price uae,amaron battery dubai, dubai car battery replacement, amaron batteries dubai,amaron battery dubai, varta battery uae"
+            content="car battery replacement, car battery replacement in dubai, car battery replacement in sharjah, ar battery replacement sharjah, car battery replacement dubai, car battery dubai, car battery sharjah, amaron battery near me, solite battery near me, amaron battery near me, varta battery near me, amaron battery in sharjah, solite battery in sharjah, varta battery in sharjah, solite battery in sharjah, amaron battery in dubai, solite battery dubai, varta battery dubai, solite battery dubai, solite battery replacement in uae"
           />
           <meta
             name="description"
