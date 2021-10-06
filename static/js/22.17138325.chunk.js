@@ -1,0 +1,2 @@
+(this.webpackJsonphaksinterlance=this.webpackJsonphaksinterlance||[]).push([[22],{144:function(n,t,e){"use strict";e.r(t);t.default=function(n){n&&n instanceof Function&&e.e(23).then(e.bind(null,132)).then((function(t){var e=t.getCLS,i=t.getFID,c=t.getFCP,s=t.getLCP,a=t.getTTFB;e(n),i(n),c(n),s(n),a(n)}))}}}]);
+//# sourceMappingURL=22.17138325.chunk.js.map
