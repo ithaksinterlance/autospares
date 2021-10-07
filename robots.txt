@@ -1,3 +1,3 @@
 User-Agent: *
-Sitemap: https://autobatteries.hakstime.com/sitemap.xml
+Sitemap: https://emirates-car.com/sitemap.xml
 Allow : *
